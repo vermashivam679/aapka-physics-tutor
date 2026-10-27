@@ -1,0 +1,118 @@
+{
+ "id": "2.2",
+ "slug": "ch02-2-2",
+ "chapter": "ch02",
+ "title": "Equality of Vectors",
+ "diagram": "content/ch02/diagrams/ch02_sec2_2.png",
+ "theory": "**Big idea:** Two vectors are equal when they have the **same magnitude and the same direction**. Where they start does not matter.\n\n**The rule**\n- Same magnitude ✔ and same direction ✔, so the vectors are **equal**\n- Same magnitude but a different direction, so they are **not** equal\n- Same direction but a different magnitude, so they are **not** equal\n\n**Parallel translation:** sliding a vector parallel to itself, without rotating or stretching it, does **not** change the vector. This is why we can move a vector's tail to the head of another when using the triangle rule.\n\n**Example:** Two cars each move at 60 km/h towards north on two different parallel roads. Their positions differ, but their **velocities are equal**.\n\n**What *does* change a vector**\n- Rotating it (its direction changes)\n- Stretching or shrinking it (its magnitude changes)\n- Reversing it (its direction flips)\n\n> ⚠️ **Common mistake:** Thinking two arrows must start from the same point to be equal. Equal vectors can sit anywhere. Only their length and direction matter.\n\n> 💡 Equality only makes sense for two values of the **same physical quantity**. A velocity can never be equal to a force.",
+ "questions": [
+  {
+   "id": "2.2-q1",
+   "n": 1,
+   "difficulty": "recall",
+   "group": null,
+   "prompt": "Two vectors are called equal if they have:",
+   "options": [
+    {
+     "id": "A",
+     "text": "The same magnitude only"
+    },
+    {
+     "id": "B",
+     "text": "The same direction only"
+    },
+    {
+     "id": "C",
+     "text": "The same magnitude and the same direction"
+    },
+    {
+     "id": "D",
+     "text": "The same starting point"
+    }
+   ],
+   "answer": "C",
+   "explanation": "Both magnitude and direction must match."
+  },
+  {
+   "id": "2.2-q2",
+   "n": 2,
+   "difficulty": "understanding",
+   "group": null,
+   "prompt": "A vector is **not** changed if it is:",
+   "options": [
+    {
+     "id": "A",
+     "text": "Rotated through an angle"
+    },
+    {
+     "id": "B",
+     "text": "Multiplied by a number other than 1"
+    },
+    {
+     "id": "C",
+     "text": "Slid parallel to itself"
+    },
+    {
+     "id": "D",
+     "text": "Reversed in direction"
+    }
+   ],
+   "answer": "C",
+   "explanation": "Parallel translation keeps both the length and the direction, so the vector is unchanged."
+  },
+  {
+   "id": "2.2-q3",
+   "n": 3,
+   "difficulty": "application",
+   "group": null,
+   "prompt": "Car 1 moves at 60 km/h towards north on one road. Car 2 moves at 60 km/h towards north on a parallel road 2 km away. Their velocities are:",
+   "options": [
+    {
+     "id": "A",
+     "text": "Equal"
+    },
+    {
+     "id": "B",
+     "text": "Unequal, because their positions are different"
+    },
+    {
+     "id": "C",
+     "text": "Unequal, because they are on different roads"
+    },
+    {
+     "id": "D",
+     "text": "Impossible to compare"
+    }
+   ],
+   "answer": "A",
+   "explanation": "Same magnitude and same direction. Position does not matter for equality."
+  },
+  {
+   "id": "2.2-q4",
+   "n": 4,
+   "difficulty": "understanding",
+   "group": null,
+   "prompt": "Two vectors have equal magnitudes but opposite directions. They are:",
+   "options": [
+    {
+     "id": "A",
+     "text": "Equal vectors"
+    },
+    {
+     "id": "B",
+     "text": "Both zero vectors"
+    },
+    {
+     "id": "C",
+     "text": "Negatives of each other"
+    },
+    {
+     "id": "D",
+     "text": "Perpendicular to each other"
+    }
+   ],
+   "answer": "C",
+   "explanation": "If **b** has the same size as **a** but points the opposite way, then **b** = –**a**."
+  }
+ ]
+}

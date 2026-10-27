@@ -1,0 +1,199 @@
+{
+ "id": "2.14",
+ "slug": "ch02-2-14",
+ "chapter": "ch02",
+ "title": "Errors in Measurement",
+ "diagram": "content/ch02/diagrams/ch02_sec2_14.png",
+ "theory": "**Big idea:** Every measurement has some error. Repeating it and averaging gets closer to the true value, and the **standard deviation** tells you how uncertain the average is.\n\n**Where errors come from**\n| Cause | Can we remove it? |\n|---|---|\n| Faulty equipment | ✔ Yes, once the cause is found |\n| Carelessness of the experimenter | ✔ Yes, once the cause is found |\n| Random causes | ✘ No specific cause, so they always remain |\n\n**Taming random errors:** random errors are sometimes positive and sometimes negative. So the **average (mean)** of many repeated readings is close to the true value.\nx̄ = (1/N) Σ xᵢ\n\n**How uncertain is the average? The standard deviation σ**\nσ = √[ (1/N) Σ (xᵢ – x̄)² ]\nFind each reading's deviation from the mean, square it, average the squares, then take the square root.\n\nReport the result as **x̄ ± σ**.\n- About a **95%** chance the true value lies within **x̄ ± 1.96σ**\n- More than **99%** chance it lies within **x̄ ± 3σ**\n- These results are reliable when N is large. In practice, **N > 8** gives reasonably correct results.\n\n**🧮 Worked example: a focal length measured 10 times (in cm)**\n25.4, 25.2, 25.6, 25.1, 25.3, 25.2, 25.5, 25.4, 25.3, 25.7\n\n- Mean f̄ = 253.7 / 10 = 25.37 ≈ **25.4 cm**\n- Deviations from 25.4: 0.0, –0.2, 0.2, –0.3, –0.1, –0.2, 0.1, 0.0, –0.1, 0.3\n- Sum of squares = 0.33, so σ = √(0.33/10) = √0.033 ≈ 0.18 ≈ **0.2 cm**\n- Result: **f = (25.4 ± 0.2) cm**\n\n> 💡 The uncertainty (± 0.2) also tells you how many digits to keep in the mean. There's no point writing 25.37 when the uncertainty is in the first decimal place.\n\n> ⚠️ **Common mistake:** Thinking more readings remove *all* errors. Averaging reduces the effect of **random** errors only. A faulty instrument gives the same wrong value every time until you fix it.",
+ "questions": [
+  {
+   "id": "2.14-q1",
+   "n": 1,
+   "difficulty": "recall",
+   "group": null,
+   "prompt": "Which type of error cannot be removed by finding its cause?",
+   "options": [
+    {
+     "id": "A",
+     "text": "Error due to faulty equipment"
+    },
+    {
+     "id": "B",
+     "text": "Error due to carelessness"
+    },
+    {
+     "id": "C",
+     "text": "Random error"
+    },
+    {
+     "id": "D",
+     "text": "Error due to a bent scale"
+    }
+   ],
+   "answer": "C",
+   "explanation": "Random errors have no specific cause, so they cannot be removed. They can only be reduced by averaging."
+  },
+  {
+   "id": "2.14-q2",
+   "n": 2,
+   "difficulty": "understanding",
+   "group": null,
+   "prompt": "The best value of a quantity from many repeated observations is:",
+   "options": [
+    {
+     "id": "A",
+     "text": "The first reading"
+    },
+    {
+     "id": "B",
+     "text": "The largest reading"
+    },
+    {
+     "id": "C",
+     "text": "The mean of all readings"
+    },
+    {
+     "id": "D",
+     "text": "The smallest reading"
+    }
+   ],
+   "answer": "C",
+   "explanation": "Positive and negative random errors tend to cancel in the mean."
+  },
+  {
+   "id": "2.14-q3",
+   "n": 3,
+   "difficulty": "understanding",
+   "group": null,
+   "prompt": "The probability that the true value lies within x̄ ± 1.96σ is about:",
+   "options": [
+    {
+     "id": "A",
+     "text": "50%"
+    },
+    {
+     "id": "B",
+     "text": "68%"
+    },
+    {
+     "id": "C",
+     "text": "95%"
+    },
+    {
+     "id": "D",
+     "text": "100%"
+    }
+   ],
+   "answer": "C",
+   "explanation": "There is about a 95% chance that the true value lies within x̄ ± 1.96σ."
+  },
+  {
+   "id": "2.14-q4",
+   "n": 4,
+   "difficulty": "application",
+   "group": null,
+   "prompt": "Four readings of a length are 4 cm, 6 cm, 5 cm and 5 cm. The standard deviation is about:",
+   "options": [
+    {
+     "id": "A",
+     "text": "0.5 cm"
+    },
+    {
+     "id": "B",
+     "text": "0.71 cm"
+    },
+    {
+     "id": "C",
+     "text": "1 cm"
+    },
+    {
+     "id": "D",
+     "text": "2 cm"
+    }
+   ],
+   "answer": "B",
+   "explanation": "The mean is 5. Deviations –1, 1, 0, 0 give squares adding to 2. σ = √(2/4) = √0.5 ≈ 0.71 cm."
+  },
+  {
+   "id": "2.14-q5",
+   "n": 5,
+   "difficulty": "recall",
+   "group": null,
+   "prompt": "The standard deviation σ of N readings with mean x̄ is:",
+   "options": [
+    {
+     "id": "A",
+     "text": "√[ (1/N) Σ (xᵢ – x̄)² ]"
+    },
+    {
+     "id": "B",
+     "text": "(1/N) Σ (xᵢ – x̄)"
+    },
+    {
+     "id": "C",
+     "text": "Σ (xᵢ – x̄)²"
+    },
+    {
+     "id": "D",
+     "text": "√[ Σ xᵢ² ]"
+    }
+   ],
+   "answer": "A",
+   "explanation": "Square the deviations, average them, then take the square root."
+  },
+  {
+   "id": "2.14-q6",
+   "n": 6,
+   "difficulty": "understanding",
+   "group": null,
+   "prompt": "Taking more repeated observations of a quantity mainly helps because:",
+   "options": [
+    {
+     "id": "A",
+     "text": "The effect of random errors on the average is reduced"
+    },
+    {
+     "id": "B",
+     "text": "Errors due to faulty equipment disappear"
+    },
+    {
+     "id": "C",
+     "text": "The standard deviation always becomes zero"
+    },
+    {
+     "id": "D",
+     "text": "It has no effect on accuracy"
+    }
+   ],
+   "answer": "A",
+   "explanation": "Averaging many readings cancels random errors. Faulty-equipment errors need the cause fixed."
+  },
+  {
+   "id": "2.14-q7",
+   "n": 7,
+   "difficulty": "understanding",
+   "group": null,
+   "prompt": "To be more than 99% sure that the true value lies in an interval, one should use:",
+   "options": [
+    {
+     "id": "A",
+     "text": "x̄ ± σ"
+    },
+    {
+     "id": "B",
+     "text": "x̄ ± 1.96σ"
+    },
+    {
+     "id": "C",
+     "text": "x̄ ± 3σ"
+    },
+    {
+     "id": "D",
+     "text": "x̄ ± 0.5σ"
+    }
+   ],
+   "answer": "C",
+   "explanation": "x̄ ± 3σ gives more than 99% confidence."
+  }
+ ]
+}

@@ -1,0 +1,253 @@
+{
+ "id": "3.8",
+ "slug": "ch03-3-8",
+ "chapter": "ch03",
+ "title": "Projectile Motion",
+ "diagram": "content/ch03/diagrams/ch03_sec3_8.png",
+ "theory": "**Big idea:** A thrown ball moves sideways at a **steady** speed while it rises and falls exactly like a ball thrown straight up. The two motions together make its curved path.\n\n**Assumptions:** the body stays close to the earth's surface, and air resistance is negligible. Then the acceleration is **g, vertically downward, throughout**.\n\n**Terms:** for a body thrown from O with speed u at angle θ to the horizontal:\n- θ is the **angle of projection**\n- the highest point is A\n- the horizontal distance OB to where it lands at the same level is the **horizontal range**\n- the total time in the air is the **time of flight**\n\n**Split the motion** (origin at O, upward taken as +)\n| Horizontal | Vertical |\n|---|---|\n| u_x = u cos θ | u_y = u sin θ |\n| a_x = 0 | a_y = –g |\n| v_x = u cos θ (**constant**) | v_y = u sin θ – gt |\n| x = (u cos θ) t | y = (u sin θ) t – ½gt² |\n\n**Key results**\n- **Time of flight: T = 2u sin θ / g** (setting y = 0 gives t = 0 or this value)\n- **Time to reach the top: u sin θ / g**, exactly half of T. Going up takes as long as coming down.\n- **Maximum height: H = u² sin²θ / 2g** (at the top, v_y = 0)\n- **Horizontal range: R = u² sin 2θ / g** (v_x × T = 2u² sin θ cos θ / g)\n\n**Useful consequences**\n- At the highest point, the velocity is **horizontal**, equal to u cos θ. It is **not** zero.\n- For a given speed, the range is **maximum at θ = 45°**, where R_max = u²/g.\n- Angles θ and (90° – θ), such as 30° and 60°, give the **same range**, because sin 2θ is the same for both.\n\n**🧮 Worked example:** a ball is thrown at 12.0 m/s at 45° (g = 10 m/s²).\nR = 144 × sin 90° / 10 = **14.4 m**.\n\n**🧮 Worked example:** u = 20 m/s at 30° (g = 10 m/s²).\nT = 2 × 20 × ½ / 10 = **2 s**, H = 400 × ¼ / 20 = **5 m**, R = 400 × (√3/2) / 10 ≈ **34.6 m**.\n\n> ⚠️ **Common mistake:** Saying the velocity is zero at the top. Only the **vertical** component is zero. The ball is still moving sideways at u cos θ.",
+ "questions": [
+  {
+   "id": "3.8-q1",
+   "n": 1,
+   "difficulty": "recall",
+   "group": null,
+   "prompt": "Neglecting air resistance, the horizontal component of a projectile's velocity:",
+   "options": [
+    {
+     "id": "A",
+     "text": "Remains constant"
+    },
+    {
+     "id": "B",
+     "text": "Increases"
+    },
+    {
+     "id": "C",
+     "text": "Decreases"
+    },
+    {
+     "id": "D",
+     "text": "Becomes zero at the highest point"
+    }
+   ],
+   "answer": "A",
+   "explanation": "a_x = 0, so v_x = u cos θ throughout."
+  },
+  {
+   "id": "3.8-q2",
+   "n": 2,
+   "difficulty": "understanding",
+   "group": null,
+   "prompt": "At the highest point of its path, the velocity of a projectile is:",
+   "options": [
+    {
+     "id": "A",
+     "text": "Zero"
+    },
+    {
+     "id": "B",
+     "text": "Horizontal, equal to u cos θ"
+    },
+    {
+     "id": "C",
+     "text": "Vertical"
+    },
+    {
+     "id": "D",
+     "text": "Equal to the initial velocity u"
+    }
+   ],
+   "answer": "B",
+   "explanation": "At the top, v_y = 0 but v_x = u cos θ is still there."
+  },
+  {
+   "id": "3.8-q3",
+   "n": 3,
+   "difficulty": "application",
+   "group": null,
+   "prompt": "A ball is thrown at 12 m/s at 45° to the horizontal. Taking g = 10 m/s², its horizontal range is:",
+   "options": [
+    {
+     "id": "A",
+     "text": "7.2 m"
+    },
+    {
+     "id": "B",
+     "text": "28.8 m"
+    },
+    {
+     "id": "C",
+     "text": "14.4 m"
+    },
+    {
+     "id": "D",
+     "text": "12 m"
+    }
+   ],
+   "answer": "C",
+   "explanation": "R = u² sin 2θ / g = 144 × 1 / 10 = 14.4 m."
+  },
+  {
+   "id": "3.8-q4",
+   "n": 4,
+   "difficulty": "application",
+   "group": null,
+   "prompt": "A stone is projected at 20 m/s at 30° above the horizontal (g = 10 m/s²). Its time of flight is:",
+   "options": [
+    {
+     "id": "A",
+     "text": "1 s"
+    },
+    {
+     "id": "B",
+     "text": "4 s"
+    },
+    {
+     "id": "C",
+     "text": "3.46 s"
+    },
+    {
+     "id": "D",
+     "text": "2 s"
+    }
+   ],
+   "answer": "D",
+   "explanation": "T = 2u sin θ / g = 2 × 20 × 0.5 / 10 = 2 s."
+  },
+  {
+   "id": "3.8-q5",
+   "n": 5,
+   "difficulty": "application",
+   "group": null,
+   "prompt": "For the same stone (20 m/s at 30°, g = 10 m/s²), the maximum height reached is:",
+   "options": [
+    {
+     "id": "A",
+     "text": "5 m"
+    },
+    {
+     "id": "B",
+     "text": "10 m"
+    },
+    {
+     "id": "C",
+     "text": "20 m"
+    },
+    {
+     "id": "D",
+     "text": "2.5 m"
+    }
+   ],
+   "answer": "A",
+   "explanation": "H = u² sin²θ / 2g = 400 × 0.25 / 20 = 5 m."
+  },
+  {
+   "id": "3.8-q6",
+   "n": 6,
+   "difficulty": "understanding",
+   "group": null,
+   "prompt": "For a given speed of projection, the horizontal range is maximum when the angle of projection is:",
+   "options": [
+    {
+     "id": "A",
+     "text": "30°"
+    },
+    {
+     "id": "B",
+     "text": "45°"
+    },
+    {
+     "id": "C",
+     "text": "60°"
+    },
+    {
+     "id": "D",
+     "text": "90°"
+    }
+   ],
+   "answer": "B",
+   "explanation": "sin 2θ is largest (= 1) when 2θ = 90°."
+  },
+  {
+   "id": "3.8-q7",
+   "n": 7,
+   "difficulty": "understanding",
+   "group": null,
+   "prompt": "The time a projectile takes to reach its maximum height, compared with the total time of flight, is:",
+   "options": [
+    {
+     "id": "A",
+     "text": "Equal"
+    },
+    {
+     "id": "B",
+     "text": "Twice"
+    },
+    {
+     "id": "C",
+     "text": "Half"
+    },
+    {
+     "id": "D",
+     "text": "One quarter"
+    }
+   ],
+   "answer": "C",
+   "explanation": "Time to the top is u sin θ / g, which is half of 2u sin θ / g."
+  },
+  {
+   "id": "3.8-q8",
+   "n": 8,
+   "difficulty": "application",
+   "group": null,
+   "prompt": "For the same speed, which pair of angles of projection gives the same horizontal range?",
+   "options": [
+    {
+     "id": "A",
+     "text": "30° and 45°"
+    },
+    {
+     "id": "B",
+     "text": "45° and 90°"
+    },
+    {
+     "id": "C",
+     "text": "20° and 80°"
+    },
+    {
+     "id": "D",
+     "text": "30° and 60°"
+    }
+   ],
+   "answer": "D",
+   "explanation": "sin 60° = sin 120°, so θ and 90° – θ give equal ranges."
+  },
+  {
+   "id": "3.8-q9",
+   "n": 9,
+   "difficulty": "recall",
+   "group": null,
+   "prompt": "During its flight, the acceleration of a projectile is:",
+   "options": [
+    {
+     "id": "A",
+     "text": "g, vertically downward, throughout the motion"
+    },
+    {
+     "id": "B",
+     "text": "Zero at the highest point"
+    },
+    {
+     "id": "C",
+     "text": "Along the direction of its velocity"
+    },
+    {
+     "id": "D",
+     "text": "Greatest at the moment of projection"
+    }
+   ],
+   "answer": "A",
+   "explanation": "Gravity is the only force, so the acceleration is g downward at every point."
+  }
+ ]
+}

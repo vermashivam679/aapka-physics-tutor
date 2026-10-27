@@ -1,0 +1,226 @@
+{
+ "id": "2.8",
+ "slug": "ch02-2-8",
+ "chapter": "ch02",
+ "title": "Cross Product or Vector Product",
+ "diagram": "content/ch02/diagrams/ch02_sec2_8.png",
+ "theory": "**Big idea:** The cross product of two vectors is a **new vector**, perpendicular to both of them.\n\n**Magnitude:** **magnitude of a × b = ab sin θ**\nθ is the **smaller** angle between the vectors (the one below 180°) when they are drawn tail to tail.\n\n**Direction: the right-hand thumb rule.** Draw **a** and **b** tail to tail. Place your stretched right palm perpendicular to their plane so that your fingers point along **a**. Curl your fingers towards **b**. Your thumb points along **a × b**. (Left-handers: use your *right* hand!)\n\n**Key results**\n| Situation | a × b |\n|---|---|\n| θ = 0° or 180° (parallel or antiparallel) | Zero vector |\n| θ = 90° (perpendicular) | Magnitude ab (maximum) |\n| Order reversed | **b × a = –(a × b)** |\n\n**Properties**\n- **Not commutative:** **a × b** = –**b × a**\n- **Distributive:** **a** × (**b** + **c**) = **a × b** + **a × c**\n- **Not associative:** **a** × (**b** × **c**) is generally not equal to (**a** × **b**) × **c**\n\n**Right-handed axes:** we always choose the Z-axis so that **i × j = k**. Then\n- **j × k = i** and **k × i = j** (going around the cycle i → j → k → i gives +)\n- **j × i = –k**, **k × j = –i**, **i × k = –j** (going backwards gives –)\n- **i × i = j × j = k × k = 0**\n\n**In components:**\n**a × b** = (a_yb_z – a_zb_y)**i** + (a_zb_x – a_xb_z)**j** + (a_xb_y – a_yb_x)**k**\n\n**🧮 Worked example:** **A** has magnitude 5 units, **B** has magnitude 6 units, and the magnitude of **A × B** is 15 units.\n15 = 5 × 6 × sin θ, so sin θ = ½, which gives θ = **30° or 150°**. Both are possible!\n\n**The zero vector:** **A** + (–**A**) is a vector with zero magnitude. It is called the **zero vector**, written **0**, and its direction is indeterminate. **A × A** is also the zero vector.\n\n> 💡 The magnitude of **a × b** equals the area of the parallelogram formed by **a** and **b**.\n\n> ⚠️ **Common mistake:** Forgetting the minus sign when the order is reversed. **j × i** is **–k**, not **k**.",
+ "questions": [
+  {
+   "id": "2.8-q1",
+   "n": 1,
+   "difficulty": "recall",
+   "group": null,
+   "prompt": "The cross product of two parallel vectors is:",
+   "options": [
+    {
+     "id": "A",
+     "text": "The zero vector"
+    },
+    {
+     "id": "B",
+     "text": "A vector of magnitude ab"
+    },
+    {
+     "id": "C",
+     "text": "The number 1"
+    },
+    {
+     "id": "D",
+     "text": "A vector along their sum"
+    }
+   ],
+   "answer": "A",
+   "explanation": "sin 0° = sin 180° = 0, so the magnitude is zero."
+  },
+  {
+   "id": "2.8-q2",
+   "n": 2,
+   "difficulty": "understanding",
+   "group": null,
+   "prompt": "For any two vectors, **b × a** is equal to:",
+   "options": [
+    {
+     "id": "A",
+     "text": "**a × b**"
+    },
+    {
+     "id": "B",
+     "text": "–(**a × b**)"
+    },
+    {
+     "id": "C",
+     "text": "Zero, always"
+    },
+    {
+     "id": "D",
+     "text": "**a · b**"
+    }
+   ],
+   "answer": "B",
+   "explanation": "Reversing the order reverses the direction given by the right-hand rule."
+  },
+  {
+   "id": "2.8-q3",
+   "n": 3,
+   "difficulty": "recall",
+   "group": null,
+   "prompt": "In a right-handed coordinate system, **i × j** equals:",
+   "options": [
+    {
+     "id": "A",
+     "text": "**k**"
+    },
+    {
+     "id": "B",
+     "text": "–**k**"
+    },
+    {
+     "id": "C",
+     "text": "0"
+    },
+    {
+     "id": "D",
+     "text": "1"
+    }
+   ],
+   "answer": "A",
+   "explanation": "This is how a right-handed system is defined."
+  },
+  {
+   "id": "2.8-q4",
+   "n": 4,
+   "difficulty": "application",
+   "group": null,
+   "prompt": "Two vectors have magnitudes 4 units and 5 units, and the magnitude of their cross product is 10 units. The angle between them is:",
+   "options": [
+    {
+     "id": "A",
+     "text": "30° only"
+    },
+    {
+     "id": "B",
+     "text": "60° only"
+    },
+    {
+     "id": "C",
+     "text": "30° or 150°"
+    },
+    {
+     "id": "D",
+     "text": "90°"
+    }
+   ],
+   "answer": "C",
+   "explanation": "sin θ = 10 / (4 × 5) = ½, so θ = 30° or 150°."
+  },
+  {
+   "id": "2.8-q5",
+   "n": 5,
+   "difficulty": "application",
+   "group": null,
+   "prompt": "**A** points vertically upward and **B** points towards north. The direction of **A × B** is:",
+   "options": [
+    {
+     "id": "A",
+     "text": "Towards east"
+    },
+    {
+     "id": "B",
+     "text": "Vertically downward"
+    },
+    {
+     "id": "C",
+     "text": "It is zero"
+    },
+    {
+     "id": "D",
+     "text": "Towards west"
+    }
+   ],
+   "answer": "D",
+   "explanation": "Take east as **i**, north as **j** and up as **k**. Then **k** × **j** = –**i**, which is west."
+  },
+  {
+   "id": "2.8-q6",
+   "n": 6,
+   "difficulty": "understanding",
+   "group": null,
+   "prompt": "The direction of **a × b** is:",
+   "options": [
+    {
+     "id": "A",
+     "text": "Along **a**"
+    },
+    {
+     "id": "B",
+     "text": "Along **b**"
+    },
+    {
+     "id": "C",
+     "text": "Perpendicular to the plane containing **a** and **b**"
+    },
+    {
+     "id": "D",
+     "text": "Along the bisector of **a** and **b**"
+    }
+   ],
+   "answer": "C",
+   "explanation": "**a × b** is perpendicular to both **a** and **b**, so it is perpendicular to their plane."
+  },
+  {
+   "id": "2.8-q7",
+   "n": 7,
+   "difficulty": "application",
+   "group": null,
+   "prompt": "The value of (3**j**) × (2**i**) is:",
+   "options": [
+    {
+     "id": "A",
+     "text": "6**k**"
+    },
+    {
+     "id": "B",
+     "text": "–6**k**"
+    },
+    {
+     "id": "C",
+     "text": "6"
+    },
+    {
+     "id": "D",
+     "text": "0"
+    }
+   ],
+   "answer": "B",
+   "explanation": "(3**j**) × (2**i**) = 6(**j × i**) = 6(–**k**) = –6**k**."
+  },
+  {
+   "id": "2.8-q8",
+   "n": 8,
+   "difficulty": "understanding",
+   "group": null,
+   "prompt": "For two non-zero vectors, the magnitude of **a × b** equals **a · b** when the angle between them is:",
+   "options": [
+    {
+     "id": "A",
+     "text": "0°"
+    },
+    {
+     "id": "B",
+     "text": "90°"
+    },
+    {
+     "id": "C",
+     "text": "45°"
+    },
+    {
+     "id": "D",
+     "text": "180°"
+    }
+   ],
+   "answer": "C",
+   "explanation": "ab sin θ = ab cos θ means tan θ = 1, so θ = 45°."
+  }
+ ]
+}

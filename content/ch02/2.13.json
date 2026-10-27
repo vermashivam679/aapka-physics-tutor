@@ -1,0 +1,199 @@
+{
+ "id": "2.13",
+ "slug": "ch02-2-13",
+ "chapter": "ch02",
+ "title": "Significant Digits in Calculations",
+ "diagram": "content/ch02/diagrams/ch02_sec2_13.png",
+ "theory": "**Big idea:** A calculated answer can't be more precise than the data. Arithmetic gives 12.0 / 7.0 = 1.714285…, but only some of those digits are reliable.\n\n**Rule 1: multiplication and division**\nThe answer has as many significant digits as the quantity with the **fewest** significant digits.\n- 12.0 / 7.0: 7.0 has 2 significant digits, so the answer is **1.7**.\n- (25.2 × 1374) / 33.3 = 1039.78…: the fewest is 3 (in 25.2 and 33.3), so the answer is **1040**.\n\nWhen dropping extra digits: digits after the decimal point are **dropped**, and digits to the left of the decimal point are **replaced by zeros**.\n\n**Rounding rules (H.C. Verma)**\nLook at the digit just after the one you're keeping:\n- More than 5: increase the kept digit by 1.\n- Less than 5: leave the kept digit unchanged.\n- Exactly 5: increase the kept digit by 1 **if it is odd**, and leave it unchanged **if it is even**.\n\n| Number | 3 significant digits | Why |\n|---|---|---|\n| 15462 | 15500 | Next digit 6 > 5, so 4 becomes 5. The dropped digits become zeros. |\n| 14.745 | 14.7 | Next digit 4 < 5 |\n| 14.750 | 14.8 | Next digit 5, and 7 is odd, so it goes up |\n| 14.650 × 10¹² | 14.6 × 10¹² | Next digit 5, and 6 is even, so it stays |\n\n**Rule 2: addition and subtraction**\n1. Write the numbers one below the other with the decimal points lined up.\n2. Find the **first column from the left that has a doubtful digit**.\n3. Round every number to that column **first**, then add or subtract.\n\n**🧮 Worked example:** 24.36 + 0.0623 + 256.2\n256.2 is doubtful in the tenths column. Round each number to the tenths: 24.4 + 0.1 + 256.2 = **280.7**.\n\n> ⚠️ **Common mistakes:**\n> - Applying the \"fewest significant digits\" rule to addition. Addition uses the *decimal column* rule.\n> - Rounding 2.745 to 2.75. With the H.C. Verma rule, the 4 is even and stays: **2.74**. (Some other books always round 5 upward, so check which rule your exam follows.)",
+ "questions": [
+  {
+   "id": "2.13-q1",
+   "n": 1,
+   "difficulty": "recall",
+   "group": null,
+   "prompt": "In a multiplication or division, the number of significant digits in the answer equals that of the quantity with:",
+   "options": [
+    {
+     "id": "A",
+     "text": "The most significant digits"
+    },
+    {
+     "id": "B",
+     "text": "The largest value"
+    },
+    {
+     "id": "C",
+     "text": "The fewest significant digits"
+    },
+    {
+     "id": "D",
+     "text": "The smallest value"
+    }
+   ],
+   "answer": "C",
+   "explanation": "The least precise quantity limits the answer."
+  },
+  {
+   "id": "2.13-q2",
+   "n": 2,
+   "difficulty": "application",
+   "group": null,
+   "prompt": "Using the rounding rule given in this chapter, 2.745 rounded to three significant digits is:",
+   "options": [
+    {
+     "id": "A",
+     "text": "2.75"
+    },
+    {
+     "id": "B",
+     "text": "2.8"
+    },
+    {
+     "id": "C",
+     "text": "2.7"
+    },
+    {
+     "id": "D",
+     "text": "2.74"
+    }
+   ],
+   "answer": "D",
+   "explanation": "The next digit is 5 and the digit being rounded (4) is even, so it stays 4."
+  },
+  {
+   "id": "2.13-q3",
+   "n": 3,
+   "difficulty": "application",
+   "group": null,
+   "prompt": "Using the same rule, 3.635 rounded to three significant digits is:",
+   "options": [
+    {
+     "id": "A",
+     "text": "3.64"
+    },
+    {
+     "id": "B",
+     "text": "3.63"
+    },
+    {
+     "id": "C",
+     "text": "3.6"
+    },
+    {
+     "id": "D",
+     "text": "3.65"
+    }
+   ],
+   "answer": "A",
+   "explanation": "The next digit is 5 and the digit being rounded (3) is odd, so it goes up to 4."
+  },
+  {
+   "id": "2.13-q4",
+   "n": 4,
+   "difficulty": "application",
+   "group": null,
+   "prompt": "The radius of a circle is measured as 2.12 cm. Its area should be written as:",
+   "options": [
+    {
+     "id": "A",
+     "text": "14 cm²"
+    },
+    {
+     "id": "B",
+     "text": "14.1124 cm²"
+    },
+    {
+     "id": "C",
+     "text": "14.11 cm²"
+    },
+    {
+     "id": "D",
+     "text": "14.1 cm²"
+    }
+   ],
+   "answer": "D",
+   "explanation": "πr² = 14.11…, and the radius has 3 significant digits, so the answer is 14.1 cm²."
+  },
+  {
+   "id": "2.13-q5",
+   "n": 5,
+   "difficulty": "application",
+   "group": null,
+   "prompt": "Using the rule for addition, 12.6 + 0.34 + 3.215 gives:",
+   "options": [
+    {
+     "id": "A",
+     "text": "16.155"
+    },
+    {
+     "id": "B",
+     "text": "16.16"
+    },
+    {
+     "id": "C",
+     "text": "16.1"
+    },
+    {
+     "id": "D",
+     "text": "16.2"
+    }
+   ],
+   "answer": "C",
+   "explanation": "12.6 is doubtful in the tenths place. Round first: 12.6 + 0.3 + 3.2 = 16.1."
+  },
+  {
+   "id": "2.13-q6",
+   "n": 6,
+   "difficulty": "understanding",
+   "group": null,
+   "prompt": "The product 4.0 × 2.537, written with the correct number of significant digits, is:",
+   "options": [
+    {
+     "id": "A",
+     "text": "10.148"
+    },
+    {
+     "id": "B",
+     "text": "10.1"
+    },
+    {
+     "id": "C",
+     "text": "10"
+    },
+    {
+     "id": "D",
+     "text": "10.15"
+    }
+   ],
+   "answer": "C",
+   "explanation": "4.0 has 2 significant digits, so 10.148 becomes 10."
+  },
+  {
+   "id": "2.13-q7",
+   "n": 7,
+   "difficulty": "recall",
+   "group": null,
+   "prompt": "15462 rounded to three significant digits is:",
+   "options": [
+    {
+     "id": "A",
+     "text": "15500"
+    },
+    {
+     "id": "B",
+     "text": "15400"
+    },
+    {
+     "id": "C",
+     "text": "155"
+    },
+    {
+     "id": "D",
+     "text": "15462.0"
+    }
+   ],
+   "answer": "A",
+   "explanation": "The next digit (6) is more than 5, so 4 becomes 5. The digits to the left of the decimal are replaced by zeros."
+  }
+ ]
+}

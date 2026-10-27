@@ -1,0 +1,253 @@
+{
+ "id": "1.3",
+ "slug": "ch01-1-3",
+ "chapter": "ch01",
+ "title": "Units",
+ "diagram": "content/ch01/diagrams/ch01_sec1_3.png",
+ "theory": "**Big idea:** To measure anything, we compare it with a chosen standard called a **unit**.\n\n**Measurement = Number × Unit**\n\"Study for **2 hours**\":\n- **2** is the numerical value (how many times the unit)\n- **hour** is the unit\n\nWithout a unit, a number in physics is meaningless. \"The rod is 5 long\" tells you nothing.\n\n**Who decides the units?**\nFor people across the world to communicate, units need *international agreement*. That authority is the **CGPM** (Conférence Générale des Poids et Mesures, the General Conference on Weights and Measures).\n\n**Fundamental vs Derived Quantities**\nMany quantities depend on others. Once you define a unit of length, a unit of area follows automatically (a square of side 1 unit). Once you define length and time, a unit of speed follows.\n\nFundamental (base) quantities are chosen so that:\n1. They are **independent** of each other, and\n2. **All other** quantities can be built from them by multiplying and dividing.\n\nUnits of base quantities are **fundamental units**. All others are **derived units**.\n\n> 💡 The choice is not unique. You could take *speed and time* as fundamental, and then length = speed × time would be derived. Different unit systems make different choices.\n\n**SI: the International System of Units.** It has 7 base quantities:\n\n| Quantity | Unit | Symbol |\n|---|---|---|\n| Length | metre | m |\n| Mass | kilogram | kg |\n| Time | second | s |\n| Electric current | ampere | A |\n| Thermodynamic temperature | kelvin | K |\n| Amount of substance | mole | mol |\n| Luminous intensity | candela | cd |\n\n🧠 **Memory trick:** \"**M**y **K**ind **S**ister **A**lways **K**eeps **M**y **C**andy\" (m, kg, s, A, K, mol, cd)\n\n**Supplementary units:** radian (rad) for plane angle, steradian (sr) for solid angle.\n\n**SI Prefixes**\nPhysical quantities range from tiny (proton separation ~10⁻¹⁵ m) to huge (distance to a quasar ~10²⁶ m), so prefixes are used:\n\n| Prefix | Symbol | Power | | Prefix | Symbol | Power |\n|---|---|---|---|---|---|---|\n| exa | E | 10¹⁸ | | deci | d | 10⁻¹ |\n| peta | P | 10¹⁵ | | centi | c | 10⁻² |\n| tera | T | 10¹² | | milli | m | 10⁻³ |\n| giga | G | 10⁹ | | micro | μ | 10⁻⁶ |\n| mega | M | 10⁶ | | nano | n | 10⁻⁹ |\n| kilo | k | 10³ | | pico | p | 10⁻¹² |\n| hecto | h | 10² | | femto | f | 10⁻¹⁵ |\n| deka | da | 10¹ | | atto | a | 10⁻¹⁸ |\n\n**🧮 Worked example:** Express 4.7 μs in seconds.\n4.7 μs = 4.7 × 10⁻⁶ s.\n\n> ⚠️ **Common mistakes:**\n> - **M** (mega, 10⁶) vs **m** (milli, 10⁻³): capital vs small matters!\n> - Force, velocity, energy and pressure are **derived**, not base quantities.\n> - The unit symbol for kelvin is **K**, not °K.",
+ "questions": [
+  {
+   "id": "1.3-q1",
+   "n": 1,
+   "difficulty": "recall",
+   "group": null,
+   "prompt": "The measurement of a physical quantity is expressed in two parts. These are:",
+   "options": [
+    {
+     "id": "A",
+     "text": "Magnitude and direction"
+    },
+    {
+     "id": "B",
+     "text": "A numerical value and the unit"
+    },
+    {
+     "id": "C",
+     "text": "Dimension and unit"
+    },
+    {
+     "id": "D",
+     "text": "Base unit and derived unit"
+    }
+   ],
+   "answer": "B",
+   "explanation": "E.g. \"2 hours\": 2 is how many times the unit, and hour is the unit."
+  },
+  {
+   "id": "1.3-q2",
+   "n": 2,
+   "difficulty": "recall",
+   "group": null,
+   "prompt": "The international body that has the authority to decide standard units is:",
+   "options": [
+    {
+     "id": "A",
+     "text": "ISRO"
+    },
+    {
+     "id": "B",
+     "text": "NASA"
+    },
+    {
+     "id": "C",
+     "text": "CGPM (General Conference on Weights and Measures)"
+    },
+    {
+     "id": "D",
+     "text": "UNESCO"
+    }
+   ],
+   "answer": "C",
+   "explanation": "CGPM decides units by international agreement."
+  },
+  {
+   "id": "1.3-q3",
+   "n": 3,
+   "difficulty": "understanding",
+   "group": null,
+   "prompt": "A set of fundamental quantities must satisfy which condition(s)?",
+   "options": [
+    {
+     "id": "A",
+     "text": "They should be independent of each other"
+    },
+    {
+     "id": "B",
+     "text": "All other quantities should be expressible in terms of them"
+    },
+    {
+     "id": "C",
+     "text": "Both (A) and (B)"
+    },
+    {
+     "id": "D",
+     "text": "They must all be mechanical quantities"
+    }
+   ],
+   "answer": "C",
+   "explanation": "Fundamental quantities must be independent, and everything else must be derivable from them."
+  },
+  {
+   "id": "1.3-q4",
+   "n": 4,
+   "difficulty": "recall",
+   "group": null,
+   "prompt": "How many base (fundamental) quantities are there in SI?",
+   "options": [
+    {
+     "id": "A",
+     "text": "3"
+    },
+    {
+     "id": "B",
+     "text": "5"
+    },
+    {
+     "id": "C",
+     "text": "7"
+    },
+    {
+     "id": "D",
+     "text": "9"
+    }
+   ],
+   "answer": "C",
+   "explanation": "Length, mass, time, electric current, temperature, amount of substance and luminous intensity."
+  },
+  {
+   "id": "1.3-q5",
+   "n": 5,
+   "difficulty": "understanding",
+   "group": null,
+   "prompt": "Which of the following is **not** a base quantity in SI?",
+   "options": [
+    {
+     "id": "A",
+     "text": "Luminous intensity"
+    },
+    {
+     "id": "B",
+     "text": "Force"
+    },
+    {
+     "id": "C",
+     "text": "Amount of substance"
+    },
+    {
+     "id": "D",
+     "text": "Electric current"
+    }
+   ],
+   "answer": "B",
+   "explanation": "Force is derived (mass × acceleration)."
+  },
+  {
+   "id": "1.3-q6",
+   "n": 6,
+   "difficulty": "recall",
+   "group": null,
+   "prompt": "The two supplementary SI units are:",
+   "options": [
+    {
+     "id": "A",
+     "text": "Radian and steradian"
+    },
+    {
+     "id": "B",
+     "text": "Degree and radian"
+    },
+    {
+     "id": "C",
+     "text": "Kelvin and candela"
+    },
+    {
+     "id": "D",
+     "text": "Mole and steradian"
+    }
+   ],
+   "answer": "A",
+   "explanation": "Radian (rad) is for plane angle and steradian (sr) is for solid angle."
+  },
+  {
+   "id": "1.3-q7",
+   "n": 7,
+   "difficulty": "understanding",
+   "group": null,
+   "prompt": "If *speed* and *time* are chosen as fundamental quantities, then *length* becomes:",
+   "options": [
+    {
+     "id": "A",
+     "text": "A fundamental quantity"
+    },
+    {
+     "id": "B",
+     "text": "A supplementary quantity"
+    },
+    {
+     "id": "C",
+     "text": "A dimensionless quantity"
+    },
+    {
+     "id": "D",
+     "text": "A derived quantity"
+    }
+   ],
+   "answer": "D",
+   "explanation": "Length = speed × time, so it is derived."
+  },
+  {
+   "id": "1.3-q8",
+   "n": 8,
+   "difficulty": "application",
+   "group": null,
+   "prompt": "The separation between two protons in a nucleus is about 10⁻¹⁵ m. Using SI prefixes, this is:",
+   "options": [
+    {
+     "id": "A",
+     "text": "1 nanometre (nm)"
+    },
+    {
+     "id": "B",
+     "text": "1 picometre (pm)"
+    },
+    {
+     "id": "C",
+     "text": "1 femtometre (fm)"
+    },
+    {
+     "id": "D",
+     "text": "1 attometre (am)"
+    }
+   ],
+   "answer": "C",
+   "explanation": "femto = 10⁻¹⁵ (nano = 10⁻⁹, pico = 10⁻¹², atto = 10⁻¹⁸)."
+  },
+  {
+   "id": "1.3-q9",
+   "n": 9,
+   "difficulty": "application",
+   "group": null,
+   "prompt": "A mobile processor runs at 3 GHz. In hertz, this is:",
+   "options": [
+    {
+     "id": "A",
+     "text": "3 × 10⁶ Hz"
+    },
+    {
+     "id": "B",
+     "text": "3 × 10⁹ Hz"
+    },
+    {
+     "id": "C",
+     "text": "3 × 10¹² Hz"
+    },
+    {
+     "id": "D",
+     "text": "3 × 10³ Hz"
+    }
+   ],
+   "answer": "B",
+   "explanation": "giga = 10⁹."
+  }
+ ]
+}

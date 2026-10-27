@@ -1,0 +1,172 @@
+{
+ "id": "1.5",
+ "slug": "ch01-1-5",
+ "chapter": "ch01",
+ "title": "Dimension",
+ "diagram": "content/ch01/diagrams/ch01_sec1_5.png",
+ "theory": "**Big idea:** Every physical quantity can be written as a product of powers of base quantities. Those powers are its **dimensions**.\n\n**Symbols for base quantities**\n| Base quantity | Symbol |\n|---|---|\n| Mass | M |\n| Length | L |\n| Time | T |\n| Electric current | I |\n| Temperature | K |\n| Amount of substance | mol |\n| Luminous intensity | cd |\n\n**Building a dimensional formula, step by step (force)**\n- velocity = length / time, so **[v] = LT⁻¹**\n- acceleration = velocity / time, so **[a] = LT⁻²**\n- force = mass × acceleration, so **[F] = MLT⁻²**\n\nWe say: *the dimensions of force are 1 in mass, 1 in length, and –2 in time* (and 0 in all other base quantities). Square brackets [ ] mean \"dimensions of\".\n\n**Key rules**\n- Only the **type** of quantity matters, not its size. Initial velocity, final velocity, change in velocity and average velocity all have dimensions LT⁻¹.\n- **Pure numbers** (½, 2, π) and ratios like angles are **dimensionless**.\n\n**🧮 Worked example:** Find the dimensions of kinetic energy, E = ½mv².\n[E] = [m][v]² = M (LT⁻¹)² = **ML²T⁻²**. (The ½ is dropped because it is just a number.)\n\n**📋 Quick reference: common dimensional formulas**\n| Quantity | Formula | Dimensions |\n|---|---|---|\n| Area | l × b | L² |\n| Volume | l × b × h | L³ |\n| Density | mass/volume | ML⁻³ |\n| Velocity | distance/time | LT⁻¹ |\n| Acceleration | velocity/time | LT⁻² |\n| Force | ma | MLT⁻² |\n| Momentum | mv | MLT⁻¹ |\n| Work / Energy | F × d | ML²T⁻² |\n| Power | work/time | ML²T⁻³ |\n| Pressure | force/area | ML⁻¹T⁻² |\n| Frequency | 1/time | T⁻¹ |\n\n> ⚠️ **Common mistakes:**\n> - Writing ½ML²T⁻². Numbers never appear in dimensional formulas.\n> - Mixing up a *unit* (newton, kg m s⁻²) with *dimensions* (MLT⁻²). Units depend on the system, but dimensions don't.",
+ "questions": [
+  {
+   "id": "1.5-q1",
+   "n": 1,
+   "difficulty": "recall",
+   "group": null,
+   "prompt": "The *dimension* of a physical quantity in a particular base quantity is:",
+   "options": [
+    {
+     "id": "A",
+     "text": "The unit of that base quantity"
+    },
+    {
+     "id": "B",
+     "text": "The exponent (power) of that base quantity in its expression"
+    },
+    {
+     "id": "C",
+     "text": "The numerical value of the quantity"
+    },
+    {
+     "id": "D",
+     "text": "The magnitude of the base quantity"
+    }
+   ],
+   "answer": "B",
+   "explanation": "E.g. force = M¹L¹T⁻², so its dimension in time is –2."
+  },
+  {
+   "id": "1.5-q2",
+   "n": 2,
+   "difficulty": "recall",
+   "group": null,
+   "prompt": "The dimensional formula of force is:",
+   "options": [
+    {
+     "id": "A",
+     "text": "MLT⁻¹"
+    },
+    {
+     "id": "B",
+     "text": "ML²T⁻²"
+    },
+    {
+     "id": "C",
+     "text": "MLT⁻²"
+    },
+    {
+     "id": "D",
+     "text": "ML⁻¹T⁻²"
+    }
+   ],
+   "answer": "C",
+   "explanation": "Force = mass × acceleration = M × LT⁻²."
+  },
+  {
+   "id": "1.5-q3",
+   "n": 3,
+   "difficulty": "understanding",
+   "group": null,
+   "prompt": "Using E = ½mv², the dimensional formula of energy is:",
+   "options": [
+    {
+     "id": "A",
+     "text": "ML²T⁻²"
+    },
+    {
+     "id": "B",
+     "text": "½ ML²T⁻²"
+    },
+    {
+     "id": "C",
+     "text": "MLT⁻²"
+    },
+    {
+     "id": "D",
+     "text": "ML²T⁻¹"
+    }
+   ],
+   "answer": "A",
+   "explanation": "[M][LT⁻¹]² = ML²T⁻²."
+  },
+  {
+   "id": "1.5-q4",
+   "n": 4,
+   "difficulty": "understanding",
+   "group": null,
+   "prompt": "In finding the dimensions of energy from E = ½mv², the factor ½ is ignored because:",
+   "options": [
+    {
+     "id": "A",
+     "text": "It is too small"
+    },
+    {
+     "id": "B",
+     "text": "It is a pure number and has no dimensions"
+    },
+    {
+     "id": "C",
+     "text": "It cancels with the mass"
+    },
+    {
+     "id": "D",
+     "text": "Energy is always rounded off"
+    }
+   ],
+   "answer": "B",
+   "explanation": "Pure numbers are dimensionless."
+  },
+  {
+   "id": "1.5-q5",
+   "n": 5,
+   "difficulty": "understanding",
+   "group": null,
+   "prompt": "The dimensions of force are ______ in time.",
+   "options": [
+    {
+     "id": "A",
+     "text": "1"
+    },
+    {
+     "id": "B",
+     "text": "2"
+    },
+    {
+     "id": "C",
+     "text": "0"
+    },
+    {
+     "id": "D",
+     "text": "–2"
+    }
+   ],
+   "answer": "D",
+   "explanation": "MLT⁻² has T raised to –2."
+  },
+  {
+   "id": "1.5-q6",
+   "n": 6,
+   "difficulty": "application",
+   "group": null,
+   "prompt": "For dimensional purposes, which of these is treated as having the **same** dimensions as initial velocity?",
+   "options": [
+    {
+     "id": "A",
+     "text": "Change in velocity"
+    },
+    {
+     "id": "B",
+     "text": "Acceleration"
+    },
+    {
+     "id": "C",
+     "text": "Momentum"
+    },
+    {
+     "id": "D",
+     "text": "Displacement"
+    }
+   ],
+   "answer": "A",
+   "explanation": "Change in velocity, average velocity and final velocity all have dimensions of length/time. Magnitude doesn't matter."
+  }
+ ]
+}

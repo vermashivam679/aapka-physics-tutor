@@ -1,0 +1,280 @@
+{
+ "id": "3.6",
+ "slug": "ch03-3-6",
+ "chapter": "ch03",
+ "title": "Motion in a Straight Line",
+ "diagram": "content/ch03/diagrams/ch03_sec3_6.png",
+ "theory": "**Big idea:** For motion along one line, choose that line as the X-axis. Then velocity and acceleration become simple numbers with a **sign** (+ or –) showing the direction.\n\n**Definitions in one dimension**\n- Position: x (the coordinate)\n- Velocity: **v = dx/dt**\n- Acceleration: **a = dv/dt = d²x/dt²**\n\nA positive value points along +X and a negative value along –X.\n\n**Speeding up or slowing down?**\n| v and a | Speed |\n|---|---|\n| Same sign (both + or both –) | **Increases** |\n| Opposite signs | **Decreases** (deceleration) |\n\nDeceleration is just negative acceleration: 2.0 m/s² of deceleration towards west = 2.0 m/s² of acceleration towards east.\n\n**Equations of motion for constant acceleration** (start at x = 0 when t = 0)\n| Equation | Leaves out |\n|---|---|\n| **v = u + at** | x |\n| **x = ut + ½at²** | v |\n| **v² = u² + 2ax** | t |\n\nThese come from integrating dv/dt = a and then dx/dt = u + at.\n\n**x is the position, not always the distance.** A particle goes from the origin to x = 4 m, turns back and is at x = 2 m. Its position is x = 2 m, but the distance travelled is 6 m.\n\n**🧮 Worked example:** u = 2.5 m/s, a = 0.50 m/s².\n- In the first 2 s: x = 2.5 × 2 + ½ × 0.5 × 4 = **6.0 m**\n- Time to reach 7.5 m/s: t = (7.5 – 2.5)/0.50 = **10 s**\n- Distance in that time: x = (7.5² – 2.5²)/(2 × 0.50) = **50 m**\n\n**Displacement in the last 1 second (the \"t-th second\")**\ns_t = u(1 s) + (a/2)(2t – 1 s)(1 s)\nWith u = 5 m/s, a = 2 m/s² and t = 10 s: s_t = 5 + 1 × 19 = **24 m**.\n(Keep the \"1 s\" in the formula, or the units won't balance.)\n\n**Free fall**\nNear the earth's surface, ignoring air resistance, everything falls with the same constant acceleration **g ≈ 9.8 m/s², vertically downward**.\n\n| Upward taken as + | Downward taken as + |\n|---|---|\n| v = u – gt | v = u + gt |\n| y = ut – ½gt² | y = ut + ½gt² |\n| v² = u² – 2gy | v² = u² + 2gy |\n\n**🧮 Worked example:** a ball is thrown up at 4.0 m/s (g = 10 m/s²). At the top v = 0, so 0 = 16 – 2 × 10 × y, giving **y = 0.80 m**.\n\n> ⚠️ **Common mistakes:**\n> - Mixing signs. Choose one direction as positive and stick to it for u, v, a and x.\n> - Using the equations when the acceleration is **not** constant. They only work for constant a.",
+ "questions": [
+  {
+   "id": "3.6-q1",
+   "n": 1,
+   "difficulty": "recall",
+   "group": null,
+   "prompt": "Which equation of motion relates v, u, a and x without involving time?",
+   "options": [
+    {
+     "id": "A",
+     "text": "v = u + at"
+    },
+    {
+     "id": "B",
+     "text": "x = ut + ½at²"
+    },
+    {
+     "id": "C",
+     "text": "v² = u² + 2ax"
+    },
+    {
+     "id": "D",
+     "text": "x = vt"
+    }
+   ],
+   "answer": "C",
+   "explanation": "v² = u² + 2ax has no t in it."
+  },
+  {
+   "id": "3.6-q2",
+   "n": 2,
+   "difficulty": "application",
+   "group": null,
+   "prompt": "A particle starts with velocity 2.5 m/s and accelerates uniformly at 0.50 m/s². The distance it covers in the first 2 s is:",
+   "options": [
+    {
+     "id": "A",
+     "text": "5.0 m"
+    },
+    {
+     "id": "B",
+     "text": "6.0 m"
+    },
+    {
+     "id": "C",
+     "text": "7.0 m"
+    },
+    {
+     "id": "D",
+     "text": "1.0 m"
+    }
+   ],
+   "answer": "B",
+   "explanation": "x = 2.5 × 2 + ½ × 0.50 × 2² = 5.0 + 1.0 = 6.0 m."
+  },
+  {
+   "id": "3.6-q3",
+   "n": 3,
+   "difficulty": "application",
+   "group": null,
+   "prompt": "For the same particle (u = 2.5 m/s, a = 0.50 m/s²), the time taken to reach a velocity of 7.5 m/s is:",
+   "options": [
+    {
+     "id": "A",
+     "text": "15 s"
+    },
+    {
+     "id": "B",
+     "text": "5 s"
+    },
+    {
+     "id": "C",
+     "text": "20 s"
+    },
+    {
+     "id": "D",
+     "text": "10 s"
+    }
+   ],
+   "answer": "D",
+   "explanation": "t = (7.5 – 2.5)/0.50 = 10 s."
+  },
+  {
+   "id": "3.6-q4",
+   "n": 4,
+   "difficulty": "application",
+   "group": null,
+   "prompt": "A ball is thrown vertically upward at 4.0 m/s. Taking g = 10 m/s², the maximum height it reaches is:",
+   "options": [
+    {
+     "id": "A",
+     "text": "0.80 m"
+    },
+    {
+     "id": "B",
+     "text": "0.40 m"
+    },
+    {
+     "id": "C",
+     "text": "1.6 m"
+    },
+    {
+     "id": "D",
+     "text": "8.0 m"
+    }
+   ],
+   "answer": "A",
+   "explanation": "0 = 4.0² – 2 × 10 × y gives y = 16/20 = 0.80 m."
+  },
+  {
+   "id": "3.6-q5",
+   "n": 5,
+   "difficulty": "understanding",
+   "group": null,
+   "prompt": "In straight-line motion, the speed of a particle decreases when:",
+   "options": [
+    {
+     "id": "A",
+     "text": "Velocity and acceleration have the same sign"
+    },
+    {
+     "id": "B",
+     "text": "Acceleration is zero"
+    },
+    {
+     "id": "C",
+     "text": "Velocity and acceleration have opposite signs"
+    },
+    {
+     "id": "D",
+     "text": "Velocity is zero"
+    }
+   ],
+   "answer": "C",
+   "explanation": "When the acceleration opposes the velocity, the body slows down."
+  },
+  {
+   "id": "3.6-q6",
+   "n": 6,
+   "difficulty": "application",
+   "group": null,
+   "prompt": "A particle has u = 5 m/s and a constant acceleration of 2 m/s². Its displacement during the 10th second is:",
+   "options": [
+    {
+     "id": "A",
+     "text": "24 m"
+    },
+    {
+     "id": "B",
+     "text": "25 m"
+    },
+    {
+     "id": "C",
+     "text": "100 m"
+    },
+    {
+     "id": "D",
+     "text": "19 m"
+    }
+   ],
+   "answer": "A",
+   "explanation": "s = u + (a/2)(2t – 1) = 5 + 1 × 19 = 24 m."
+  },
+  {
+   "id": "3.6-q7",
+   "n": 7,
+   "difficulty": "understanding",
+   "group": null,
+   "prompt": "A particle starts at the origin, moves to x = 4 m, turns back and stops at x = 2 m. The distance it has travelled is:",
+   "options": [
+    {
+     "id": "A",
+     "text": "2 m"
+    },
+    {
+     "id": "B",
+     "text": "4 m"
+    },
+    {
+     "id": "C",
+     "text": "6 m"
+    },
+    {
+     "id": "D",
+     "text": "8 m"
+    }
+   ],
+   "answer": "C",
+   "explanation": "4 m out and 2 m back = 6 m. The position is still x = 2 m."
+  },
+  {
+   "id": "3.6-q8",
+   "n": 8,
+   "difficulty": "recall",
+   "group": null,
+   "prompt": "Neglecting air resistance, a body falling freely near the earth's surface has an acceleration of about:",
+   "options": [
+    {
+     "id": "A",
+     "text": "9.8 m/s² upward"
+    },
+    {
+     "id": "B",
+     "text": "9.8 m/s² downward"
+    },
+    {
+     "id": "C",
+     "text": "Zero"
+    },
+    {
+     "id": "D",
+     "text": "A value that keeps increasing as it falls"
+    }
+   ],
+   "answer": "B",
+   "explanation": "g ≈ 9.8 m/s², always directed vertically downward."
+  },
+  {
+   "id": "3.6-q9",
+   "n": 9,
+   "difficulty": "application",
+   "group": null,
+   "prompt": "A stone is dropped from rest. Taking g = 10 m/s², how far does it fall in 3 s?",
+   "options": [
+    {
+     "id": "A",
+     "text": "30 m"
+    },
+    {
+     "id": "B",
+     "text": "90 m"
+    },
+    {
+     "id": "C",
+     "text": "45 m"
+    },
+    {
+     "id": "D",
+     "text": "15 m"
+    }
+   ],
+   "answer": "C",
+   "explanation": "y = ½gt² = ½ × 10 × 9 = 45 m."
+  },
+  {
+   "id": "3.6-q10",
+   "n": 10,
+   "difficulty": "understanding",
+   "group": null,
+   "prompt": "A deceleration of 2 m/s² towards west is the same as:",
+   "options": [
+    {
+     "id": "A",
+     "text": "An acceleration of 2 m/s² towards east"
+    },
+    {
+     "id": "B",
+     "text": "An acceleration of 2 m/s² towards west"
+    },
+    {
+     "id": "C",
+     "text": "Zero acceleration"
+    },
+    {
+     "id": "D",
+     "text": "An acceleration of 4 m/s² towards east"
+    }
+   ],
+   "answer": "A",
+   "explanation": "Deceleration towards west means the acceleration points east."
+  }
+ ]
+}

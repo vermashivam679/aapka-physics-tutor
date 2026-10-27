@@ -1,0 +1,145 @@
+{
+ "id": "1.7",
+ "slug": "ch01-1-7",
+ "chapter": "ch01",
+ "title": "Order of Magnitude",
+ "diagram": "content/ch01/diagrams/ch01_sec1_7.png",
+ "theory": "**Big idea:** When numbers range from tiny to gigantic, we compare them using powers of 10. The power of 10 is the **order of magnitude**.\n\n**Step 1: Write in scientific notation:** a × 10ᵇ, where **1 ≤ a < 10** and b is an integer.\n- Diameter of the sun = 1.39 × 10⁹ m\n- Diameter of a hydrogen atom = 1.06 × 10⁻¹⁰ m\n\n**Step 2: Round *a* (H.C. Verma's rule)**\n- If a ≤ 5, round a to **1**, giving 10ᵇ\n- If a > 5, round a to **10**, giving 10ᵇ⁺¹\n\n**Step 3: The exponent you get is the order of magnitude.**\n\n| Number | a ≤ 5 or > 5? | Approx. | Order |\n|---|---|---|---|\n| 1.39 × 10⁹ m | ≤ 5 | 10⁹ | 9 |\n| 1.06 × 10⁻¹⁰ m | ≤ 5 | 10⁻¹⁰ | –10 |\n| 9.1 × 10⁻³¹ kg | > 5 | 10⁻³⁰ | –30 |\n| 6.4 × 10⁶ m | > 5 | 10⁷ | 7 |\n\n**Comparing sizes:** the sun is 9 – (–10) = **19 orders of magnitude** larger than a hydrogen atom (about 10¹⁹ times).\n\n**Order-of-magnitude estimation (\"rough calculation\")**\nRound every number to a power of 10 and calculate quickly. This is great for sanity checks.\n\n**🧮 Example: How many people can sit in a circular field of radius 800 m?**\n- Field area = πr² = 3.14 × (800)² ≈ 2 × 10⁶, roughly **10⁶ m²**\n- Space per seated person ≈ 50 cm × 50 cm = 0.25 m², roughly **10⁻¹ m²**\n- N ≈ 10⁶ / 10⁻¹ = **10⁷ people**\n\n> 💡 Estimation questions don't have one exact answer. The aim is to get the right *power of 10*.\n\n> ⚠️ **Common mistakes:**\n> - Forgetting to round up when a > 5 (9.1 × 10⁻³¹ is order –30, not –31).\n> - Subtracting negative exponents wrongly: 9 – (–10) = 19, not –1.\n> - Other books sometimes round at √10 ≈ 3.16 instead of 5. For HC Verma-based work, use the 5 rule.",
+ "questions": [
+  {
+   "id": "1.7-q1",
+   "n": 1,
+   "difficulty": "recall",
+   "group": null,
+   "prompt": "In the powers-of-ten method, a number is written as a × 10ᵇ where:",
+   "options": [
+    {
+     "id": "A",
+     "text": "0 < a < 1"
+    },
+    {
+     "id": "B",
+     "text": "1 ≤ a < 10"
+    },
+    {
+     "id": "C",
+     "text": "10 ≤ a < 100"
+    },
+    {
+     "id": "D",
+     "text": "a can be any number"
+    }
+   ],
+   "answer": "B",
+   "explanation": "This is standard scientific notation."
+  },
+  {
+   "id": "1.7-q2",
+   "n": 2,
+   "difficulty": "understanding",
+   "group": null,
+   "prompt": "The diameter of the sun is 1.39 × 10⁹ m. Its order of magnitude is:",
+   "options": [
+    {
+     "id": "A",
+     "text": "8"
+    },
+    {
+     "id": "B",
+     "text": "9"
+    },
+    {
+     "id": "C",
+     "text": "10"
+    },
+    {
+     "id": "D",
+     "text": "1.39"
+    }
+   ],
+   "answer": "B",
+   "explanation": "1.39 ≤ 5 rounds to 1, giving 10⁹, so the order is 9."
+  },
+  {
+   "id": "1.7-q3",
+   "n": 3,
+   "difficulty": "application",
+   "group": null,
+   "prompt": "Using the rule \"round *a* to 1 if a ≤ 5, and to 10 if a > 5\", the order of magnitude of the mass of an electron, 9.1 × 10⁻³¹ kg, is:",
+   "options": [
+    {
+     "id": "A",
+     "text": "–31"
+    },
+    {
+     "id": "B",
+     "text": "–32"
+    },
+    {
+     "id": "C",
+     "text": "–30"
+    },
+    {
+     "id": "D",
+     "text": "9"
+    }
+   ],
+   "answer": "C",
+   "explanation": "9.1 > 5 rounds to 10, so 10 × 10⁻³¹ = 10⁻³⁰, and the order is –30."
+  },
+  {
+   "id": "1.7-q4",
+   "n": 4,
+   "difficulty": "application",
+   "group": null,
+   "prompt": "The sun's diameter is of order 10⁹ m and a hydrogen atom's is of order 10⁻¹⁰ m. The sun is larger by how many orders of magnitude?",
+   "options": [
+    {
+     "id": "A",
+     "text": "1"
+    },
+    {
+     "id": "B",
+     "text": "19"
+    },
+    {
+     "id": "C",
+     "text": "–1"
+    },
+    {
+     "id": "D",
+     "text": "90"
+    }
+   ],
+   "answer": "B",
+   "explanation": "9 – (–10) = 19."
+  },
+  {
+   "id": "1.7-q5",
+   "n": 5,
+   "difficulty": "application",
+   "group": null,
+   "prompt": "A circular field has radius 800 m (area ≈ 10⁶ m²). If each seated person needs about 10⁻¹ m², the number of people who can sit is of the order of:",
+   "options": [
+    {
+     "id": "A",
+     "text": "10⁵"
+    },
+    {
+     "id": "B",
+     "text": "10⁶"
+    },
+    {
+     "id": "C",
+     "text": "10⁷"
+    },
+    {
+     "id": "D",
+     "text": "10⁸"
+    }
+   ],
+   "answer": "C",
+   "explanation": "10⁶ / 10⁻¹ = 10⁷."
+  }
+ ]
+}

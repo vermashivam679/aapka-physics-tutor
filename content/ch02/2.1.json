@@ -1,0 +1,145 @@
+{
+ "id": "2.1",
+ "slug": "ch02-2-1",
+ "chapter": "ch02",
+ "title": "Vectors and Scalars",
+ "diagram": "content/ch02/diagrams/ch02_sec2_1.png",
+ "theory": "**Big idea:** Some quantities need only a number (with a unit). Others also need a direction, and they add by a special rule.\n\n**Scalars:** described completely by a number and a unit, and added by ordinary arithmetic.\n- Mass: 5 kg + 2 kg = 7 kg\n- Other examples: time, temperature, energy, speed\n\n**Vectors:** need a number (magnitude) *and* a direction in space.\n- Velocity: \"5 m/s\" tells you how fast, but only \"5 m/s towards north\" tells you the whole story.\n- Other examples: displacement, force, linear momentum, electric field, magnetic field\n\n**Drawing a vector:** draw an arrow parallel to the direction. Choose a scale first (say 1 cm for 1 m/s), so a 5 m/s velocity is an arrow 5 cm long. The arrow end is the **head**, and the other end is the **tail**.\n\n**Why the addition rule matters (the ball-in-a-tube example)**\nA ball moves at 3 m/s along a long tube, and the tube itself moves at 4 m/s perpendicular to its length. In 1 s the ball moves 3 m along the tube while the tube carries it 4 m sideways. Seen from the room, the ball has moved √(3² + 4²) = **5 m**, so its velocity is **5 m/s**, at about 53° to the tube. That's not 3 + 4 = 7!\n\n**Triangle rule of addition:** draw the first vector AB. Draw the second vector BC with its tail at B (the head of the first). Then AC, from the first tail to the last head, is the **resultant** or **sum**.\n\n**The real definition of a vector:** a quantity that has magnitude and direction **and** adds by the triangle rule.\n\n> ⚠️ **Common misconception:** \"Anything with a direction is a vector.\" Electric current in a wire has a magnitude and a direction, but currents don't add by the triangle rule, so current is a **scalar**.\n\n> 💡 It is more accurate to say \"force is a vector *because* forces add by the triangle rule\" than the other way round. The adding rule is what decides it.",
+ "questions": [
+  {
+   "id": "2.1-q1",
+   "n": 1,
+   "difficulty": "recall",
+   "group": null,
+   "prompt": "Which of the following is a scalar quantity?",
+   "options": [
+    {
+     "id": "A",
+     "text": "Velocity"
+    },
+    {
+     "id": "B",
+     "text": "Force"
+    },
+    {
+     "id": "C",
+     "text": "Mass"
+    },
+    {
+     "id": "D",
+     "text": "Linear momentum"
+    }
+   ],
+   "answer": "C",
+   "explanation": "Mass needs only a number and a unit (5 kg), and masses add by ordinary arithmetic."
+  },
+  {
+   "id": "2.1-q2",
+   "n": 2,
+   "difficulty": "understanding",
+   "group": null,
+   "prompt": "Electric current has both magnitude and direction, yet it is not a vector because:",
+   "options": [
+    {
+     "id": "A",
+     "text": "It has no SI unit"
+    },
+    {
+     "id": "B",
+     "text": "It cannot be measured accurately"
+    },
+    {
+     "id": "C",
+     "text": "It is always positive"
+    },
+    {
+     "id": "D",
+     "text": "It does not add according to the triangle rule"
+    }
+   ],
+   "answer": "D",
+   "explanation": "A vector must have magnitude and direction and also add by the triangle rule. Current does not."
+  },
+  {
+   "id": "2.1-q3",
+   "n": 3,
+   "difficulty": "application",
+   "group": null,
+   "prompt": "A ball moves at 3 m/s along a tube while the tube moves at 4 m/s perpendicular to its length. The speed of the ball as seen from the room is:",
+   "options": [
+    {
+     "id": "A",
+     "text": "7 m/s"
+    },
+    {
+     "id": "B",
+     "text": "1 m/s"
+    },
+    {
+     "id": "C",
+     "text": "5 m/s"
+    },
+    {
+     "id": "D",
+     "text": "12 m/s"
+    }
+   ],
+   "answer": "C",
+   "explanation": "The two velocities are perpendicular, so the resultant is √(3² + 4²) = 5 m/s."
+  },
+  {
+   "id": "2.1-q4",
+   "n": 4,
+   "difficulty": "understanding",
+   "group": null,
+   "prompt": "Which statement is more appropriate?",
+   "options": [
+    {
+     "id": "A",
+     "text": "Two forces are added by the triangle rule because force is a vector"
+    },
+    {
+     "id": "B",
+     "text": "Force is a vector because two forces are added by the triangle rule"
+    },
+    {
+     "id": "C",
+     "text": "Both statements mean exactly the same thing"
+    },
+    {
+     "id": "D",
+     "text": "Neither statement is correct"
+    }
+   ],
+   "answer": "B",
+   "explanation": "Obeying the triangle rule is what makes a quantity a vector."
+  },
+  {
+   "id": "2.1-q5",
+   "n": 5,
+   "difficulty": "recall",
+   "group": null,
+   "prompt": "When a vector is drawn as an arrow to a chosen scale, the length of the arrow represents its:",
+   "options": [
+    {
+     "id": "A",
+     "text": "Direction"
+    },
+    {
+     "id": "B",
+     "text": "Point of application"
+    },
+    {
+     "id": "C",
+     "text": "Unit"
+    },
+    {
+     "id": "D",
+     "text": "Magnitude"
+    }
+   ],
+   "answer": "D",
+   "explanation": "The direction is shown by the arrow's orientation. Its length, to scale, gives the magnitude."
+  }
+ ]
+}

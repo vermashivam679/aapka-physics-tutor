@@ -1,0 +1,172 @@
+{
+ "id": "2.6",
+ "slug": "ch02-2-6",
+ "chapter": "ch02",
+ "title": "Resolution of Vectors",
+ "diagram": "content/ch02/diagrams/ch02_sec2_6.png",
+ "theory": "**Big idea:** Any vector can be split into parts along the coordinate axes. These parts are its **components**, and they make vector work much easier.\n\n**In two dimensions:** a vector **a** = OA makes angle α with the X-axis and β with the Y-axis. Drop perpendiculars from A to the axes.\n- Projection on X-axis: **a cos α**\n- Projection on Y-axis: **a cos β**\n\nSo **a = a cos α i + a cos β j**. If θ is the angle with the X-axis (so β = 90° – θ), this is the familiar **a = a cos θ i + a sin θ j**.\n\n**In three dimensions:** with angles α, β, γ to the X, Y, Z axes,\n**a = a cos α i + a cos β j + a cos γ k**\n\n**Component along any direction:** the component of **a** along a direction making angle θ with it is **a cos θ**, which is its projection on that line.\n- θ = 0°: the component equals the full magnitude.\n- θ = 90°: the component is zero, even though the vector is not zero.\n- So a component can never be bigger than the magnitude.\n\n**🧮 Worked example:** A force of 20 N acts at 30° above the horizontal.\n- Horizontal component = 20 cos 30° = 10√3 ≈ 17.3 N\n- Vertical component = 20 sin 30° = 10 N\n\n**From components back to the vector:** if **a** = a_x**i** + a_y**j**, then\n- magnitude a = √(a_x² + a_y²)\n- angle with X-axis: tan θ = a_y / a_x\n\n**Adding vectors with components:** just add the matching components.\n(a_x + b_x + c_x)**i** + (a_y + b_y + c_y)**j** + (a_z + b_z + c_z)**k**\n\n**🧮 Worked example:** (2**i** + 3**j**) + (4**i** – 7**j**) = 6**i** – 4**j**, with magnitude √(36 + 16) = √52 = 2√13.\n\n> 💡 Components are the easiest way to add three or more vectors. You avoid drawing big triangles.\n\n> ⚠️ **Common mistake:** Using sin where cos belongs. The component is always **(magnitude) × cos(angle between the vector and that direction)**. Use sin only when the angle you know is measured from the *other* axis.",
+ "questions": [
+  {
+   "id": "2.6-q1",
+   "n": 1,
+   "difficulty": "recall",
+   "group": null,
+   "prompt": "The component of a vector **a** along a direction making an angle θ with it is:",
+   "options": [
+    {
+     "id": "A",
+     "text": "a sin θ"
+    },
+    {
+     "id": "B",
+     "text": "a / cos θ"
+    },
+    {
+     "id": "C",
+     "text": "a tan θ"
+    },
+    {
+     "id": "D",
+     "text": "a cos θ"
+    }
+   ],
+   "answer": "D",
+   "explanation": "The component is the projection, a cos θ."
+  },
+  {
+   "id": "2.6-q2",
+   "n": 2,
+   "difficulty": "application",
+   "group": null,
+   "prompt": "A force of 20 N acts at 30° above the horizontal. Its horizontal component is:",
+   "options": [
+    {
+     "id": "A",
+     "text": "10 N"
+    },
+    {
+     "id": "B",
+     "text": "40 N"
+    },
+    {
+     "id": "C",
+     "text": "20√3 N"
+    },
+    {
+     "id": "D",
+     "text": "10√3 N"
+    }
+   ],
+   "answer": "D",
+   "explanation": "20 cos 30° = 20 × (√3/2) = 10√3 ≈ 17.3 N."
+  },
+  {
+   "id": "2.6-q3",
+   "n": 3,
+   "difficulty": "understanding",
+   "group": null,
+   "prompt": "The magnitude of the vector 3**i** + 4**j** is:",
+   "options": [
+    {
+     "id": "A",
+     "text": "7"
+    },
+    {
+     "id": "B",
+     "text": "5"
+    },
+    {
+     "id": "C",
+     "text": "1"
+    },
+    {
+     "id": "D",
+     "text": "25"
+    }
+   ],
+   "answer": "B",
+   "explanation": "√(3² + 4²) = 5."
+  },
+  {
+   "id": "2.6-q4",
+   "n": 4,
+   "difficulty": "application",
+   "group": null,
+   "prompt": "The magnitude of the sum of (2**i** + 3**j**) and (4**i** – 7**j**) is:",
+   "options": [
+    {
+     "id": "A",
+     "text": "2√13"
+    },
+    {
+     "id": "B",
+     "text": "10"
+    },
+    {
+     "id": "C",
+     "text": "√20"
+    },
+    {
+     "id": "D",
+     "text": "6"
+    }
+   ],
+   "answer": "A",
+   "explanation": "The sum is 6**i** – 4**j**, with magnitude √(36 + 16) = √52 = 2√13."
+  },
+  {
+   "id": "2.6-q5",
+   "n": 5,
+   "difficulty": "understanding",
+   "group": null,
+   "prompt": "Can a vector have zero component along a line and still have non-zero magnitude?",
+   "options": [
+    {
+     "id": "A",
+     "text": "No, never"
+    },
+    {
+     "id": "B",
+     "text": "Only in three dimensions"
+    },
+    {
+     "id": "C",
+     "text": "Only if it is a unit vector"
+    },
+    {
+     "id": "D",
+     "text": "Yes, if the vector is perpendicular to that line"
+    }
+   ],
+   "answer": "D",
+   "explanation": "At 90°, cos 90° = 0, so the component is zero while the vector is not."
+  },
+  {
+   "id": "2.6-q6",
+   "n": 6,
+   "difficulty": "understanding",
+   "group": null,
+   "prompt": "The component of a vector along any direction is:",
+   "options": [
+    {
+     "id": "A",
+     "text": "Always less than its magnitude"
+    },
+    {
+     "id": "B",
+     "text": "Always greater than its magnitude"
+    },
+    {
+     "id": "C",
+     "text": "Always equal to its magnitude"
+    },
+    {
+     "id": "D",
+     "text": "Never greater than its magnitude, but it can be less than or equal to it"
+    }
+   ],
+   "answer": "D",
+   "explanation": "cos θ is never more than 1. The component equals the magnitude when θ = 0°."
+  }
+ ]
+}

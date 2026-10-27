@@ -1,0 +1,199 @@
+{
+ "id": "1.4",
+ "slug": "ch01-1-4",
+ "chapter": "ch01",
+ "title": "Definitions of Base Units",
+ "diagram": "content/ch01/diagrams/ch01_sec1_4.png",
+ "theory": "**Big idea:** A good standard unit must never change and must be available to everyone. Since 2019, SI achieves this by defining every base unit through fixed values of universal constants.\n\n**Two essential properties of a standard unit**\n1. **Invariability:** it must not change with time, place or person.\n   ❌ \"Elbow to middle fingertip\" as a unit of length fails, because everyone's arm is different.\n2. **Availability:** anyone, anywhere, should be able to reproduce it to compare against.\n\n**The 2019 redefinition (effective 20 May 2019)**\nThe CGPM decided (2018) that each SI base unit would be defined by **fixing the exact numerical value of a universal constant**. Constants of nature are the same everywhere and forever, so both properties are satisfied automatically.\n\n| Base unit | Defined by fixing… | Exact fixed value |\n|---|---|---|\n| second (s) | Caesium hyperfine frequency Δν_Cs | 9 192 631 770 Hz |\n| metre (m) | Speed of light in vacuum c | 299 792 458 m s⁻¹ |\n| kilogram (kg) | Planck constant h | 6.62607015 × 10⁻³⁴ J s |\n| ampere (A) | Elementary charge e | 1.602176634 × 10⁻¹⁹ C |\n| kelvin (K) | Boltzmann constant k | 1.380649 × 10⁻²³ J K⁻¹ |\n| mole (mol) | Avogadro constant N_A | 6.02214076 × 10²³ mol⁻¹ |\n| candela (cd) | Luminous efficacy K_cd of 540 × 10¹² Hz light | 683 lm W⁻¹ |\n\n**The chain of dependence:** the second comes first (from caesium). The metre uses the second and c. The kilogram uses the metre, the second and h. Other units build on these.\n\n🧠 **Memory pairs:** **S**econd–**C**aesium · **M**etre–**L**ight · **K**ilogram–**P**lanck · **A**mpere–**C**harge · **K**elvin–**B**oltzmann · **M**ole–**A**vogadro\n\n> 💡 You don't need to understand the physics inside each definition yet. Just know *which constant* defines *which unit*.\n\n> ⚠️ **Common mistake:** Saying c = 3 × 10⁸ m/s is the *defined* value. It's only an approximation. The exact defined value is 299 792 458 m/s.",
+ "questions": [
+  {
+   "id": "1.4-q1",
+   "n": 1,
+   "difficulty": "recall",
+   "group": null,
+   "prompt": "Any standard unit should have which two properties?",
+   "options": [
+    {
+     "id": "A",
+     "text": "Invariability and availability"
+    },
+    {
+     "id": "B",
+     "text": "Simplicity and cheapness"
+    },
+    {
+     "id": "C",
+     "text": "Large size and small size"
+    },
+    {
+     "id": "D",
+     "text": "Accuracy and colour"
+    }
+   ],
+   "answer": "A",
+   "explanation": "A standard must not change, and must be easy to compare against."
+  },
+  {
+   "id": "1.4-q2",
+   "n": 2,
+   "difficulty": "understanding",
+   "group": null,
+   "prompt": "Defining the distance from the elbow to the tip of the middle finger as the unit of length is a poor choice mainly because it lacks:",
+   "options": [
+    {
+     "id": "A",
+     "text": "Availability"
+    },
+    {
+     "id": "B",
+     "text": "Invariability"
+    },
+    {
+     "id": "C",
+     "text": "A name"
+    },
+    {
+     "id": "D",
+     "text": "A symbol"
+    }
+   ],
+   "answer": "B",
+   "explanation": "Arm lengths differ from person to person, so the unit is not invariable."
+  },
+  {
+   "id": "1.4-q3",
+   "n": 3,
+   "difficulty": "recall",
+   "group": null,
+   "prompt": "Since 20 May 2019, all SI base units are defined in terms of:",
+   "options": [
+    {
+     "id": "A",
+     "text": "Physical objects kept in Paris"
+    },
+    {
+     "id": "B",
+     "text": "Fixed numerical values of certain universal constants"
+    },
+    {
+     "id": "C",
+     "text": "The size and rotation of the earth"
+    },
+    {
+     "id": "D",
+     "text": "The human body"
+    }
+   ],
+   "answer": "B",
+   "explanation": "Fixing constants satisfies both invariability and availability automatically."
+  },
+  {
+   "id": "1.4-q4",
+   "n": 4,
+   "difficulty": "understanding",
+   "group": null,
+   "prompt": "The kilogram is now defined by fixing the numerical value of:",
+   "options": [
+    {
+     "id": "A",
+     "text": "The speed of light"
+    },
+    {
+     "id": "B",
+     "text": "The Boltzmann constant"
+    },
+    {
+     "id": "C",
+     "text": "The Planck constant h"
+    },
+    {
+     "id": "D",
+     "text": "The elementary charge e"
+    }
+   ],
+   "answer": "C",
+   "explanation": "h = 6.62607015 × 10⁻³⁴ J s."
+  },
+  {
+   "id": "1.4-q5",
+   "n": 5,
+   "difficulty": "recall",
+   "group": null,
+   "prompt": "The second is defined using the hyperfine transition frequency of which atom?",
+   "options": [
+    {
+     "id": "A",
+     "text": "Hydrogen"
+    },
+    {
+     "id": "B",
+     "text": "Caesium"
+    },
+    {
+     "id": "C",
+     "text": "Carbon"
+    },
+    {
+     "id": "D",
+     "text": "Krypton"
+    }
+   ],
+   "answer": "B",
+   "explanation": "Δν_Cs = 9 192 631 770 Hz."
+  },
+  {
+   "id": "1.4-q6",
+   "n": 6,
+   "difficulty": "application",
+   "group": null,
+   "prompt": "Which pairing of SI base unit and the constant used to define it is **incorrect**?",
+   "options": [
+    {
+     "id": "A",
+     "text": "Kelvin – Boltzmann constant"
+    },
+    {
+     "id": "B",
+     "text": "Ampere – Elementary charge"
+    },
+    {
+     "id": "C",
+     "text": "Mole – Avogadro constant"
+    },
+    {
+     "id": "D",
+     "text": "Metre – Planck constant"
+    }
+   ],
+   "answer": "D",
+   "explanation": "The metre is defined through the speed of light c, not Planck's constant."
+  },
+  {
+   "id": "1.4-q7",
+   "n": 7,
+   "difficulty": "understanding",
+   "group": null,
+   "prompt": "The metre is defined so that the speed of light in vacuum is exactly:",
+   "options": [
+    {
+     "id": "A",
+     "text": "3 × 10⁸ m s⁻¹"
+    },
+    {
+     "id": "B",
+     "text": "299 792 458 m s⁻¹"
+    },
+    {
+     "id": "C",
+     "text": "9 192 631 770 m s⁻¹"
+    },
+    {
+     "id": "D",
+     "text": "6.02214076 × 10²³ m s⁻¹"
+    }
+   ],
+   "answer": "B",
+   "explanation": "3 × 10⁸ is only an approximation. 9 192 631 770 is the caesium frequency, and 6.022… × 10²³ is Avogadro's number."
+  }
+ ]
+}

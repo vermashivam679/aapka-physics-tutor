@@ -1,0 +1,172 @@
+{
+ "id": "2.10",
+ "slug": "ch02-2-10",
+ "chapter": "ch02",
+ "title": "Maxima and Minima",
+ "diagram": "content/ch02/diagrams/ch02_sec2_10.png",
+ "theory": "**Big idea:** At a maximum or a minimum, the graph is momentarily flat, so **dy/dx = 0**. The second derivative tells you which one it is.\n\n**Why dy/dx = 0:** at the top of a hill or the bottom of a valley, the tangent is parallel to the X-axis. Its slope is tan 0° = 0.\n\n**Telling a maximum from a minimum**\n- **Maximum:** the slope goes from positive, to zero, to negative. The slope is *decreasing*, so d²y/dx² < 0.\n- **Minimum:** the slope goes from negative, to zero, to positive. The slope is *increasing*, so d²y/dx² > 0.\n\n| Condition | Result |\n|---|---|\n| dy/dx = 0 and d²y/dx² < 0 | **Maximum** |\n| dy/dx = 0 and d²y/dx² > 0 | **Minimum** |\n\nHere d²y/dx² means d/dx (dy/dx), the rate of change of the slope.\n\n**🧮 Worked example: highest point of a thrown ball**\nA ball thrown up with speed u reaches height h = ut – ½gt² after time t.\n- dh/dt = u – gt. Setting it to 0 gives **t = u/g**.\n- d²h/dt² = –g, which is negative, so this is a maximum ✔.\n- Maximum height = u(u/g) – ½g(u/g)² = **u²/2g**.\n\nWith u = 20 m/s and g = 10 m/s², the ball rises for t = 2 s, up to a height of 20 m.\n\n**🧮 Worked example:** y = x² – 6x + 5.\ndy/dx = 2x – 6 = 0, which gives x = 3. d²y/dx² = 2 > 0, so this is a **minimum**, with y = 9 – 18 + 5 = –4.\n\n> 💡 Often the physical situation already tells you whether it is a maximum or a minimum (a ball's height has a top, not a bottom). Then you can skip the second-derivative test.\n\n> ⚠️ **Common mistake:** Stopping at dy/dx = 0 and assuming it's a maximum. Always check with d²y/dx² or with the physical situation.",
+ "questions": [
+  {
+   "id": "2.10-q1",
+   "n": 1,
+   "difficulty": "recall",
+   "group": null,
+   "prompt": "At a maximum or a minimum of y(x), the value of dy/dx is:",
+   "options": [
+    {
+     "id": "A",
+     "text": "1"
+    },
+    {
+     "id": "B",
+     "text": "Infinite"
+    },
+    {
+     "id": "C",
+     "text": "0"
+    },
+    {
+     "id": "D",
+     "text": "–1"
+    }
+   ],
+   "answer": "C",
+   "explanation": "The tangent is horizontal at a maximum or minimum, so its slope is zero."
+  },
+  {
+   "id": "2.10-q2",
+   "n": 2,
+   "difficulty": "understanding",
+   "group": null,
+   "prompt": "The conditions for y to be a maximum are:",
+   "options": [
+    {
+     "id": "A",
+     "text": "dy/dx = 0 and d²y/dx² < 0"
+    },
+    {
+     "id": "B",
+     "text": "dy/dx = 0 and d²y/dx² > 0"
+    },
+    {
+     "id": "C",
+     "text": "dy/dx > 0"
+    },
+    {
+     "id": "D",
+     "text": "d²y/dx² = 0"
+    }
+   ],
+   "answer": "A",
+   "explanation": "At a maximum the slope is decreasing, so the second derivative is negative."
+  },
+  {
+   "id": "2.10-q3",
+   "n": 3,
+   "difficulty": "application",
+   "group": null,
+   "prompt": "The height of a ball is h = 20t – 5t² (in metres, t in seconds). The maximum height reached is:",
+   "options": [
+    {
+     "id": "A",
+     "text": "10 m"
+    },
+    {
+     "id": "B",
+     "text": "20 m"
+    },
+    {
+     "id": "C",
+     "text": "40 m"
+    },
+    {
+     "id": "D",
+     "text": "80 m"
+    }
+   ],
+   "answer": "B",
+   "explanation": "dh/dt = 20 – 10t = 0 gives t = 2 s, and h = 40 – 20 = 20 m."
+  },
+  {
+   "id": "2.10-q4",
+   "n": 4,
+   "difficulty": "application",
+   "group": null,
+   "prompt": "For y = x² – 6x + 5, the value of x at which y is minimum is:",
+   "options": [
+    {
+     "id": "A",
+     "text": "6"
+    },
+    {
+     "id": "B",
+     "text": "–3"
+    },
+    {
+     "id": "C",
+     "text": "3"
+    },
+    {
+     "id": "D",
+     "text": "5"
+    }
+   ],
+   "answer": "C",
+   "explanation": "dy/dx = 2x – 6 = 0 gives x = 3, and d²y/dx² = 2 > 0 confirms a minimum."
+  },
+  {
+   "id": "2.10-q5",
+   "n": 5,
+   "difficulty": "understanding",
+   "group": null,
+   "prompt": "Just before a maximum the slope dy/dx is ______, and just after it the slope is ______.",
+   "options": [
+    {
+     "id": "A",
+     "text": "positive, negative"
+    },
+    {
+     "id": "B",
+     "text": "negative, positive"
+    },
+    {
+     "id": "C",
+     "text": "zero, zero"
+    },
+    {
+     "id": "D",
+     "text": "positive, positive"
+    }
+   ],
+   "answer": "A",
+   "explanation": "Rising before the top, falling after it."
+  },
+  {
+   "id": "2.10-q6",
+   "n": 6,
+   "difficulty": "application",
+   "group": null,
+   "prompt": "Two positive numbers add up to 10. The maximum possible value of their product is:",
+   "options": [
+    {
+     "id": "A",
+     "text": "21"
+    },
+    {
+     "id": "B",
+     "text": "24"
+    },
+    {
+     "id": "C",
+     "text": "25"
+    },
+    {
+     "id": "D",
+     "text": "16"
+    }
+   ],
+   "answer": "C",
+   "explanation": "P = x(10 – x). dP/dx = 10 – 2x = 0 gives x = 5, so P = 5 × 5 = 25."
+  }
+ ]
+}

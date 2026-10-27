@@ -1,0 +1,145 @@
+{
+ "id": "1.8",
+ "slug": "ch01-1-8",
+ "chapter": "ch01",
+ "title": "The Structure of World",
+ "diagram": "content/ch01/diagrams/ch01_sec1_8.png",
+ "theory": "**Big idea:** Our understanding of what matter is made of has evolved from \"indivisible particles\" to a world of many interconnected elementary particles.\n\n**Ancient idea: tiny indivisible particles**\nLong ago, thinkers proposed that everything is made of small indivisible particles. They are huge in number but few in variety. The Indian philosopher **Kanadi** (Kanada) takes his name from this idea: *Kana* means \"small particle\" in Sanskrit/Hindi.\n\n**The classical picture: three building blocks**\nExperiments led to the view that all ordinary matter is built from just **three particles**:\n- **Protons** and **neutrons**, which form the nucleus\n- **Electrons**, which move around the nucleus in special arrangements\n\nThe hierarchy is:\n**Object → Molecules → Atoms → Nucleus (protons + neutrons) + Electrons**\n\nThe numbers of protons, neutrons and electrons decide the properties and behaviour of every material.\n\n**Classical physics and its limits**\n- Laws we discover from everyday-size (**macroscopic**) objects make up **classical physics**.\n- These laws do **not always work** for atoms, molecules, nuclei or elementary particles.\n- A \"particle\" in classical physics just means something small compared to the other objects in the problem. A dust particle may still contain about **10¹⁸ atoms**!\n\n**Modern (20th-century) picture**\n- Perhaps there are **no ultimate indivisible particles**.\n- **Hundreds** of elementary particles have been discovered.\n- Particles can **transform** into one another.\n- Nature is a **well-connected whole**, not a set of separate pieces.\n\n> 💡 This is a preview. Students will meet quantum physics and nuclear physics later, where classical laws are replaced.\n\n> ⚠️ **Common misconception:** \"A particle in physics means something atom-sized.\" In classical mechanics, even a car can be treated as a particle when we track its motion over long distances.",
+ "questions": [
+  {
+   "id": "1.8-q1",
+   "n": 1,
+   "difficulty": "recall",
+   "group": null,
+   "prompt": "According to the chapter, ordinary matter is made up of which three types of particles?",
+   "options": [
+    {
+     "id": "A",
+     "text": "Proton, neutron, electron"
+    },
+    {
+     "id": "B",
+     "text": "Atom, molecule, ion"
+    },
+    {
+     "id": "C",
+     "text": "Proton, photon, positron"
+    },
+    {
+     "id": "D",
+     "text": "Quark, electron, neutrino"
+    }
+   ],
+   "answer": "A",
+   "explanation": "Atoms have a nucleus of protons and neutrons, with electrons around it."
+  },
+  {
+   "id": "1.8-q2",
+   "n": 2,
+   "difficulty": "recall",
+   "group": null,
+   "prompt": "The ancient Indian philosopher Kanadi derives his name from \"Kana\", which means:",
+   "options": [
+    {
+     "id": "A",
+     "text": "Energy"
+    },
+    {
+     "id": "B",
+     "text": "A small particle"
+    },
+    {
+     "id": "C",
+     "text": "Light"
+    },
+    {
+     "id": "D",
+     "text": "The universe"
+    }
+   ],
+   "answer": "B",
+   "explanation": "Kana means small particle in Sanskrit/Hindi."
+  },
+  {
+   "id": "1.8-q3",
+   "n": 3,
+   "difficulty": "understanding",
+   "group": null,
+   "prompt": "The laws of classical physics are generally valid for:",
+   "options": [
+    {
+     "id": "A",
+     "text": "Atoms and nuclei only"
+    },
+    {
+     "id": "B",
+     "text": "Elementary particles only"
+    },
+    {
+     "id": "C",
+     "text": "Moderate and large-size (macroscopic) objects"
+    },
+    {
+     "id": "D",
+     "text": "All objects without exception"
+    }
+   ],
+   "answer": "C",
+   "explanation": "Laws for macroscopic objects don't always apply to atoms, nuclei or elementary particles."
+  },
+  {
+   "id": "1.8-q4",
+   "n": 4,
+   "difficulty": "understanding",
+   "group": null,
+   "prompt": "A \"particle\" of dust treated in classical physics may contain about:",
+   "options": [
+    {
+     "id": "A",
+     "text": "1 atom"
+    },
+    {
+     "id": "B",
+     "text": "10³ atoms"
+    },
+    {
+     "id": "C",
+     "text": "10¹⁸ atoms"
+    },
+    {
+     "id": "D",
+     "text": "10⁵⁰ atoms"
+    }
+   ],
+   "answer": "C",
+   "explanation": "A classical \"particle\" can still hold millions of millions of atoms (~10¹⁸)."
+  },
+  {
+   "id": "1.8-q5",
+   "n": 5,
+   "difficulty": "understanding",
+   "group": null,
+   "prompt": "What did twentieth-century experiments reveal about the structure of the world?",
+   "options": [
+    {
+     "id": "A",
+     "text": "Protons, neutrons and electrons are the only particles that exist"
+    },
+    {
+     "id": "B",
+     "text": "Hundreds of elementary particles exist and can transform into one another"
+    },
+    {
+     "id": "C",
+     "text": "Atoms are truly indivisible"
+    },
+    {
+     "id": "D",
+     "text": "Nature consists of unconnected, unrelated parts"
+    }
+   ],
+   "answer": "B",
+   "explanation": "There are perhaps no ultimate indivisible particles. Nature is a well-connected entity."
+  }
+ ]
+}

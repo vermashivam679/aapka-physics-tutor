@@ -1,0 +1,172 @@
+{
+ "id": "2.7",
+ "slug": "ch02-2-7",
+ "chapter": "ch02",
+ "title": "Dot Product or Scalar Product",
+ "diagram": "content/ch02/diagrams/ch02_sec2_7.png",
+ "theory": "**Big idea:** The dot product combines two vectors into a **scalar**. It measures how much one vector points along the other.\n\n**Definition:** **a · b = ab cos θ**\nwhere a and b are the magnitudes and θ is the angle between the vectors.\n\n**Reading it:** a cos θ is the component of **a** along **b**. So **a · b** = (component of **a** along **b**) × b.\n\n**Key results**\n| Angle θ | cos θ | a · b |\n|---|---|---|\n| 0° | 1 | ab (maximum) |\n| 90° | 0 | **0** (perpendicular vectors) |\n| 180° | –1 | –ab (minimum) |\n\n**Properties**\n- Commutative: **a · b** = **b · a**\n- Distributive: **a** · (**b** + **c**) = **a · b** + **a · c**\n\n**Unit vectors**\n- **i · i** = **j · j** = **k · k** = 1\n- **i · j** = **j · k** = **k · i** = 0\n\n**In components:** if **a** = a_x**i** + a_y**j** + a_z**k** and **b** = b_x**i** + b_y**j** + b_z**k**,\n**a · b = a_xb_x + a_yb_y + a_zb_z**\n\n**Finding an angle:** cos θ = (**a · b**) / (ab). If the dot product is zero, the vectors are perpendicular.\n\n**Physics use: work done.** W = **F · d** = Fd cos θ.\n\n**🧮 Worked example:** A force of 12 N acts vertically upward, while the particle moves 2.0 m vertically downward. The angle is 180°, so W = 12 × 2.0 × cos 180° = **–24 J**.\n\n**🧮 Worked example:** (2**i** + 3**j**) · (4**i** – **j**) = 2 × 4 + 3 × (–1) = 8 – 3 = **5**.\n\n> ⚠️ **Common mistake:** Writing the answer of a dot product with **i**, **j** or **k** in it. The dot product is a plain number.",
+ "questions": [
+  {
+   "id": "2.7-q1",
+   "n": 1,
+   "difficulty": "recall",
+   "group": null,
+   "prompt": "The dot product of two mutually perpendicular vectors is:",
+   "options": [
+    {
+     "id": "A",
+     "text": "ab"
+    },
+    {
+     "id": "B",
+     "text": "1"
+    },
+    {
+     "id": "C",
+     "text": "0"
+    },
+    {
+     "id": "D",
+     "text": "–ab"
+    }
+   ],
+   "answer": "C",
+   "explanation": "cos 90° = 0, so ab cos θ = 0."
+  },
+  {
+   "id": "2.7-q2",
+   "n": 2,
+   "difficulty": "application",
+   "group": null,
+   "prompt": "If **a** = 2**i** + 3**j** and **b** = 4**i** – **j**, then **a · b** is:",
+   "options": [
+    {
+     "id": "A",
+     "text": "5"
+    },
+    {
+     "id": "B",
+     "text": "11"
+    },
+    {
+     "id": "C",
+     "text": "7"
+    },
+    {
+     "id": "D",
+     "text": "–5"
+    }
+   ],
+   "answer": "A",
+   "explanation": "2 × 4 + 3 × (–1) = 5."
+  },
+  {
+   "id": "2.7-q3",
+   "n": 3,
+   "difficulty": "understanding",
+   "group": null,
+   "prompt": "The values of **i · i** and **i · j** are respectively:",
+   "options": [
+    {
+     "id": "A",
+     "text": "1 and 0"
+    },
+    {
+     "id": "B",
+     "text": "0 and 1"
+    },
+    {
+     "id": "C",
+     "text": "1 and 1"
+    },
+    {
+     "id": "D",
+     "text": "0 and 0"
+    }
+   ],
+   "answer": "A",
+   "explanation": "The angle between **i** and itself is 0° (cos = 1). Between **i** and **j** it is 90° (cos = 0)."
+  },
+  {
+   "id": "2.7-q4",
+   "n": 4,
+   "difficulty": "application",
+   "group": null,
+   "prompt": "A force of 10 N moves a body through 4 m in a direction making 60° with the force. The work done is:",
+   "options": [
+    {
+     "id": "A",
+     "text": "40 J"
+    },
+    {
+     "id": "B",
+     "text": "20 J"
+    },
+    {
+     "id": "C",
+     "text": "20√3 J"
+    },
+    {
+     "id": "D",
+     "text": "0"
+    }
+   ],
+   "answer": "B",
+   "explanation": "W = Fd cos θ = 10 × 4 × ½ = 20 J."
+  },
+  {
+   "id": "2.7-q5",
+   "n": 5,
+   "difficulty": "recall",
+   "group": null,
+   "prompt": "The dot product of two vectors is:",
+   "options": [
+    {
+     "id": "A",
+     "text": "A vector"
+    },
+    {
+     "id": "B",
+     "text": "Always zero"
+    },
+    {
+     "id": "C",
+     "text": "Always a unit vector"
+    },
+    {
+     "id": "D",
+     "text": "A scalar"
+    }
+   ],
+   "answer": "D",
+   "explanation": "ab cos θ is just a number, so it is a scalar. That's why it's also called the scalar product."
+  },
+  {
+   "id": "2.7-q6",
+   "n": 6,
+   "difficulty": "application",
+   "group": null,
+   "prompt": "The angle between 3**i** + 4**j** and 4**i** – 3**j** is:",
+   "options": [
+    {
+     "id": "A",
+     "text": "0°"
+    },
+    {
+     "id": "B",
+     "text": "45°"
+    },
+    {
+     "id": "C",
+     "text": "90°"
+    },
+    {
+     "id": "D",
+     "text": "180°"
+    }
+   ],
+   "answer": "C",
+   "explanation": "3 × 4 + 4 × (–3) = 0. A zero dot product means the vectors are perpendicular."
+  }
+ ]
+}

@@ -1,0 +1,145 @@
+{
+ "id": "1.1",
+ "slug": "ch01-1-1",
+ "chapter": "ch01",
+ "title": "What is Physics?",
+ "diagram": "content/ch01/diagrams/ch01_sec1_1.png",
+ "theory": "**Big idea:** Physics is the study of nature and the basic laws behind everything that happens in it.\n\nNature is full of very different-looking events: wind, rainbows, planets moving, things getting hot when rubbed, sunlight, the nucleus of an atom. Physics assumes that behind all this variety there is a **small set of basic laws**. Finding those laws from what we observe is the job of physics.\n\n**One law, many events.** Newton's law of gravitation, together with his laws of motion, explains:\n- the moon orbiting the earth\n- an apple falling from a tree\n- high tides on a full-moon night\n\nThree events that look unrelated turn out to share one explanation. That is the power of physics.\n\n**Feynman's chess analogy**\n| Chess game | Nature |\n|---|---|\n| Watching the players' moves | Observing events in nature |\n| Guessing the rules of chess | Discovering the laws of physics |\n| A surprising new move that breaks a guessed rule | A new phenomenon that old laws can't explain |\n| Changing your guessed rules | Revising or replacing a physical law |\n\nTwo lessons from the analogy:\n1. Knowing the rules is the *minimum* requirement. Even with all the rules, predicting a complicated situation can still be hard.\n2. Rules guessed from partial observation can be wrong, and we must be ready to change them.\n\n**Physics is real, not invented.** No one has the authority to *make* the laws of nature. Scientists like Aryabhata, Newton, Einstein and Feynman are great because they *discovered* rules that convincingly explained the observations of their time. If a new observation contradicts a law, the law gets changed, no matter how famous its discoverer.\n\n**Why it matters:** Because physics deals with the basic rules underlying everything, it feeds into many other fields, including biology and medicine.\n\n> ⚠️ **Common misconception:** \"Laws of physics are permanent truths.\" They are our best current description of nature and can be revised when new evidence appears.",
+ "questions": [
+  {
+   "id": "1.1-q1",
+   "n": 1,
+   "difficulty": "recall",
+   "group": null,
+   "prompt": "Physics is best described as:",
+   "options": [
+    {
+     "id": "A",
+     "text": "The study of numbers and their relationships"
+    },
+    {
+     "id": "B",
+     "text": "The study of nature and the basic laws behind natural events"
+    },
+    {
+     "id": "C",
+     "text": "The study of machines and how to build them"
+    },
+    {
+     "id": "D",
+     "text": "The study of living organisms"
+    }
+   ],
+   "answer": "B",
+   "explanation": "Physics reveals the basic laws of nature from observed events."
+  },
+  {
+   "id": "1.1-q2",
+   "n": 2,
+   "difficulty": "understanding",
+   "group": null,
+   "prompt": "In Feynman's chess analogy, watching the players' moves corresponds to observing events in nature. What do the *rules of chess* correspond to?",
+   "options": [
+    {
+     "id": "A",
+     "text": "The experiments done in a laboratory"
+    },
+    {
+     "id": "B",
+     "text": "The mathematical equations used by scientists"
+    },
+    {
+     "id": "C",
+     "text": "The basic laws of nature"
+    },
+    {
+     "id": "D",
+     "text": "The scientists who discover the laws"
+    }
+   ],
+   "answer": "C",
+   "explanation": "The rules of the game are the laws of nature that we try to guess by watching."
+  },
+  {
+   "id": "1.1-q3",
+   "n": 3,
+   "difficulty": "recall",
+   "group": null,
+   "prompt": "The orbiting of the moon around the earth, the falling of an apple and tides on a full-moon night can all be explained using:",
+   "options": [
+    {
+     "id": "A",
+     "text": "Newton's law of gravitation and Newton's laws of motion"
+    },
+    {
+     "id": "B",
+     "text": "The laws of thermodynamics"
+    },
+    {
+     "id": "C",
+     "text": "The laws of reflection of light"
+    },
+    {
+     "id": "D",
+     "text": "Ohm's law"
+    }
+   ],
+   "answer": "A",
+   "explanation": "All three are explained by gravitation plus the laws of motion."
+  },
+  {
+   "id": "1.1-q4",
+   "n": 4,
+   "difficulty": "understanding",
+   "group": null,
+   "prompt": "A new phenomenon is observed that the existing laws of physics cannot explain. According to the spirit of physics, what should happen?",
+   "options": [
+    {
+     "id": "A",
+     "text": "The observation should be ignored as an error"
+    },
+    {
+     "id": "B",
+     "text": "The existing laws should be kept because great scientists framed them"
+    },
+    {
+     "id": "C",
+     "text": "The laws should be revised or replaced by new ones that explain it"
+    },
+    {
+     "id": "D",
+     "text": "The phenomenon should be declared outside the scope of physics"
+    }
+   ],
+   "answer": "C",
+   "explanation": "If old rules fail to explain a new event, no one hesitates to change them."
+  },
+  {
+   "id": "1.1-q5",
+   "n": 5,
+   "difficulty": "understanding",
+   "group": null,
+   "prompt": "Which statement about the laws of physics is correct?",
+   "options": [
+    {
+     "id": "A",
+     "text": "Physicists have the authority to decide what the laws of nature should be"
+    },
+    {
+     "id": "B",
+     "text": "Physicists only discover the rules that are already operating in nature"
+    },
+    {
+     "id": "C",
+     "text": "Laws of physics apply only inside a laboratory"
+    },
+    {
+     "id": "D",
+     "text": "Once discovered, a law of physics can never be changed"
+    }
+   ],
+   "answer": "B",
+   "explanation": "No one frames the rules. We discover the rules nature already follows."
+  }
+ ]
+}

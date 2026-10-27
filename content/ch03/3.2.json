@@ -1,0 +1,172 @@
+{
+ "id": "3.2",
+ "slug": "ch03-3-2",
+ "chapter": "ch03",
+ "title": "Distance and Displacement",
+ "diagram": "content/ch03/diagrams/ch03_sec3_2.png",
+ "theory": "**Big idea:** Distance is how much ground you cover along the path. Displacement is the straight arrow from where you started to where you ended.\n\n| | Distance | Displacement |\n|---|---|---|\n| What it measures | Length of the actual path | Straight line from initial to final position |\n| Direction? | No (scalar) | Yes, from initial to final position (vector) |\n| Depends on the path? | Yes | No, only on the start and end points |\n| Can it be zero after moving? | No | Yes, if you return to the start |\n\n**Displacement is a vector:** a particle moved across a table while the table itself is moved across the room has a net displacement equal to the **vector sum** of the two displacements.\n\n**Always true:** magnitude of displacement ≤ distance. They are equal only for motion along a straight line without turning back.\n\n**🧮 Worked example: walk on a semicircular track of radius 40.0 m, from one end to the other**\n- Distance = length of the semicircle = πR = π × 40.0 = **126 m**\n- Displacement = the diameter = 2R = **80 m**, from the starting point to the end point\n\n**🧮 Worked example:** walk 3 m east, then 4 m north.\n- Distance = 3 + 4 = **7 m**\n- Displacement = √(3² + 4²) = **5 m**, towards the north-east\n\n**🧮 One full lap** of a 400 m track: distance = 400 m, displacement = **0**.\n\n> ⚠️ **Common mistake:** Adding the two legs of a trip to get the displacement. That gives the distance. The displacement uses the triangle rule.",
+ "questions": [
+  {
+   "id": "3.2-q1",
+   "n": 1,
+   "difficulty": "recall",
+   "group": null,
+   "prompt": "The magnitude of displacement is:",
+   "options": [
+    {
+     "id": "A",
+     "text": "The length of the actual path"
+    },
+    {
+     "id": "B",
+     "text": "The length of the straight line joining the initial and final positions"
+    },
+    {
+     "id": "C",
+     "text": "Always more than the distance"
+    },
+    {
+     "id": "D",
+     "text": "Always zero"
+    }
+   ],
+   "answer": "B",
+   "explanation": "Displacement is the straight-line arrow from the initial to the final position."
+  },
+  {
+   "id": "3.2-q2",
+   "n": 2,
+   "difficulty": "application",
+   "group": null,
+   "prompt": "A person walks along a semicircular track of radius 40.0 m from one end to the other. The distance covered and the magnitude of displacement are:",
+   "options": [
+    {
+     "id": "A",
+     "text": "126 m and 80 m"
+    },
+    {
+     "id": "B",
+     "text": "80 m and 126 m"
+    },
+    {
+     "id": "C",
+     "text": "126 m and 126 m"
+    },
+    {
+     "id": "D",
+     "text": "251 m and 80 m"
+    }
+   ],
+   "answer": "A",
+   "explanation": "Distance πR = 126 m. Displacement = diameter 2R = 80 m."
+  },
+  {
+   "id": "3.2-q3",
+   "n": 3,
+   "difficulty": "understanding",
+   "group": null,
+   "prompt": "Which of these is a vector quantity?",
+   "options": [
+    {
+     "id": "A",
+     "text": "Distance"
+    },
+    {
+     "id": "B",
+     "text": "Speed"
+    },
+    {
+     "id": "C",
+     "text": "Time"
+    },
+    {
+     "id": "D",
+     "text": "Displacement"
+    }
+   ],
+   "answer": "D",
+   "explanation": "Displacement has a direction and adds by the triangle rule."
+  },
+  {
+   "id": "3.2-q4",
+   "n": 4,
+   "difficulty": "application",
+   "group": null,
+   "prompt": "An athlete completes exactly one lap of a 400 m circular track. Their displacement is:",
+   "options": [
+    {
+     "id": "A",
+     "text": "400 m"
+    },
+    {
+     "id": "B",
+     "text": "200 m"
+    },
+    {
+     "id": "C",
+     "text": "0"
+    },
+    {
+     "id": "D",
+     "text": "127 m"
+    }
+   ],
+   "answer": "C",
+   "explanation": "The athlete ends where they started, so the displacement is zero."
+  },
+  {
+   "id": "3.2-q5",
+   "n": 5,
+   "difficulty": "understanding",
+   "group": null,
+   "prompt": "For any motion, the magnitude of displacement is ______ the distance travelled.",
+   "options": [
+    {
+     "id": "A",
+     "text": "Greater than"
+    },
+    {
+     "id": "B",
+     "text": "Less than or equal to"
+    },
+    {
+     "id": "C",
+     "text": "Always equal to"
+    },
+    {
+     "id": "D",
+     "text": "Always half of"
+    }
+   ],
+   "answer": "B",
+   "explanation": "The straight line is the shortest path, so displacement can never exceed distance."
+  },
+  {
+   "id": "3.2-q6",
+   "n": 6,
+   "difficulty": "application",
+   "group": null,
+   "prompt": "A boy walks 3 m east and then 4 m north. The magnitude of his displacement is:",
+   "options": [
+    {
+     "id": "A",
+     "text": "7 m"
+    },
+    {
+     "id": "B",
+     "text": "1 m"
+    },
+    {
+     "id": "C",
+     "text": "12 m"
+    },
+    {
+     "id": "D",
+     "text": "5 m"
+    }
+   ],
+   "answer": "D",
+   "explanation": "√(3² + 4²) = 5 m. (7 m is the distance.)"
+  }
+ ]
+}

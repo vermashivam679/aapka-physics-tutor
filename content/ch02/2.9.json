@@ -1,0 +1,226 @@
+{
+ "id": "2.9",
+ "slug": "ch02-2-9",
+ "chapter": "ch02",
+ "title": "Differential Calculus as Rate Measurer",
+ "diagram": "content/ch02/diagrams/ch02_sec2_9.png",
+ "theory": "**Big idea:** The derivative dy/dx tells you **how fast y changes with x** at a point. On a graph, it is the **slope of the tangent** at that point.\n\n**From average rate to exact rate**\n- When x changes by Δx, y changes by Δy. The average rate is Δy/Δx, which is the slope of the chord AB.\n- But the curve can bend between A and B. So bring B closer and closer to A.\n- As Δx → 0, the chord becomes the **tangent** at A.\n\n**dy/dx = lim (Δx → 0) Δy/Δx = slope of the tangent**\n\ndy/dx is called the **derivative** or **differential coefficient** of y with respect to x.\n\n**What the sign tells you**\n- dy/dx > 0: y **increases** as x increases (the graph rises)\n- dy/dx < 0: y **decreases** as x increases (the graph falls)\n- dy/dx = 0: the tangent is flat (horizontal)\n\n**Approximation for small changes:** Δy ≈ (dy/dx) Δx\n\n**🧮 Worked example: area of a square, A = L²**\nA + ΔA = (L + ΔL)² = L² + 2LΔL + (ΔL)², so ΔA/ΔL = 2L + ΔL.\nAs ΔL → 0, **dA/dL = 2L**.\n\n**📋 Common derivatives**\n| y | dy/dx |\n|---|---|\n| xⁿ | n xⁿ⁻¹ |\n| sin x | cos x |\n| cos x | –sin x |\n| tan x | sec² x |\n| cot x | –cosec² x |\n| sec x | sec x tan x |\n| cosec x | –cosec x cot x |\n| ln x | 1/x |\n| eˣ | eˣ |\n\n**📋 Rules**\n- Constant multiple: d(cy)/dx = c (dy/dx)\n- Sum: d(u + v)/dx = du/dx + dv/dx\n- Product: d(uv)/dx = u (dv/dx) + v (du/dx)\n- Quotient: d(u/v)/dx = [v (du/dx) – u (dv/dx)] / v²\n- Chain: dy/dx = (dy/du)(du/dx)\n\n**🧮 Worked example:** y = eˣ sin x. By the product rule,\ndy/dx = eˣ cos x + sin x · eˣ = **eˣ (cos x + sin x)**.\n\n**🧮 Physics example:** x = 3t² + 2t (in metres). Velocity v = dx/dt = 6t + 2. At t = 2 s, v = **14 m/s**.\n\n> ⚠️ **Common mistake:** Treating dy/dx as a fraction \"d × y over d × x\". It is one symbol meaning \"the rate of change of y with x\".",
+ "questions": [
+  {
+   "id": "2.9-q1",
+   "n": 1,
+   "difficulty": "recall",
+   "group": null,
+   "prompt": "Geometrically, dy/dx at a point on a y–x graph is:",
+   "options": [
+    {
+     "id": "A",
+     "text": "The area under the curve"
+    },
+    {
+     "id": "B",
+     "text": "The length of the curve"
+    },
+    {
+     "id": "C",
+     "text": "The y-intercept"
+    },
+    {
+     "id": "D",
+     "text": "The slope of the tangent at that point"
+    }
+   ],
+   "answer": "D",
+   "explanation": "As Δx → 0, the chord becomes the tangent, so dy/dx is the tangent's slope."
+  },
+  {
+   "id": "2.9-q2",
+   "n": 2,
+   "difficulty": "understanding",
+   "group": null,
+   "prompt": "The derivative of x⁵ with respect to x is:",
+   "options": [
+    {
+     "id": "A",
+     "text": "5x⁴"
+    },
+    {
+     "id": "B",
+     "text": "x⁴"
+    },
+    {
+     "id": "C",
+     "text": "5x⁶"
+    },
+    {
+     "id": "D",
+     "text": "x⁶/6"
+    }
+   ],
+   "answer": "A",
+   "explanation": "d(xⁿ)/dx = n xⁿ⁻¹, so the answer is 5x⁴."
+  },
+  {
+   "id": "2.9-q3",
+   "n": 3,
+   "difficulty": "application",
+   "group": null,
+   "prompt": "The position of a particle is x = 3t² + 2t, where x is in metres and t in seconds. Its velocity at t = 2 s is:",
+   "options": [
+    {
+     "id": "A",
+     "text": "16 m/s"
+    },
+    {
+     "id": "B",
+     "text": "10 m/s"
+    },
+    {
+     "id": "C",
+     "text": "12 m/s"
+    },
+    {
+     "id": "D",
+     "text": "14 m/s"
+    }
+   ],
+   "answer": "D",
+   "explanation": "v = dx/dt = 6t + 2 = 6 × 2 + 2 = 14 m/s."
+  },
+  {
+   "id": "2.9-q4",
+   "n": 4,
+   "difficulty": "understanding",
+   "group": null,
+   "prompt": "The derivatives of sin x and cos x with respect to x are respectively:",
+   "options": [
+    {
+     "id": "A",
+     "text": "cos x and –sin x"
+    },
+    {
+     "id": "B",
+     "text": "–cos x and sin x"
+    },
+    {
+     "id": "C",
+     "text": "cos x and sin x"
+    },
+    {
+     "id": "D",
+     "text": "sin x and cos x"
+    }
+   ],
+   "answer": "A",
+   "explanation": "These are standard results from the derivatives table."
+  },
+  {
+   "id": "2.9-q5",
+   "n": 5,
+   "difficulty": "application",
+   "group": null,
+   "prompt": "The derivative of x² sin x with respect to x is:",
+   "options": [
+    {
+     "id": "A",
+     "text": "2x cos x"
+    },
+    {
+     "id": "B",
+     "text": "2x sin x + x² cos x"
+    },
+    {
+     "id": "C",
+     "text": "x² cos x"
+    },
+    {
+     "id": "D",
+     "text": "2x sin x – x² cos x"
+    }
+   ],
+   "answer": "B",
+   "explanation": "Product rule: x² cos x + sin x · 2x."
+  },
+  {
+   "id": "2.9-q6",
+   "n": 6,
+   "difficulty": "understanding",
+   "group": null,
+   "prompt": "At a point where y decreases as x increases, dy/dx is:",
+   "options": [
+    {
+     "id": "A",
+     "text": "Positive"
+    },
+    {
+     "id": "B",
+     "text": "Infinite"
+    },
+    {
+     "id": "C",
+     "text": "Zero"
+    },
+    {
+     "id": "D",
+     "text": "Negative"
+    }
+   ],
+   "answer": "D",
+   "explanation": "Δy is negative while Δx is positive, so the rate is negative."
+  },
+  {
+   "id": "2.9-q7",
+   "n": 7,
+   "difficulty": "application",
+   "group": null,
+   "prompt": "The side of a square is 10 cm. If the side increases by 0.1 cm, the approximate increase in area (using ΔA ≈ (dA/dL) ΔL) is:",
+   "options": [
+    {
+     "id": "A",
+     "text": "0.01 cm²"
+    },
+    {
+     "id": "B",
+     "text": "1 cm²"
+    },
+    {
+     "id": "C",
+     "text": "2 cm²"
+    },
+    {
+     "id": "D",
+     "text": "20 cm²"
+    }
+   ],
+   "answer": "C",
+   "explanation": "dA/dL = 2L = 20 cm, so ΔA ≈ 20 × 0.1 = 2 cm²."
+  },
+  {
+   "id": "2.9-q8",
+   "n": 8,
+   "difficulty": "application",
+   "group": null,
+   "prompt": "The derivative of sin 3x with respect to x is:",
+   "options": [
+    {
+     "id": "A",
+     "text": "cos 3x"
+    },
+    {
+     "id": "B",
+     "text": "–3 cos 3x"
+    },
+    {
+     "id": "C",
+     "text": "3 sin 3x"
+    },
+    {
+     "id": "D",
+     "text": "3 cos 3x"
+    }
+   ],
+   "answer": "D",
+   "explanation": "Chain rule with u = 3x: cos 3x × 3 = 3 cos 3x."
+  }
+ ]
+}

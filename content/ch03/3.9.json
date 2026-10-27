@@ -1,0 +1,226 @@
+{
+ "id": "3.9",
+ "slug": "ch03-3-9",
+ "chapter": "ch03",
+ "title": "Change of Frame",
+ "diagram": "content/ch03/diagrams/ch03_sec3_9.png",
+ "theory": "**Big idea:** Position, velocity and acceleration depend on the frame. Simple vector addition connects what two different observers measure.\n\n**Two frames S and S′, and a particle P**\n- **Position:** **r**_P,S = **r**_P,S′ + **r**_S′,S\n  (position of P in S = position of P in S′ + position of S′ in S)\n- **Velocity:** differentiate to get **v**_P,S = **v**_P,S′ + **v**_S′,S\n- **Relative velocity:** rearranging gives **v**_P,S′ = **v**_P,S – **v**_S′,S\n\nSo the **velocity of body 1 with respect to body 2 = v₁ – v₂**, when both are measured in the same frame.\n\n**When does this work?** We assume time and d/dt mean the same thing in both frames. That is true when the frames only **translate** with speeds much smaller than light (3 × 10⁸ m/s). It fails if the speeds are comparable to that of light, or if one frame **rotates** relative to the other.\n\n**Everyday examples**\n| Situation | Result |\n|---|---|\n| Bullet fired at 60 m/s (relative to the gun) from a train moving at 20 m/s, in the same direction | 80 m/s relative to the ground |\n| Swimmer at 5 km/h (relative to water) with a 3 km/h current | 8 km/h downstream, 2 km/h upstream |\n| Two cars at 60 km/h and 40 km/h heading towards each other | Each sees the other approaching at 100 km/h |\n| Same two cars going the same way | Relative speed 20 km/h |\n\n**🧮 Worked example: swimming across a river**\nA swimmer moves at 4.0 km/h perpendicular to the current (relative to the water). The river flows at 3.0 km/h.\n- Velocity relative to the ground = √(4² + 3²) = **5.0 km/h**\n- Direction: tan θ = 4/3 with the direction of flow\n\n**🧮 Worked example: rain and a walking man**\nRain falls vertically at 4.0 km/h, and a man walks at 3.0 km/h.\n**v**_rain,man = **v**_rain,street – **v**_man,street, which has magnitude √(4² + 3²) = **5.0 km/h**.\nIt makes an angle tan⁻¹(3/4) with the vertical, so the rain seems to come towards him from the front. That's why you tilt your umbrella forward!\n\n**Acceleration:** **a**_P,S = **a**_P,S′ + **a**_S′,S. If S′ moves at a **constant velocity** relative to S, then **a**_S′,S = 0, so **both frames measure the same acceleration**.\n\n> ⚠️ **Common mistake:** Adding velocities when you should subtract. For \"velocity of A as seen by B\", always compute **v**_A – **v**_B (both measured from the ground).",
+ "questions": [
+  {
+   "id": "3.9-q1",
+   "n": 1,
+   "difficulty": "recall",
+   "group": null,
+   "prompt": "If two bodies have velocities **v₁** and **v₂** with respect to the ground, the velocity of body 1 with respect to body 2 is:",
+   "options": [
+    {
+     "id": "A",
+     "text": "**v₂** – **v₁**"
+    },
+    {
+     "id": "B",
+     "text": "**v₁** + **v₂**"
+    },
+    {
+     "id": "C",
+     "text": "**v₁** – **v₂**"
+    },
+    {
+     "id": "D",
+     "text": "**v₁** × **v₂**"
+    }
+   ],
+   "answer": "C",
+   "explanation": "**v**_1,2 = **v**_1,G – **v**_2,G."
+  },
+  {
+   "id": "3.9-q2",
+   "n": 2,
+   "difficulty": "application",
+   "group": null,
+   "prompt": "A gun mounted on a train moving at 20 m/s fires a bullet forward with a muzzle velocity of 60 m/s (relative to the gun). The bullet's speed relative to the ground is:",
+   "options": [
+    {
+     "id": "A",
+     "text": "80 m/s"
+    },
+    {
+     "id": "B",
+     "text": "40 m/s"
+    },
+    {
+     "id": "C",
+     "text": "60 m/s"
+    },
+    {
+     "id": "D",
+     "text": "20 m/s"
+    }
+   ],
+   "answer": "A",
+   "explanation": "**v**_bullet,ground = **v**_bullet,gun + **v**_gun,ground = 60 + 20 = 80 m/s."
+  },
+  {
+   "id": "3.9-q3",
+   "n": 3,
+   "difficulty": "application",
+   "group": null,
+   "prompt": "A swimmer can swim at 4.0 km/h in still water. He swims perpendicular to the current of a river flowing at 3.0 km/h. His speed relative to the ground is:",
+   "options": [
+    {
+     "id": "A",
+     "text": "7.0 km/h"
+    },
+    {
+     "id": "B",
+     "text": "1.0 km/h"
+    },
+    {
+     "id": "C",
+     "text": "3.5 km/h"
+    },
+    {
+     "id": "D",
+     "text": "5.0 km/h"
+    }
+   ],
+   "answer": "D",
+   "explanation": "The two velocities are perpendicular, so the speed is √(4² + 3²) = 5.0 km/h."
+  },
+  {
+   "id": "3.9-q4",
+   "n": 4,
+   "difficulty": "application",
+   "group": null,
+   "prompt": "Rain falls vertically at 4.0 km/h. A man walks on a level road at 3.0 km/h. To the man, the rain appears to fall at:",
+   "options": [
+    {
+     "id": "A",
+     "text": "5.0 km/h, vertically"
+    },
+    {
+     "id": "B",
+     "text": "5.0 km/h, at an angle tan⁻¹(3/4) with the vertical"
+    },
+    {
+     "id": "C",
+     "text": "7.0 km/h, at an angle tan⁻¹(4/3) with the vertical"
+    },
+    {
+     "id": "D",
+     "text": "1.0 km/h, vertically"
+    }
+   ],
+   "answer": "B",
+   "explanation": "**v**_rain – **v**_man has magnitude √(16 + 9) = 5 km/h, tilted at tan⁻¹(3/4) to the vertical."
+  },
+  {
+   "id": "3.9-q5",
+   "n": 5,
+   "difficulty": "understanding",
+   "group": null,
+   "prompt": "Two frames move with constant velocity relative to each other. The acceleration of a body measured in the two frames is:",
+   "options": [
+    {
+     "id": "A",
+     "text": "The same"
+    },
+    {
+     "id": "B",
+     "text": "Different"
+    },
+    {
+     "id": "C",
+     "text": "Zero in both"
+    },
+    {
+     "id": "D",
+     "text": "Equal in magnitude but opposite in direction"
+    }
+   ],
+   "answer": "A",
+   "explanation": "**a**_S′,S = 0, so **a**_P,S = **a**_P,S′."
+  },
+  {
+   "id": "3.9-q6",
+   "n": 6,
+   "difficulty": "understanding",
+   "group": null,
+   "prompt": "A swimmer can swim at 5 km/h in still water. Swimming upstream against a current of 3 km/h, his speed relative to the bank is:",
+   "options": [
+    {
+     "id": "A",
+     "text": "8 km/h"
+    },
+    {
+     "id": "B",
+     "text": "2 km/h"
+    },
+    {
+     "id": "C",
+     "text": "5 km/h"
+    },
+    {
+     "id": "D",
+     "text": "3 km/h"
+    }
+   ],
+   "answer": "B",
+   "explanation": "5 – 3 = 2 km/h relative to the bank."
+  },
+  {
+   "id": "3.9-q7",
+   "n": 7,
+   "difficulty": "understanding",
+   "group": null,
+   "prompt": "The relation **v**_P,S = **v**_P,S′ + **v**_S′,S does **not** hold when:",
+   "options": [
+    {
+     "id": "A",
+     "text": "The two frames are at rest relative to each other"
+    },
+    {
+     "id": "B",
+     "text": "The speeds involved are small"
+    },
+    {
+     "id": "C",
+     "text": "The speeds are comparable to 3 × 10⁸ m/s, or one frame rotates relative to the other"
+    },
+    {
+     "id": "D",
+     "text": "The particle is at rest"
+    }
+   ],
+   "answer": "C",
+   "explanation": "The simple rule assumes time is the same in both frames, which fails near light speed or for rotating frames."
+  },
+  {
+   "id": "3.9-q8",
+   "n": 8,
+   "difficulty": "application",
+   "group": null,
+   "prompt": "Two cars move towards each other on a straight road at 60 km/h and 40 km/h. The speed of one car as seen from the other is:",
+   "options": [
+    {
+     "id": "A",
+     "text": "20 km/h"
+    },
+    {
+     "id": "B",
+     "text": "50 km/h"
+    },
+    {
+     "id": "C",
+     "text": "100 km/h"
+    },
+    {
+     "id": "D",
+     "text": "2400 km/h"
+    }
+   ],
+   "answer": "C",
+   "explanation": "Opposite directions: 60 – (–40) = 100 km/h."
+  }
+ ]
+}

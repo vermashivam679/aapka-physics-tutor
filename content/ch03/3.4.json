@@ -1,0 +1,172 @@
+{
+ "id": "3.4",
+ "slug": "ch03-3-4",
+ "chapter": "ch03",
+ "title": "Average Velocity and Instantaneous Velocity",
+ "diagram": "content/ch03/diagrams/ch03_sec3_4.png",
+ "theory": "**Big idea:** Velocity is the vector version of speed. Average velocity uses **displacement**, so it only cares about where you started and where you ended.\n\n**Position vector:** the arrow from the origin O to the particle. If the particle is at A at time t₁ and at B at time t₂:\n- position vectors **r₁** = OA and **r₂** = OB\n- displacement = AB = **r₂ – r₁**\n\n**Average velocity**\n**v_av = (r₂ – r₁) / (t₂ – t₁)** = displacement / time\n- It is a vector, in the direction of the displacement.\n- The path between A and B does **not** matter.\n\n**Instantaneous velocity** (just called \"velocity\")\n**v = lim (Δt → 0) Δr/Δt = dr/dt**\nFor a very short interval, Δr lies along the path and its length equals Δs. So **the magnitude of the velocity = the instantaneous speed**.\n\n**🧮 Worked example: the tip of a 4.0 cm minute hand**\nFrom 6:00 a.m. to 6:30 a.m. the tip moves from the 12 mark to the 6 mark.\n- Displacement = diameter = 2 × 4.0 = **8.0 cm**, from the 12 mark towards the 6 mark\n- (a) 6:00 to 6:30 a.m.: time = 1800 s, so v_av = 8.0 / 1800 = **4.4 × 10⁻³ cm/s**\n- (b) 6:00 a.m. to 6:30 p.m.: same displacement, time = 45000 s, so v_av = **1.8 × 10⁻⁴ cm/s**\n\n**🧮 Worked example:** **r₁** = (2**i** + 3**j**) m at t = 1 s and **r₂** = (8**i** + 11**j**) m at t = 3 s.\nΔ**r** = 6**i** + 8**j**, with magnitude 10 m, so the magnitude of v_av = 10 / 2 = **5 m/s**.\n\n| | Average speed | Magnitude of average velocity |\n|---|---|---|\n| Uses | Total path length | Straight-line displacement |\n| One full lap of a track | Not zero | **Zero** |\n\n> ⚠️ **Common mistake:** Thinking the magnitude of average velocity equals the average speed. It is equal only for straight-line motion without turning back. For instantaneous values, speed = magnitude of velocity always.",
+ "questions": [
+  {
+   "id": "3.4-q1",
+   "n": 1,
+   "difficulty": "recall",
+   "group": null,
+   "prompt": "Average velocity is defined as:",
+   "options": [
+    {
+     "id": "A",
+     "text": "Displacement divided by the time interval"
+    },
+    {
+     "id": "B",
+     "text": "Distance divided by the time interval"
+    },
+    {
+     "id": "C",
+     "text": "Final velocity minus initial velocity"
+    },
+    {
+     "id": "D",
+     "text": "Speed multiplied by time"
+    }
+   ],
+   "answer": "A",
+   "explanation": "v_av = (**r₂** – **r₁**)/(t₂ – t₁)."
+  },
+  {
+   "id": "3.4-q2",
+   "n": 2,
+   "difficulty": "application",
+   "group": null,
+   "prompt": "The minute hand of a clock is 4.0 cm long. The magnitude of the average velocity of its tip between 6:00 a.m. and 6:30 a.m. is about:",
+   "options": [
+    {
+     "id": "A",
+     "text": "0"
+    },
+    {
+     "id": "B",
+     "text": "8.0 cm/s"
+    },
+    {
+     "id": "C",
+     "text": "4.4 × 10⁻³ cm/s"
+    },
+    {
+     "id": "D",
+     "text": "7.0 × 10⁻³ cm/s"
+    }
+   ],
+   "answer": "C",
+   "explanation": "Displacement = 8.0 cm in 1800 s, giving 4.4 × 10⁻³ cm/s. (7.0 × 10⁻³ cm/s is the average speed along the arc.)"
+  },
+  {
+   "id": "3.4-q3",
+   "n": 3,
+   "difficulty": "understanding",
+   "group": null,
+   "prompt": "A runner completes one lap of a circular track in 50 s and returns to the starting point. Her average velocity for the lap is:",
+   "options": [
+    {
+     "id": "A",
+     "text": "8 m/s"
+    },
+    {
+     "id": "B",
+     "text": "0"
+    },
+    {
+     "id": "C",
+     "text": "4 m/s"
+    },
+    {
+     "id": "D",
+     "text": "Impossible to find without the radius"
+    }
+   ],
+   "answer": "B",
+   "explanation": "The displacement is zero, so the average velocity is zero."
+  },
+  {
+   "id": "3.4-q4",
+   "n": 4,
+   "difficulty": "understanding",
+   "group": null,
+   "prompt": "The magnitude of the instantaneous velocity of a particle equals its:",
+   "options": [
+    {
+     "id": "A",
+     "text": "Instantaneous speed"
+    },
+    {
+     "id": "B",
+     "text": "Average speed"
+    },
+    {
+     "id": "C",
+     "text": "Displacement"
+    },
+    {
+     "id": "D",
+     "text": "Acceleration"
+    }
+   ],
+   "answer": "A",
+   "explanation": "For tiny intervals, the displacement length equals the distance, so speed = magnitude of velocity."
+  },
+  {
+   "id": "3.4-q5",
+   "n": 5,
+   "difficulty": "understanding",
+   "group": null,
+   "prompt": "The average velocity of a particle over a time interval depends on:",
+   "options": [
+    {
+     "id": "A",
+     "text": "The exact path followed"
+    },
+    {
+     "id": "B",
+     "text": "The maximum speed reached"
+    },
+    {
+     "id": "C",
+     "text": "The total distance covered"
+    },
+    {
+     "id": "D",
+     "text": "Only the initial and final positions and the time interval"
+    }
+   ],
+   "answer": "D",
+   "explanation": "Only the end positions are used. The path in between doesn't matter."
+  },
+  {
+   "id": "3.4-q6",
+   "n": 6,
+   "difficulty": "application",
+   "group": null,
+   "prompt": "A particle is at (2**i** + 3**j**) m at t = 1 s and at (8**i** + 11**j**) m at t = 3 s. The magnitude of its average velocity is:",
+   "options": [
+    {
+     "id": "A",
+     "text": "10 m/s"
+    },
+    {
+     "id": "B",
+     "text": "7 m/s"
+    },
+    {
+     "id": "C",
+     "text": "2.5 m/s"
+    },
+    {
+     "id": "D",
+     "text": "5 m/s"
+    }
+   ],
+   "answer": "D",
+   "explanation": "Δ**r** = 6**i** + 8**j** has magnitude 10 m. Divide by 2 s to get 5 m/s."
+  }
+ ]
+}

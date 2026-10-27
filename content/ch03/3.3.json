@@ -1,0 +1,199 @@
+{
+ "id": "3.3",
+ "slug": "ch03-3-3",
+ "chapter": "ch03",
+ "title": "Average Speed and Instantaneous Speed",
+ "diagram": "content/ch03/diagrams/ch03_sec3_3.png",
+ "theory": "**Big idea:** Average speed describes a whole trip. Instantaneous speed is what the speedometer shows at one moment.\n\n**Average speed**\n**v_av = (distance travelled) / (time interval) = s / (t₂ – t₁)**\nLike a run rate in cricket: some overs are expensive and some are economical, but the average gives the overall picture.\n\n**Instantaneous speed** (just called \"speed\")\nTake a tiny interval Δt, in which the distance travelled is Δs. As Δt → 0, the ratio Δs/Δt approaches a fixed value:\n**v = lim (Δt → 0) Δs/Δt = ds/dt**\n\n**Graphs**\n- **Distance–time graph:** instantaneous speed = **slope of the tangent**. Average speed = slope of the chord.\n- **Speed–time graph:** distance travelled = **area under the curve**, because ds = v dt, so s = ∫ v dt.\n\n**Units:** m/s. Dimensions: LT⁻¹.\n\n**🧮 Worked example:** s = (2.5 m/s²) t²\n- Average speed from 0 to 5.0 s: s = 2.5 × 25 = 62.5 m, so v_av = 62.5 / 5.0 = **12.5 m/s**\n- Instantaneous speed at 5.0 s: ds/dt = 5.0t = **25 m/s**\n\n**🧮 Worked example: area under a speed–time graph**\nSpeed rises steadily from 0 to 6 m/s in 3 s. Distance = area of the triangle = ½ × 3 × 6 = **9 m**.\n\n**🧮 Watch out for this trap:** 1 km at 6 km/h, then 1 km at 8 km/h.\nTotal time = 1/6 + 1/8 = 7/24 h. Average speed = 2 / (7/24) = 48/7 ≈ **6.86 km/h**, not 7 km/h!\n\n> ⚠️ **Common mistake:** Averaging the two speeds directly. That only works if equal **times** (not equal distances) are spent at each speed. Always use total distance ÷ total time.",
+ "questions": [
+  {
+   "id": "3.3-q1",
+   "n": 1,
+   "difficulty": "recall",
+   "group": null,
+   "prompt": "Average speed is defined as:",
+   "options": [
+    {
+     "id": "A",
+     "text": "Displacement divided by time"
+    },
+    {
+     "id": "B",
+     "text": "(Initial speed + final speed) / 2, always"
+    },
+    {
+     "id": "C",
+     "text": "Total distance travelled divided by the total time taken"
+    },
+    {
+     "id": "D",
+     "text": "Distance multiplied by time"
+    }
+   ],
+   "answer": "C",
+   "explanation": "Average speed uses total distance (not displacement) over total time."
+  },
+  {
+   "id": "3.3-q2",
+   "n": 2,
+   "difficulty": "application",
+   "group": null,
+   "prompt": "The distance travelled by a particle is s = (2.5 m/s²) t². Its instantaneous speed at t = 5.0 s is:",
+   "options": [
+    {
+     "id": "A",
+     "text": "12.5 m/s"
+    },
+    {
+     "id": "B",
+     "text": "25 m/s"
+    },
+    {
+     "id": "C",
+     "text": "62.5 m/s"
+    },
+    {
+     "id": "D",
+     "text": "5 m/s"
+    }
+   ],
+   "answer": "B",
+   "explanation": "ds/dt = 5.0t = 5.0 × 5.0 = 25 m/s."
+  },
+  {
+   "id": "3.3-q3",
+   "n": 3,
+   "difficulty": "application",
+   "group": null,
+   "prompt": "For the same particle (s = 2.5 t²), the average speed from t = 0 to t = 5.0 s is:",
+   "options": [
+    {
+     "id": "A",
+     "text": "25 m/s"
+    },
+    {
+     "id": "B",
+     "text": "62.5 m/s"
+    },
+    {
+     "id": "C",
+     "text": "12.5 m/s"
+    },
+    {
+     "id": "D",
+     "text": "5 m/s"
+    }
+   ],
+   "answer": "C",
+   "explanation": "s(5) = 2.5 × 25 = 62.5 m, and 62.5 / 5.0 = 12.5 m/s."
+  },
+  {
+   "id": "3.3-q4",
+   "n": 4,
+   "difficulty": "understanding",
+   "group": null,
+   "prompt": "On a distance–time graph, the instantaneous speed at a moment is given by:",
+   "options": [
+    {
+     "id": "A",
+     "text": "The slope of the tangent at that moment"
+    },
+    {
+     "id": "B",
+     "text": "The area under the curve"
+    },
+    {
+     "id": "C",
+     "text": "The slope of a long chord"
+    },
+    {
+     "id": "D",
+     "text": "The intercept on the time axis"
+    }
+   ],
+   "answer": "A",
+   "explanation": "As Δt → 0, the chord becomes the tangent."
+  },
+  {
+   "id": "3.3-q5",
+   "n": 5,
+   "difficulty": "understanding",
+   "group": null,
+   "prompt": "On a speed–time graph, the distance travelled between two instants is given by:",
+   "options": [
+    {
+     "id": "A",
+     "text": "The slope of the curve"
+    },
+    {
+     "id": "B",
+     "text": "The area under the curve between those instants"
+    },
+    {
+     "id": "C",
+     "text": "The intercept on the speed axis"
+    },
+    {
+     "id": "D",
+     "text": "The maximum speed"
+    }
+   ],
+   "answer": "B",
+   "explanation": "ds = v dt, so the distance is the area under the v–t curve."
+  },
+  {
+   "id": "3.3-q6",
+   "n": 6,
+   "difficulty": "application",
+   "group": null,
+   "prompt": "A man walks 1 km at 6 km/h and then another 1 km at 8 km/h. His average speed is about:",
+   "options": [
+    {
+     "id": "A",
+     "text": "7 km/h"
+    },
+    {
+     "id": "B",
+     "text": "6.5 km/h"
+    },
+    {
+     "id": "C",
+     "text": "6.86 km/h"
+    },
+    {
+     "id": "D",
+     "text": "14 km/h"
+    }
+   ],
+   "answer": "C",
+   "explanation": "Total time = 1/6 + 1/8 = 7/24 h, so the average speed is 2 ÷ 7/24 = 48/7 ≈ 6.86 km/h."
+  },
+  {
+   "id": "3.3-q7",
+   "n": 7,
+   "difficulty": "application",
+   "group": null,
+   "prompt": "The speed of a particle increases uniformly from 0 to 6 m/s in 3 s. The distance it travels in this time is:",
+   "options": [
+    {
+     "id": "A",
+     "text": "18 m"
+    },
+    {
+     "id": "B",
+     "text": "6 m"
+    },
+    {
+     "id": "C",
+     "text": "3 m"
+    },
+    {
+     "id": "D",
+     "text": "9 m"
+    }
+   ],
+   "answer": "D",
+   "explanation": "Area of the triangle = ½ × 3 s × 6 m/s = 9 m."
+  }
+ ]
+}

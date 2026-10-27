@@ -1,0 +1,280 @@
+{
+ "id": "1.6",
+ "slug": "ch01-1-6",
+ "chapter": "ch01",
+ "title": "Uses of Dimension",
+ "diagram": "content/ch01/diagrams/ch01_sec1_6.png",
+ "theory": "**Big idea:** Dimensions give us three powerful tools: (A) checking equations, (B) converting units, and (C) guessing relationships between quantities.\n\n---\n\n**A. Checking equations: the principle of homogeneity**\n\nYou can only add, subtract or equate quantities of the **same kind**. You can't add a velocity to a force! So in any correct equation, **every term must have the same dimensions**.\n\n**🧮 Check:** x = ut + ½at²\n- [x] = L\n- [ut] = LT⁻¹ · T = L\n- [½at²] = LT⁻² · T² = L\n\nAll terms are L ✔, so the equation is dimensionally correct.\n\n**⚠️ The one-way rule**\n- Dimensionally **wrong** → equation is **definitely wrong** ❌\n- Dimensionally **correct** → equation **may or may not** be right ❓\n\nExample: x = ut + at² passes the check but is wrong (the ½ is missing). Dimensions can't detect missing numbers.\n\n**🧮 Check:** t = 2π√(m / (F/x))\n[F/x] = MLT⁻² / L = MT⁻², so [m/(F/x)] = M / MT⁻² = T², and √T² = **T** ✔. This may be correct.\n\n---\n\n**B. Converting units between systems**\n\nMethod: write the dimensional formula, then substitute the conversion factor for each base unit.\n\n**🧮 Example: 1 pascal → CGS (dyne/cm²)**\n[P] = ML⁻¹T⁻²\n1 Pa / 1 CGS unit = (1 kg / 1 g)¹ × (1 m / 1 cm)⁻¹ × (1 s / 1 s)⁻²\n= (10³)(10²)⁻¹(1) = **10**, so 1 Pa = 10 dyne/cm².\n\n**🧮 Example: 1 joule → erg**\n[E] = ML²T⁻², giving (10³)(10²)² = 10³ × 10⁴ = **10⁷**, so 1 J = 10⁷ erg.\n\n> 💡 **General formula:** n₂ = n₁ (M₁/M₂)ᵃ (L₁/L₂)ᵇ (T₁/T₂)ᶜ for a quantity with dimensions MᵃLᵇTᶜ.\n\n---\n\n**C. Deducing a relation (the \"method of dimensions\")**\n\nIf you know *what* a quantity depends on, and that the dependence is a **product of powers**, you can find the powers.\n\n**🧮 Example: time period of a simple pendulum**\nSuppose t depends on length l, mass m and gravity g: t = k lᵃ mᵇ gᶜ\nDimensions: T = Lᵃ Mᵇ (LT⁻²)ᶜ = Lᵃ⁺ᶜ Mᵇ T⁻²ᶜ\n\nCompare the powers:\n- L: a + c = 0\n- M: b = 0\n- T: –2c = 1, so c = –½ and a = ½\n\nTherefore **t = k√(l/g)**. The period doesn't depend on mass, grows as √length, and falls as 1/√g. (The true value k = 2π must come from theory or experiment.)\n\n---\n\n**🚫 Limitations of the dimensional method**\n1. You must already know which quantities are involved.\n2. It works **only for product-type** relations. It can't derive sums like x = ut + ½at².\n3. It **can't find dimensionless constants** (2π, ½, etc.).\n4. In mechanics there are only 3 base dimensions (M, L, T), so you get **at most 3 equations**. If a quantity depends on more than 3 others, the powers can't be found uniquely.\n\n> ⚠️ **Common mistake:** Concluding an equation is correct just because the dimensions match. Matching dimensions is necessary, but it is not enough.",
+ "questions": [
+  {
+   "id": "1.6-q1",
+   "n": 1,
+   "difficulty": "recall",
+   "group": "A. Homogeneity of Dimensions",
+   "prompt": "The principle of homogeneity of dimensions states that:",
+   "options": [
+    {
+     "id": "A",
+     "text": "All terms in a physical equation must have the same dimensions"
+    },
+    {
+     "id": "B",
+     "text": "All physical quantities have the same dimensions"
+    },
+    {
+     "id": "C",
+     "text": "Only the left-hand side of an equation needs dimensions"
+    },
+    {
+     "id": "D",
+     "text": "Dimensions and units are the same thing"
+    }
+   ],
+   "answer": "A",
+   "explanation": "You can only add, subtract or equate quantities of the same kind."
+  },
+  {
+   "id": "1.6-q2",
+   "n": 2,
+   "difficulty": "application",
+   "group": "A. Homogeneity of Dimensions",
+   "prompt": "Which of the following equations is **dimensionally incorrect**? (v, u = velocity; a = acceleration; t = time; x = distance)",
+   "options": [
+    {
+     "id": "A",
+     "text": "v = u + at"
+    },
+    {
+     "id": "B",
+     "text": "v² = u² + 2ax"
+    },
+    {
+     "id": "C",
+     "text": "x = ut + ½at³"
+    },
+    {
+     "id": "D",
+     "text": "x = ½(u + v)t"
+    }
+   ],
+   "answer": "C",
+   "explanation": "at³ has dimensions LT⁻²·T³ = LT, not L."
+  },
+  {
+   "id": "1.6-q3",
+   "n": 3,
+   "difficulty": "understanding",
+   "group": "A. Homogeneity of Dimensions",
+   "prompt": "The equation x = ut + at² is dimensionally correct, yet the true relation is x = ut + ½at². This shows that:",
+   "options": [
+    {
+     "id": "A",
+     "text": "Dimensional analysis is always wrong"
+    },
+    {
+     "id": "B",
+     "text": "A dimensionally correct equation need not be physically correct"
+    },
+    {
+     "id": "C",
+     "text": "A dimensionally wrong equation can still be correct"
+    },
+    {
+     "id": "D",
+     "text": "The factor ½ has dimensions"
+    }
+   ],
+   "answer": "B",
+   "explanation": "Dimensions ignore pure numbers, so the wrong factor isn't detected. A dimensionally wrong equation, however, must be wrong."
+  },
+  {
+   "id": "1.6-q4",
+   "n": 4,
+   "difficulty": "application",
+   "group": "A. Homogeneity of Dimensions",
+   "prompt": "Which formula for a time period t is dimensionally consistent? (m = mass, F = force, x = distance)",
+   "options": [
+    {
+     "id": "A",
+     "text": "t = 2π√(mF / x)"
+    },
+    {
+     "id": "B",
+     "text": "t = 2π√(m / (F/x))"
+    },
+    {
+     "id": "C",
+     "text": "t = 2π√(F / (mx))"
+    },
+    {
+     "id": "D",
+     "text": "t = 2π√(m / (Fx))"
+    }
+   ],
+   "answer": "B",
+   "explanation": "m/(F/x) = M / (MLT⁻²/L) = T², and √T² = T. ✔"
+  },
+  {
+   "id": "1.6-q5",
+   "n": 5,
+   "difficulty": "application",
+   "group": "B. Conversion of Units",
+   "prompt": "Using dimensions of pressure (ML⁻¹T⁻²), 1 pascal equals how many CGS units of pressure (dyne/cm²)?",
+   "options": [
+    {
+     "id": "A",
+     "text": "0.1"
+    },
+    {
+     "id": "B",
+     "text": "10"
+    },
+    {
+     "id": "C",
+     "text": "100"
+    },
+    {
+     "id": "D",
+     "text": "1000"
+    }
+   ],
+   "answer": "B",
+   "explanation": "(10³ g/kg)(10² cm/m)⁻¹ = 10³ × 10⁻² = 10."
+  },
+  {
+   "id": "1.6-q6",
+   "n": 6,
+   "difficulty": "application",
+   "group": "B. Conversion of Units",
+   "prompt": "Energy has dimensions ML²T⁻². 1 joule (SI) equals how many ergs (CGS)?",
+   "options": [
+    {
+     "id": "A",
+     "text": "10³"
+    },
+    {
+     "id": "B",
+     "text": "10⁵"
+    },
+    {
+     "id": "C",
+     "text": "10⁷"
+    },
+    {
+     "id": "D",
+     "text": "10⁻⁷"
+    }
+   ],
+   "answer": "C",
+   "explanation": "(10³)(10²)² = 10³ × 10⁴ = 10⁷."
+  },
+  {
+   "id": "1.6-q7",
+   "n": 7,
+   "difficulty": "understanding",
+   "group": "C. Deducing Relations Among Quantities",
+   "prompt": "Assuming the time period of a simple pendulum depends on length l, mass m and g, dimensional analysis gives:",
+   "options": [
+    {
+     "id": "A",
+     "text": "t = k √(l/g), independent of mass"
+    },
+    {
+     "id": "B",
+     "text": "t = k √(g/l)"
+    },
+    {
+     "id": "C",
+     "text": "t = k m √(l/g)"
+    },
+    {
+     "id": "D",
+     "text": "t = k l g"
+    }
+   ],
+   "answer": "A",
+   "explanation": "Solving L: a + c = 0, M: b = 0, T: –2c = 1 gives a = ½, b = 0, c = –½."
+  },
+  {
+   "id": "1.6-q8",
+   "n": 8,
+   "difficulty": "recall",
+   "group": "C. Deducing Relations Among Quantities",
+   "prompt": "Which of the following **cannot** be found by dimensional analysis?",
+   "options": [
+    {
+     "id": "A",
+     "text": "Whether an equation might be correct"
+    },
+    {
+     "id": "B",
+     "text": "Conversion factors between unit systems"
+    },
+    {
+     "id": "C",
+     "text": "The value of dimensionless constants like 2π"
+    },
+    {
+     "id": "D",
+     "text": "How a quantity depends on other quantities (product type)"
+    }
+   ],
+   "answer": "C",
+   "explanation": "The constant 2π must be known from elsewhere (theory or experiment)."
+  },
+  {
+   "id": "1.6-q9",
+   "n": 9,
+   "difficulty": "understanding",
+   "group": "C. Deducing Relations Among Quantities",
+   "prompt": "Dimensional analysis cannot give the correct expression x = ut + ½at² because:",
+   "options": [
+    {
+     "id": "A",
+     "text": "Distance has no dimensions"
+    },
+    {
+     "id": "B",
+     "text": "The relation is a sum of terms, not of product type"
+    },
+    {
+     "id": "C",
+     "text": "Acceleration is not a mechanical quantity"
+    },
+    {
+     "id": "D",
+     "text": "Time is not a base quantity"
+    }
+   ],
+   "answer": "B",
+   "explanation": "The method works only for product-type dependence."
+  },
+  {
+   "id": "1.6-q10",
+   "n": 10,
+   "difficulty": "application",
+   "group": "C. Deducing Relations Among Quantities",
+   "prompt": "In mechanics, dimensional analysis fails to give a unique relation when a quantity depends on more than three other quantities. Why?",
+   "options": [
+    {
+     "id": "A",
+     "text": "Mechanical quantities have no dimensions"
+    },
+    {
+     "id": "B",
+     "text": "Only M, L and T are involved, giving at most three equations for more than three unknown exponents"
+    },
+    {
+     "id": "C",
+     "text": "Calculations become too long"
+    },
+    {
+     "id": "D",
+     "text": "Dimensions change with units"
+    }
+   ],
+   "answer": "B",
+   "explanation": "More unknowns than equations means the exponents can't be determined uniquely."
+  }
+ ]
+}

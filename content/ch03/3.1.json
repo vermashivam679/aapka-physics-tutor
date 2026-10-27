@@ -1,0 +1,145 @@
+{
+ "id": "3.1",
+ "slug": "ch03-3-1",
+ "chapter": "ch03",
+ "title": "Rest and Motion",
+ "diagram": "content/ch03/diagrams/ch03_sec3_1.png",
+ "theory": "**Big idea:** Rest and motion are not properties of an object alone. They depend on **who is watching**, that is, on the frame of reference.\n\n**A book on a table**\n- Seen from the room: the book stays put, so it is **at rest**.\n- Seen from the moon: the whole earth (room, table and book) is moving, so the book is **moving**.\n\n**Nothing is in absolute rest or absolute motion.** Motion is a combined property of the object and the observer.\n\n**The train robber example:** a robber in a fast train shouts \"Don't move!\" and the passengers stand still. They are at rest **with respect to the robber** (and the train), but moving **with respect to the rail track**.\n\n**Frame of reference**\nTo locate a particle we choose:\n1. Three mutually perpendicular axes (X, Y, Z), which give the coordinates (x, y, z) of the particle\n2. A clock to measure time\n\n- If **all three coordinates stay the same** as time passes, the particle is **at rest** in that frame.\n- If **any one or more** coordinates change, the particle is **moving** in that frame.\n\n**Choosing a frame:** there is no rule. We pick whatever frame makes the problem easiest.\n- Inside a train, a suitcase on the upper berth is at rest in the train frame, while stations and trees are moving (\"Pune has already passed!\").\n- On a road, \"the car is moving and the rickshaw is not\" clearly uses the road as the frame.\n\n> ⚠️ **Common misconception:** \"The ground is the true frame, so things on it are truly at rest.\" The ground frame is just convenient. It is not special.",
+ "questions": [
+  {
+   "id": "3.1-q1",
+   "n": 1,
+   "difficulty": "recall",
+   "group": null,
+   "prompt": "Whether a body is at rest or in motion depends on:",
+   "options": [
+    {
+     "id": "A",
+     "text": "The body only"
+    },
+    {
+     "id": "B",
+     "text": "The observer only"
+    },
+    {
+     "id": "C",
+     "text": "Both the body and the observer (the frame of reference)"
+    },
+    {
+     "id": "D",
+     "text": "Neither of them"
+    }
+   ],
+   "answer": "C",
+   "explanation": "Motion is a combined property of the object and the observer."
+  },
+  {
+   "id": "3.1-q2",
+   "n": 2,
+   "difficulty": "understanding",
+   "group": null,
+   "prompt": "A book is lying on a table in a room. As seen by an observer on the moon, the book is:",
+   "options": [
+    {
+     "id": "A",
+     "text": "At rest"
+    },
+    {
+     "id": "B",
+     "text": "Moving"
+    },
+    {
+     "id": "C",
+     "text": "At rest, because it is on the table"
+    },
+    {
+     "id": "D",
+     "text": "Impossible to describe"
+    }
+   ],
+   "answer": "B",
+   "explanation": "From the moon, the earth (with the room and the book) is moving."
+  },
+  {
+   "id": "3.1-q3",
+   "n": 3,
+   "difficulty": "understanding",
+   "group": null,
+   "prompt": "Passengers stand still in a fast-moving train. They are at rest with respect to:",
+   "options": [
+    {
+     "id": "A",
+     "text": "The rail track"
+    },
+    {
+     "id": "B",
+     "text": "The train compartment"
+    },
+    {
+     "id": "C",
+     "text": "The trees outside"
+    },
+    {
+     "id": "D",
+     "text": "The sun"
+    }
+   ],
+   "answer": "B",
+   "explanation": "Their position does not change with respect to the train, but it does with respect to the track."
+  },
+  {
+   "id": "3.1-q4",
+   "n": 4,
+   "difficulty": "recall",
+   "group": null,
+   "prompt": "A particle is said to be at rest in a frame of reference if:",
+   "options": [
+    {
+     "id": "A",
+     "text": "At least one of its coordinates stays the same"
+    },
+    {
+     "id": "B",
+     "text": "Its speed is less than 1 m/s"
+    },
+    {
+     "id": "C",
+     "text": "It is touching the ground"
+    },
+    {
+     "id": "D",
+     "text": "All three of its coordinates x, y and z stay the same as time passes"
+    }
+   ],
+   "answer": "D",
+   "explanation": "Rest in a frame means none of the coordinates change with time."
+  },
+  {
+   "id": "3.1-q5",
+   "n": 5,
+   "difficulty": "understanding",
+   "group": null,
+   "prompt": "The frame of reference for a problem:",
+   "options": [
+    {
+     "id": "A",
+     "text": "Must always be fixed to the earth"
+    },
+    {
+     "id": "B",
+     "text": "Must be at absolute rest"
+    },
+    {
+     "id": "C",
+     "text": "Can be chosen according to convenience"
+    },
+    {
+     "id": "D",
+     "text": "Must always be fixed to the sun"
+    }
+   ],
+   "answer": "C",
+   "explanation": "There is no rule. Pick the frame that makes the situation easiest to describe."
+  }
+ ]
+}

@@ -1,0 +1,172 @@
+{
+ "id": "2.12",
+ "slug": "ch02-2-12",
+ "chapter": "ch02",
+ "title": "Significant Digits",
+ "diagram": "content/ch02/diagrams/ch02_sec2_12.png",
+ "theory": "**Big idea:** A measurement shows every digit you can read for sure **plus one estimated (doubtful) digit**. All of these are significant digits.\n\n**Reading a scale**\n- The smallest division on an instrument is its **least count**. A metre scale has 1 mm divisions.\n- Suppose an object's edge falls between the 10.4 cm and 10.5 cm marks. Mentally split that 1 mm into 10 parts and estimate: **10.46 cm**.\n- 1, 0 and 4 are **certain**, and 6 is **doubtful** (an eye estimate). So the reading has **4 significant digits**.\n- The leftmost digit (1) is the **most significant digit**. The rightmost, doubtful digit (6) is the **least significant digit**.\n\n**Counting rules**\n1. All non-zero digits are significant: 2.34 has 3.\n2. Zeros between non-zero digits are significant: 1.0023 has **5**.\n3. If the integer part is zero, the zeros right after the decimal point are **not** significant: 0.0023 has **2**.\n4. Zeros at the right end of a whole number like 600 are **ambiguous**. It depends on the instrument.\n\n**The 600 mm puzzle**\n| Scale used | Significant digits | Write it as |\n|---|---|---|\n| Marked only in metres | 6 | 6 × 10² mm |\n| Marked in centimetres | 6, 0 | 6.0 × 10² mm |\n| Marked in millimetres | 6, 0, 0 | 6.00 × 10² mm |\n\n**Tip:** write only the significant digits, and use a power of 10 for the size. That removes all confusion.\n\n> ⚠️ **Common mistakes:**\n> - Counting leading zeros. 0.0023 has 2 significant digits, not 4 or 5.\n> - Writing more digits than the instrument can read. A metre scale can't give 10.463 cm.",
+ "questions": [
+  {
+   "id": "2.12-q1",
+   "n": 1,
+   "difficulty": "recall",
+   "group": null,
+   "prompt": "The number of significant digits in 0.0023 is:",
+   "options": [
+    {
+     "id": "A",
+     "text": "4"
+    },
+    {
+     "id": "B",
+     "text": "5"
+    },
+    {
+     "id": "C",
+     "text": "2"
+    },
+    {
+     "id": "D",
+     "text": "3"
+    }
+   ],
+   "answer": "C",
+   "explanation": "The zeros after the decimal point (with zero integer part) are not significant. Only 2 and 3 count."
+  },
+  {
+   "id": "2.12-q2",
+   "n": 2,
+   "difficulty": "recall",
+   "group": null,
+   "prompt": "The number of significant digits in 1.0023 is:",
+   "options": [
+    {
+     "id": "A",
+     "text": "5"
+    },
+    {
+     "id": "B",
+     "text": "4"
+    },
+    {
+     "id": "C",
+     "text": "2"
+    },
+    {
+     "id": "D",
+     "text": "3"
+    }
+   ],
+   "answer": "A",
+   "explanation": "1, 0, 0, 2 and 3 are all significant, since the zeros sit between non-zero digits."
+  },
+  {
+   "id": "2.12-q3",
+   "n": 3,
+   "difficulty": "understanding",
+   "group": null,
+   "prompt": "In a measured value, the last (doubtful) digit comes from:",
+   "options": [
+    {
+     "id": "A",
+     "text": "The least count printed on the instrument"
+    },
+    {
+     "id": "B",
+     "text": "A calculation done afterwards"
+    },
+    {
+     "id": "C",
+     "text": "A zero error of the instrument"
+    },
+    {
+     "id": "D",
+     "text": "Eye estimation within the smallest division of the scale"
+    }
+   ],
+   "answer": "D",
+   "explanation": "We estimate by eye within the smallest division. That last digit is doubtful but still significant."
+  },
+  {
+   "id": "2.12-q4",
+   "n": 4,
+   "difficulty": "understanding",
+   "group": null,
+   "prompt": "A length of 600 mm is measured with a scale marked in centimetres. It should be written as:",
+   "options": [
+    {
+     "id": "A",
+     "text": "6 × 10² mm"
+    },
+    {
+     "id": "B",
+     "text": "6.0 × 10² mm"
+    },
+    {
+     "id": "C",
+     "text": "6.00 × 10² mm"
+    },
+    {
+     "id": "D",
+     "text": "600.0 mm"
+    }
+   ],
+   "answer": "B",
+   "explanation": "With centimetre markings we read \"60\" cm, so 6 and the first zero are significant."
+  },
+  {
+   "id": "2.12-q5",
+   "n": 5,
+   "difficulty": "application",
+   "group": null,
+   "prompt": "A length is measured with an ordinary metre scale (least count 1 mm). Which reading is recorded correctly?",
+   "options": [
+    {
+     "id": "A",
+     "text": "10 cm"
+    },
+    {
+     "id": "B",
+     "text": "10.4 cm"
+    },
+    {
+     "id": "C",
+     "text": "10.46 cm"
+    },
+    {
+     "id": "D",
+     "text": "10.463 cm"
+    }
+   ],
+   "answer": "C",
+   "explanation": "The certain digits go down to mm (10.4), plus one estimated digit (6)."
+  },
+  {
+   "id": "2.12-q6",
+   "n": 6,
+   "difficulty": "understanding",
+   "group": null,
+   "prompt": "The number of significant digits in 6.020 × 10³ is:",
+   "options": [
+    {
+     "id": "A",
+     "text": "4"
+    },
+    {
+     "id": "B",
+     "text": "3"
+    },
+    {
+     "id": "C",
+     "text": "5"
+    },
+    {
+     "id": "D",
+     "text": "7"
+    }
+   ],
+   "answer": "A",
+   "explanation": "6, 0, 2 and the final 0 are significant. The power of ten doesn't count."
+  }
+ ]
+}

@@ -1,0 +1,145 @@
+{
+ "id": "3.5",
+ "slug": "ch03-3-5",
+ "chapter": "ch03",
+ "title": "Average Acceleration and Instantaneous Acceleration",
+ "diagram": "content/ch03/diagrams/ch03_sec3_5.png",
+ "theory": "**Big idea:** Acceleration is the rate of change of **velocity**. Since velocity is a vector, changing the speed, the direction, or both means the body is accelerating.\n\n- **Uniform velocity:** the velocity stays the same (same speed and same direction), so there is no acceleration.\n- **Accelerated motion:** the velocity changes in magnitude, direction or both.\n\n**Average acceleration**\n**a_av = (v₂ – v₁) / (t₂ – t₁)**\nIt depends only on the velocities at t₁ and t₂, not on how the velocity changed in between.\n\n**Instantaneous acceleration** (just called \"acceleration\")\n**a = lim (Δt → 0) Δv/Δt = dv/dt**\n\n**Units:** m/s². Dimensions: **LT⁻²**.\n\n**🧮 Worked example: turning without speeding up**\nA car's velocity changes from 10 m/s east to 10 m/s north in 2 s.\nΔ**v** = **v₂** – **v₁** has magnitude √(10² + 10²) = 10√2 m/s.\na_av = 10√2 / 2 = **5√2 ≈ 7.1 m/s²**, even though the speed never changed!\n\n**🧮 Worked example:** v = 3t² + 2 (m/s). Then a = dv/dt = 6t. At t = 2 s, **a = 12 m/s²**.\n\n> ⚠️ **Common misconception:** \"Constant speed means no acceleration.\" A car going round a bend at a steady speed **is** accelerating, because its direction changes.",
+ "questions": [
+  {
+   "id": "3.5-q1",
+   "n": 1,
+   "difficulty": "recall",
+   "group": null,
+   "prompt": "The SI unit of acceleration is:",
+   "options": [
+    {
+     "id": "A",
+     "text": "m/s²"
+    },
+    {
+     "id": "B",
+     "text": "m/s"
+    },
+    {
+     "id": "C",
+     "text": "m²/s"
+    },
+    {
+     "id": "D",
+     "text": "m·s"
+    }
+   ],
+   "answer": "A",
+   "explanation": "Acceleration is velocity (m/s) per second, so m/s²."
+  },
+  {
+   "id": "3.5-q2",
+   "n": 2,
+   "difficulty": "understanding",
+   "group": null,
+   "prompt": "A car goes round a circular track at a constant speed. The car is:",
+   "options": [
+    {
+     "id": "A",
+     "text": "Not accelerating, because its speed is constant"
+    },
+    {
+     "id": "B",
+     "text": "Accelerating, because the direction of its velocity keeps changing"
+    },
+    {
+     "id": "C",
+     "text": "Moving with constant velocity"
+    },
+    {
+     "id": "D",
+     "text": "Moving with zero acceleration"
+    }
+   ],
+   "answer": "B",
+   "explanation": "A change in direction is a change in velocity, so the car is accelerating."
+  },
+  {
+   "id": "3.5-q3",
+   "n": 3,
+   "difficulty": "application",
+   "group": null,
+   "prompt": "The velocity of a body changes from 10 m/s towards east to 10 m/s towards north in 2 s. The magnitude of its average acceleration is:",
+   "options": [
+    {
+     "id": "A",
+     "text": "0"
+    },
+    {
+     "id": "B",
+     "text": "10 m/s²"
+    },
+    {
+     "id": "C",
+     "text": "5√2 m/s²"
+    },
+    {
+     "id": "D",
+     "text": "5 m/s²"
+    }
+   ],
+   "answer": "C",
+   "explanation": "The change in velocity has magnitude 10√2 m/s. Divided by 2 s, that is 5√2 m/s² ≈ 7.1 m/s²."
+  },
+  {
+   "id": "3.5-q4",
+   "n": 4,
+   "difficulty": "understanding",
+   "group": null,
+   "prompt": "The dimensional formula of acceleration is:",
+   "options": [
+    {
+     "id": "A",
+     "text": "MLT⁻²"
+    },
+    {
+     "id": "B",
+     "text": "LT⁻¹"
+    },
+    {
+     "id": "C",
+     "text": "L²T⁻²"
+    },
+    {
+     "id": "D",
+     "text": "LT⁻²"
+    }
+   ],
+   "answer": "D",
+   "explanation": "(LT⁻¹)/T = LT⁻². MLT⁻² is force."
+  },
+  {
+   "id": "3.5-q5",
+   "n": 5,
+   "difficulty": "application",
+   "group": null,
+   "prompt": "The velocity of a particle is v = 3t² + 2 (in m/s, t in s). Its acceleration at t = 2 s is:",
+   "options": [
+    {
+     "id": "A",
+     "text": "14 m/s²"
+    },
+    {
+     "id": "B",
+     "text": "6 m/s²"
+    },
+    {
+     "id": "C",
+     "text": "24 m/s²"
+    },
+    {
+     "id": "D",
+     "text": "12 m/s²"
+    }
+   ],
+   "answer": "D",
+   "explanation": "a = dv/dt = 6t = 12 m/s². (14 is the velocity at t = 2 s.)"
+  }
+ ]
+}

@@ -1,0 +1,118 @@
+{
+ "id": "2.5",
+ "slug": "ch02-2-5",
+ "chapter": "ch02",
+ "title": "Subtraction of Vectors",
+ "diagram": "content/ch02/diagrams/ch02_sec2_5.png",
+ "theory": "**Big idea:** To subtract **b** from **a**, reverse **b** and add it to **a**.\n\n**Definition:** **a** – **b** = **a** + (–**b**)\n\n**Steps**\n1. Draw **a**.\n2. Draw –**b** (same length as **b**, opposite direction) with its tail at the head of **a**.\n3. The arrow from the tail of **a** to the head of –**b** is **a** – **b**.\n\n**Shortcut with the parallelogram:** if **a** and **b** are drawn tail-to-tail, one diagonal is **a** + **b**, and the **other diagonal** (from the head of **b** to the head of **a**) is **a** – **b**.\n\n**Magnitude:** since –**b** makes an angle (180° – θ) with **a**,\n**magnitude of a – b = √(a² + b² – 2ab cos θ)**\n\n**🧮 Worked example:** Two vectors, each 5 units, at 60° to each other.\n- Sum: √(25 + 25 + 2 × 25 × ½) = √75 = **5√3 units**\n- Difference: √(25 + 25 – 2 × 25 × ½) = √25 = **5 units**\n\n**Change in a vector:** the change from **v₁** to **v₂** is **Δv = v₂ – v₁**.\nExample: a car's velocity changes from 10 m/s east to 10 m/s north. The change is √(10² + 10²) = **10√2 m/s**, towards north-west, even though the speed did not change!\n\n**Order matters:** **a** – **b** = –(**b** – **a**). The two have the same magnitude and opposite directions.\n\n> ⚠️ **Common mistake:** Subtracting magnitudes (5 – 5 = 0). Two equal vectors in different directions have a non-zero difference.",
+ "questions": [
+  {
+   "id": "2.5-q1",
+   "n": 1,
+   "difficulty": "recall",
+   "group": null,
+   "prompt": "To find **a** – **b**:",
+   "options": [
+    {
+     "id": "A",
+     "text": "Add **b** to **a**"
+    },
+    {
+     "id": "B",
+     "text": "Subtract the magnitude of **b** from that of **a**"
+    },
+    {
+     "id": "C",
+     "text": "Reverse the direction of **a** and add it to **b**"
+    },
+    {
+     "id": "D",
+     "text": "Reverse the direction of **b** and add it to **a**"
+    }
+   ],
+   "answer": "D",
+   "explanation": "**a** – **b** is defined as **a** + (–**b**)."
+  },
+  {
+   "id": "2.5-q2",
+   "n": 2,
+   "difficulty": "application",
+   "group": null,
+   "prompt": "Two vectors, each of magnitude 5 units, have an angle of 60° between them. The magnitude of their difference is:",
+   "options": [
+    {
+     "id": "A",
+     "text": "0"
+    },
+    {
+     "id": "B",
+     "text": "5 units"
+    },
+    {
+     "id": "C",
+     "text": "5√3 units"
+    },
+    {
+     "id": "D",
+     "text": "10 units"
+    }
+   ],
+   "answer": "B",
+   "explanation": "√(25 + 25 – 2 × 5 × 5 × cos 60°) = √25 = 5 units."
+  },
+  {
+   "id": "2.5-q3",
+   "n": 3,
+   "difficulty": "understanding",
+   "group": null,
+   "prompt": "The vector **a** – **b** is equal to:",
+   "options": [
+    {
+     "id": "A",
+     "text": "**b** – **a**"
+    },
+    {
+     "id": "B",
+     "text": "**a** + **b**"
+    },
+    {
+     "id": "C",
+     "text": "–(**b** – **a**)"
+    },
+    {
+     "id": "D",
+     "text": "–**a** – **b**"
+    }
+   ],
+   "answer": "C",
+   "explanation": "Reversing the order reverses the direction, so **a** – **b** = –(**b** – **a**)."
+  },
+  {
+   "id": "2.5-q4",
+   "n": 4,
+   "difficulty": "application",
+   "group": null,
+   "prompt": "A car's velocity changes from 10 m/s towards east to 10 m/s towards north. The magnitude of the change in velocity is:",
+   "options": [
+    {
+     "id": "A",
+     "text": "0"
+    },
+    {
+     "id": "B",
+     "text": "10 m/s"
+    },
+    {
+     "id": "C",
+     "text": "10√2 m/s"
+    },
+    {
+     "id": "D",
+     "text": "20 m/s"
+    }
+   ],
+   "answer": "C",
+   "explanation": "Δ**v** = **v₂** – **v₁**. The two velocities are perpendicular, so the change is √(10² + 10²) = 10√2 m/s."
+  }
+ ]
+}

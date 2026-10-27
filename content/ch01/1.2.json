@@ -1,0 +1,118 @@
+{
+ "id": "1.2",
+ "slug": "ch01-1-2",
+ "chapter": "ch01",
+ "title": "Physics and Mathematics",
+ "diagram": "content/ch01/diagrams/ch01_sec1_2.png",
+ "theory": "**Big idea:** Mathematics is the *language* of physics, but it is not physics itself.\n\n**1. Maths makes descriptions short and exact.**\nCompare these two ways of saying the same thing:\n- In words: \"The gravitational force between two masses is proportional to the product of the masses and inversely proportional to the square of the distance between them.\"\n- In maths: **F ∝ m₁m₂ / r²**\n\nThe equation is shorter, clearer, and you can calculate with it.\n\n**2. Maths lets us make predictions.**\nStarting from one basic law, tools like algebra, trigonometry and calculus let us work out results for new situations. For example, if we know the force between two point masses, *integral calculus* lets us find the force a whole uniform rod exerts on a particle. We do this by splitting the rod into tiny pieces and adding up their effects.\n\n**3. But maths is the vehicle, not the destination.**\nThe Delhi → Agra analogy:\n- 🎯 **Destination (Agra)** = understanding nature, which is **physics**\n- 🚌 **Deluxe coach** = **mathematics**, a comfortable way to get there\n\nJust as language is a tool for expressing ideas (the idea matters most), mathematics is a tool for expressing physical laws.\n\n**🧮 Worked example: using proportionality**\nIf m₁ is tripled and r is doubled, what happens to F?\nF' ∝ (3m₁)(m₂)/(2r)² = (3/4)·m₁m₂/r², so **F' = ¾ F**.\n\n> 💡 **Tip for proportionality problems:** Replace each quantity by \"(factor) × original\", then simplify the factors only.\n\n> ⚠️ **Common mistake:** Being able to solve the equations without understanding the physics behind them. Always ask yourself what the equation means physically.",
+ "questions": [
+  {
+   "id": "1.2-q1",
+   "n": 1,
+   "difficulty": "recall",
+   "group": null,
+   "prompt": "According to the chapter, mathematics is the ______ of physics.",
+   "options": [
+    {
+     "id": "A",
+     "text": "goal"
+    },
+    {
+     "id": "B",
+     "text": "language"
+    },
+    {
+     "id": "C",
+     "text": "opposite"
+    },
+    {
+     "id": "D",
+     "text": "substitute"
+    }
+   ],
+   "answer": "B",
+   "explanation": "Mathematics is the language used to describe and predict nature."
+  },
+  {
+   "id": "1.2-q2",
+   "n": 2,
+   "difficulty": "understanding",
+   "group": null,
+   "prompt": "In the \"deluxe coach from Delhi to Agra\" analogy, the deluxe coach represents:",
+   "options": [
+    {
+     "id": "A",
+     "text": "Physics"
+    },
+    {
+     "id": "B",
+     "text": "Nature"
+    },
+    {
+     "id": "C",
+     "text": "Mathematics"
+    },
+    {
+     "id": "D",
+     "text": "Experiments"
+    }
+   ],
+   "answer": "C",
+   "explanation": "Mathematics is the comfortable coach. Reaching Agra (\"understanding nature\") is the real goal, which is physics."
+  },
+  {
+   "id": "1.2-q3",
+   "n": 3,
+   "difficulty": "application",
+   "group": null,
+   "prompt": "The gravitational force between two masses is F ∝ m₁m₂ / r². If **both** masses are doubled and the distance between them is also doubled, the force becomes:",
+   "options": [
+    {
+     "id": "A",
+     "text": "4 times"
+    },
+    {
+     "id": "B",
+     "text": "2 times"
+    },
+    {
+     "id": "C",
+     "text": "Half"
+    },
+    {
+     "id": "D",
+     "text": "Unchanged"
+    }
+   ],
+   "answer": "D",
+   "explanation": "F' ∝ (2m₁)(2m₂)/(2r)² = 4m₁m₂/4r², which is the same as before."
+  },
+  {
+   "id": "1.2-q4",
+   "n": 4,
+   "difficulty": "recall",
+   "group": null,
+   "prompt": "Knowing the basic force law between two particles, which mathematical technique can be used to find the force exerted by a uniform rod on a particle placed on its perpendicular bisector?",
+   "options": [
+    {
+     "id": "A",
+     "text": "Integral calculus"
+    },
+    {
+     "id": "B",
+     "text": "Trigonometry only"
+    },
+    {
+     "id": "C",
+     "text": "Simple addition"
+    },
+    {
+     "id": "D",
+     "text": "Probability"
+    }
+   ],
+   "answer": "A",
+   "explanation": "The rod is split into tiny parts and their forces are added using integration."
+  }
+ ]
+}

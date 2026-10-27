@@ -1,0 +1,199 @@
+{
+ "id": "2.11",
+ "slug": "ch02-2-11",
+ "chapter": "ch02",
+ "title": "Integral Calculus",
+ "diagram": "content/ch02/diagrams/ch02_sec2_11.png",
+ "theory": "**Big idea:** Integration adds up a huge number of tiny pieces. On a graph, it gives the **area under the curve**.\n\n**Area as a sum of strips**\nTo find the area under y = f(x) from x = a to x = b:\n1. Split the interval into N equal strips, each of width Δx = (b – a)/N.\n2. Each strip is nearly a rectangle with area f(x) Δx.\n3. Add them: I′ = Σ f(xᵢ) Δx.\n4. As N → ∞ (Δx → 0), the small gaps vanish and the sum becomes the exact area.\n\n**∫ₐᵇ f(x) dx = lim (Δx → 0) Σ f(xᵢ) Δx**\nRead it as \"the integral of f(x) with respect to x from a to b\". Here a is the **lower limit** and b is the **upper limit**.\n\n**The shortcut: the antiderivative**\nFind a function F(x) whose derivative is f(x), i.e. dF/dx = f(x). Then\n**∫ₐᵇ f(x) dx = F(b) – F(a)**, also written [F(x)]ₐᵇ.\nF(x) is called the **indefinite integral** or **antiderivative**: ∫ f(x) dx = F(x).\n\n**🧮 Check with a shape you know:** the area under y = x from a to b is a trapezium.\n∫ₐᵇ x dx = [x²/2]ₐᵇ = ½(b² – a²), the same as the trapezium formula ½(a + b)(b – a) ✔.\n\n**📋 Common integrals**\n| f(x) | ∫ f(x) dx |\n|---|---|\n| xⁿ (n ≠ –1) | xⁿ⁺¹/(n + 1) |\n| 1/x | ln x |\n| sin x | –cos x |\n| cos x | sin x |\n| sec² x | tan x |\n| cosec² x | –cot x |\n| sec x tan x | sec x |\n| cosec x cot x | –cosec x |\n| eˣ | eˣ |\n| 1/(x² + a²) | (1/a) tan⁻¹(x/a) |\n| 1/√(a² – x²) | sin⁻¹(x/a) |\n\n**📋 Rules**\n- ∫ c f(x) dx = c ∫ f(x) dx (c is a constant)\n- ∫ [f(x) + g(x)] dx = ∫ f(x) dx + ∫ g(x) dx\n- If ∫ f(x) dx = F(x), then ∫ f(cx) dx = (1/c) F(cx)\n\n**🧮 Worked example:** ∫₃⁶ (2x² + 3x + 5) dx\n= [ (2/3)x³ + (3/2)x² + 5x ] from 3 to 6\n= (2/3)(216 – 27) + (3/2)(36 – 9) + 5(6 – 3)\n= 126 + 40.5 + 15 = **181.5**\n\n**Physics uses:** displacement = ∫ v dt (the area under a velocity–time graph), and work = ∫ F dx.\nExample: v = 2t m/s from t = 0 to t = 3 s gives displacement [t²]₀³ = **9 m**.\n\n> ⚠️ **Common mistake:** Using the xⁿ⁺¹/(n + 1) rule for 1/x. When n = –1 you would divide by zero. ∫ (1/x) dx = ln x.",
+ "questions": [
+  {
+   "id": "2.11-q1",
+   "n": 1,
+   "difficulty": "recall",
+   "group": null,
+   "prompt": "The definite integral ∫ₐᵇ f(x) dx represents:",
+   "options": [
+    {
+     "id": "A",
+     "text": "The slope of the curve at x = a"
+    },
+    {
+     "id": "B",
+     "text": "The average slope between a and b"
+    },
+    {
+     "id": "C",
+     "text": "The maximum value of f(x)"
+    },
+    {
+     "id": "D",
+     "text": "The area under the curve y = f(x) between x = a and x = b"
+    }
+   ],
+   "answer": "D",
+   "explanation": "The integral is the limit of the sum of strips f(x) Δx, which is the area under the curve."
+  },
+  {
+   "id": "2.11-q2",
+   "n": 2,
+   "difficulty": "understanding",
+   "group": null,
+   "prompt": "For n ≠ –1, ∫ xⁿ dx equals:",
+   "options": [
+    {
+     "id": "A",
+     "text": "xⁿ⁺¹/(n + 1)"
+    },
+    {
+     "id": "B",
+     "text": "n xⁿ⁻¹"
+    },
+    {
+     "id": "C",
+     "text": "xⁿ⁺¹"
+    },
+    {
+     "id": "D",
+     "text": "xⁿ/n"
+    }
+   ],
+   "answer": "A",
+   "explanation": "Check: the derivative of xⁿ⁺¹/(n + 1) is xⁿ."
+  },
+  {
+   "id": "2.11-q3",
+   "n": 3,
+   "difficulty": "application",
+   "group": null,
+   "prompt": "The value of ∫₀² 3x² dx is:",
+   "options": [
+    {
+     "id": "A",
+     "text": "12"
+    },
+    {
+     "id": "B",
+     "text": "6"
+    },
+    {
+     "id": "C",
+     "text": "8"
+    },
+    {
+     "id": "D",
+     "text": "4"
+    }
+   ],
+   "answer": "C",
+   "explanation": "[x³]₀² = 8 – 0 = 8."
+  },
+  {
+   "id": "2.11-q4",
+   "n": 4,
+   "difficulty": "understanding",
+   "group": null,
+   "prompt": "∫ (1/x) dx equals:",
+   "options": [
+    {
+     "id": "A",
+     "text": "ln x"
+    },
+    {
+     "id": "B",
+     "text": "–1/x²"
+    },
+    {
+     "id": "C",
+     "text": "x⁰"
+    },
+    {
+     "id": "D",
+     "text": "1/x²"
+    }
+   ],
+   "answer": "A",
+   "explanation": "The derivative of ln x is 1/x."
+  },
+  {
+   "id": "2.11-q5",
+   "n": 5,
+   "difficulty": "application",
+   "group": null,
+   "prompt": "The velocity of a particle is v = 2t m/s. Its displacement from t = 0 to t = 3 s is:",
+   "options": [
+    {
+     "id": "A",
+     "text": "6 m"
+    },
+    {
+     "id": "B",
+     "text": "18 m"
+    },
+    {
+     "id": "C",
+     "text": "3 m"
+    },
+    {
+     "id": "D",
+     "text": "9 m"
+    }
+   ],
+   "answer": "D",
+   "explanation": "∫₀³ 2t dt = [t²]₀³ = 9 m."
+  },
+  {
+   "id": "2.11-q6",
+   "n": 6,
+   "difficulty": "understanding",
+   "group": null,
+   "prompt": "∫ cos x dx equals:",
+   "options": [
+    {
+     "id": "A",
+     "text": "sin x"
+    },
+    {
+     "id": "B",
+     "text": "–sin x"
+    },
+    {
+     "id": "C",
+     "text": "tan x"
+    },
+    {
+     "id": "D",
+     "text": "–cos x"
+    }
+   ],
+   "answer": "A",
+   "explanation": "The derivative of sin x is cos x."
+  },
+  {
+   "id": "2.11-q7",
+   "n": 7,
+   "difficulty": "understanding",
+   "group": null,
+   "prompt": "If dF(x)/dx = f(x), then ∫ₐᵇ f(x) dx equals:",
+   "options": [
+    {
+     "id": "A",
+     "text": "F(a) – F(b)"
+    },
+    {
+     "id": "B",
+     "text": "F(b) – F(a)"
+    },
+    {
+     "id": "C",
+     "text": "F(b) + F(a)"
+    },
+    {
+     "id": "D",
+     "text": "f(b) – f(a)"
+    }
+   ],
+   "answer": "B",
+   "explanation": "Upper limit minus lower limit: F(b) – F(a)."
+  }
+ ]
+}

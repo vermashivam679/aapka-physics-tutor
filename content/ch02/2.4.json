@@ -1,0 +1,118 @@
+{
+ "id": "2.4",
+ "slug": "ch02-2-4",
+ "chapter": "ch02",
+ "title": "Multiplication of a Vector by a Number",
+ "diagram": "content/ch02/diagrams/ch02_sec2_4.png",
+ "theory": "**Big idea:** Multiplying a vector by a number scales its length. A negative number also flips its direction.\n\nIf **a** has magnitude a and k is a number, then **b** = k**a** is a vector with:\n- **Magnitude:** (size of k) × a\n- **Direction:** the same as **a** if k is positive, and opposite to **a** if k is negative\n\n| Multiplier k | Result |\n|---|---|\n| 2 | Twice as long, same direction |\n| 0.5 | Half as long, same direction |\n| –1 | Same length, opposite direction |\n| –3 | Three times as long, opposite direction |\n\n**Multiplying by –1** just reverses the vector. **a** and –**a** have equal magnitudes and opposite directions.\n\n**Unit vectors:** a vector of magnitude **1** is a unit vector. If **u** is the unit vector along **a**, then\n**a = a u**\n(magnitude × direction). So **u** = **a** / a.\n\n**🧮 Worked example:** **a** is 4 units towards east.\n- 3**a** = 12 units towards east\n- –3**a** = 12 units towards **west**\n\n> 💡 A unit vector carries only direction information. Its magnitude is always 1, with no unit.\n\n> ⚠️ **Common mistake:** Writing –3**a** as \"–12 units east\". Magnitudes are never negative. The minus sign goes into the **direction**: 12 units west.",
+ "questions": [
+  {
+   "id": "2.4-q1",
+   "n": 1,
+   "difficulty": "recall",
+   "group": null,
+   "prompt": "Multiplying a vector **a** by –1 gives a vector that:",
+   "options": [
+    {
+     "id": "A",
+     "text": "Is twice as long as **a**"
+    },
+    {
+     "id": "B",
+     "text": "Has zero magnitude"
+    },
+    {
+     "id": "C",
+     "text": "Has the same magnitude as **a** but the opposite direction"
+    },
+    {
+     "id": "D",
+     "text": "Is rotated by 90° from **a**"
+    }
+   ],
+   "answer": "C",
+   "explanation": "Multiplying by –1 keeps the magnitude and reverses the direction."
+  },
+  {
+   "id": "2.4-q2",
+   "n": 2,
+   "difficulty": "understanding",
+   "group": null,
+   "prompt": "**a** is a vector of magnitude 4 units pointing east. The vector –3**a** is:",
+   "options": [
+    {
+     "id": "A",
+     "text": "12 units towards east"
+    },
+    {
+     "id": "B",
+     "text": "12 units towards west"
+    },
+    {
+     "id": "C",
+     "text": "3 units towards west"
+    },
+    {
+     "id": "D",
+     "text": "7 units towards west"
+    }
+   ],
+   "answer": "B",
+   "explanation": "The magnitude is 3 × 4 = 12 units, and the negative sign reverses the direction to west."
+  },
+  {
+   "id": "2.4-q3",
+   "n": 3,
+   "difficulty": "recall",
+   "group": null,
+   "prompt": "If **u** is the unit vector in the direction of **a**, and a is the magnitude of **a**, then:",
+   "options": [
+    {
+     "id": "A",
+     "text": "**a** = a**u**"
+    },
+    {
+     "id": "B",
+     "text": "**a** = **u**/a"
+    },
+    {
+     "id": "C",
+     "text": "**a** = a + **u**"
+    },
+    {
+     "id": "D",
+     "text": "**u** = a**a**"
+    }
+   ],
+   "answer": "A",
+   "explanation": "Any vector equals its magnitude times the unit vector along it."
+  },
+  {
+   "id": "2.4-q4",
+   "n": 4,
+   "difficulty": "understanding",
+   "group": null,
+   "prompt": "The magnitude of the unit vector along a vector of magnitude 5 m pointing east is:",
+   "options": [
+    {
+     "id": "A",
+     "text": "1"
+    },
+    {
+     "id": "B",
+     "text": "5 m"
+    },
+    {
+     "id": "C",
+     "text": "1/5"
+    },
+    {
+     "id": "D",
+     "text": "0"
+    }
+   ],
+   "answer": "A",
+   "explanation": "A unit vector always has magnitude 1, whatever vector it comes from."
+  }
+ ]
+}
