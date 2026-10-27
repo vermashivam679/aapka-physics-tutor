@@ -1,0 +1,226 @@
+{
+ "id": "6.3",
+ "slug": "ch06-6-3",
+ "chapter": "ch06",
+ "title": "Static Friction",
+ "diagram": "content/ch06/diagrams/ch06_sec6_3.png",
+ "theory": "**Big idea:** Static friction is a \"smart\" force. It adjusts itself, up to a limit, to stop the surfaces from slipping.\n\n**The heavy almirah:** labourers push a heavy almirah, but it doesn't budge. It's at rest, so the net force is zero, and the **floor's friction** must balance their push exactly.\n- Push harder, and friction increases to match.\n- Static friction is **self-adjusting** in both magnitude and direction.\n- But it has a maximum. Beyond it, slipping starts.\n\n**Limiting friction**\n**f_max = μ_s N**\n- μ_s = **coefficient of static friction**, usually a little **larger** than μ_k.\n- In general, **f_s ≤ μ_s N**. The actual static friction is only as large as needed.\n- f_max is independent of the area of contact for the same N.\n\n**🧮 Worked example: an almirah**\nMass 100 kg, μ_s = 0.4, g = 10 m/s², so f_max = 0.4 × 1000 = 400 N.\n- Push with 250 N: no slipping, and friction = **250 N** (not 400 N!).\n- Push with more than 400 N: it starts to slide.\n\n**🧮 Worked example: a boy on a horse**\nA 30 kg boy rides a horse that speeds up at 2.0 m/s² (g = 10 m/s²).\n- If he doesn't slide back, friction is the only horizontal force on him: f_s = Ma = **60 N**, forward.\n- If he does slide back, then μ_s × 300 N < 60 N, so **μ_s < 0.20**.\n\n**Direction of static friction**\n- Use Newton's laws: friction must point whichever way keeps the body at rest **relative to the surface**.\n- Or imagine the surfaces were frictionless, see which way the body would slip, and friction is opposite to that.\n- Example: block A sits on block B, and B is pulled to the right. If the two accelerate together, the friction on A points to the **right**. Friction is what makes A move!\n\n**Friction can cause motion:** a car or a person accelerates **because** the road's friction pushes them forward. On a frictionless road you couldn't start moving. Friction opposes **relative** motion between the surfaces, not motion in general.\n\n> ⚠️ **Common mistakes:**\n> - Writing f_s = μ_s N every time. That's only the **maximum**.\n> - Thinking \"friction always opposes motion\". It opposes **slipping**.",
+ "questions": [
+  {
+   "id": "6.3-q1",
+   "n": 1,
+   "difficulty": "recall",
+   "group": null,
+   "prompt": "The maximum possible force of static friction (limiting friction) is:",
+   "options": [
+    {
+     "id": "A",
+     "text": "μ_k N"
+    },
+    {
+     "id": "B",
+     "text": "μ_s / N"
+    },
+    {
+     "id": "C",
+     "text": "μ_s N"
+    },
+    {
+     "id": "D",
+     "text": "Always equal to the applied force"
+    }
+   ],
+   "answer": "C",
+   "explanation": "Limiting friction f_max = μ_s N."
+  },
+  {
+   "id": "6.3-q2",
+   "n": 2,
+   "difficulty": "understanding",
+   "group": null,
+   "prompt": "A heavy almirah is pushed gently and does not move. The force of static friction on it is:",
+   "options": [
+    {
+     "id": "A",
+     "text": "Equal to μ_s N"
+    },
+    {
+     "id": "B",
+     "text": "Zero"
+    },
+    {
+     "id": "C",
+     "text": "Larger than the push"
+    },
+    {
+     "id": "D",
+     "text": "Equal and opposite to the push"
+    }
+   ],
+   "answer": "D",
+   "explanation": "At rest, so the net force is zero. Friction exactly balances the push."
+  },
+  {
+   "id": "6.3-q3",
+   "n": 3,
+   "difficulty": "application",
+   "group": null,
+   "prompt": "A 100 kg almirah rests on a floor with μ_s = 0.4 (g = 10 m/s²). It is pushed horizontally with 250 N and does not move. The friction on it is:",
+   "options": [
+    {
+     "id": "A",
+     "text": "400 N"
+    },
+    {
+     "id": "B",
+     "text": "250 N"
+    },
+    {
+     "id": "C",
+     "text": "150 N"
+    },
+    {
+     "id": "D",
+     "text": "1000 N"
+    }
+   ],
+   "answer": "B",
+   "explanation": "250 N is less than f_max = 400 N, so friction just balances the push at 250 N."
+  },
+  {
+   "id": "6.3-q4",
+   "n": 4,
+   "difficulty": "application",
+   "group": null,
+   "prompt": "A 30 kg boy sits on a horse that accelerates at 2.0 m/s², and he does not slide. The friction exerted by the horse on him is:",
+   "options": [
+    {
+     "id": "A",
+     "text": "60 N, forward"
+    },
+    {
+     "id": "B",
+     "text": "60 N, backward"
+    },
+    {
+     "id": "C",
+     "text": "300 N, forward"
+    },
+    {
+     "id": "D",
+     "text": "15 N, forward"
+    }
+   ],
+   "answer": "A",
+   "explanation": "Friction is the only horizontal force: f = Ma = 30 × 2 = 60 N along the acceleration."
+  },
+  {
+   "id": "6.3-q5",
+   "n": 5,
+   "difficulty": "application",
+   "group": null,
+   "prompt": "If the same boy slides back during this acceleration (g = 10 m/s²), the coefficient of static friction must be:",
+   "options": [
+    {
+     "id": "A",
+     "text": "More than 0.20"
+    },
+    {
+     "id": "B",
+     "text": "Exactly 0.20"
+    },
+    {
+     "id": "C",
+     "text": "Less than 0.20"
+    },
+    {
+     "id": "D",
+     "text": "More than 2.0"
+    }
+   ],
+   "answer": "C",
+   "explanation": "It slips because μ_s × 300 N is less than the 60 N needed, so μ_s < 0.20."
+  },
+  {
+   "id": "6.3-q6",
+   "n": 6,
+   "difficulty": "understanding",
+   "group": null,
+   "prompt": "Usually, the coefficient of static friction is:",
+   "options": [
+    {
+     "id": "A",
+     "text": "Much smaller than μ_k"
+    },
+    {
+     "id": "B",
+     "text": "Slightly greater than μ_k"
+    },
+    {
+     "id": "C",
+     "text": "Exactly equal to μ_k"
+    },
+    {
+     "id": "D",
+     "text": "Always zero"
+    }
+   ],
+   "answer": "B",
+   "explanation": "Starting a slide is usually a bit harder than keeping it going."
+  },
+  {
+   "id": "6.3-q7",
+   "n": 7,
+   "difficulty": "understanding",
+   "group": null,
+   "prompt": "A car accelerates forward on a road. The friction force of the road on its driven wheels acts:",
+   "options": [
+    {
+     "id": "A",
+     "text": "Backward, opposing the motion"
+    },
+    {
+     "id": "B",
+     "text": "Vertically"
+    },
+    {
+     "id": "C",
+     "text": "It is zero"
+    },
+    {
+     "id": "D",
+     "text": "Forward, driving the car"
+    }
+   ],
+   "answer": "D",
+   "explanation": "The tyres push the road back, so the road pushes the car forward. That is what accelerates it."
+  },
+  {
+   "id": "6.3-q8",
+   "n": 8,
+   "difficulty": "understanding",
+   "group": null,
+   "prompt": "Block A rests on block B. B is pulled to the right and both accelerate together. The friction on A due to B acts:",
+   "options": [
+    {
+     "id": "A",
+     "text": "To the left"
+    },
+    {
+     "id": "B",
+     "text": "To the right"
+    },
+    {
+     "id": "C",
+     "text": "Downward"
+    },
+    {
+     "id": "D",
+     "text": "It is zero"
+    }
+   ],
+   "answer": "B",
+   "explanation": "A accelerates to the right, and friction is the only horizontal force on it."
+  }
+ ]
+}

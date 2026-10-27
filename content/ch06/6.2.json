@@ -1,0 +1,199 @@
+{
+ "id": "6.2",
+ "slug": "ch06-6-2",
+ "chapter": "ch06",
+ "title": "Kinetic Friction",
+ "diagram": "content/ch06/diagrams/ch06_sec6_2.png",
+ "theory": "**Big idea:** When surfaces slide over each other, friction opposes the **sliding** (the relative motion). Its size is μ_k times the normal force.\n\n**(a) Direction**\nThe kinetic friction on body A sliding against body B is **opposite to the velocity of A relative to B**. The velocity that matters is relative to the body **applying** the friction.\n\n**Example: a block slipping on a moving box**\nA long box on wheels moves right along a road. A small block on it slips back and falls off the rear end. Seen from the road, both move right, but the block moves slower.\n- Relative to the box, the block moves **left**.\n- So the friction on the block is **to the right**, and the friction on the box is to the left.\n\n**(b) Magnitude**\n**f_k = μ_k N**\n- μ_k = **coefficient of kinetic friction**. It depends on the two materials and how rough their surfaces are, and it has no units.\n- It is **independent of the speed** (approximately, for speeds below about 10 m/s).\n- It is **independent of the area of contact** for the same N. A slab slid flat or standing on its narrow face feels the same friction.\n\n**🧮 Worked example:** a 20 kg box is pulled along a horizontal floor, with μ_k = 0.25.\n- N = Mg, so f_k = 0.25 × 20 × 9.8 = **49 N**, opposite to the pull.\n\n**🧮 Worked example:** a 10 kg block is pulled by a 50 N horizontal force, with μ_k = 0.3 and g = 10 m/s².\n- f_k = 0.3 × 100 = 30 N, so the net force is 20 N and **a = 2 m/s²**.\n\n> ⚠️ **Common mistake:** Taking friction opposite to the velocity measured from the ground. Use the velocity **relative to the surface** that exerts the friction.",
+ "questions": [
+  {
+   "id": "6.2-q1",
+   "n": 1,
+   "difficulty": "recall",
+   "group": null,
+   "prompt": "The magnitude of kinetic friction is given by:",
+   "options": [
+    {
+     "id": "A",
+     "text": "f_k = μ_k / N"
+    },
+    {
+     "id": "B",
+     "text": "f_k = μ_k N"
+    },
+    {
+     "id": "C",
+     "text": "f_k = N / μ_k"
+    },
+    {
+     "id": "D",
+     "text": "f_k = μ_k + N"
+    }
+   ],
+   "answer": "B",
+   "explanation": "Kinetic friction is proportional to the normal force: f_k = μ_k N."
+  },
+  {
+   "id": "6.2-q2",
+   "n": 2,
+   "difficulty": "understanding",
+   "group": null,
+   "prompt": "The kinetic friction on a body A sliding on a body B acts:",
+   "options": [
+    {
+     "id": "A",
+     "text": "Opposite to the velocity of A relative to B"
+    },
+    {
+     "id": "B",
+     "text": "Opposite to the velocity of A relative to the ground"
+    },
+    {
+     "id": "C",
+     "text": "Along the velocity of A"
+    },
+    {
+     "id": "D",
+     "text": "Always vertically"
+    }
+   ],
+   "answer": "A",
+   "explanation": "It opposes the motion relative to the body that applies the friction."
+  },
+  {
+   "id": "6.2-q3",
+   "n": 3,
+   "difficulty": "application",
+   "group": null,
+   "prompt": "A 20 kg box is pulled along a horizontal floor (μ_k = 0.25, g = 9.8 m/s²). The force of kinetic friction on it is:",
+   "options": [
+    {
+     "id": "A",
+     "text": "196 N"
+    },
+    {
+     "id": "B",
+     "text": "5 N"
+    },
+    {
+     "id": "C",
+     "text": "49 N"
+    },
+    {
+     "id": "D",
+     "text": "80 N"
+    }
+   ],
+   "answer": "C",
+   "explanation": "f_k = 0.25 × 20 × 9.8 = 49 N."
+  },
+  {
+   "id": "6.2-q4",
+   "n": 4,
+   "difficulty": "understanding",
+   "group": null,
+   "prompt": "For the same normal force, if the area of contact between two sliding surfaces is doubled, the kinetic friction:",
+   "options": [
+    {
+     "id": "A",
+     "text": "Doubles"
+    },
+    {
+     "id": "B",
+     "text": "Halves"
+    },
+    {
+     "id": "C",
+     "text": "Becomes four times"
+    },
+    {
+     "id": "D",
+     "text": "Stays the same"
+    }
+   ],
+   "answer": "D",
+   "explanation": "Friction depends on N, not on the area of contact."
+  },
+  {
+   "id": "6.2-q5",
+   "n": 5,
+   "difficulty": "application",
+   "group": null,
+   "prompt": "A 10 kg block is pulled by a 50 N horizontal force on a floor with μ_k = 0.3 (g = 10 m/s²). Its acceleration is:",
+   "options": [
+    {
+     "id": "A",
+     "text": "2 m/s²"
+    },
+    {
+     "id": "B",
+     "text": "5 m/s²"
+    },
+    {
+     "id": "C",
+     "text": "3 m/s²"
+    },
+    {
+     "id": "D",
+     "text": "8 m/s²"
+    }
+   ],
+   "answer": "A",
+   "explanation": "f = 0.3 × 100 = 30 N, net force = 20 N, so a = 20/10 = 2 m/s²."
+  },
+  {
+   "id": "6.2-q6",
+   "n": 6,
+   "difficulty": "understanding",
+   "group": null,
+   "prompt": "A block slips backward on a moving truck and both move forward relative to the road, the block more slowly. The friction on the block from the truck acts:",
+   "options": [
+    {
+     "id": "A",
+     "text": "Backward"
+    },
+    {
+     "id": "B",
+     "text": "Forward"
+    },
+    {
+     "id": "C",
+     "text": "Vertically upward"
+    },
+    {
+     "id": "D",
+     "text": "It is zero"
+    }
+   ],
+   "answer": "B",
+   "explanation": "Relative to the truck the block moves backward, so friction on it points forward."
+  },
+  {
+   "id": "6.2-q7",
+   "n": 7,
+   "difficulty": "recall",
+   "group": null,
+   "prompt": "The coefficient of kinetic friction depends mainly on:",
+   "options": [
+    {
+     "id": "A",
+     "text": "The speed of sliding"
+    },
+    {
+     "id": "B",
+     "text": "The area of contact"
+    },
+    {
+     "id": "C",
+     "text": "The nature (materials and roughness) of the two surfaces"
+    },
+    {
+     "id": "D",
+     "text": "The mass of the body"
+    }
+   ],
+   "answer": "C",
+   "explanation": "μ_k depends on the two materials and their roughness, not on speed (roughly), area or mass."
+  }
+ ]
+}

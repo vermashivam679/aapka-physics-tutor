@@ -347,6 +347,56 @@
      "questionCount": 5
     }
    ]
+  },
+  {
+   "id": "ch06",
+   "number": 6,
+   "title": "Friction",
+   "book": "H.C. Verma, Concepts of Physics Vol. 1",
+   "sections": [
+    {
+     "id": "6.1",
+     "slug": "ch06-6-1",
+     "title": "Friction as the Component of Contact Force",
+     "file": "content/ch06/6.1.json",
+     "questionCount": 6
+    },
+    {
+     "id": "6.2",
+     "slug": "ch06-6-2",
+     "title": "Kinetic Friction",
+     "file": "content/ch06/6.2.json",
+     "questionCount": 7
+    },
+    {
+     "id": "6.3",
+     "slug": "ch06-6-3",
+     "title": "Static Friction",
+     "file": "content/ch06/6.3.json",
+     "questionCount": 8
+    },
+    {
+     "id": "6.4",
+     "slug": "ch06-6-4",
+     "title": "Laws of Friction",
+     "file": "content/ch06/6.4.json",
+     "questionCount": 5
+    },
+    {
+     "id": "6.5",
+     "slug": "ch06-6-5",
+     "title": "Understanding Friction at Atomic Level",
+     "file": "content/ch06/6.5.json",
+     "questionCount": 5
+    },
+    {
+     "id": "6.6",
+     "slug": "ch06-6-6",
+     "title": "A Laboratory Method to Measure Friction Coefficient",
+     "file": "content/ch06/6.6.json",
+     "questionCount": 7
+    }
+   ]
   }
  ]
 }

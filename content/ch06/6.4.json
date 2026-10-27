@@ -1,0 +1,145 @@
+{
+ "id": "6.4",
+ "slug": "ch06-6-4",
+ "chapter": "ch06",
+ "title": "Laws of Friction",
+ "diagram": "content/ch06/diagrams/ch06_sec6_4.png",
+ "theory": "**Big idea:** Four simple laws sum up how friction behaves between two solid bodies.\n\n**The four laws**\n1. **Slipping:** f_k = μ_k N, where μ_k is the coefficient of kinetic friction.\n2. **Direction of kinetic friction:** opposite to the velocity of the body **relative to the body applying the friction**.\n3. **No slipping:** f_s ≤ μ_s N. The direction and size of static friction are whatever is needed to prevent slipping.\n4. **Area doesn't matter:** f_k and f_s do not depend on the area of contact, as long as N is the same.\n\n**Some typical values of μ_s**\n| Surfaces | μ_s (roughly) |\n|---|---|\n| Teflon on teflon | 0.04 (very slippery) |\n| Ice on ice | 0.10 |\n| Steel on steel | 0.58 |\n| Rubber tyre on **wet** concrete | 0.7 |\n| Rubber tyre on **dry** concrete | 1.0 |\n\nThese are rough estimates. The real value depends on smoothness, dust, oxide layers and other conditions.\n\n**A surprise: clean copper**\nTake two blocks of pure copper. Clean off all oxide and dust, heat out the dissolved gases, and press them together in a vacuum. They **stick**, and μ becomes **much larger than 1**. Let in a little air, a thin oxide layer forms, and μ drops back to normal values.\n\n> 💡 This is why tyres grip less on a wet road: the water layer reduces μ_s.\n\n> ⚠️ **Common misconception:** \"A wider object has more friction.\" For the same weight (same N), the area of contact makes no difference.",
+ "questions": [
+  {
+   "id": "6.4-q1",
+   "n": 1,
+   "difficulty": "recall",
+   "group": null,
+   "prompt": "According to the laws of friction, for a given normal force the frictional force:",
+   "options": [
+    {
+     "id": "A",
+     "text": "Increases with the area of contact"
+    },
+    {
+     "id": "B",
+     "text": "Decreases with the area of contact"
+    },
+    {
+     "id": "C",
+     "text": "Does not depend on the area of contact"
+    },
+    {
+     "id": "D",
+     "text": "Depends only on the speed"
+    }
+   ],
+   "answer": "C",
+   "explanation": "The fourth law: friction is independent of the area of contact for the same N."
+  },
+  {
+   "id": "6.4-q2",
+   "n": 2,
+   "difficulty": "understanding",
+   "group": null,
+   "prompt": "When there is no slipping, the force of static friction:",
+   "options": [
+    {
+     "id": "A",
+     "text": "Is always equal to μ_s N"
+    },
+    {
+     "id": "B",
+     "text": "Is less than or equal to μ_s N"
+    },
+    {
+     "id": "C",
+     "text": "Is always greater than μ_s N"
+    },
+    {
+     "id": "D",
+     "text": "Is always zero"
+    }
+   ],
+   "answer": "B",
+   "explanation": "Static friction takes only the value needed, up to the maximum μ_s N."
+  },
+  {
+   "id": "6.4-q3",
+   "n": 3,
+   "difficulty": "recall",
+   "group": null,
+   "prompt": "Which pair of surfaces has the **smallest** coefficient of static friction?",
+   "options": [
+    {
+     "id": "A",
+     "text": "Teflon on teflon"
+    },
+    {
+     "id": "B",
+     "text": "Steel on steel"
+    },
+    {
+     "id": "C",
+     "text": "Rubber tyre on dry concrete"
+    },
+    {
+     "id": "D",
+     "text": "Rubber tyre on wet concrete"
+    }
+   ],
+   "answer": "A",
+   "explanation": "Teflon on teflon (about 0.04) is extremely slippery."
+  },
+  {
+   "id": "6.4-q4",
+   "n": 4,
+   "difficulty": "understanding",
+   "group": null,
+   "prompt": "A rubber tyre grips a dry concrete road better than a wet one because:",
+   "options": [
+    {
+     "id": "A",
+     "text": "The normal force is larger on a dry road"
+    },
+    {
+     "id": "B",
+     "text": "The area of contact is larger on a dry road"
+    },
+    {
+     "id": "C",
+     "text": "Wet roads have no friction at all"
+    },
+    {
+     "id": "D",
+     "text": "The coefficient of friction is larger for the dry road"
+    }
+   ],
+   "answer": "D",
+   "explanation": "Typical values: about 1.0 on dry concrete and about 0.7 on wet."
+  },
+  {
+   "id": "6.4-q5",
+   "n": 5,
+   "difficulty": "understanding",
+   "group": null,
+   "prompt": "Two very clean blocks of pure copper pressed together in a vacuum:",
+   "options": [
+    {
+     "id": "A",
+     "text": "Have almost zero friction"
+    },
+    {
+     "id": "B",
+     "text": "Stick, with a friction coefficient much larger than 1"
+    },
+    {
+     "id": "C",
+     "text": "Repel each other"
+    },
+    {
+     "id": "D",
+     "text": "Behave exactly as they would in air"
+    }
+   ],
+   "answer": "B",
+   "explanation": "Without oxide and dust layers, the surfaces bond strongly."
+  }
+ ]
+}

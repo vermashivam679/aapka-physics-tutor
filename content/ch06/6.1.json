@@ -1,0 +1,172 @@
+{
+ "id": "6.1",
+ "slug": "ch06-6-1",
+ "chapter": "ch06",
+ "title": "Friction as the Component of Contact Force",
+ "diagram": "content/ch06/diagrams/ch06_sec6_1.png",
+ "theory": "**Big idea:** When two surfaces touch, each pushes on the other with a single **contact force**. Its part perpendicular to the surface is the **normal force**, and its part along the surface is **friction**.\n\n**Where contact forces come from:** electromagnetic forces between the charged particles at the two surfaces. The forces on the two bodies are equal and opposite, so they obey Newton's third law.\n\n**Splitting the contact force F**\n| Component | Name | Direction |\n|---|---|---|\n| Perpendicular to the surface | **Normal force N** | Along the common normal |\n| Parallel to the surface | **Friction f** | Along the surface |\n\nSo F = √(N² + f²), and the angle θ of F with the normal satisfies tan θ = f/N.\n\n**🧮 Worked example:** a 400 g body slides on a rough horizontal surface, and the friction on it is 3.0 N (g = 10 m/s²).\n- N = Mg = 0.400 × 10 = **4.0 N**\n- tan θ = f/N = 3/4, so **θ = 37°** with the vertical\n- Contact force F = √(4² + 3²) = **5.0 N**\n\n**Types of friction**\n- **Kinetic friction:** the surfaces **slip** over each other.\n- **Static friction:** the surfaces are in contact but **don't slip**.\n- Friction can act between solids, between a solid and a fluid, or between fluids. Friction due to fluids is called **viscous force** and comes in a later chapter.\n\n> 💡 There's no simple theory of friction from atoms. Instead, a few experimental **laws of friction** summarise what we observe.",
+ "questions": [
+  {
+   "id": "6.1-q1",
+   "n": 1,
+   "difficulty": "recall",
+   "group": null,
+   "prompt": "The component of the contact force parallel to the surfaces in contact is called:",
+   "options": [
+    {
+     "id": "A",
+     "text": "The normal force"
+    },
+    {
+     "id": "B",
+     "text": "Friction"
+    },
+    {
+     "id": "C",
+     "text": "Tension"
+    },
+    {
+     "id": "D",
+     "text": "Weight"
+    }
+   ],
+   "answer": "B",
+   "explanation": "The part perpendicular to the surface is the normal force, and the part parallel to it is friction."
+  },
+  {
+   "id": "6.1-q2",
+   "n": 2,
+   "difficulty": "understanding",
+   "group": null,
+   "prompt": "Contact forces between two bodies arise from:",
+   "options": [
+    {
+     "id": "A",
+     "text": "Gravitational forces"
+    },
+    {
+     "id": "B",
+     "text": "Nuclear forces"
+    },
+    {
+     "id": "C",
+     "text": "Electromagnetic forces between particles at the surfaces"
+    },
+    {
+     "id": "D",
+     "text": "Weak forces"
+    }
+   ],
+   "answer": "C",
+   "explanation": "Charged particles at the two surfaces interact electromagnetically."
+  },
+  {
+   "id": "6.1-q3",
+   "n": 3,
+   "difficulty": "application",
+   "group": null,
+   "prompt": "A 400 g body slides on a rough horizontal surface with a friction force of 3.0 N (g = 10 m/s²). The magnitude of the total contact force on it is:",
+   "options": [
+    {
+     "id": "A",
+     "text": "7.0 N"
+    },
+    {
+     "id": "B",
+     "text": "1.0 N"
+    },
+    {
+     "id": "C",
+     "text": "4.0 N"
+    },
+    {
+     "id": "D",
+     "text": "5.0 N"
+    }
+   ],
+   "answer": "D",
+   "explanation": "N = 4.0 N and f = 3.0 N, so F = √(16 + 9) = 5.0 N."
+  },
+  {
+   "id": "6.1-q4",
+   "n": 4,
+   "difficulty": "application",
+   "group": null,
+   "prompt": "For the same body, the angle the contact force makes with the vertical is about:",
+   "options": [
+    {
+     "id": "A",
+     "text": "37°"
+    },
+    {
+     "id": "B",
+     "text": "53°"
+    },
+    {
+     "id": "C",
+     "text": "45°"
+    },
+    {
+     "id": "D",
+     "text": "0°"
+    }
+   ],
+   "answer": "A",
+   "explanation": "tan θ = f/N = 3/4, so θ ≈ 37°."
+  },
+  {
+   "id": "6.1-q5",
+   "n": 5,
+   "difficulty": "recall",
+   "group": null,
+   "prompt": "Friction between two bodies that are in contact but not slipping over each other is called:",
+   "options": [
+    {
+     "id": "A",
+     "text": "Kinetic friction"
+    },
+    {
+     "id": "B",
+     "text": "Rolling friction"
+    },
+    {
+     "id": "C",
+     "text": "Viscous force"
+    },
+    {
+     "id": "D",
+     "text": "Static friction"
+    }
+   ],
+   "answer": "D",
+   "explanation": "No slipping means static friction."
+  },
+  {
+   "id": "6.1-q6",
+   "n": 6,
+   "difficulty": "understanding",
+   "group": null,
+   "prompt": "The frictional force exerted by a fluid on a body moving through it is called:",
+   "options": [
+    {
+     "id": "A",
+     "text": "Static friction"
+    },
+    {
+     "id": "B",
+     "text": "Viscous force"
+    },
+    {
+     "id": "C",
+     "text": "Limiting friction"
+    },
+    {
+     "id": "D",
+     "text": "Normal force"
+    }
+   ],
+   "answer": "B",
+   "explanation": "Fluid friction is called viscous force."
+  }
+ ]
+}

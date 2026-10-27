@@ -1,0 +1,145 @@
+{
+ "id": "6.5",
+ "slug": "ch06-6-5",
+ "chapter": "ch06",
+ "title": "Understanding Friction at Atomic Level",
+ "diagram": "content/ch06/diagrams/ch06_sec6_5.png",
+ "theory": "**Big idea:** Even a \"smooth\" surface is a mountain range at the atomic scale. Friction comes from bonds forming and breaking at the few tiny points where the surfaces actually touch.\n\n**Surfaces are rough up close:** a polished steel plate looks flat to the eye, but under a powerful microscope its surface is very irregular.\n\n**The real area of contact is tiny**\nWhen one body rests on another, they only truly touch at the tips of these bumps. The **real area of contact** is much smaller than the visible area.\n\n**What happens at the contact points**\n1. The particles of the two surfaces come very close, so **molecular forces** act across them.\n2. **Molecular bonds** form at these contact points.\n3. When one body is pulled, the bonds **break**, the material under them **deforms**, and new bonds form.\n4. The deformation sends **vibrations** into the bodies.\n5. The vibrations die out and their energy becomes **random motion of the particles**, so the bodies **heat up**.\n\nSo a force is needed to **start** the motion (to break the bonds) and to **keep it going** (bonds keep forming and breaking).\n\n> 💡 This is why rubbing your hands together warms them up.",
+ "questions": [
+  {
+   "id": "6.5-q1",
+   "n": 1,
+   "difficulty": "recall",
+   "group": null,
+   "prompt": "Seen under a powerful microscope, a polished steel surface appears:",
+   "options": [
+    {
+     "id": "A",
+     "text": "Perfectly flat"
+    },
+    {
+     "id": "B",
+     "text": "Very irregular"
+    },
+    {
+     "id": "C",
+     "text": "Completely smooth"
+    },
+    {
+     "id": "D",
+     "text": "Transparent"
+    }
+   ],
+   "answer": "B",
+   "explanation": "Polished surfaces are very irregular at the atomic scale."
+  },
+  {
+   "id": "6.5-q2",
+   "n": 2,
+   "difficulty": "understanding",
+   "group": null,
+   "prompt": "When one body is kept on another, the real area of contact is:",
+   "options": [
+    {
+     "id": "A",
+     "text": "Much smaller than the visible area of contact"
+    },
+    {
+     "id": "B",
+     "text": "Exactly equal to the visible area"
+    },
+    {
+     "id": "C",
+     "text": "Much larger than the visible area"
+    },
+    {
+     "id": "D",
+     "text": "Zero"
+    }
+   ],
+   "answer": "A",
+   "explanation": "The surfaces touch only at the tips of the bumps."
+  },
+  {
+   "id": "6.5-q3",
+   "n": 3,
+   "difficulty": "understanding",
+   "group": null,
+   "prompt": "At the actual points of contact between two surfaces:",
+   "options": [
+    {
+     "id": "A",
+     "text": "No forces act"
+    },
+    {
+     "id": "B",
+     "text": "Only gravitational forces act"
+    },
+    {
+     "id": "C",
+     "text": "Molecular bonds form between the particles of the two surfaces"
+    },
+    {
+     "id": "D",
+     "text": "Nuclear forces act"
+    }
+   ],
+   "answer": "C",
+   "explanation": "The particles get close enough to bond."
+  },
+  {
+   "id": "6.5-q4",
+   "n": 4,
+   "difficulty": "understanding",
+   "group": null,
+   "prompt": "Bodies get heated when they are rubbed against each other because:",
+   "options": [
+    {
+     "id": "A",
+     "text": "Friction creates new atoms"
+    },
+    {
+     "id": "B",
+     "text": "The air between them burns"
+    },
+    {
+     "id": "C",
+     "text": "Gravity increases at the surface"
+    },
+    {
+     "id": "D",
+     "text": "Vibrations from breaking bonds and deformation end up as random motion of particles"
+    }
+   ],
+   "answer": "D",
+   "explanation": "The vibration energy spreads out as random motion of the particles, which we feel as heat."
+  },
+  {
+   "id": "6.5-q5",
+   "n": 5,
+   "difficulty": "recall",
+   "group": null,
+   "prompt": "Friction is fundamentally:",
+   "options": [
+    {
+     "id": "A",
+     "text": "A gravitational effect"
+    },
+    {
+     "id": "B",
+     "text": "An electromagnetic effect between particles at the surfaces"
+    },
+    {
+     "id": "C",
+     "text": "A nuclear effect"
+    },
+    {
+     "id": "D",
+     "text": "A purely mechanical effect with no atomic cause"
+    }
+   ],
+   "answer": "B",
+   "explanation": "The bonds at the contact points are electromagnetic."
+  }
+ ]
+}

@@ -1,0 +1,199 @@
+{
+ "id": "6.6",
+ "slug": "ch06-6-6",
+ "chapter": "ch06",
+ "title": "A Laboratory Method to Measure Friction Coefficient",
+ "diagram": "content/ch06/diagrams/ch06_sec6_6.png",
+ "theory": "**Big idea:** We can measure μ_s and μ_k in the lab with a plank, a block and some weights, either on a level table with a pulley or by tilting the plank.\n\n**(a) Horizontal table method**\nA block B (weight W₁) on a level plank is tied by a string over a pulley to a hanger H.\n- **Static:** add weights to the hanger until the block **just starts** to slide, with total hanging weight W₂. Then f_max = W₂ and N = W₁, so **μ_s = W₂ / W₁**.\n- **Kinetic:** reduce the weight slightly and give the block a gentle push. Adjust until the block keeps moving at **uniform speed**, with hanging weight W₂′. Then **μ_k = W₂′ / W₁**.\n- Putting extra weights on the block shows that f/N stays the same. Turning the block onto a different face shows that friction doesn't depend on area.\n\n**(b) Inclined plane method (no pulley)**\nTilt the plank slowly until the block **just begins** to slide, at angle θ.\n- Along the incline: f_s = mg sin θ. Perpendicular to it: N = mg cos θ.\n- So **μ_s = tan θ = h/D**, where h is the height and D the horizontal length of the plank.\n- For μ_k, lower the angle slightly and push the block gently until it slides at uniform speed. Then **μ_k = tan θ′ = h′/D′**.\n- **Angle of repose:** the largest angle at which a block can rest without slipping, tan θ = μ_s.\n\n**🧮 Worked example:** a block starts slipping at 18°, and once moving it slides uniformly at 15°.\n**μ_s = tan 18° ≈ 0.32** and **μ_k = tan 15° ≈ 0.27**.\n\n**🧮 Worked example:** with μ_s = 0.3, the steepest incline on which a block stays put is θ = tan⁻¹(0.3) ≈ **17°**.\n\n**Rolling friction**\n- A heavy iron box is hard to drag, but easy to move on wheels.\n- A rolling wheel's **point of contact has zero velocity** relative to the floor, so the surfaces don't rub.\n- **Rolling friction is much smaller** than kinetic friction.\n- **Ball bearings** put small steel balls between moving machine parts. The balls roll instead of rubbing, which cuts wear and energy loss.\n\n> ⚠️ **Common mistake:** Using sin θ or cos θ instead of tan θ. On an incline, μ = tan θ, because the mg cancels.",
+ "questions": [
+  {
+   "id": "6.6-q1",
+   "n": 1,
+   "difficulty": "recall",
+   "group": null,
+   "prompt": "In the horizontal table method, the block (weight W₁) just starts sliding when the hanging weight is W₂. The coefficient of static friction is:",
+   "options": [
+    {
+     "id": "A",
+     "text": "W₁ / W₂"
+    },
+    {
+     "id": "B",
+     "text": "W₂ / W₁"
+    },
+    {
+     "id": "C",
+     "text": "W₁ × W₂"
+    },
+    {
+     "id": "D",
+     "text": "W₁ – W₂"
+    }
+   ],
+   "answer": "B",
+   "explanation": "f_max = W₂ and N = W₁, so μ_s = W₂/W₁."
+  },
+  {
+   "id": "6.6-q2",
+   "n": 2,
+   "difficulty": "understanding",
+   "group": null,
+   "prompt": "On an incline, a block just begins to slip at angle θ. The coefficient of static friction is:",
+   "options": [
+    {
+     "id": "A",
+     "text": "sin θ"
+    },
+    {
+     "id": "B",
+     "text": "cos θ"
+    },
+    {
+     "id": "C",
+     "text": "tan θ"
+    },
+    {
+     "id": "D",
+     "text": "1/tan θ"
+    }
+   ],
+   "answer": "C",
+   "explanation": "mg sin θ = μ_s mg cos θ, so μ_s = tan θ."
+  },
+  {
+   "id": "6.6-q3",
+   "n": 3,
+   "difficulty": "application",
+   "group": null,
+   "prompt": "A block starts slipping on a plank inclined at 18°, and once moving it slides uniformly at 15°. The coefficient of kinetic friction is:",
+   "options": [
+    {
+     "id": "A",
+     "text": "tan 18°"
+    },
+    {
+     "id": "B",
+     "text": "sin 15°"
+    },
+    {
+     "id": "C",
+     "text": "tan 3°"
+    },
+    {
+     "id": "D",
+     "text": "tan 15°"
+    }
+   ],
+   "answer": "D",
+   "explanation": "Uniform sliding at 15° means μ_k = tan 15° ≈ 0.27."
+  },
+  {
+   "id": "6.6-q4",
+   "n": 4,
+   "difficulty": "application",
+   "group": null,
+   "prompt": "The coefficient of static friction between a block and an incline is 0.3. The maximum angle of incline at which the block stays at rest is about:",
+   "options": [
+    {
+     "id": "A",
+     "text": "17°"
+    },
+    {
+     "id": "B",
+     "text": "30°"
+    },
+    {
+     "id": "C",
+     "text": "45°"
+    },
+    {
+     "id": "D",
+     "text": "0.3°"
+    }
+   ],
+   "answer": "A",
+   "explanation": "θ = tan⁻¹(0.3) ≈ 16.7°, about 17°."
+  },
+  {
+   "id": "6.6-q5",
+   "n": 5,
+   "difficulty": "understanding",
+   "group": null,
+   "prompt": "Rolling friction is small because:",
+   "options": [
+    {
+     "id": "A",
+     "text": "Wheels are always very light"
+    },
+    {
+     "id": "B",
+     "text": "The point of contact of the rolling wheel does not slip on the floor"
+    },
+    {
+     "id": "C",
+     "text": "The normal force becomes zero"
+    },
+    {
+     "id": "D",
+     "text": "Rolling surfaces are always perfectly smooth"
+    }
+   ],
+   "answer": "B",
+   "explanation": "The point of contact is momentarily at rest relative to the floor, so there is no rubbing."
+  },
+  {
+   "id": "6.6-q6",
+   "n": 6,
+   "difficulty": "recall",
+   "group": null,
+   "prompt": "Ball bearings are used in machines to:",
+   "options": [
+    {
+     "id": "A",
+     "text": "Increase friction"
+    },
+    {
+     "id": "B",
+     "text": "Increase the normal force"
+    },
+    {
+     "id": "C",
+     "text": "Replace sliding (kinetic) friction with much smaller rolling friction"
+    },
+    {
+     "id": "D",
+     "text": "Make the parts heavier"
+    }
+   ],
+   "answer": "C",
+   "explanation": "The balls roll between the parts, so there is much less friction and wear."
+  },
+  {
+   "id": "6.6-q7",
+   "n": 7,
+   "difficulty": "understanding",
+   "group": null,
+   "prompt": "To measure μ_k by the horizontal table method, the hanging weight is adjusted until the block:",
+   "options": [
+    {
+     "id": "A",
+     "text": "Just starts to move"
+    },
+    {
+     "id": "B",
+     "text": "Accelerates quickly"
+    },
+    {
+     "id": "C",
+     "text": "Stays at rest"
+    },
+    {
+     "id": "D",
+     "text": "Keeps moving at uniform speed after a gentle push"
+    }
+   ],
+   "answer": "D",
+   "explanation": "At uniform speed the tension (the hanging weight) equals the kinetic friction."
+  }
+ ]
+}
