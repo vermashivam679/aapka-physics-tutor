@@ -1,0 +1,172 @@
+{
+ "id": "5.2",
+ "slug": "ch05-5-2",
+ "chapter": "ch05",
+ "title": "Second Law of Motion",
+ "diagram": "content/ch05/diagrams/ch05_sec5_2.png",
+ "theory": "**Big idea:** Force causes acceleration. The bigger the force, the bigger the acceleration, and the bigger the mass, the smaller the acceleration.\n\n**Newton's second law**\nMeasured from an **inertial frame**, a particle's acceleration equals the **vector sum of all forces** on it divided by its mass:\n**a = F/m, or F = ma**\n\n**Key points**\n- **a** is in the **same direction** as the net force **F**.\n- **F** and **a** are taken at the **same instant**. If the force stops, the acceleration becomes zero at that very instant (the velocity stays at whatever it had reached).\n- **Unit:** 1 N = 1 kg × 1 m/s² = 1 kg m/s².\n- The first law is a special case: if F = 0, then a = 0.\n\n**🧮 Worked examples**\n- A 10 N net force on a 2 kg body gives a = 10/2 = **5 m/s²**.\n- To give a 1000 kg car an acceleration of 2 m/s², you need F = 1000 × 2 = **2000 N**.\n- The same force on double the mass gives **half** the acceleration.\n\n> ⚠️ **Common mistake:** Using just one force in F = ma. F is the **net** (vector sum) force from everything acting on the body.",
+ "questions": [
+  {
+   "id": "5.2-q1",
+   "n": 1,
+   "difficulty": "recall",
+   "group": null,
+   "prompt": "Newton's second law, written for an inertial frame, is:",
+   "options": [
+    {
+     "id": "A",
+     "text": "F = mv"
+    },
+    {
+     "id": "B",
+     "text": "F = m/a"
+    },
+    {
+     "id": "C",
+     "text": "F = ma"
+    },
+    {
+     "id": "D",
+     "text": "F = a/m"
+    }
+   ],
+   "answer": "C",
+   "explanation": "a = F/m, so F = ma."
+  },
+  {
+   "id": "5.2-q2",
+   "n": 2,
+   "difficulty": "application",
+   "group": null,
+   "prompt": "A net force of 10 N acts on a body of mass 2 kg. Its acceleration is:",
+   "options": [
+    {
+     "id": "A",
+     "text": "20 m/s²"
+    },
+    {
+     "id": "B",
+     "text": "5 m/s²"
+    },
+    {
+     "id": "C",
+     "text": "0.2 m/s²"
+    },
+    {
+     "id": "D",
+     "text": "12 m/s²"
+    }
+   ],
+   "answer": "B",
+   "explanation": "a = 10/2 = 5 m/s²."
+  },
+  {
+   "id": "5.2-q3",
+   "n": 3,
+   "difficulty": "understanding",
+   "group": null,
+   "prompt": "The direction of the acceleration of a particle is always the same as the direction of:",
+   "options": [
+    {
+     "id": "A",
+     "text": "Its velocity"
+    },
+    {
+     "id": "B",
+     "text": "Its displacement"
+    },
+    {
+     "id": "C",
+     "text": "The largest single force on it"
+    },
+    {
+     "id": "D",
+     "text": "The net force on it"
+    }
+   ],
+   "answer": "D",
+   "explanation": "a = **F**/m, so **a** points along the net force (not necessarily along the velocity)."
+  },
+  {
+   "id": "5.2-q4",
+   "n": 4,
+   "difficulty": "understanding",
+   "group": null,
+   "prompt": "The force acting on a moving particle suddenly becomes zero. At that instant, its acceleration:",
+   "options": [
+    {
+     "id": "A",
+     "text": "Becomes zero"
+    },
+    {
+     "id": "B",
+     "text": "Stays the same for a while"
+    },
+    {
+     "id": "C",
+     "text": "Reverses direction"
+    },
+    {
+     "id": "D",
+     "text": "Becomes infinite"
+    }
+   ],
+   "answer": "A",
+   "explanation": "F and a are related at the same instant, so no force means no acceleration."
+  },
+  {
+   "id": "5.2-q5",
+   "n": 5,
+   "difficulty": "application",
+   "group": null,
+   "prompt": "What net force is needed to give a 1000 kg car an acceleration of 2 m/s²?",
+   "options": [
+    {
+     "id": "A",
+     "text": "500 N"
+    },
+    {
+     "id": "B",
+     "text": "1002 N"
+    },
+    {
+     "id": "C",
+     "text": "2000 N"
+    },
+    {
+     "id": "D",
+     "text": "20 N"
+    }
+   ],
+   "answer": "C",
+   "explanation": "F = 1000 × 2 = 2000 N."
+  },
+  {
+   "id": "5.2-q6",
+   "n": 6,
+   "difficulty": "understanding",
+   "group": null,
+   "prompt": "The same net force acts on two bodies, one of which has twice the mass of the other. The heavier body's acceleration is:",
+   "options": [
+    {
+     "id": "A",
+     "text": "Twice that of the lighter body"
+    },
+    {
+     "id": "B",
+     "text": "Half that of the lighter body"
+    },
+    {
+     "id": "C",
+     "text": "Equal to that of the lighter body"
+    },
+    {
+     "id": "D",
+     "text": "Four times that of the lighter body"
+    }
+   ],
+   "answer": "B",
+   "explanation": "a = F/m, so doubling m halves a."
+  }
+ ]
+}

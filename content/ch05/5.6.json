@@ -1,0 +1,145 @@
+{
+ "id": "5.6",
+ "slug": "ch05-5-6",
+ "chapter": "ch05",
+ "title": "The Horse and the Cart",
+ "diagram": "content/ch05/diagrams/ch05_sec5_6.png",
+ "theory": "**Big idea:** \"The cart pulls the horse back just as hard as the horse pulls the cart forward, so how can anything move?\" The answer: action and reaction act on **different** bodies, and we must include **all** the forces on the body we're studying.\n\n**The puzzle:** the horse pulls the cart forward with F₁. By the third law, the cart pulls the horse backward with F₂ = F₁. These add to zero, so why does anything accelerate?\n\n**The mistake:** F₁ acts on the **cart** and F₂ acts on the **horse**. They belong to different systems and must never be added together.\n\n**System = the horse**\n- The cart pulls it backward with F₂.\n- The **road** pushes the horse's hooves with a force that has a **forward** component f (friction from the ground).\n- The horse accelerates forward when **f > F₂**: a = (f – F₂) / M_h.\n- Gravity on the horse has no forward component.\n\n**System = the cart**\n- The horse pulls it forward with F₁.\n- The road exerts a **backward** component f′ on the wheels.\n- So a = (F₁ – f′) / M_c, not simply F₁ / M_c.\n\n**They move together:** f and f′ are self-adjusting, so (f – F₂)/M_h = (F₁ – f′)/M_c. The horse and the cart have the same acceleration.\n\n**The lesson:** to find the motion of a system, include **only** the forces acting **on** that system, and include **all** of them. Then apply **F = ma**.\n\n> 💡 Without a rough road (on ice, say) the horse cannot get the forward push f, and the whole thing goes nowhere, however hard it tries.",
+ "questions": [
+  {
+   "id": "5.6-q1",
+   "n": 1,
+   "difficulty": "understanding",
+   "group": null,
+   "prompt": "The horse pulls the cart forward with force F₁ and the cart pulls the horse back with F₂ = F₁. They do not cancel because:",
+   "options": [
+    {
+     "id": "A",
+     "text": "F₁ is always bigger than F₂"
+    },
+    {
+     "id": "B",
+     "text": "They act on different bodies"
+    },
+    {
+     "id": "C",
+     "text": "F₂ is a pseudo force"
+    },
+    {
+     "id": "D",
+     "text": "They act at different times"
+    }
+   ],
+   "answer": "B",
+   "explanation": "Third-law forces never act on the same body, so they cannot cancel."
+  },
+  {
+   "id": "5.6-q2",
+   "n": 2,
+   "difficulty": "understanding",
+   "group": null,
+   "prompt": "The horse is able to accelerate forward because:",
+   "options": [
+    {
+     "id": "A",
+     "text": "It pulls the cart harder than the cart pulls it"
+    },
+    {
+     "id": "B",
+     "text": "Gravity pushes it forward"
+    },
+    {
+     "id": "C",
+     "text": "The road pushes its hooves with a forward component f that is bigger than F₂"
+    },
+    {
+     "id": "D",
+     "text": "The cart pushes it forward"
+    }
+   ],
+   "answer": "C",
+   "explanation": "The road's forward push on the hooves beats the cart's backward pull."
+  },
+  {
+   "id": "5.6-q3",
+   "n": 3,
+   "difficulty": "application",
+   "group": null,
+   "prompt": "F₁ is the horse's pull on the cart, f′ is the backward force of the road on the cart, and M_c is the cart's mass. The acceleration of the cart is:",
+   "options": [
+    {
+     "id": "A",
+     "text": "F₁ / M_c"
+    },
+    {
+     "id": "B",
+     "text": "(F₁ + f′) / M_c"
+    },
+    {
+     "id": "C",
+     "text": "f′ / M_c"
+    },
+    {
+     "id": "D",
+     "text": "(F₁ – f′) / M_c"
+    }
+   ],
+   "answer": "D",
+   "explanation": "Net force on the cart = F₁ – f′, so a = (F₁ – f′)/M_c."
+  },
+  {
+   "id": "5.6-q4",
+   "n": 4,
+   "difficulty": "understanding",
+   "group": null,
+   "prompt": "If the horse stands on very smooth ice, it cannot get the cart moving because:",
+   "options": [
+    {
+     "id": "A",
+     "text": "The road cannot give it the forward push it needs"
+    },
+    {
+     "id": "B",
+     "text": "Its weight becomes zero"
+    },
+    {
+     "id": "C",
+     "text": "Newton's third law fails on ice"
+    },
+    {
+     "id": "D",
+     "text": "The cart becomes heavier"
+    }
+   ],
+   "answer": "A",
+   "explanation": "With no friction, there is no forward force on the horse."
+  },
+  {
+   "id": "5.6-q5",
+   "n": 5,
+   "difficulty": "recall",
+   "group": null,
+   "prompt": "The main lesson of the horse-and-cart problem is that, to find the motion of a system, we should:",
+   "options": [
+    {
+     "id": "A",
+     "text": "Add up every force in the situation"
+    },
+    {
+     "id": "B",
+     "text": "Ignore friction"
+    },
+    {
+     "id": "C",
+     "text": "Include all the forces acting on that system, and only those"
+    },
+    {
+     "id": "D",
+     "text": "Always treat the horse and the cart separately"
+    }
+   ],
+   "answer": "C",
+   "explanation": "Choose the system, then list every force on it and no others."
+  }
+ ]
+}

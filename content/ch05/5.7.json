@@ -1,0 +1,145 @@
+{
+ "id": "5.7",
+ "slug": "ch05-5-7",
+ "chapter": "ch05",
+ "title": "Inertia",
+ "diagram": "content/ch05/diagrams/ch05_sec5_7.png",
+ "theory": "**Big idea:** Bodies \"resist\" changes to their motion. This resistance is called **inertia**, and **mass** is its measure.\n\n**Two ways to say it**\n1. **Loosely:** a body does not change its state of rest, or of uniform motion in a straight line, unless a force makes it. This unwillingness to change is **inertia**.\n2. **Precisely:** if the **same force** acts on two particles, the one that gets the **smaller acceleration** has more inertia. Since a = F/m, **larger mass means smaller acceleration, which means more inertia**.\n\n**Everyday inertia**\n| Situation | What inertia does |\n|---|---|\n| A bus starts suddenly | Your body tends to stay at rest, so you fall backward |\n| A bus brakes suddenly | Your body tends to keep moving, so you lurch forward |\n| A cloth is pulled quickly from under a glass | The glass tends to stay at rest |\n| Pushing an empty vs a loaded trolley | The loaded one (more mass) is harder to speed up |\n\n**🧮 Comparison:** the same 20 N force gives a 2 kg body 10 m/s², but a 10 kg body only 2 m/s². The 10 kg body has **5 times the inertia**.\n\n> ⚠️ **Common misconception:** \"Inertia is a force that keeps things moving.\" Inertia is a **property** of matter, measured by mass. It is not a force.",
+ "questions": [
+  {
+   "id": "5.7-q1",
+   "n": 1,
+   "difficulty": "recall",
+   "group": null,
+   "prompt": "Inertia is the property of a body by which it:",
+   "options": [
+    {
+     "id": "A",
+     "text": "Resists any change in its state of rest or uniform motion"
+    },
+    {
+     "id": "B",
+     "text": "Always moves in a circle"
+    },
+    {
+     "id": "C",
+     "text": "Attracts other bodies"
+    },
+    {
+     "id": "D",
+     "text": "Gains speed by itself"
+    }
+   ],
+   "answer": "A",
+   "explanation": "Inertia is the unwillingness to change the state of rest or uniform straight-line motion."
+  },
+  {
+   "id": "5.7-q2",
+   "n": 2,
+   "difficulty": "understanding",
+   "group": null,
+   "prompt": "The measure of the inertia of a body is its:",
+   "options": [
+    {
+     "id": "A",
+     "text": "Velocity"
+    },
+    {
+     "id": "B",
+     "text": "Weight"
+    },
+    {
+     "id": "C",
+     "text": "Mass"
+    },
+    {
+     "id": "D",
+     "text": "Volume"
+    }
+   ],
+   "answer": "C",
+   "explanation": "Larger mass means smaller acceleration for the same force, so mass measures inertia."
+  },
+  {
+   "id": "5.7-q3",
+   "n": 3,
+   "difficulty": "understanding",
+   "group": null,
+   "prompt": "When a bus suddenly brakes, standing passengers lurch forward because:",
+   "options": [
+    {
+     "id": "A",
+     "text": "The bus pushes them forward"
+    },
+    {
+     "id": "B",
+     "text": "Their bodies tend to keep moving forward (inertia)"
+    },
+    {
+     "id": "C",
+     "text": "Gravity increases suddenly"
+    },
+    {
+     "id": "D",
+     "text": "A pseudo force from the road pushes them"
+    }
+   ],
+   "answer": "B",
+   "explanation": "The bus slows down, but the passengers' bodies tend to continue at the old speed."
+  },
+  {
+   "id": "5.7-q4",
+   "n": 4,
+   "difficulty": "application",
+   "group": null,
+   "prompt": "The same force acts on a 2 kg body and a 10 kg body. The ratio of the inertia of the 10 kg body to that of the 2 kg body is:",
+   "options": [
+    {
+     "id": "A",
+     "text": "1 : 5"
+    },
+    {
+     "id": "B",
+     "text": "1 : 1"
+    },
+    {
+     "id": "C",
+     "text": "25 : 1"
+    },
+    {
+     "id": "D",
+     "text": "5 : 1"
+    }
+   ],
+   "answer": "D",
+   "explanation": "Inertia is measured by mass: 10 : 2 = 5 : 1."
+  },
+  {
+   "id": "5.7-q5",
+   "n": 5,
+   "difficulty": "understanding",
+   "group": null,
+   "prompt": "Which statement about inertia is correct?",
+   "options": [
+    {
+     "id": "A",
+     "text": "Inertia is a kind of force"
+    },
+    {
+     "id": "B",
+     "text": "Only moving bodies have inertia"
+    },
+    {
+     "id": "C",
+     "text": "A body with more mass gets less acceleration from the same force"
+    },
+    {
+     "id": "D",
+     "text": "Inertia exists only in non-inertial frames"
+    }
+   ],
+   "answer": "C",
+   "explanation": "a = F/m, so more mass means less acceleration. Inertia is a property, not a force."
+  }
+ ]
+}

@@ -290,6 +290,63 @@
      "questionCount": 6
     }
    ]
+  },
+  {
+   "id": "ch05",
+   "number": 5,
+   "title": "Newton's Laws of Motion",
+   "book": "H.C. Verma, Concepts of Physics Vol. 1",
+   "sections": [
+    {
+     "id": "5.1",
+     "slug": "ch05-5-1",
+     "title": "First Law of Motion",
+     "file": "content/ch05/5.1.json",
+     "questionCount": 6
+    },
+    {
+     "id": "5.2",
+     "slug": "ch05-5-2",
+     "title": "Second Law of Motion",
+     "file": "content/ch05/5.2.json",
+     "questionCount": 6
+    },
+    {
+     "id": "5.3",
+     "slug": "ch05-5-3",
+     "title": "Working with Newton's First and Second Law",
+     "file": "content/ch05/5.3.json",
+     "questionCount": 9
+    },
+    {
+     "id": "5.4",
+     "slug": "ch05-5-4",
+     "title": "Newton's Third Law of Motion",
+     "file": "content/ch05/5.4.json",
+     "questionCount": 6
+    },
+    {
+     "id": "5.5",
+     "slug": "ch05-5-5",
+     "title": "Pseudo Forces",
+     "file": "content/ch05/5.5.json",
+     "questionCount": 7
+    },
+    {
+     "id": "5.6",
+     "slug": "ch05-5-6",
+     "title": "The Horse and the Cart",
+     "file": "content/ch05/5.6.json",
+     "questionCount": 5
+    },
+    {
+     "id": "5.7",
+     "slug": "ch05-5-7",
+     "title": "Inertia",
+     "file": "content/ch05/5.7.json",
+     "questionCount": 5
+    }
+   ]
   }
  ]
 }

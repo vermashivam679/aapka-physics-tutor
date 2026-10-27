@@ -1,0 +1,172 @@
+{
+ "id": "5.1",
+ "slug": "ch05-5-1",
+ "chapter": "ch05",
+ "title": "First Law of Motion",
+ "diagram": "content/ch05/diagrams/ch05_sec5_1.png",
+ "theory": "**Big idea:** If the total force on a particle is zero, it does not accelerate, and if it does not accelerate, the total force on it is zero. But this is only true when you watch from the right kind of frame.\n\n**Newton's first law**\nIf the (vector) sum of all the forces acting on a particle is zero then, and only then, the particle remains unaccelerated. That is, it stays at rest or moves with constant velocity.\n**a = 0 if and only if F = 0**\n\n**The falling-lift puzzle: which frame?**\nA lift cabin falls freely after its cable breaks. A lamp hangs inside, with weight W pulling down and tension T pulling up.\n- **Observer A, inside the cabin:** the lamp is at rest (a = 0), so A concludes W = T.\n- **Observer B, on the ground:** the lamp accelerates at 9.8 m/s², so B concludes W ≠ T.\n\nBoth cannot be right, so the first law cannot hold in both frames.\n\n**Inertial and non-inertial frames**\n- **Inertial frame:** a frame in which the first law holds.\n- **Non-inertial frame:** a frame in which it does not, such as an accelerating lift, car or train.\n\nSo the first law is really the **definition** of an inertial frame. It becomes a law when we say the **earth is (approximately) an inertial frame**. Very accurate measurements show the earth isn't perfectly inertial, but it is close enough for everyday work.\n\n**Frames moving uniformly are inertial too:** if S is inertial and S′ moves with **constant velocity** relative to S, then the accelerations are the same in both, so S′ is also inertial. Examples: a train moving at constant velocity, a plane flying straight at steady speed, a ship sailing smoothly on a calm sea.\n\n**🧮 Worked example:** a 0.50 kg particle hangs at rest from a string (g = 9.8 m/s²).\n- Forces: the earth's pull of 0.50 × 9.8 = 4.9 N downward, and the string's pull T upward.\n- At rest, so the forces sum to zero: **T = 4.9 N, upward**.\n\n> ⚠️ **Common misconception:** \"A moving body needs a force to keep moving.\" Constant velocity needs **zero** net force. A force is needed to **change** the velocity.",
+ "questions": [
+  {
+   "id": "5.1-q1",
+   "n": 1,
+   "difficulty": "recall",
+   "group": null,
+   "prompt": "According to Newton's first law, a particle stays unaccelerated if and only if:",
+   "options": [
+    {
+     "id": "A",
+     "text": "A single constant force acts on it"
+    },
+    {
+     "id": "B",
+     "text": "The vector sum of all forces on it is zero"
+    },
+    {
+     "id": "C",
+     "text": "It is at rest"
+    },
+    {
+     "id": "D",
+     "text": "It moves in a circle"
+    }
+   ],
+   "answer": "B",
+   "explanation": "First law: a = 0 if and only if the total force is zero."
+  },
+  {
+   "id": "5.1-q2",
+   "n": 2,
+   "difficulty": "understanding",
+   "group": null,
+   "prompt": "A frame of reference in which Newton's first law holds is called:",
+   "options": [
+    {
+     "id": "A",
+     "text": "A non-inertial frame"
+    },
+    {
+     "id": "B",
+     "text": "An accelerated frame"
+    },
+    {
+     "id": "C",
+     "text": "An inertial frame"
+    },
+    {
+     "id": "D",
+     "text": "A rotating frame"
+    }
+   ],
+   "answer": "C",
+   "explanation": "That is the definition of an inertial frame."
+  },
+  {
+   "id": "5.1-q3",
+   "n": 3,
+   "difficulty": "understanding",
+   "group": null,
+   "prompt": "Which of these is an inertial frame (to a good approximation)?",
+   "options": [
+    {
+     "id": "A",
+     "text": "A car braking suddenly"
+    },
+    {
+     "id": "B",
+     "text": "A lift accelerating upward"
+    },
+    {
+     "id": "C",
+     "text": "A merry-go-round"
+    },
+    {
+     "id": "D",
+     "text": "A train moving with constant velocity on a straight track"
+    }
+   ],
+   "answer": "D",
+   "explanation": "Uniform motion relative to the (inertial) ground keeps a frame inertial. The others accelerate."
+  },
+  {
+   "id": "5.1-q4",
+   "n": 4,
+   "difficulty": "application",
+   "group": null,
+   "prompt": "A particle of mass 0.50 kg hangs at rest from a string. Taking g = 9.8 m/s², the tension in the string is:",
+   "options": [
+    {
+     "id": "A",
+     "text": "4.9 N"
+    },
+    {
+     "id": "B",
+     "text": "0.50 N"
+    },
+    {
+     "id": "C",
+     "text": "9.8 N"
+    },
+    {
+     "id": "D",
+     "text": "19.6 N"
+    }
+   ],
+   "answer": "A",
+   "explanation": "At rest, so T = mg = 0.50 × 9.8 = 4.9 N."
+  },
+  {
+   "id": "5.1-q5",
+   "n": 5,
+   "difficulty": "understanding",
+   "group": null,
+   "prompt": "A body moves with constant velocity in an inertial frame. The net force on it is:",
+   "options": [
+    {
+     "id": "A",
+     "text": "In the direction of motion"
+    },
+    {
+     "id": "B",
+     "text": "Zero"
+    },
+    {
+     "id": "C",
+     "text": "Opposite to the direction of motion"
+    },
+    {
+     "id": "D",
+     "text": "Equal to its weight"
+    }
+   ],
+   "answer": "B",
+   "explanation": "No acceleration means zero net force."
+  },
+  {
+   "id": "5.1-q6",
+   "n": 6,
+   "difficulty": "understanding",
+   "group": null,
+   "prompt": "If S is an inertial frame and S′ moves with constant velocity relative to S, then S′ is:",
+   "options": [
+    {
+     "id": "A",
+     "text": "Also an inertial frame"
+    },
+    {
+     "id": "B",
+     "text": "A non-inertial frame"
+    },
+    {
+     "id": "C",
+     "text": "Inertial only if it is at rest"
+    },
+    {
+     "id": "D",
+     "text": "Impossible to decide"
+    }
+   ],
+   "answer": "A",
+   "explanation": "A frame moving uniformly relative to an inertial frame measures the same accelerations, so it is also inertial."
+  }
+ ]
+}

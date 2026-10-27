@@ -1,0 +1,172 @@
+{
+ "id": "5.4",
+ "slug": "ch05-5-4",
+ "chapter": "ch05",
+ "title": "Newton's Third Law of Motion",
+ "diagram": "content/ch05/diagrams/ch05_sec5_4.png",
+ "theory": "**Big idea:** Forces come in pairs. The two forces of a pair act on **different** bodies, so they never appear together in the same free body diagram.\n\n**Newton's third law:** if body A exerts a force **F** on body B, then B exerts a force **–F** on A. The two are equal in magnitude and opposite in direction.\n\n**Why the pair never cancels**\n- The table pushes the block up with N. This goes in the block's FBD.\n- The block pushes the table down with N. This goes in the table's FBD.\n- Only **one** force of the pair appears in any one system's equations.\n\n**The earth and a falling particle**\n- The earth pulls a particle of mass M with force Mg, downward.\n- The particle pulls the earth with force Mg, upward.\n- They don't cancel. The particle accelerates at g, and the earth also accelerates, but its huge mass makes that acceleration unbelievably small.\n\n**Tension is a third-law pair too:** at any cross-section of a string, the lower part pulls the upper part down with T, and the upper part pulls the lower part up with the same T.\n\n**🧮 Worked example: how much does the earth accelerate?**\nA 1 kg ball falls. It pulls the earth with 9.8 N, so a_earth = 9.8 / (6 × 10²⁴) ≈ **1.6 × 10⁻²⁴ m/s²**. That's far too small to notice!\n\n> 💡 The third law is not strictly correct for bodies interacting over large distances, for example through some electric and magnetic forces. For everyday contact and gravitational forces it works very well.\n\n> ⚠️ **Common mistake:** Saying \"weight and normal force are an action–reaction pair\". Both act on the **same** book, so they are not a pair. The partner of the earth's pull on the book is the book's pull on the earth.",
+ "questions": [
+  {
+   "id": "5.4-q1",
+   "n": 1,
+   "difficulty": "recall",
+   "group": null,
+   "prompt": "The two forces of an action–reaction pair:",
+   "options": [
+    {
+     "id": "A",
+     "text": "Act on the same body"
+    },
+    {
+     "id": "B",
+     "text": "Act on different bodies"
+    },
+    {
+     "id": "C",
+     "text": "Always cancel each other"
+    },
+    {
+     "id": "D",
+     "text": "Are always perpendicular"
+    }
+   ],
+   "answer": "B",
+   "explanation": "A on B and B on A act on two different bodies."
+  },
+  {
+   "id": "5.4-q2",
+   "n": 2,
+   "difficulty": "understanding",
+   "group": null,
+   "prompt": "A book rests on a table. Its weight (the earth's pull on it) and the normal force from the table are:",
+   "options": [
+    {
+     "id": "A",
+     "text": "An action–reaction pair"
+    },
+    {
+     "id": "B",
+     "text": "Always unequal"
+    },
+    {
+     "id": "C",
+     "text": "Both acting on the book, so not a third-law pair"
+    },
+    {
+     "id": "D",
+     "text": "Both acting on the table"
+    }
+   ],
+   "answer": "C",
+   "explanation": "Both act on the book. Each has its own partner force acting on a different body."
+  },
+  {
+   "id": "5.4-q3",
+   "n": 3,
+   "difficulty": "understanding",
+   "group": null,
+   "prompt": "The earth pulls a ball downward with a force of 10 N. The ball pulls the earth:",
+   "options": [
+    {
+     "id": "A",
+     "text": "Upward with 10 N"
+    },
+    {
+     "id": "B",
+     "text": "Downward with 10 N"
+    },
+    {
+     "id": "C",
+     "text": "With zero force"
+    },
+    {
+     "id": "D",
+     "text": "Upward with a force much smaller than 10 N"
+    }
+   ],
+   "answer": "A",
+   "explanation": "Equal in size and opposite in direction: 10 N upward on the earth."
+  },
+  {
+   "id": "5.4-q4",
+   "n": 4,
+   "difficulty": "application",
+   "group": null,
+   "prompt": "A 1 kg ball falls freely. The ball also accelerates the earth (mass 6 × 10²⁴ kg) towards itself. The magnitude of the earth's acceleration is about:",
+   "options": [
+    {
+     "id": "A",
+     "text": "9.8 m/s²"
+    },
+    {
+     "id": "B",
+     "text": "Zero, exactly"
+    },
+    {
+     "id": "C",
+     "text": "1 m/s²"
+    },
+    {
+     "id": "D",
+     "text": "1.6 × 10⁻²⁴ m/s²"
+    }
+   ],
+   "answer": "D",
+   "explanation": "a = 9.8 / (6 × 10²⁴) ≈ 1.6 × 10⁻²⁴ m/s²."
+  },
+  {
+   "id": "5.4-q5",
+   "n": 5,
+   "difficulty": "understanding",
+   "group": null,
+   "prompt": "When we write the equation of motion for a single chosen system:",
+   "options": [
+    {
+     "id": "A",
+     "text": "Both forces of every action–reaction pair must be included"
+    },
+    {
+     "id": "B",
+     "text": "At most one force of an action–reaction pair can appear"
+    },
+    {
+     "id": "C",
+     "text": "Third-law forces are never included"
+    },
+    {
+     "id": "D",
+     "text": "Only gravitational forces are included"
+    }
+   ],
+   "answer": "B",
+   "explanation": "The other force of the pair acts on a different body, outside the system."
+  },
+  {
+   "id": "5.4-q6",
+   "n": 6,
+   "difficulty": "recall",
+   "group": null,
+   "prompt": "Newton's third law is **not** strictly correct for:",
+   "options": [
+    {
+     "id": "A",
+     "text": "A book pressing on a table"
+    },
+    {
+     "id": "B",
+     "text": "A rope pulling a block"
+    },
+    {
+     "id": "C",
+     "text": "Some interactions between bodies separated by large distances, such as certain electric and magnetic forces"
+    },
+    {
+     "id": "D",
+     "text": "A person pushing a wall"
+    }
+   ],
+   "answer": "C",
+   "explanation": "The book notes deviations for interactions at large distances, which we meet in electricity and magnetism."
+  }
+ ]
+}

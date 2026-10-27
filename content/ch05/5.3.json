@@ -1,0 +1,253 @@
+{
+ "id": "5.3",
+ "slug": "ch05-5-3",
+ "chapter": "ch05",
+ "title": "Working with Newton's First and Second Law",
+ "diagram": "content/ch05/diagrams/ch05_sec5_3.png",
+ "theory": "**Big idea:** Solving force problems is a recipe. Choose the body, list the forces on it, draw them, then write F = ma along two axes.\n\n**The four-step algorithm**\n1. **Decide the system.** It can be a block, two blocks together, a piece of string, and so on. The only rule: **every part of the system must have the same acceleration** (magnitude and direction). Two blocks moving in different directions, or a disc sliding along a string, can't be one system.\n2. **Identify the forces.** List only the forces exerted **on** the system **by objects outside it**. Forces the system exerts on others don't go in the list. Neither do forces between parts of the system.\n3. **Draw a free body diagram (FBD).** Represent the system as a point and draw every force as an arrow from that point.\n4. **Choose axes and write equations.**\n   - Take X along the (likely) acceleration and Y perpendicular to it.\n   - Along X: sum of force components = ma.\n   - Along Y: sum of force components = 0.\n   - Repeat with another system if you need more equations.\n\nAccelerations of connected bodies are often linked by kinematics, so use the **same symbol a** for them.\n\n**The boy with a load on his head**\n| System | Forces on it |\n|---|---|\n| **Boy** | his weight W (earth, down), N from the floor (up), N₁ from the load (down) |\n| **Load** | its weight W′ (earth, down), N₁ from the boy (up) |\nChange the system and the list changes!\n\n**🧮 Worked example: a block pulled by a slanted string on a smooth table**\nBlock mass M, string at angle θ above the horizontal, acceleration a. Forces: Mg down, N up, T along the string.\n- X: T cos θ = Ma, so **T = Ma / cos θ**\n- Y: N + T sin θ – Mg = 0, so **N = Mg – Ma tan θ**\n\nWith M = 2 kg, a = 4 m/s², θ = 37° (cos = 0.8, tan = 0.75) and g = 10 m/s²: **T = 10 N** and **N = 20 – 6 = 14 N**.\n\n**Tension in a string**\n- **Tension** at a point is the common magnitude of the pulls that the two parts of the string, on either side of that point, exert on each other.\n- **Light (massless) string:** the tension is the **same everywhere** along it, as long as nothing massive is attached in between. A light pulley doesn't change it either.\n- **Heavy string** (mass m below point A) holding a block M at rest: tension at the lower end = Mg, and tension at A = (M + m)g.\n- If the same system **descends with acceleration a**: tension at A = (M + m)(g – a).\n\n**🧮 Worked example: a person in a lift**\nA 50 kg person stands in a lift accelerating **upward** at 2 m/s² (g = 10 m/s²).\nN – mg = ma, so N = 50 × (10 + 2) = **600 N**. The person feels heavier.\n\n**🧮 Worked example: two blocks**\nBlocks of 2 kg and 3 kg on a smooth floor are tied by a light string. A 10 N force pulls the 3 kg block.\n- Whole system: a = 10/5 = **2 m/s²**\n- 2 kg block alone: T = 2 × 2 = **4 N**\n\n> ⚠️ **Common mistakes:**\n> - Listing forces before choosing the system.\n> - Including a force the system exerts on something else, or a force between two parts of the system.",
+ "questions": [
+  {
+   "id": "5.3-q1",
+   "n": 1,
+   "difficulty": "recall",
+   "group": null,
+   "prompt": "The first step in applying Newton's laws to a problem is to:",
+   "options": [
+    {
+     "id": "A",
+     "text": "Write F = ma"
+    },
+    {
+     "id": "B",
+     "text": "Choose the axes"
+    },
+    {
+     "id": "C",
+     "text": "Decide the system"
+    },
+    {
+     "id": "D",
+     "text": "Draw the pulleys"
+    }
+   ],
+   "answer": "C",
+   "explanation": "You cannot list the forces until you know which body you are talking about."
+  },
+  {
+   "id": "5.3-q2",
+   "n": 2,
+   "difficulty": "understanding",
+   "group": null,
+   "prompt": "When listing the forces for a free body diagram of a system, we include:",
+   "options": [
+    {
+     "id": "A",
+     "text": "Only the forces exerted on the system by objects outside it"
+    },
+    {
+     "id": "B",
+     "text": "The forces the system exerts on other objects"
+    },
+    {
+     "id": "C",
+     "text": "The forces between different parts of the system"
+    },
+    {
+     "id": "D",
+     "text": "All the forces in the situation"
+    }
+   ],
+   "answer": "A",
+   "explanation": "Only external forces acting on the system go into its free body diagram."
+  },
+  {
+   "id": "5.3-q3",
+   "n": 3,
+   "difficulty": "understanding",
+   "group": null,
+   "prompt": "Two bodies can be treated together as one system for Newton's laws only if:",
+   "options": [
+    {
+     "id": "A",
+     "text": "They have the same mass"
+    },
+    {
+     "id": "B",
+     "text": "They are touching each other"
+    },
+    {
+     "id": "C",
+     "text": "They are made of the same material"
+    },
+    {
+     "id": "D",
+     "text": "They have the same acceleration"
+    }
+   ],
+   "answer": "D",
+   "explanation": "Newton's laws treat the system as one particle, so all its parts must accelerate equally."
+  },
+  {
+   "id": "5.3-q4",
+   "n": 4,
+   "difficulty": "application",
+   "group": null,
+   "prompt": "A 2 kg block on a smooth table is pulled by a string at 37° above the horizontal and accelerates at 4 m/s² (cos 37° = 0.8). The tension in the string is:",
+   "options": [
+    {
+     "id": "A",
+     "text": "8 N"
+    },
+    {
+     "id": "B",
+     "text": "10 N"
+    },
+    {
+     "id": "C",
+     "text": "6.4 N"
+    },
+    {
+     "id": "D",
+     "text": "12 N"
+    }
+   ],
+   "answer": "B",
+   "explanation": "T cos θ = Ma, so T = 2 × 4 / 0.8 = 10 N."
+  },
+  {
+   "id": "5.3-q5",
+   "n": 5,
+   "difficulty": "application",
+   "group": null,
+   "prompt": "For the same block (M = 2 kg, a = 4 m/s², θ = 37°, tan 37° = 0.75, g = 10 m/s²), the normal force from the table is:",
+   "options": [
+    {
+     "id": "A",
+     "text": "20 N"
+    },
+    {
+     "id": "B",
+     "text": "26 N"
+    },
+    {
+     "id": "C",
+     "text": "14 N"
+    },
+    {
+     "id": "D",
+     "text": "6 N"
+    }
+   ],
+   "answer": "C",
+   "explanation": "N = Mg – Ma tan θ = 20 – 2 × 4 × 0.75 = 14 N."
+  },
+  {
+   "id": "5.3-q6",
+   "n": 6,
+   "difficulty": "understanding",
+   "group": null,
+   "prompt": "In a light (massless) string with no massive body attached in between, the tension:",
+   "options": [
+    {
+     "id": "A",
+     "text": "Is the same at every point"
+    },
+    {
+     "id": "B",
+     "text": "Is greatest at the top"
+    },
+    {
+     "id": "C",
+     "text": "Is zero at the ends"
+    },
+    {
+     "id": "D",
+     "text": "Doubles at the middle"
+    }
+   ],
+   "answer": "A",
+   "explanation": "A massless string carries the same tension throughout."
+  },
+  {
+   "id": "5.3-q7",
+   "n": 7,
+   "difficulty": "application",
+   "group": null,
+   "prompt": "A 50 kg person stands in a lift that accelerates upward at 2 m/s² (g = 10 m/s²). The normal force from the floor on the person is:",
+   "options": [
+    {
+     "id": "A",
+     "text": "400 N"
+    },
+    {
+     "id": "B",
+     "text": "500 N"
+    },
+    {
+     "id": "C",
+     "text": "100 N"
+    },
+    {
+     "id": "D",
+     "text": "600 N"
+    }
+   ],
+   "answer": "D",
+   "explanation": "N – mg = ma, so N = m(g + a) = 50 × 12 = 600 N."
+  },
+  {
+   "id": "5.3-q8",
+   "n": 8,
+   "difficulty": "application",
+   "group": null,
+   "prompt": "Blocks of 2 kg and 3 kg lie on a smooth floor, tied by a light string. A force of 10 N pulls the 3 kg block horizontally. The tension in the string is:",
+   "options": [
+    {
+     "id": "A",
+     "text": "6 N"
+    },
+    {
+     "id": "B",
+     "text": "4 N"
+    },
+    {
+     "id": "C",
+     "text": "10 N"
+    },
+    {
+     "id": "D",
+     "text": "2 N"
+    }
+   ],
+   "answer": "B",
+   "explanation": "a = 10/5 = 2 m/s². For the 2 kg block, T = 2 × 2 = 4 N."
+  },
+  {
+   "id": "5.3-q9",
+   "n": 9,
+   "difficulty": "application",
+   "group": null,
+   "prompt": "A block of mass M hangs at rest from a string, and the part of the string below a point A has mass m. The tension at A is:",
+   "options": [
+    {
+     "id": "A",
+     "text": "Mg"
+    },
+    {
+     "id": "B",
+     "text": "mg"
+    },
+    {
+     "id": "C",
+     "text": "(M + m)g"
+    },
+    {
+     "id": "D",
+     "text": "(M – m)g"
+    }
+   ],
+   "answer": "C",
+   "explanation": "Take the block plus the string below A as the system: T = (M + m)g."
+  }
+ ]
+}

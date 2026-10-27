@@ -1,0 +1,199 @@
+{
+ "id": "5.5",
+ "slug": "ch05-5-5",
+ "chapter": "ch05",
+ "title": "Pseudo Forces",
+ "diagram": "content/ch05/diagrams/ch05_sec5_5.png",
+ "theory": "**Big idea:** In an accelerating frame, F = ma fails. To keep using it, add an imaginary force, **–m a₀**, to the list of forces.\n\n**Where it comes from**\nFrame S′ has acceleration **a₀** relative to an inertial frame S. For a particle of mass m:\n- **a**_P,S = **a**_P,S′ + **a₀**, and m **a**_P,S = **F** (the real forces)\n- So m **a**_P,S′ = **F** – m **a₀**\n\n**The rule:** when working from a frame with acceleration **a₀**, add a **pseudo force –m a₀** (mass of the particle × the frame's acceleration, pointing **opposite** to it). Then use \"total force = mass × acceleration\" as usual.\n\n- Pseudo forces are also called **inertial forces**.\n- They are **not exerted by any object**, so they have no third-law partner.\n- In an inertial frame, a₀ = 0, so there is no pseudo force.\n\n**🧮 Worked example: a pendulum in an accelerating car**\nThe car accelerates forward at a₀. From the car frame, the bob is at rest under three forces: T along the string, mg down, and the pseudo force m a₀ **backward**.\n- X: T sin θ = m a₀\n- Y: T cos θ = mg\n- Dividing: **tan θ = a₀ / g**. The string tilts **backward**.\n- With a₀ = 7.5 m/s² and g = 10 m/s²: tan θ = 0.75, so **θ ≈ 37°**.\n- With a₀ = g: θ = **45°**.\n\n**🧮 Worked example: in a lift accelerating upward at a₀**\nThe pseudo force m a₀ acts downward, so you feel heavier. The apparent weight is m(g + a₀). Accelerating downward, you feel lighter: m(g – a₀). In free fall, a₀ = g, so you feel **weightless**.\n\n> ⚠️ **Common mistake:** Adding a pseudo force when working from the ground frame. Pseudo forces belong **only** in accelerating (non-inertial) frames.",
+ "questions": [
+  {
+   "id": "5.5-q1",
+   "n": 1,
+   "difficulty": "recall",
+   "group": null,
+   "prompt": "A pseudo force has to be included when we apply Newton's second law in:",
+   "options": [
+    {
+     "id": "A",
+     "text": "An inertial frame"
+    },
+    {
+     "id": "B",
+     "text": "A frame moving with constant velocity"
+    },
+    {
+     "id": "C",
+     "text": "A non-inertial (accelerating) frame"
+    },
+    {
+     "id": "D",
+     "text": "Any frame at all"
+    }
+   ],
+   "answer": "C",
+   "explanation": "Only in accelerating frames does F = ma need a correction term."
+  },
+  {
+   "id": "5.5-q2",
+   "n": 2,
+   "difficulty": "understanding",
+   "group": null,
+   "prompt": "In a frame with acceleration **a₀**, the pseudo force on a particle of mass m is:",
+   "options": [
+    {
+     "id": "A",
+     "text": "m **a₀**, in the direction of the frame's acceleration"
+    },
+    {
+     "id": "B",
+     "text": "–m **a₀**, opposite to the frame's acceleration"
+    },
+    {
+     "id": "C",
+     "text": "m **g**, downward"
+    },
+    {
+     "id": "D",
+     "text": "Zero"
+    }
+   ],
+   "answer": "B",
+   "explanation": "The pseudo force is –m**a₀**: the particle's mass times the frame's acceleration, reversed."
+  },
+  {
+   "id": "5.5-q3",
+   "n": 3,
+   "difficulty": "application",
+   "group": null,
+   "prompt": "A pendulum hangs in a car accelerating at a₀ on a level road. The angle θ the string makes with the vertical is given by:",
+   "options": [
+    {
+     "id": "A",
+     "text": "tan θ = g / a₀"
+    },
+    {
+     "id": "B",
+     "text": "sin θ = a₀ / g"
+    },
+    {
+     "id": "C",
+     "text": "cos θ = a₀ / g"
+    },
+    {
+     "id": "D",
+     "text": "tan θ = a₀ / g"
+    }
+   ],
+   "answer": "D",
+   "explanation": "T sin θ = m a₀ and T cos θ = mg, so tan θ = a₀/g."
+  },
+  {
+   "id": "5.5-q4",
+   "n": 4,
+   "difficulty": "application",
+   "group": null,
+   "prompt": "A car accelerates at 7.5 m/s², with g = 10 m/s². A pendulum hanging from its roof makes an angle with the vertical of about:",
+   "options": [
+    {
+     "id": "A",
+     "text": "37°"
+    },
+    {
+     "id": "B",
+     "text": "53°"
+    },
+    {
+     "id": "C",
+     "text": "45°"
+    },
+    {
+     "id": "D",
+     "text": "0°"
+    }
+   ],
+   "answer": "A",
+   "explanation": "tan θ = 7.5/10 = 0.75, so θ ≈ 37°."
+  },
+  {
+   "id": "5.5-q5",
+   "n": 5,
+   "difficulty": "understanding",
+   "group": null,
+   "prompt": "Pseudo forces differ from real forces because:",
+   "options": [
+    {
+     "id": "A",
+     "text": "They are always larger"
+    },
+    {
+     "id": "B",
+     "text": "They are not exerted by any object, so they have no reaction force"
+    },
+    {
+     "id": "C",
+     "text": "They only act on light bodies"
+    },
+    {
+     "id": "D",
+     "text": "They act only vertically"
+    }
+   ],
+   "answer": "B",
+   "explanation": "No object exerts a pseudo force. It is a correction for working in an accelerating frame."
+  },
+  {
+   "id": "5.5-q6",
+   "n": 6,
+   "difficulty": "application",
+   "group": null,
+   "prompt": "A 50 kg person stands in a lift accelerating downward at 2 m/s² (g = 10 m/s²). Working in the lift frame, the normal force from the floor is:",
+   "options": [
+    {
+     "id": "A",
+     "text": "600 N"
+    },
+    {
+     "id": "B",
+     "text": "500 N"
+    },
+    {
+     "id": "C",
+     "text": "400 N"
+    },
+    {
+     "id": "D",
+     "text": "0"
+    }
+   ],
+   "answer": "C",
+   "explanation": "The pseudo force is m a₀ upward, so N = m(g – a) = 50 × 8 = 400 N."
+  },
+  {
+   "id": "5.5-q7",
+   "n": 7,
+   "difficulty": "understanding",
+   "group": null,
+   "prompt": "In a car accelerating forward, a pendulum hanging from the roof tilts:",
+   "options": [
+    {
+     "id": "A",
+     "text": "Forward"
+    },
+    {
+     "id": "B",
+     "text": "Backward"
+    },
+    {
+     "id": "C",
+     "text": "Sideways"
+    },
+    {
+     "id": "D",
+     "text": "It stays vertical"
+    }
+   ],
+   "answer": "B",
+   "explanation": "The pseudo force points backward, opposite to the car's acceleration, so the bob swings back."
+  }
+ ]
+}
