@@ -1,0 +1,172 @@
+{
+ "id": "8.2",
+ "slug": "ch08-8-2",
+ "chapter": "ch08",
+ "title": "Work and Work-Energy Theorem",
+ "diagram": "content/ch08/diagrams/ch08_sec8_2.png",
+ "theory": "**Big idea:** A force does **work** when it moves its point of application along the force. The total work on a particle equals the change in its kinetic energy.\n\n**Work**\n- In a small displacement: dW = **F · dr** = F dr cos θ\n- Over a path: **W = ∫ F · dr**\n- Work is a **scalar**. It can be positive (force along the motion), negative (force against the motion) or zero (force perpendicular to the motion).\n\n**Work-energy theorem**\n**W_total = K_final – K_initial = ΔK**\n- W_total is the work done by the **resultant** force, which equals the **sum** of the work done by each individual force.\n- Any single force's work is **not** equal to ΔK. Only the total is.\n\n**Power: the rate of doing work**\n**P = dW/dt = F · v**\n- **Unit:** watt (W) = J/s\n- **1 horsepower = 746 W**\n\n**🧮 Worked example:** a 5 kg body speeds up from 2 m/s to 4 m/s.\nW_total = ΔK = ½ × 5 × (16 – 4) = **30 J**.\n\n**🧮 Worked example:** a car's engine pushes it forward with 500 N while it moves at 20 m/s.\nP = Fv = 500 × 20 = **10 000 W = 10 kW** (about 13.4 hp).\n\n> ⚠️ **Common mistake:** Saying \"I held a heavy bag for an hour, so I did lots of work.\" No displacement means **zero** work, in physics terms.",
+ "questions": [
+  {
+   "id": "8.2-q1",
+   "n": 1,
+   "difficulty": "recall",
+   "group": null,
+   "prompt": "The work done by a force **F** during a small displacement d**r** is:",
+   "options": [
+    {
+     "id": "A",
+     "text": "**F** × d**r**"
+    },
+    {
+     "id": "B",
+     "text": "F / dr"
+    },
+    {
+     "id": "C",
+     "text": "**F** · d**r**"
+    },
+    {
+     "id": "D",
+     "text": "F + dr"
+    }
+   ],
+   "answer": "C",
+   "explanation": "dW = **F** · d**r** = F dr cos θ, a scalar."
+  },
+  {
+   "id": "8.2-q2",
+   "n": 2,
+   "difficulty": "understanding",
+   "group": null,
+   "prompt": "According to the work-energy theorem, the work done by the resultant force on a particle equals:",
+   "options": [
+    {
+     "id": "A",
+     "text": "Its final kinetic energy"
+    },
+    {
+     "id": "B",
+     "text": "The change in its kinetic energy"
+    },
+    {
+     "id": "C",
+     "text": "The change in its momentum"
+    },
+    {
+     "id": "D",
+     "text": "Its potential energy"
+    }
+   ],
+   "answer": "B",
+   "explanation": "W_total = K_f – K_i."
+  },
+  {
+   "id": "8.2-q3",
+   "n": 3,
+   "difficulty": "application",
+   "group": null,
+   "prompt": "A 5 kg body speeds up from 2 m/s to 4 m/s. The total work done on it is:",
+   "options": [
+    {
+     "id": "A",
+     "text": "10 J"
+    },
+    {
+     "id": "B",
+     "text": "40 J"
+    },
+    {
+     "id": "C",
+     "text": "20 J"
+    },
+    {
+     "id": "D",
+     "text": "30 J"
+    }
+   ],
+   "answer": "D",
+   "explanation": "½ × 5 × (4² – 2²) = 2.5 × 12 = 30 J."
+  },
+  {
+   "id": "8.2-q4",
+   "n": 4,
+   "difficulty": "recall",
+   "group": null,
+   "prompt": "The SI unit of power is the watt, which equals:",
+   "options": [
+    {
+     "id": "A",
+     "text": "1 J/s"
+    },
+    {
+     "id": "B",
+     "text": "1 J·s"
+    },
+    {
+     "id": "C",
+     "text": "1 N·s"
+    },
+    {
+     "id": "D",
+     "text": "746 J/s"
+    }
+   ],
+   "answer": "A",
+   "explanation": "Power is work per unit time, so 1 W = 1 J/s."
+  },
+  {
+   "id": "8.2-q5",
+   "n": 5,
+   "difficulty": "application",
+   "group": null,
+   "prompt": "A car's engine exerts a forward force of 500 N while the car moves at 20 m/s. The power delivered is:",
+   "options": [
+    {
+     "id": "A",
+     "text": "25 W"
+    },
+    {
+     "id": "B",
+     "text": "10 kW"
+    },
+    {
+     "id": "C",
+     "text": "520 W"
+    },
+    {
+     "id": "D",
+     "text": "1 kW"
+    }
+   ],
+   "answer": "B",
+   "explanation": "P = Fv = 500 × 20 = 10 000 W."
+  },
+  {
+   "id": "8.2-q6",
+   "n": 6,
+   "difficulty": "recall",
+   "group": null,
+   "prompt": "One horsepower is about:",
+   "options": [
+    {
+     "id": "A",
+     "text": "1000 W"
+    },
+    {
+     "id": "B",
+     "text": "100 W"
+    },
+    {
+     "id": "C",
+     "text": "746 W"
+    },
+    {
+     "id": "D",
+     "text": "9.8 W"
+    }
+   ],
+   "answer": "C",
+   "explanation": "1 hp = 746 W."
+  }
+ ]
+}

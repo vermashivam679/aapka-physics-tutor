@@ -1,0 +1,145 @@
+{
+ "id": "8.1",
+ "slug": "ch08-8-1",
+ "chapter": "ch08",
+ "title": "Kinetic Energy",
+ "diagram": "content/ch08/diagrams/ch08_sec8_1.png",
+ "theory": "**Big idea:** A moving body has energy because it is moving. This energy of motion is its **kinetic energy**.\n\n**Definition**\n**K = ½ mv²** (= ½ m **v** · **v**)\n- It is a **scalar**, and never negative.\n- **Unit:** joule (J) = kg m²/s²\n- For a system of particles: K = Σ ½ mᵢvᵢ²\n\n**How K changes**\n- **dK/dt = F_t v**, where F_t is the component of the net force **along the velocity** (the tangential force).\n- No force, or a net force **perpendicular** to the velocity (as in uniform circular motion): the speed stays the same, so **K is unchanged**.\n- Force along the motion (a falling ball): K **increases**.\n- Force against the motion (a ball thrown up): K **decreases**.\n\nIn small steps: **dK = F · dr**.\n\n**🧮 Quick numbers**\n- A 2 kg ball at 3 m/s: K = ½ × 2 × 9 = **9 J**.\n- Double the speed and K becomes **4 times** as large (K ∝ v²).\n- Double the mass at the same speed and K **doubles**.\n\n> ⚠️ **Common mistake:** Thinking K changes whenever the direction changes. K depends only on **speed**, so turning at constant speed leaves K unchanged.",
+ "questions": [
+  {
+   "id": "8.1-q1",
+   "n": 1,
+   "difficulty": "recall",
+   "group": null,
+   "prompt": "The kinetic energy of a particle of mass m moving with speed v is:",
+   "options": [
+    {
+     "id": "A",
+     "text": "mv"
+    },
+    {
+     "id": "B",
+     "text": "½ mv²"
+    },
+    {
+     "id": "C",
+     "text": "mv²"
+    },
+    {
+     "id": "D",
+     "text": "½ m²v"
+    }
+   ],
+   "answer": "B",
+   "explanation": "K = ½mv²."
+  },
+  {
+   "id": "8.1-q2",
+   "n": 2,
+   "difficulty": "application",
+   "group": null,
+   "prompt": "A 2 kg ball moves at 3 m/s. Its kinetic energy is:",
+   "options": [
+    {
+     "id": "A",
+     "text": "6 J"
+    },
+    {
+     "id": "B",
+     "text": "18 J"
+    },
+    {
+     "id": "C",
+     "text": "3 J"
+    },
+    {
+     "id": "D",
+     "text": "9 J"
+    }
+   ],
+   "answer": "D",
+   "explanation": "½ × 2 × 3² = 9 J."
+  },
+  {
+   "id": "8.1-q3",
+   "n": 3,
+   "difficulty": "understanding",
+   "group": null,
+   "prompt": "If the speed of a body is doubled, its kinetic energy becomes:",
+   "options": [
+    {
+     "id": "A",
+     "text": "Double"
+    },
+    {
+     "id": "B",
+     "text": "Half"
+    },
+    {
+     "id": "C",
+     "text": "Four times"
+    },
+    {
+     "id": "D",
+     "text": "Unchanged"
+    }
+   ],
+   "answer": "C",
+   "explanation": "K ∝ v², so 2v gives 4K."
+  },
+  {
+   "id": "8.1-q4",
+   "n": 4,
+   "difficulty": "understanding",
+   "group": null,
+   "prompt": "A stone moves in a horizontal circle at constant speed. Its kinetic energy:",
+   "options": [
+    {
+     "id": "A",
+     "text": "Stays constant"
+    },
+    {
+     "id": "B",
+     "text": "Increases"
+    },
+    {
+     "id": "C",
+     "text": "Decreases"
+    },
+    {
+     "id": "D",
+     "text": "Keeps changing direction"
+    }
+   ],
+   "answer": "A",
+   "explanation": "The speed is constant, so K is constant. The force is perpendicular to the velocity."
+  },
+  {
+   "id": "8.1-q5",
+   "n": 5,
+   "difficulty": "recall",
+   "group": null,
+   "prompt": "The rate of change of kinetic energy, dK/dt, equals:",
+   "options": [
+    {
+     "id": "A",
+     "text": "F_t v, where F_t is the force component along the velocity"
+    },
+    {
+     "id": "B",
+     "text": "mv"
+    },
+    {
+     "id": "C",
+     "text": "F/v"
+    },
+    {
+     "id": "D",
+     "text": "Zero always"
+    }
+   ],
+   "answer": "A",
+   "explanation": "d(½mv²)/dt = mv(dv/dt) = F_t v."
+  }
+ ]
+}

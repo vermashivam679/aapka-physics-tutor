@@ -1,0 +1,145 @@
+{
+ "id": "8.6",
+ "slug": "ch08-8-6",
+ "chapter": "ch08",
+ "title": "Conservative and Nonconservative Forces",
+ "diagram": "content/ch08/diagrams/ch08_sec8_6.png",
+ "theory": "**Big idea:** For some forces, a round trip costs nothing. For others, like friction, every trip costs energy.\n\n**Two equivalent definitions of a conservative force**\n1. The work done in **any round trip is zero**, or\n2. The work done depends **only on the initial and final positions**, not on the path.\n\n| Conservative | Nonconservative |\n|---|---|\n| Gravity | Friction |\n| Coulomb (electric) force | Air drag and other resistances |\n| Spring force | |\n\n**Friction on a round trip**\nA block (mass m, friction coefficient μ) is dragged a distance l to the right and then back to its start.\n- Going right, friction points left: W = –μmgl.\n- Coming back, friction points right: W = –μmgl again.\n- **Round trip: W = –2μmgl**, not zero!\n\n**🧮 Example:** m = 2 kg, μ = 0.2, l = 5 m, g = 10 m/s². W = –2 × 0.2 × 2 × 10 × 5 = **–40 J**.\n\n**A spring-block on a rough table:** each time the block passes the centre, it moves a little more slowly. The configuration is the same, but the kinetic energy is really lost. Friction is the culprit, and eventually the block stops.\n\n> ⚠️ **Common mistake:** Thinking friction does zero work on a round trip, the way gravity does. Friction always opposes the motion, so it does negative work on both legs.",
+ "questions": [
+  {
+   "id": "8.6-q1",
+   "n": 1,
+   "difficulty": "recall",
+   "group": null,
+   "prompt": "A force is called conservative if the work done by it:",
+   "options": [
+    {
+     "id": "A",
+     "text": "Is always positive"
+    },
+    {
+     "id": "B",
+     "text": "Is always negative"
+    },
+    {
+     "id": "C",
+     "text": "Depends on the path taken"
+    },
+    {
+     "id": "D",
+     "text": "In any round trip is zero"
+    }
+   ],
+   "answer": "D",
+   "explanation": "Zero work in every round trip, or equivalently, path-independent work."
+  },
+  {
+   "id": "8.6-q2",
+   "n": 2,
+   "difficulty": "understanding",
+   "group": null,
+   "prompt": "Which of these is a **nonconservative** force?",
+   "options": [
+    {
+     "id": "A",
+     "text": "Friction"
+    },
+    {
+     "id": "B",
+     "text": "Gravity"
+    },
+    {
+     "id": "C",
+     "text": "Spring force"
+    },
+    {
+     "id": "D",
+     "text": "Coulomb force"
+    }
+   ],
+   "answer": "A",
+   "explanation": "Friction does negative work on both legs of a round trip."
+  },
+  {
+   "id": "8.6-q3",
+   "n": 3,
+   "difficulty": "application",
+   "group": null,
+   "prompt": "A 2 kg block is dragged 5 m to the right and then back to its starting point on a rough floor (μ = 0.2, g = 10 m/s²). The total work done by friction is:",
+   "options": [
+    {
+     "id": "A",
+     "text": "0"
+    },
+    {
+     "id": "B",
+     "text": "–20 J"
+    },
+    {
+     "id": "C",
+     "text": "–40 J"
+    },
+    {
+     "id": "D",
+     "text": "+40 J"
+    }
+   ],
+   "answer": "C",
+   "explanation": "–2μmgl = –2 × 0.2 × 2 × 10 × 5 = –40 J."
+  },
+  {
+   "id": "8.6-q4",
+   "n": 4,
+   "difficulty": "understanding",
+   "group": null,
+   "prompt": "The work done by a conservative force between two points:",
+   "options": [
+    {
+     "id": "A",
+     "text": "Depends on the path followed"
+    },
+    {
+     "id": "B",
+     "text": "Depends only on the initial and final positions"
+    },
+    {
+     "id": "C",
+     "text": "Is always zero"
+    },
+    {
+     "id": "D",
+     "text": "Depends on the speed of the body"
+    }
+   ],
+   "answer": "B",
+   "explanation": "Path independence is the second definition of a conservative force."
+  },
+  {
+   "id": "8.6-q5",
+   "n": 5,
+   "difficulty": "understanding",
+   "group": null,
+   "prompt": "A block attached to a spring oscillates on a rough table. Each time it passes the centre, its speed is smaller than before because:",
+   "options": [
+    {
+     "id": "A",
+     "text": "The spring force is nonconservative"
+    },
+    {
+     "id": "B",
+     "text": "Gravity does negative work"
+    },
+    {
+     "id": "C",
+     "text": "The spring gets lighter"
+    },
+    {
+     "id": "D",
+     "text": "Friction, a nonconservative force, removes mechanical energy"
+    }
+   ],
+   "answer": "D",
+   "explanation": "Friction turns mechanical energy into heat, so it is not stored and returned."
+  }
+ ]
+}

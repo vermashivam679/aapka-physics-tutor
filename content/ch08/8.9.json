@@ -1,0 +1,145 @@
+{
+ "id": "8.9",
+ "slug": "ch08-8-9",
+ "chapter": "ch08",
+ "title": "Gravitational Potential Energy",
+ "diagram": "content/ch08/diagrams/ch08_sec8_9.png",
+ "theory": "**Big idea:** Raising a body through a height h stores energy **mgh** in the earth–body system. Letting it fall turns that energy back into motion.\n\n**Earth + block**\n- Gravity is conservative, so it has a potential energy.\n- The earth barely moves, so its frame is very nearly inertial, and gravity does no work on the earth in that frame.\n- Raising the block a height h: gravity does –mgh, so **U increases by mgh**.\n- Lowering it a height h: **U decreases by mgh**.\n- We usually just say \"the block's gravitational potential energy\".\n- The zero can be anywhere. U = mgh measured from the chosen zero level (for h much smaller than the earth's radius).\n\n**🧮 Worked example: sliding down a smooth curved surface**\nA block starts from rest and drops a height h along a frictionless track. The normal force is perpendicular to the motion, so it does no work.\n½mv² = mgh, so **v = √(2gh)**, whatever the shape of the path!\nWith h = 5 m and g = 10 m/s²: **v = 10 m/s**.\n\n**🧮 Worked example: a pendulum**\nA bob passes its lowest point at 3 m/s. String length l = 0.5 m, g = 10 m/s². What is its speed at 60° from the vertical?\n- Height gained = l(1 – cos 60°) = 0.25 m\n- v₁² = v₀² – 2gl(1 – cos θ) = 9 – 2 × 10 × 0.25 = 4, so **v₁ = 2 m/s**\n- The string's tension is always perpendicular to the velocity, so it does no work.\n\n> ⚠️ **Common mistake:** Using the length of the path instead of the **vertical height** in mgh.",
+ "questions": [
+  {
+   "id": "8.9-q1",
+   "n": 1,
+   "difficulty": "recall",
+   "group": null,
+   "prompt": "When a body of mass m is raised through a height h near the earth's surface, its gravitational potential energy:",
+   "options": [
+    {
+     "id": "A",
+     "text": "Decreases by mgh"
+    },
+    {
+     "id": "B",
+     "text": "Stays the same"
+    },
+    {
+     "id": "C",
+     "text": "Increases by mgh"
+    },
+    {
+     "id": "D",
+     "text": "Increases by ½mgh"
+    }
+   ],
+   "answer": "C",
+   "explanation": "Gravity does –mgh, so U increases by mgh."
+  },
+  {
+   "id": "8.9-q2",
+   "n": 2,
+   "difficulty": "application",
+   "group": null,
+   "prompt": "A block is released from rest at a height of 5 m on a frictionless curved track (g = 10 m/s²). Its speed at the bottom is:",
+   "options": [
+    {
+     "id": "A",
+     "text": "5 m/s"
+    },
+    {
+     "id": "B",
+     "text": "50 m/s"
+    },
+    {
+     "id": "C",
+     "text": "7.1 m/s"
+    },
+    {
+     "id": "D",
+     "text": "10 m/s"
+    }
+   ],
+   "answer": "D",
+   "explanation": "v = √(2gh) = √100 = 10 m/s."
+  },
+  {
+   "id": "8.9-q3",
+   "n": 3,
+   "difficulty": "understanding",
+   "group": null,
+   "prompt": "For a block sliding down a frictionless curved surface, its speed at the bottom depends on:",
+   "options": [
+    {
+     "id": "A",
+     "text": "Only the vertical height descended"
+    },
+    {
+     "id": "B",
+     "text": "The length of the path"
+    },
+    {
+     "id": "C",
+     "text": "The shape of the surface"
+    },
+    {
+     "id": "D",
+     "text": "The mass of the block"
+    }
+   ],
+   "answer": "A",
+   "explanation": "½mv² = mgh, so v = √(2gh). The mass and the path cancel out."
+  },
+  {
+   "id": "8.9-q4",
+   "n": 4,
+   "difficulty": "application",
+   "group": null,
+   "prompt": "A pendulum bob of length 0.5 m passes its lowest point at 3 m/s (g = 10 m/s²). Its speed when the string makes 60° with the vertical is:",
+   "options": [
+    {
+     "id": "A",
+     "text": "1 m/s"
+    },
+    {
+     "id": "B",
+     "text": "2 m/s"
+    },
+    {
+     "id": "C",
+     "text": "3 m/s"
+    },
+    {
+     "id": "D",
+     "text": "2.5 m/s"
+    }
+   ],
+   "answer": "B",
+   "explanation": "v² = 9 – 2 × 10 × 0.5 × (1 – 0.5) = 4, so v = 2 m/s."
+  },
+  {
+   "id": "8.9-q5",
+   "n": 5,
+   "difficulty": "understanding",
+   "group": null,
+   "prompt": "The tension in a pendulum's string does no work on the bob because:",
+   "options": [
+    {
+     "id": "A",
+     "text": "The tension is always perpendicular to the bob's velocity"
+    },
+    {
+     "id": "B",
+     "text": "The tension is zero"
+    },
+    {
+     "id": "C",
+     "text": "The string is light"
+    },
+    {
+     "id": "D",
+     "text": "The bob moves in a straight line"
+    }
+   ],
+   "answer": "A",
+   "explanation": "The tension acts along the string and the velocity is along the arc, so they are perpendicular."
+  }
+ ]
+}

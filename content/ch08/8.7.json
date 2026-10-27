@@ -1,0 +1,172 @@
+{
+ "id": "8.7",
+ "slug": "ch08-8-7",
+ "chapter": "ch08",
+ "title": "Definition of Potential Energy and Conservation of Mechanical Energy",
+ "diagram": "content/ch08/diagrams/ch08_sec8_7.png",
+ "theory": "**Big idea:** The change in potential energy equals **minus** the work done by the conservative internal force. If only conservative forces do work, **K + U stays constant**.\n\n**Definition (only for conservative internal forces)**\n**U_f – U_i = –W = –∫ F · dr**\n- Only **changes** in U are defined. You may choose the zero of U anywhere, just like choosing an origin.\n- U is **not** defined for nonconservative forces like friction.\n\n**Conservation of mechanical energy**\nIf the internal forces are conservative and the external forces do no work:\n**K_f + U_f = K_i + U_i** (E = K + U is constant)\n\n**When other forces do work**\n**W_nc + W_ext = E_f – E_i**\n- If there's friction inside the system, E changes. The work-energy theorem still holds, but E is not conserved.\n- If the internal forces are conservative but external forces do work: **W_ext = ΔE**.\n\n**🧮 Worked example: charges flying apart**\nTwo charges repel with force k/r². A is held fixed, and B (mass m) is released at separation r₀ and flies off to a large distance.\n- W = ∫ (k/r²) dr from r₀ to ∞ = k/r₀, so ΔU = **–k/r₀**\n- K_f = k/r₀, so **v = √(2k / (m r₀))**\n\n**Summary of the chapter so far**\n1. Work on a particle = ΔK.\n2. Work on a system by all forces (external and internal) = ΔK.\n3. Conservative force: zero work in any round trip.\n4. ΔU = –(work by the conservative internal forces).\n5. Conservative internal forces and no external work → E is constant.\n6. Nonconservative internal forces → E is not constant.\n7. Conservative internal forces → W_ext = ΔE.",
+ "questions": [
+  {
+   "id": "8.7-q1",
+   "n": 1,
+   "difficulty": "recall",
+   "group": null,
+   "prompt": "The change in potential energy for a conservative internal force is defined as:",
+   "options": [
+    {
+     "id": "A",
+     "text": "U_f – U_i = +W"
+    },
+    {
+     "id": "B",
+     "text": "U_f – U_i = –W"
+    },
+    {
+     "id": "C",
+     "text": "U_f – U_i = ΔK"
+    },
+    {
+     "id": "D",
+     "text": "U_f + U_i = W"
+    }
+   ],
+   "answer": "B",
+   "explanation": "The change in U equals minus the work done by the conservative force."
+  },
+  {
+   "id": "8.7-q2",
+   "n": 2,
+   "difficulty": "understanding",
+   "group": null,
+   "prompt": "The total mechanical energy of a system remains constant when:",
+   "options": [
+    {
+     "id": "A",
+     "text": "The internal forces are conservative and external forces do no work"
+    },
+    {
+     "id": "B",
+     "text": "Friction acts inside the system"
+    },
+    {
+     "id": "C",
+     "text": "External forces do positive work"
+    },
+    {
+     "id": "D",
+     "text": "The system is at rest"
+    }
+   ],
+   "answer": "A",
+   "explanation": "Then U_f + K_f = U_i + K_i."
+  },
+  {
+   "id": "8.7-q3",
+   "n": 3,
+   "difficulty": "understanding",
+   "group": null,
+   "prompt": "Potential energy can be defined for:",
+   "options": [
+    {
+     "id": "A",
+     "text": "Friction"
+    },
+    {
+     "id": "B",
+     "text": "Air resistance"
+    },
+    {
+     "id": "C",
+     "text": "Any force at all"
+    },
+    {
+     "id": "D",
+     "text": "Conservative forces only"
+    }
+   ],
+   "answer": "D",
+   "explanation": "Friction's work depends on the path, so no potential energy can be defined for it."
+  },
+  {
+   "id": "8.7-q4",
+   "n": 4,
+   "difficulty": "understanding",
+   "group": null,
+   "prompt": "If the internal forces of a system are conservative, the work done by the external forces equals:",
+   "options": [
+    {
+     "id": "A",
+     "text": "Zero"
+    },
+    {
+     "id": "B",
+     "text": "The change in potential energy only"
+    },
+    {
+     "id": "C",
+     "text": "The change in total mechanical energy"
+    },
+    {
+     "id": "D",
+     "text": "The change in momentum"
+    }
+   ],
+   "answer": "C",
+   "explanation": "W_ext = E_f – E_i."
+  },
+  {
+   "id": "8.7-q5",
+   "n": 5,
+   "difficulty": "application",
+   "group": null,
+   "prompt": "Two charges repel with force k/r². One is held fixed, and the other (mass m) is released from rest at separation r₀. Its speed when very far away is:",
+   "options": [
+    {
+     "id": "A",
+     "text": "√(k / (m r₀))"
+    },
+    {
+     "id": "B",
+     "text": "√(2k / (m r₀))"
+    },
+    {
+     "id": "C",
+     "text": "2k / (m r₀)"
+    },
+    {
+     "id": "D",
+     "text": "k / r₀"
+    }
+   ],
+   "answer": "B",
+   "explanation": "½mv² = k/r₀, so v = √(2k/(m r₀))."
+  },
+  {
+   "id": "8.7-q6",
+   "n": 6,
+   "difficulty": "recall",
+   "group": null,
+   "prompt": "The zero of potential energy:",
+   "options": [
+    {
+     "id": "A",
+     "text": "Must always be at the earth's surface"
+    },
+    {
+     "id": "B",
+     "text": "Must always be at infinity"
+    },
+    {
+     "id": "C",
+     "text": "Is fixed by nature"
+    },
+    {
+     "id": "D",
+     "text": "Can be chosen at any convenient configuration"
+    }
+   ],
+   "answer": "D",
+   "explanation": "Only changes in U have meaning, so we choose the zero for convenience."
+  }
+ ]
+}

@@ -1,0 +1,172 @@
+{
+ "id": "8.3",
+ "slug": "ch08-8-3",
+ "chapter": "ch08",
+ "title": "Calculation of Work Done",
+ "diagram": "content/ch08/diagrams/ch08_sec8_3.png",
+ "theory": "**Big idea:** Three common cases cover most problems: a constant force, a force perpendicular to the motion, and a spring force.\n\n**(a) Constant force**\n**W = F · r = F d cos θ**, where θ is the angle between the force and the displacement.\n- Along the motion (θ = 0): W = Fd.\n- **Gravity near the earth:** W = **mgh**, where h is the height **descended**. Going up a height h, W = –mgh.\n- It depends only on the **end points**, not the path. Over a round trip, W = 0.\n\n**(b) Force perpendicular to the velocity at every instant**\n**W = 0.** Example: the tension in a string whirling a stone in a circle does no work.\n\n**(c) Spring force (F = –kx)**\nThe force changes as the block moves, so we must integrate:\n- From x₁ to x₂: **W = ½kx₁² – ½kx₂²**\n- From the natural length (x = 0) to an extension or compression x: **W = –½kx²** (the force opposes the displacement).\n- From x back to the natural length: **W = +½kx²**.\n- Round trip: **W = 0**.\n\n**🧮 Worked example: a ball thrown up**\nA 20 g ball is thrown up at 10 m/s. It rises h = u²/2g, so the work done by gravity is –mgh = –½mu² = –½ × 0.02 × 100 = **–1.0 J**.\n\n**🧮 Worked example: a spring**\nA spring (k = 50 N/m) is compressed by 1 cm. ½kx² = ½ × 50 × 10⁻⁴ = 2.5 × 10⁻³ J. The spring pushes back on the agency compressing it, so its work is **–2.5 mJ**.\n\n**🧮 Worked example: a porter**\nA porter lifts a 20 kg suitcase 2.0 m (g = 9.8 m/s²). He does work = mgh = 20 × 9.8 × 2 = **392 J** on it.\n\n> ⚠️ **Common mistake:** Using W = Fd for a spring. The force isn't constant, so use ½kx².",
+ "questions": [
+  {
+   "id": "8.3-q1",
+   "n": 1,
+   "difficulty": "recall",
+   "group": null,
+   "prompt": "For a constant force F making an angle θ with a displacement d, the work done is:",
+   "options": [
+    {
+     "id": "A",
+     "text": "Fd sin θ"
+    },
+    {
+     "id": "B",
+     "text": "Fd / cos θ"
+    },
+    {
+     "id": "C",
+     "text": "Fd cos θ"
+    },
+    {
+     "id": "D",
+     "text": "F/d"
+    }
+   ],
+   "answer": "C",
+   "explanation": "W = **F** · **d** = Fd cos θ."
+  },
+  {
+   "id": "8.3-q2",
+   "n": 2,
+   "difficulty": "understanding",
+   "group": null,
+   "prompt": "A stone is whirled in a horizontal circle on a string. The work done by the tension in one complete round is:",
+   "options": [
+    {
+     "id": "A",
+     "text": "Zero"
+    },
+    {
+     "id": "B",
+     "text": "Positive"
+    },
+    {
+     "id": "C",
+     "text": "Negative"
+    },
+    {
+     "id": "D",
+     "text": "Equal to the kinetic energy"
+    }
+   ],
+   "answer": "A",
+   "explanation": "The tension is perpendicular to the velocity at every instant, so W = 0."
+  },
+  {
+   "id": "8.3-q3",
+   "n": 3,
+   "difficulty": "application",
+   "group": null,
+   "prompt": "A 20 g ball is thrown vertically upward at 10 m/s. The work done by gravity while it goes up is:",
+   "options": [
+    {
+     "id": "A",
+     "text": "+1.0 J"
+    },
+    {
+     "id": "B",
+     "text": "–0.2 J"
+    },
+    {
+     "id": "C",
+     "text": "–2.0 J"
+    },
+    {
+     "id": "D",
+     "text": "–1.0 J"
+    }
+   ],
+   "answer": "D",
+   "explanation": "W = –mgh = –½mu² = –½ × 0.02 × 100 = –1.0 J."
+  },
+  {
+   "id": "8.3-q4",
+   "n": 4,
+   "difficulty": "application",
+   "group": null,
+   "prompt": "A spring of spring constant 50 N/m is compressed by 1 cm from its natural length. The work done by the spring on the agency compressing it is:",
+   "options": [
+    {
+     "id": "A",
+     "text": "–2.5 mJ"
+    },
+    {
+     "id": "B",
+     "text": "+2.5 mJ"
+    },
+    {
+     "id": "C",
+     "text": "–0.5 J"
+    },
+    {
+     "id": "D",
+     "text": "–25 J"
+    }
+   ],
+   "answer": "A",
+   "explanation": "½kx² = 2.5 × 10⁻³ J. The spring's force opposes the displacement, so its work is negative."
+  },
+  {
+   "id": "8.3-q5",
+   "n": 5,
+   "difficulty": "understanding",
+   "group": null,
+   "prompt": "The work done by a spring force as a block goes from x₁ to x₂ (measured from the natural length) is:",
+   "options": [
+    {
+     "id": "A",
+     "text": "½k(x₂² – x₁²)"
+    },
+    {
+     "id": "B",
+     "text": "½k(x₁² – x₂²)"
+    },
+    {
+     "id": "C",
+     "text": "k(x₂ – x₁)"
+    },
+    {
+     "id": "D",
+     "text": "½k(x₂ – x₁)²"
+    }
+   ],
+   "answer": "B",
+   "explanation": "W = ∫(–kx)dx from x₁ to x₂ = ½kx₁² – ½kx₂²."
+  },
+  {
+   "id": "8.3-q6",
+   "n": 6,
+   "difficulty": "application",
+   "group": null,
+   "prompt": "A porter lifts a 20 kg suitcase from the platform onto his head, 2.0 m higher (g = 9.8 m/s²). The work done by the porter on the suitcase is about:",
+   "options": [
+    {
+     "id": "A",
+     "text": "40 J"
+    },
+    {
+     "id": "B",
+     "text": "196 J"
+    },
+    {
+     "id": "C",
+     "text": "392 J"
+    },
+    {
+     "id": "D",
+     "text": "0"
+    }
+   ],
+   "answer": "C",
+   "explanation": "W = mgh = 20 × 9.8 × 2 = 392 J."
+  }
+ ]
+}

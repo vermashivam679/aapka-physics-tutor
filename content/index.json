@@ -454,6 +454,91 @@
      "questionCount": 6
     }
    ]
+  },
+  {
+   "id": "ch08",
+   "number": 8,
+   "title": "Work and Energy",
+   "book": "H.C. Verma, Concepts of Physics Vol. 1",
+   "sections": [
+    {
+     "id": "8.1",
+     "slug": "ch08-8-1",
+     "title": "Kinetic Energy",
+     "file": "content/ch08/8.1.json",
+     "questionCount": 5
+    },
+    {
+     "id": "8.2",
+     "slug": "ch08-8-2",
+     "title": "Work and Work-Energy Theorem",
+     "file": "content/ch08/8.2.json",
+     "questionCount": 6
+    },
+    {
+     "id": "8.3",
+     "slug": "ch08-8-3",
+     "title": "Calculation of Work Done",
+     "file": "content/ch08/8.3.json",
+     "questionCount": 6
+    },
+    {
+     "id": "8.4",
+     "slug": "ch08-8-4",
+     "title": "Work-Energy Theorem for a System of Particles",
+     "file": "content/ch08/8.4.json",
+     "questionCount": 4
+    },
+    {
+     "id": "8.5",
+     "slug": "ch08-8-5",
+     "title": "Potential Energy",
+     "file": "content/ch08/8.5.json",
+     "questionCount": 4
+    },
+    {
+     "id": "8.6",
+     "slug": "ch08-8-6",
+     "title": "Conservative and Nonconservative Forces",
+     "file": "content/ch08/8.6.json",
+     "questionCount": 5
+    },
+    {
+     "id": "8.7",
+     "slug": "ch08-8-7",
+     "title": "Definition of Potential Energy and Conservation of Mechanical Energy",
+     "file": "content/ch08/8.7.json",
+     "questionCount": 6
+    },
+    {
+     "id": "8.8",
+     "slug": "ch08-8-8",
+     "title": "Change in the Potential Energy in a Rigid-Body-Motion",
+     "file": "content/ch08/8.8.json",
+     "questionCount": 4
+    },
+    {
+     "id": "8.9",
+     "slug": "ch08-8-9",
+     "title": "Gravitational Potential Energy",
+     "file": "content/ch08/8.9.json",
+     "questionCount": 5
+    },
+    {
+     "id": "8.10",
+     "slug": "ch08-8-10",
+     "title": "Potential Energy of a Compressed or Extended Spring",
+     "file": "content/ch08/8.10.json",
+     "questionCount": 5
+    },
+    {
+     "id": "8.11",
+     "slug": "ch08-8-11",
+     "title": "Different Forms of Energy: Mass Energy Equivalence",
+     "file": "content/ch08/8.11.json",
+     "questionCount": 5
+    }
+   ]
   }
  ]
 }

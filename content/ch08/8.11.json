@@ -1,0 +1,145 @@
+{
+ "id": "8.11",
+ "slug": "ch08-8-11",
+ "chapter": "ch08",
+ "title": "Different Forms of Energy: Mass Energy Equivalence",
+ "diagram": "content/ch08/diagrams/ch08_sec8_11.png",
+ "theory": "**Big idea:** Mechanical energy (K + U) is just one form of energy. Counting all forms, including mass itself, **energy is never created or destroyed**.\n\n**Forms of energy**\n| Form | What it is |\n|---|---|\n| Mechanical | K + U of the body as a whole |\n| **Internal (thermal) energy** | Kinetic and potential energy of the molecules moving and interacting **inside** a body, even when the body is at rest |\n| Light and sound | A source that emits them loses energy |\n| Chemical | Released or absorbed in chemical reactions |\n| **Mass energy** | Matter itself is a form of energy |\n\n**Mass–energy equivalence (Einstein's special relativity)**\n**E = mc²**, where c = 3 × 10⁸ m/s.\n- About **8.18 × 10⁻¹⁴ J** is needed to create an electron, and the same amount is released when one is destroyed.\n- **🧮 Check:** m_e = 9.1 × 10⁻³¹ kg gives E = 9.1 × 10⁻³¹ × 9 × 10¹⁶ ≈ 8.2 × 10⁻¹⁴ J ✔\n- Just **1 g** of mass is equivalent to 10⁻³ × 9 × 10¹⁶ = **9 × 10¹³ J**.\n\n**The generalised law of conservation of energy**\nEnergy can never be created or destroyed. It can only change from one form into another.\n\n> 💡 When friction \"loses\" mechanical energy, it isn't destroyed. It becomes internal (thermal) energy, and the surfaces warm up.",
+ "questions": [
+  {
+   "id": "8.11-q1",
+   "n": 1,
+   "difficulty": "recall",
+   "group": null,
+   "prompt": "The energy associated with the motion and interactions of the molecules inside a body is called:",
+   "options": [
+    {
+     "id": "A",
+     "text": "Mechanical energy"
+    },
+    {
+     "id": "B",
+     "text": "Internal (thermal) energy"
+    },
+    {
+     "id": "C",
+     "text": "Mass energy"
+    },
+    {
+     "id": "D",
+     "text": "Sound energy"
+    }
+   ],
+   "answer": "B",
+   "explanation": "This is internal (thermal) energy."
+  },
+  {
+   "id": "8.11-q2",
+   "n": 2,
+   "difficulty": "recall",
+   "group": null,
+   "prompt": "Einstein's mass–energy relation is:",
+   "options": [
+    {
+     "id": "A",
+     "text": "E = mc"
+    },
+    {
+     "id": "B",
+     "text": "E = ½mc²"
+    },
+    {
+     "id": "C",
+     "text": "E = mc²"
+    },
+    {
+     "id": "D",
+     "text": "E = m/c²"
+    }
+   ],
+   "answer": "C",
+   "explanation": "E = mc²."
+  },
+  {
+   "id": "8.11-q3",
+   "n": 3,
+   "difficulty": "application",
+   "group": null,
+   "prompt": "The energy equivalent of 1 g of mass (c = 3 × 10⁸ m/s) is:",
+   "options": [
+    {
+     "id": "A",
+     "text": "9 × 10¹⁶ J"
+    },
+    {
+     "id": "B",
+     "text": "3 × 10⁵ J"
+    },
+    {
+     "id": "C",
+     "text": "9 × 10¹⁰ J"
+    },
+    {
+     "id": "D",
+     "text": "9 × 10¹³ J"
+    }
+   ],
+   "answer": "D",
+   "explanation": "10⁻³ kg × (3 × 10⁸)² = 9 × 10¹³ J."
+  },
+  {
+   "id": "8.11-q4",
+   "n": 4,
+   "difficulty": "understanding",
+   "group": null,
+   "prompt": "According to the generalised law of conservation of energy:",
+   "options": [
+    {
+     "id": "A",
+     "text": "Energy can be created but not destroyed"
+    },
+    {
+     "id": "B",
+     "text": "Energy can never be created or destroyed, only changed from one form into another"
+    },
+    {
+     "id": "C",
+     "text": "Mechanical energy is always conserved"
+    },
+    {
+     "id": "D",
+     "text": "Energy is lost whenever friction acts"
+    }
+   ],
+   "answer": "B",
+   "explanation": "Energy only changes form. It is never created or destroyed."
+  },
+  {
+   "id": "8.11-q5",
+   "n": 5,
+   "difficulty": "understanding",
+   "group": null,
+   "prompt": "When friction slows down a sliding block, the \"lost\" mechanical energy:",
+   "options": [
+    {
+     "id": "A",
+     "text": "Is destroyed"
+    },
+    {
+     "id": "B",
+     "text": "Turns into mass"
+    },
+    {
+     "id": "C",
+     "text": "Is converted mainly into internal (thermal) energy"
+    },
+    {
+     "id": "D",
+     "text": "Turns into potential energy of the block"
+    }
+   ],
+   "answer": "C",
+   "explanation": "The surfaces heat up. The energy is not destroyed."
+  }
+ ]
+}

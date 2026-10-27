@@ -1,0 +1,118 @@
+{
+ "id": "8.5",
+ "slug": "ch08-8-5",
+ "chapter": "ch08",
+ "title": "Potential Energy",
+ "diagram": "content/ch08/diagrams/ch08_sec8_5.png",
+ "theory": "**Big idea:** Some kinetic energy that seems \"lost\" is really stored in the **arrangement (configuration)** of the system. It comes back when the arrangement returns. This stored energy is **potential energy**.\n\n**The two charges again:** now suppose A and B attract but are **moving apart**.\n- They slow down, so K drops from K₁ (configuration 1) to K₂ (configuration 2).\n- Wait a while. They turn round and come back to configuration 1, and K is **K₁ again**.\n- The kinetic energy wasn't lost. It was stored, depending only on the **separation** (the configuration).\n\n**Potential energy (U):** energy that depends on the **configuration** of a system.\n- As the system moves from configuration 1 to 2, some K turns into U.\n- Returning to configuration 1, U turns back into K.\n- **K + U stays constant** in such cases.\n\n**Everyday examples:** a raised book (earth + book), a stretched bow, a compressed spring.\n\n> 💡 Potential energy belongs to a **system** of interacting bodies (earth + ball, spring + block), not to one body alone, though we often say \"the ball's potential energy\" for short.",
+ "questions": [
+  {
+   "id": "8.5-q1",
+   "n": 1,
+   "difficulty": "recall",
+   "group": null,
+   "prompt": "Potential energy is energy that depends on:",
+   "options": [
+    {
+     "id": "A",
+     "text": "The speed of the particles"
+    },
+    {
+     "id": "B",
+     "text": "The configuration (arrangement) of the system"
+    },
+    {
+     "id": "C",
+     "text": "The colour of the bodies"
+    },
+    {
+     "id": "D",
+     "text": "Time only"
+    }
+   ],
+   "answer": "B",
+   "explanation": "It depends on the positions (separations) of the interacting parts."
+  },
+  {
+   "id": "8.5-q2",
+   "n": 2,
+   "difficulty": "understanding",
+   "group": null,
+   "prompt": "Two attracting particles move apart, slow down, then return to their original separation. Their kinetic energy on returning is:",
+   "options": [
+    {
+     "id": "A",
+     "text": "Zero"
+    },
+    {
+     "id": "B",
+     "text": "Smaller than at the start"
+    },
+    {
+     "id": "C",
+     "text": "Larger than at the start"
+    },
+    {
+     "id": "D",
+     "text": "The same as at the start"
+    }
+   ],
+   "answer": "D",
+   "explanation": "Same configuration, same potential energy, so the same kinetic energy."
+  },
+  {
+   "id": "8.5-q3",
+   "n": 3,
+   "difficulty": "understanding",
+   "group": null,
+   "prompt": "In the situation above (only these conservative forces acting), the quantity that remains constant is:",
+   "options": [
+    {
+     "id": "A",
+     "text": "K + U"
+    },
+    {
+     "id": "B",
+     "text": "K alone"
+    },
+    {
+     "id": "C",
+     "text": "U alone"
+    },
+    {
+     "id": "D",
+     "text": "K – U"
+    }
+   ],
+   "answer": "A",
+   "explanation": "Kinetic energy turns into potential energy and back, so their sum is constant."
+  },
+  {
+   "id": "8.5-q4",
+   "n": 4,
+   "difficulty": "recall",
+   "group": null,
+   "prompt": "Potential energy is a property of:",
+   "options": [
+    {
+     "id": "A",
+     "text": "A single isolated particle only"
+    },
+    {
+     "id": "B",
+     "text": "Moving bodies only"
+    },
+    {
+     "id": "C",
+     "text": "A system of interacting bodies"
+    },
+    {
+     "id": "D",
+     "text": "Light only"
+    }
+   ],
+   "answer": "C",
+   "explanation": "It is stored in the interaction between bodies."
+  }
+ ]
+}

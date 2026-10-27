@@ -1,0 +1,118 @@
+{
+ "id": "8.8",
+ "slug": "ch08-8-8",
+ "chapter": "ch08",
+ "title": "Change in the Potential Energy in a Rigid-Body-Motion",
+ "diagram": "content/ch08/diagrams/ch08_sec8_8.png",
+ "theory": "**Big idea:** If the distances between the particles never change, as in a rigid body, the internal forces do **no net work**, so their potential energy doesn't change.\n\n**Why**\nTake two particles A and B of a rigid body, with **F**_AB = –**F**_BA (Newton's third law).\n- If AB moves parallel to itself, then d**r**_A = d**r**_B.\n- Total internal work = **F**_AB · d**r**_A + **F**_BA · d**r**_B = (**F**_AB + **F**_BA) · d**r**_A = **0**.\n- The same result holds when the body **rotates**.\n\n**Consequences**\n- We never need to worry about the potential energy of the internal forces of a rigid body.\n- **Potential energy changes only when the separations between the interacting parts change.** It depends only on those separations.\n\n> 💡 Compare section 8.4: there the two charges **moved closer**, so their separation changed and the internal forces did work. In a rigid body the separations are fixed, so they don't.",
+ "questions": [
+  {
+   "id": "8.8-q1",
+   "n": 1,
+   "difficulty": "recall",
+   "group": null,
+   "prompt": "In the motion of a rigid body, the net work done by its internal forces is:",
+   "options": [
+    {
+     "id": "A",
+     "text": "Positive"
+    },
+    {
+     "id": "B",
+     "text": "Negative"
+    },
+    {
+     "id": "C",
+     "text": "Zero"
+    },
+    {
+     "id": "D",
+     "text": "Equal to its kinetic energy"
+    }
+   ],
+   "answer": "C",
+   "explanation": "The work contributions of the equal and opposite forces cancel when the separations are fixed."
+  },
+  {
+   "id": "8.8-q2",
+   "n": 2,
+   "difficulty": "understanding",
+   "group": null,
+   "prompt": "The internal forces of a rigid body do no net work mainly because:",
+   "options": [
+    {
+     "id": "A",
+     "text": "The separations between its particles do not change"
+    },
+    {
+     "id": "B",
+     "text": "Rigid bodies have no mass"
+    },
+    {
+     "id": "C",
+     "text": "There are no internal forces"
+    },
+    {
+     "id": "D",
+     "text": "Gravity cancels them"
+    }
+   ],
+   "answer": "A",
+   "explanation": "With fixed separations, equal and opposite forces do cancelling work."
+  },
+  {
+   "id": "8.8-q3",
+   "n": 3,
+   "difficulty": "understanding",
+   "group": null,
+   "prompt": "The potential energy of a system changes only when:",
+   "options": [
+    {
+     "id": "A",
+     "text": "The system moves as a whole"
+    },
+    {
+     "id": "B",
+     "text": "The separations between its interacting parts change"
+    },
+    {
+     "id": "C",
+     "text": "Its speed changes"
+    },
+    {
+     "id": "D",
+     "text": "It rotates"
+    }
+   ],
+   "answer": "B",
+   "explanation": "U depends only on the separations between the interacting particles."
+  },
+  {
+   "id": "8.8-q4",
+   "n": 4,
+   "difficulty": "understanding",
+   "group": null,
+   "prompt": "The result that the internal forces of a rigid body do no work follows from:",
+   "options": [
+    {
+     "id": "A",
+     "text": "Newton's first law"
+    },
+    {
+     "id": "B",
+     "text": "Newton's third law (with the separations fixed)"
+    },
+    {
+     "id": "C",
+     "text": "The law of gravitation"
+    },
+    {
+     "id": "D",
+     "text": "The conservation of mass"
+    }
+   ],
+   "answer": "B",
+   "explanation": "**F**_AB = –**F**_BA, together with the rigid motion, gives zero total work."
+  }
+ ]
+}

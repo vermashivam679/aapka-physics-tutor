@@ -1,0 +1,118 @@
+{
+ "id": "8.4",
+ "slug": "ch08-8-4",
+ "chapter": "ch08",
+ "title": "Work-Energy Theorem for a System of Particles",
+ "diagram": "content/ch08/diagrams/ch08_sec8_4.png",
+ "theory": "**Big idea:** For a system of several particles, **internal forces can change the total kinetic energy** too, even though they come in equal-and-opposite pairs.\n\n**The example**\nTwo oppositely charged particles A and B attract each other and rush together. No external force acts, yet the system's kinetic energy **increases**. How?\n- B pulls A with **F**_AB, and A moves towards B, so **F**_AB does **positive** work.\n- A pulls B with **F**_BA = –**F**_AB, and B moves towards A, so **F**_BA also does **positive** work.\n- The forces cancel (**F**_AB + **F**_BA = 0), but **their works add up**, because the displacements are opposite too.\n\n**Work-energy theorem for a system**\n**ΔK_system = W_external + W_internal**\nThe change in the kinetic energy of a system equals the work done on it by **all** forces, both external and internal.\n\n> ⚠️ **Common mistake:** \"Internal forces cancel, so they do no work.\" The **forces** cancel, but the **work** need not. Work also depends on how far each particle moves.",
+ "questions": [
+  {
+   "id": "8.4-q1",
+   "n": 1,
+   "difficulty": "understanding",
+   "group": null,
+   "prompt": "Two oppositely charged particles, initially at rest, attract each other and move closer. With no external force, the total kinetic energy of the pair:",
+   "options": [
+    {
+     "id": "A",
+     "text": "Stays zero"
+    },
+    {
+     "id": "B",
+     "text": "Decreases"
+    },
+    {
+     "id": "C",
+     "text": "Increases"
+    },
+    {
+     "id": "D",
+     "text": "Is impossible to predict"
+    }
+   ],
+   "answer": "C",
+   "explanation": "The internal attractive forces do positive work on both particles."
+  },
+  {
+   "id": "8.4-q2",
+   "n": 2,
+   "difficulty": "understanding",
+   "group": null,
+   "prompt": "The internal forces between two particles of a system are equal and opposite. The total work done by them:",
+   "options": [
+    {
+     "id": "A",
+     "text": "Is always zero"
+    },
+    {
+     "id": "B",
+     "text": "Is never zero"
+    },
+    {
+     "id": "C",
+     "text": "Always equals the external work"
+    },
+    {
+     "id": "D",
+     "text": "Need not be zero"
+    }
+   ],
+   "answer": "D",
+   "explanation": "The forces cancel, but the displacements can be opposite, so the works can add."
+  },
+  {
+   "id": "8.4-q3",
+   "n": 3,
+   "difficulty": "recall",
+   "group": null,
+   "prompt": "For a system of particles, the change in total kinetic energy equals:",
+   "options": [
+    {
+     "id": "A",
+     "text": "The work done by external forces only"
+    },
+    {
+     "id": "B",
+     "text": "The work done by internal forces only"
+    },
+    {
+     "id": "C",
+     "text": "The work done by external and internal forces together"
+    },
+    {
+     "id": "D",
+     "text": "Zero always"
+    }
+   ],
+   "answer": "C",
+   "explanation": "ΔK = W_ext + W_int."
+  },
+  {
+   "id": "8.4-q4",
+   "n": 4,
+   "difficulty": "understanding",
+   "group": null,
+   "prompt": "In the attracting-charges example, the work done by **F**_AB on A and by **F**_BA on B are:",
+   "options": [
+    {
+     "id": "A",
+     "text": "Both positive"
+    },
+    {
+     "id": "B",
+     "text": "Both negative"
+    },
+    {
+     "id": "C",
+     "text": "Equal and opposite"
+    },
+    {
+     "id": "D",
+     "text": "Both zero"
+    }
+   ],
+   "answer": "A",
+   "explanation": "Each particle moves in the direction of the force on it."
+  }
+ ]
+}

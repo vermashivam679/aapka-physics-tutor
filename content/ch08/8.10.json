@@ -1,0 +1,145 @@
+{
+ "id": "8.10",
+ "slug": "ch08-8-10",
+ "chapter": "ch08",
+ "title": "Potential Energy of a Compressed or Extended Spring",
+ "diagram": "content/ch08/diagrams/ch08_sec8_10.png",
+ "theory": "**Big idea:** Stretching or compressing a spring by x stores **½kx²** of energy in it. This is elastic potential energy.\n\n**Where ½kx² comes from**\nA massless spring is fixed to a wall and slowly stretched by x.\n- The wall's force does no work, because its point of application doesn't move.\n- The block's pull kx does work ∫kx dx = **½kx²**.\n- The spring has no mass, so it has no kinetic energy, and all this work is stored as **U = ½kx²**.\n- Compressing it by x stores the **same** ½kx².\n\nThis is called **elastic potential energy** or **strain energy**, and its zero is usually taken at the natural length.\n\n**🧮 Worked example: a block meets a spring**\nA block of mass m moves at speed v on a smooth table and compresses a spring. How far does it go before stopping?\n½mv² = ½kx², so **x = v√(m/k)**.\nWith m = 1 kg, v = 2 m/s and k = 100 N/m: x = 2 × 0.1 = **0.2 m**.\n\n**🧮 Vertical spring**\nA block hangs in equilibrium on a spring and is given a downward speed v. Taking the spring + block + earth together, it comes to rest at **h = v√(m/k)** below the equilibrium position, the same as the horizontal case.\n**Tip:** for a vertical spring, treat the **equilibrium position** as the \"natural length\" and ignore gravity.\n\n> ⚠️ **Common mistake:** Using the full length of the spring instead of the **change** in length x.",
+ "questions": [
+  {
+   "id": "8.10-q1",
+   "n": 1,
+   "difficulty": "recall",
+   "group": null,
+   "prompt": "The elastic potential energy stored in a spring stretched by x (spring constant k) is:",
+   "options": [
+    {
+     "id": "A",
+     "text": "kx"
+    },
+    {
+     "id": "B",
+     "text": "½kx"
+    },
+    {
+     "id": "C",
+     "text": "kx²"
+    },
+    {
+     "id": "D",
+     "text": "½kx²"
+    }
+   ],
+   "answer": "D",
+   "explanation": "U = ½kx², the work done in stretching the spring."
+  },
+  {
+   "id": "8.10-q2",
+   "n": 2,
+   "difficulty": "application",
+   "group": null,
+   "prompt": "A 1 kg block moving at 2 m/s on a smooth table hits a spring of spring constant 100 N/m. The maximum compression of the spring is:",
+   "options": [
+    {
+     "id": "A",
+     "text": "0.02 m"
+    },
+    {
+     "id": "B",
+     "text": "0.2 m"
+    },
+    {
+     "id": "C",
+     "text": "2 m"
+    },
+    {
+     "id": "D",
+     "text": "0.4 m"
+    }
+   ],
+   "answer": "B",
+   "explanation": "x = v√(m/k) = 2 × √(1/100) = 0.2 m."
+  },
+  {
+   "id": "8.10-q3",
+   "n": 3,
+   "difficulty": "understanding",
+   "group": null,
+   "prompt": "Compared with stretching a spring by x, compressing it by x stores:",
+   "options": [
+    {
+     "id": "A",
+     "text": "The same energy"
+    },
+    {
+     "id": "B",
+     "text": "Less energy"
+    },
+    {
+     "id": "C",
+     "text": "More energy"
+    },
+    {
+     "id": "D",
+     "text": "Zero energy"
+    }
+   ],
+   "answer": "A",
+   "explanation": "U depends on x², so stretching and compressing by the same amount store the same energy."
+  },
+  {
+   "id": "8.10-q4",
+   "n": 4,
+   "difficulty": "application",
+   "group": null,
+   "prompt": "A spring (k = 200 N/m) is stretched by 10 cm. The energy stored in it is:",
+   "options": [
+    {
+     "id": "A",
+     "text": "20 J"
+    },
+    {
+     "id": "B",
+     "text": "10 J"
+    },
+    {
+     "id": "C",
+     "text": "1 J"
+    },
+    {
+     "id": "D",
+     "text": "2 J"
+    }
+   ],
+   "answer": "C",
+   "explanation": "½ × 200 × (0.1)² = 1 J."
+  },
+  {
+   "id": "8.10-q5",
+   "n": 5,
+   "difficulty": "understanding",
+   "group": null,
+   "prompt": "A block hangs at equilibrium on a vertical spring and is given a downward speed v. It comes to rest at a distance below the equilibrium position of:",
+   "options": [
+    {
+     "id": "A",
+     "text": "v√(m/k)"
+    },
+    {
+     "id": "B",
+     "text": "v√(k/m)"
+    },
+    {
+     "id": "C",
+     "text": "mg/k"
+    },
+    {
+     "id": "D",
+     "text": "v²/2g"
+    }
+   ],
+   "answer": "A",
+   "explanation": "Measured from equilibrium, gravity can be ignored: ½mv² = ½kh², so h = v√(m/k)."
+  }
+ ]
+}
