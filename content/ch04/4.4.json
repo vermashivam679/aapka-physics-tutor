@@ -1,0 +1,172 @@
+{
+ "id": "4.4",
+ "slug": "ch04-4-4",
+ "chapter": "ch04",
+ "title": "Nuclear Forces",
+ "diagram": "content/ch04/diagrams/ch04_sec4_4.png",
+ "theory": "**Big idea:** Protons in a nucleus repel each other strongly, yet the nucleus holds together. A third force, the **nuclear force**, does the job.\n\n**The nucleus is tiny but heavy**\n- Volume of a nucleus ≈ 10⁻⁴⁴ m³. Volume of an atom ≈ 10⁻²³ m³.\n- So the nucleus takes up only about **10⁻²¹** of the atom's volume, yet holds about **99.98%** of its mass.\n\n**The puzzle: the alpha particle**\nAn alpha particle (a helium nucleus) has 2 protons and 2 neutrons, and it is perfectly stable.\n- The 2 protons **repel** each other through the Coulomb force.\n- The neutrons are uncharged, \"silent spectators\" in this electric drama.\n- Gravity is far too weak to help.\n- So what holds it together?\n\n**Nuclear forces**\n| Property | Detail |\n|---|---|\n| Acts between | Protons and neutrons (in any combination) |\n| Nature | Largely **attractive** |\n| Range | **Very short**. Much weaker than Coulomb beyond about 10⁻¹⁴ m, much stronger at about 10⁻¹⁵ m |\n| Shows up in | Nuclear stability, radioactivity, nuclear energy (fission, fusion) |\n\nBecause the range is so short, we never notice nuclear forces in daily life. They matter only for changes inside the nucleus.\n\n> ⚠️ **Common mistake:** Thinking gravity holds the nucleus together. Gravity between nucleons is totally negligible compared with their Coulomb repulsion.",
+ "questions": [
+  {
+   "id": "4.4-q1",
+   "n": 1,
+   "difficulty": "recall",
+   "group": null,
+   "prompt": "The force that holds protons and neutrons together inside a nucleus is the:",
+   "options": [
+    {
+     "id": "A",
+     "text": "Gravitational force"
+    },
+    {
+     "id": "B",
+     "text": "Coulomb force"
+    },
+    {
+     "id": "C",
+     "text": "Nuclear force"
+    },
+    {
+     "id": "D",
+     "text": "Weak force"
+    }
+   ],
+   "answer": "C",
+   "explanation": "Only the nuclear force is strong enough at about 10⁻¹⁵ m to beat the Coulomb repulsion."
+  },
+  {
+   "id": "4.4-q2",
+   "n": 2,
+   "difficulty": "understanding",
+   "group": null,
+   "prompt": "Nuclear forces are:",
+   "options": [
+    {
+     "id": "A",
+     "text": "Long ranged and repulsive"
+    },
+    {
+     "id": "B",
+     "text": "Short ranged and largely attractive"
+    },
+    {
+     "id": "C",
+     "text": "Long ranged and attractive"
+    },
+    {
+     "id": "D",
+     "text": "Forces that act mainly on electrons"
+    }
+   ],
+   "answer": "B",
+   "explanation": "They are strong but act only over very short distances, and are mostly attractive."
+  },
+  {
+   "id": "4.4-q3",
+   "n": 3,
+   "difficulty": "recall",
+   "group": null,
+   "prompt": "Roughly what fraction of an atom's volume does its nucleus occupy?",
+   "options": [
+    {
+     "id": "A",
+     "text": "10⁻²¹"
+    },
+    {
+     "id": "B",
+     "text": "10⁻³"
+    },
+    {
+     "id": "C",
+     "text": "10⁻¹⁰"
+    },
+    {
+     "id": "D",
+     "text": "10⁻⁴⁴"
+    }
+   ],
+   "answer": "A",
+   "explanation": "10⁻⁴⁴ m³ ÷ 10⁻²³ m³ = 10⁻²¹."
+  },
+  {
+   "id": "4.4-q4",
+   "n": 4,
+   "difficulty": "understanding",
+   "group": null,
+   "prompt": "Nuclear forces act between:",
+   "options": [
+    {
+     "id": "A",
+     "text": "Electrons only"
+    },
+    {
+     "id": "B",
+     "text": "All charged particles"
+    },
+    {
+     "id": "C",
+     "text": "Photons"
+    },
+    {
+     "id": "D",
+     "text": "Protons and neutrons (in any combination)"
+    }
+   ],
+   "answer": "D",
+   "explanation": "Nuclear forces act on protons and neutrons, also called nucleons."
+  },
+  {
+   "id": "4.4-q5",
+   "n": 5,
+   "difficulty": "understanding",
+   "group": null,
+   "prompt": "At a separation of more than about 10⁻¹⁴ m, the nuclear force between two protons is:",
+   "options": [
+    {
+     "id": "A",
+     "text": "Much stronger than the Coulomb force"
+    },
+    {
+     "id": "B",
+     "text": "Much weaker than the Coulomb force"
+    },
+    {
+     "id": "C",
+     "text": "Exactly equal to the Coulomb force"
+    },
+    {
+     "id": "D",
+     "text": "Infinite"
+    }
+   ],
+   "answer": "B",
+   "explanation": "Beyond about 10⁻¹⁴ m the nuclear force fades away and the Coulomb force dominates."
+  },
+  {
+   "id": "4.4-q6",
+   "n": 6,
+   "difficulty": "recall",
+   "group": null,
+   "prompt": "About what percentage of an atom's mass is contained in its nucleus?",
+   "options": [
+    {
+     "id": "A",
+     "text": "50%"
+    },
+    {
+     "id": "B",
+     "text": "0.02%"
+    },
+    {
+     "id": "C",
+     "text": "99.98%"
+    },
+    {
+     "id": "D",
+     "text": "10%"
+    }
+   ],
+   "answer": "C",
+   "explanation": "The tiny nucleus holds about 99.98% of the atom's mass."
+  }
+ ]
+}

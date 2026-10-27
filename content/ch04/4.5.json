@@ -1,0 +1,145 @@
+{
+ "id": "4.5",
+ "slug": "ch04-4-5",
+ "chapter": "ch04",
+ "title": "Weak Forces",
+ "diagram": "content/ch04/diagrams/ch04_sec4_5.png",
+ "theory": "**Big idea:** Some particles can change into other particles. The force behind these changes is neither gravitational, nor electromagnetic, nor nuclear. It is the **weak force**.\n\n**Beta decay: particles transforming**\n| Process | What happens |\n|---|---|\n| **β⁻ decay** | neutron → proton + electron + antineutrino |\n| **β⁺ decay** | proton → neutron + positron + neutrino |\n\n**Important:** a neutron is **not** made of a proton, an electron and an antineutrino stuck together. It changes into them, which is a genuine transformation.\n\n**Weak forces**\n- They cause β decay and other reactions involving protons, electrons and neutrons.\n- They have an extremely short **range**, even smaller than the size of a proton or neutron.\n- So their effects are felt only **inside** such particles.\n\n**The four forces at a glance**\n| Force | Range | Acts on |\n|---|---|---|\n| Gravitational | Infinite | All masses |\n| Electromagnetic | Infinite | Charges |\n| Nuclear | About 10⁻¹⁵ m | Protons and neutrons |\n| Weak | Smaller than a proton | Particles in β decay |\n\n> ⚠️ **Common misconception:** \"Weak means unimportant.\" The weak force drives β decay, and without it radioactivity would look very different.",
+ "questions": [
+  {
+   "id": "4.5-q1",
+   "n": 1,
+   "difficulty": "recall",
+   "group": null,
+   "prompt": "In β⁻ decay, a neutron changes into:",
+   "options": [
+    {
+     "id": "A",
+     "text": "A proton and a positron"
+    },
+    {
+     "id": "B",
+     "text": "A proton, an electron and an antineutrino"
+    },
+    {
+     "id": "C",
+     "text": "Two protons"
+    },
+    {
+     "id": "D",
+     "text": "An alpha particle"
+    }
+   ],
+   "answer": "B",
+   "explanation": "β⁻ decay: n → p + e⁻ + antineutrino."
+  },
+  {
+   "id": "4.5-q2",
+   "n": 2,
+   "difficulty": "understanding",
+   "group": null,
+   "prompt": "The force responsible for β decay is the:",
+   "options": [
+    {
+     "id": "A",
+     "text": "Nuclear force"
+    },
+    {
+     "id": "B",
+     "text": "Gravitational force"
+    },
+    {
+     "id": "C",
+     "text": "Weak force"
+    },
+    {
+     "id": "D",
+     "text": "Electromagnetic force"
+    }
+   ],
+   "answer": "C",
+   "explanation": "β decay is caused by the weak force, not the nuclear force."
+  },
+  {
+   "id": "4.5-q3",
+   "n": 3,
+   "difficulty": "understanding",
+   "group": null,
+   "prompt": "The range of the weak force is:",
+   "options": [
+    {
+     "id": "A",
+     "text": "Infinite"
+    },
+    {
+     "id": "B",
+     "text": "About the size of an atom"
+    },
+    {
+     "id": "C",
+     "text": "About 1 m"
+    },
+    {
+     "id": "D",
+     "text": "Smaller than the size of a proton or neutron"
+    }
+   ],
+   "answer": "D",
+   "explanation": "The weak force acts only over distances smaller than a nucleon."
+  },
+  {
+   "id": "4.5-q4",
+   "n": 4,
+   "difficulty": "understanding",
+   "group": null,
+   "prompt": "Which statement about the neutron is correct?",
+   "options": [
+    {
+     "id": "A",
+     "text": "A neutron can change into a proton while emitting an electron and an antineutrino"
+    },
+    {
+     "id": "B",
+     "text": "A neutron is a proton, an electron and an antineutrino stuck together"
+    },
+    {
+     "id": "C",
+     "text": "A neutron can never change into anything else"
+    },
+    {
+     "id": "D",
+     "text": "A neutron has a negative charge"
+    }
+   ],
+   "answer": "A",
+   "explanation": "It is a transformation. The neutron is not made of those particles."
+  },
+  {
+   "id": "4.5-q5",
+   "n": 5,
+   "difficulty": "recall",
+   "group": null,
+   "prompt": "In β⁺ decay, a proton changes into:",
+   "options": [
+    {
+     "id": "A",
+     "text": "A neutron and an electron"
+    },
+    {
+     "id": "B",
+     "text": "Two neutrons"
+    },
+    {
+     "id": "C",
+     "text": "A neutron, a positron and a neutrino"
+    },
+    {
+     "id": "D",
+     "text": "A helium nucleus"
+    }
+   ],
+   "answer": "C",
+   "explanation": "β⁺ decay: p → n + e⁺ + neutrino."
+  }
+ ]
+}

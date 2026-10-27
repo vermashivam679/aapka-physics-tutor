@@ -1,0 +1,199 @@
+{
+ "id": "4.2",
+ "slug": "ch04-4-2",
+ "chapter": "ch04",
+ "title": "Gravitational Force",
+ "diagram": "content/ch04/diagrams/ch04_sec4_2.png",
+ "theory": "**Big idea:** Every pair of masses attracts each other. The force is tiny unless at least one of the masses is huge, like the earth.\n\n**Newton's law of gravitation (point masses)**\n**F = G m₁m₂ / r²**\n- G = **6.67 × 10⁻¹¹ N m²/kg²**, a universal constant\n- The force is always **attractive** and acts along the line joining the masses.\n- Double the distance and the force becomes ¼ (inverse square).\n\n**Extended bodies:** add the forces between every particle of one body and every particle of the other, as vectors. With 3 particles in each body that's already 9 forces, and real bodies need integration.\n\n**The shortcut for spheres:** two **spherically symmetric** bodies attract as if all their mass were at their **centres**. Use r = the distance between the centres.\n\n**How weak is gravity between everyday objects?**\nTwo 10 kg bodies, 0.5 m apart:\nF = 6.7 × 10⁻¹¹ × 10 × 10 / 0.25 ≈ **2.7 × 10⁻⁸ N**, about the weight of 3 micrograms! That's why we usually ignore every gravitational force except the earth's.\n\n**Gravity: the earth's pull on small bodies**\nTreat the earth as a sphere with radius R ≈ 6400 km and mass M ≈ 6 × 10²⁴ kg.\n- Force on a mass m near the surface: F = GMm/R², directed towards the centre of the earth, which we call **vertically downward**.\n- The quantity **g = GM/R²** has dimensions of acceleration. It is the **acceleration due to gravity**, ≈ **9.8 m/s²** (often rounded to 10 m/s²).\n- So the earth's force on a small body is **mg, vertically downward**.\n\n**🧮 Check:** g = 6.67 × 10⁻¹¹ × 6 × 10²⁴ / (6.4 × 10⁶)² ≈ **9.8 m/s²** ✔\n\n> ⚠️ **Common mistake:** Mixing up G and g. **G** is a universal constant (6.67 × 10⁻¹¹ N m²/kg²). **g** is the acceleration due to gravity near the earth (≈ 9.8 m/s²), and it depends on the earth's mass and radius.",
+ "questions": [
+  {
+   "id": "4.2-q1",
+   "n": 1,
+   "difficulty": "recall",
+   "group": null,
+   "prompt": "The value of the universal gravitational constant G is about:",
+   "options": [
+    {
+     "id": "A",
+     "text": "9.8 m/s²"
+    },
+    {
+     "id": "B",
+     "text": "6.67 × 10⁻¹¹ N m²/kg²"
+    },
+    {
+     "id": "C",
+     "text": "9.0 × 10⁹ N m²/C²"
+    },
+    {
+     "id": "D",
+     "text": "6.67 × 10¹¹ N m²/kg²"
+    }
+   ],
+   "answer": "B",
+   "explanation": "G = 6.67 × 10⁻¹¹ N m²/kg². (9.0 × 10⁹ is the Coulomb constant.)"
+  },
+  {
+   "id": "4.2-q2",
+   "n": 2,
+   "difficulty": "application",
+   "group": null,
+   "prompt": "Two bodies of mass 10 kg each are placed 0.5 m apart. The gravitational force between them is about:",
+   "options": [
+    {
+     "id": "A",
+     "text": "2.7 × 10⁻⁸ N"
+    },
+    {
+     "id": "B",
+     "text": "1.3 × 10⁻⁸ N"
+    },
+    {
+     "id": "C",
+     "text": "2.7 × 10⁻¹⁰ N"
+    },
+    {
+     "id": "D",
+     "text": "98 N"
+    }
+   ],
+   "answer": "A",
+   "explanation": "F = 6.7 × 10⁻¹¹ × 100 / 0.25 ≈ 2.7 × 10⁻⁸ N."
+  },
+  {
+   "id": "4.2-q3",
+   "n": 3,
+   "difficulty": "understanding",
+   "group": null,
+   "prompt": "If M and R are the mass and radius of the earth, the acceleration due to gravity near its surface is:",
+   "options": [
+    {
+     "id": "A",
+     "text": "GMR²"
+    },
+    {
+     "id": "B",
+     "text": "GM/R"
+    },
+    {
+     "id": "C",
+     "text": "G/(MR²)"
+    },
+    {
+     "id": "D",
+     "text": "GM/R²"
+    }
+   ],
+   "answer": "D",
+   "explanation": "F = GMm/R² = mg, so g = GM/R²."
+  },
+  {
+   "id": "4.2-q4",
+   "n": 4,
+   "difficulty": "understanding",
+   "group": null,
+   "prompt": "To calculate the gravitational force between two spherically symmetric bodies, we can:",
+   "options": [
+    {
+     "id": "A",
+     "text": "Treat them as point masses placed at their centres"
+    },
+    {
+     "id": "B",
+     "text": "Use the distance between their nearest surfaces"
+    },
+    {
+     "id": "C",
+     "text": "Ignore their masses"
+    },
+    {
+     "id": "D",
+     "text": "Use only the mass of the bigger body"
+    }
+   ],
+   "answer": "A",
+   "explanation": "A spherically symmetric body attracts as if its whole mass were at its centre."
+  },
+  {
+   "id": "4.2-q5",
+   "n": 5,
+   "difficulty": "application",
+   "group": null,
+   "prompt": "The distance between two masses is doubled. The gravitational force between them becomes:",
+   "options": [
+    {
+     "id": "A",
+     "text": "Half"
+    },
+    {
+     "id": "B",
+     "text": "Double"
+    },
+    {
+     "id": "C",
+     "text": "One quarter"
+    },
+    {
+     "id": "D",
+     "text": "Unchanged"
+    }
+   ],
+   "answer": "C",
+   "explanation": "F ∝ 1/r², so 2r gives F/4."
+  },
+  {
+   "id": "4.2-q6",
+   "n": 6,
+   "difficulty": "understanding",
+   "group": null,
+   "prompt": "We can usually ignore the gravitational force between two everyday objects, such as two chairs, because:",
+   "options": [
+    {
+     "id": "A",
+     "text": "Their gravitational forces cancel out"
+    },
+    {
+     "id": "B",
+     "text": "G is very small, so the force is tiny unless a mass is huge"
+    },
+    {
+     "id": "C",
+     "text": "Gravity acts only between planets"
+    },
+    {
+     "id": "D",
+     "text": "Gravitational forces are repulsive"
+    }
+   ],
+   "answer": "B",
+   "explanation": "G is so small that the force only becomes noticeable when at least one body is very massive."
+  },
+  {
+   "id": "4.2-q7",
+   "n": 7,
+   "difficulty": "application",
+   "group": null,
+   "prompt": "The force exerted by the earth on a 5 kg body near its surface (g = 9.8 m/s²) is:",
+   "options": [
+    {
+     "id": "A",
+     "text": "5 N"
+    },
+    {
+     "id": "B",
+     "text": "9.8 N"
+    },
+    {
+     "id": "C",
+     "text": "49 N"
+    },
+    {
+     "id": "D",
+     "text": "0.5 N"
+    }
+   ],
+   "answer": "C",
+   "explanation": "F = mg = 5 × 9.8 = 49 N, vertically downward."
+  }
+ ]
+}

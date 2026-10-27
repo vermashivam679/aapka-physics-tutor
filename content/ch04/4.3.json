@@ -1,0 +1,253 @@
+{
+ "id": "4.3",
+ "slug": "ch04-4-3",
+ "chapter": "ch04",
+ "title": "Electromagnetic (EM) Force",
+ "diagram": "content/ch04/diagrams/ch04_sec4_3.png",
+ "theory": "**Big idea:** Charged particles push and pull on each other. This electromagnetic force is behind almost every everyday force except weight: contact forces, friction, tension and springs.\n\n**Coulomb's law (charges at rest)**\n**F = (1/4πε₀) q₁q₂ / r²**\n- ε₀ = 8.85 × 10⁻¹² C²/(N m²), so **1/4πε₀ = 9.0 × 10⁹ N m²/C²**\n- The force acts along the line joining the charges.\n- **Like charges repel** (both + or both –). **Unlike charges attract.**\n- This is why a freshly used comb picks up paper bits.\n- Between **moving** charges the force is more complicated, with extra terms beyond Coulomb's law.\n\n**Matter is made of charges:** an electron carries **1.6 × 10⁻¹⁹ C** of negative charge, and a proton carries the same amount of positive charge. EM forces bind electrons to nuclei in atoms, and atoms into molecules.\n\n**Everyday forces that are really electromagnetic**\n| Force | What happens |\n|---|---|\n| **Contact (normal) force** | The atoms of two touching surfaces push on each other. The force is along the common **normal** and is a push. |\n| **Friction** | The part of the contact force **parallel** to the surfaces. \"Smooth\" means frictionless, which is why a smooth metal pole is hard to climb but a rough tree trunk isn't. |\n| **Tension** | A stretched rope or string pulls on the bodies tied to its ends. |\n| **Spring force** | **F = k × (change in length) = k Δx**. A stretched spring pulls inward, and a compressed spring pushes outward. k is the **spring constant**. |\n\nContact forces obey Newton's third law: the book presses down on the table with force F, and the table pushes up on the book with an equal force F.\n\n**🧮 Worked example: spring force**\nA spring with k = 200 N/m and natural length 20 cm is stretched to 25 cm. Δx = 0.05 m, so F = 200 × 0.05 = **10 N**.\n\n**🧮 Worked example: two 1 μC charges 1 m apart**\nF = 9 × 10⁹ × (10⁻⁶)² / 1² = **9 × 10⁻³ N**\n\n**Why don't we feel EM forces between big objects?** Everyday bodies are **electrically neutral**. The attractions and repulsions between their charges almost exactly **cancel**. Gravitational forces are all attractive, so they add up instead. A 1 kg block 100 m above the ground feels about 9.8 N of gravity but almost zero EM force from the earth.\n\n**🧮 How exact must neutrality be?** Suppose an electron's charge were just 1% smaller than a proton's. Then two 1 kg iron blocks 1 m apart would each carry about 4.3 × 10⁵ C and repel with about **1.7 × 10²¹ N**. That's a tremendous force, which shows how exact charge neutrality really is.\n\n> ⚠️ **Common misconception:** \"Friction and normal force are separate kinds of force.\" They are two components (parallel and perpendicular) of one contact force, and both are electromagnetic.",
+ "questions": [
+  {
+   "id": "4.3-q1",
+   "n": 1,
+   "difficulty": "recall",
+   "group": null,
+   "prompt": "The value of 1/4πε₀ in Coulomb's law is about:",
+   "options": [
+    {
+     "id": "A",
+     "text": "6.67 × 10⁻¹¹ N m²/kg²"
+    },
+    {
+     "id": "B",
+     "text": "9.0 × 10⁹ N m²/C²"
+    },
+    {
+     "id": "C",
+     "text": "8.85 × 10⁻¹² C²/(N m²)"
+    },
+    {
+     "id": "D",
+     "text": "1.6 × 10⁻¹⁹ C"
+    }
+   ],
+   "answer": "B",
+   "explanation": "1/4πε₀ = 9.0 × 10⁹ N m²/C². The value of ε₀ itself is 8.85 × 10⁻¹²."
+  },
+  {
+   "id": "4.3-q2",
+   "n": 2,
+   "difficulty": "understanding",
+   "group": null,
+   "prompt": "Two charges of the same sign placed near each other will:",
+   "options": [
+    {
+     "id": "A",
+     "text": "Attract each other"
+    },
+    {
+     "id": "B",
+     "text": "Exert no force on each other"
+    },
+    {
+     "id": "C",
+     "text": "Repel each other"
+    },
+    {
+     "id": "D",
+     "text": "Attract or repel depending on their masses"
+    }
+   ],
+   "answer": "C",
+   "explanation": "Like charges repel and unlike charges attract."
+  },
+  {
+   "id": "4.3-q3",
+   "n": 3,
+   "difficulty": "application",
+   "group": null,
+   "prompt": "Two charges of 1 μC each are placed 1 m apart. The force between them is:",
+   "options": [
+    {
+     "id": "A",
+     "text": "9 × 10⁻³ N"
+    },
+    {
+     "id": "B",
+     "text": "9 × 10⁹ N"
+    },
+    {
+     "id": "C",
+     "text": "9 × 10⁻¹² N"
+    },
+    {
+     "id": "D",
+     "text": "1 N"
+    }
+   ],
+   "answer": "A",
+   "explanation": "F = 9 × 10⁹ × 10⁻⁶ × 10⁻⁶ / 1 = 9 × 10⁻³ N."
+  },
+  {
+   "id": "4.3-q4",
+   "n": 4,
+   "difficulty": "understanding",
+   "group": null,
+   "prompt": "The force with which a table supports a book kept on it is fundamentally:",
+   "options": [
+    {
+     "id": "A",
+     "text": "Gravitational"
+    },
+    {
+     "id": "B",
+     "text": "Nuclear"
+    },
+    {
+     "id": "C",
+     "text": "Weak"
+    },
+    {
+     "id": "D",
+     "text": "Electromagnetic"
+    }
+   ],
+   "answer": "D",
+   "explanation": "Contact forces come from EM forces between the atoms of the two surfaces."
+  },
+  {
+   "id": "4.3-q5",
+   "n": 5,
+   "difficulty": "understanding",
+   "group": null,
+   "prompt": "Friction is:",
+   "options": [
+    {
+     "id": "A",
+     "text": "The component of the contact force perpendicular to the surfaces"
+    },
+    {
+     "id": "B",
+     "text": "The component of the contact force parallel to the surfaces"
+    },
+    {
+     "id": "C",
+     "text": "A kind of gravitational force"
+    },
+    {
+     "id": "D",
+     "text": "A kind of nuclear force"
+    }
+   ],
+   "answer": "B",
+   "explanation": "Friction is the part of the contact force along the surface."
+  },
+  {
+   "id": "4.3-q6",
+   "n": 6,
+   "difficulty": "application",
+   "group": null,
+   "prompt": "A spring of spring constant 200 N/m has a natural length of 20 cm. It is stretched to 25 cm. The force it exerts is:",
+   "options": [
+    {
+     "id": "A",
+     "text": "10 N"
+    },
+    {
+     "id": "B",
+     "text": "50 N"
+    },
+    {
+     "id": "C",
+     "text": "1000 N"
+    },
+    {
+     "id": "D",
+     "text": "40 N"
+    }
+   ],
+   "answer": "A",
+   "explanation": "F = kΔx = 200 × 0.05 = 10 N."
+  },
+  {
+   "id": "4.3-q7",
+   "n": 7,
+   "difficulty": "understanding",
+   "group": null,
+   "prompt": "There is almost no electromagnetic force between the earth and a block kept above it, even though both contain huge numbers of charges. This is because:",
+   "options": [
+    {
+     "id": "A",
+     "text": "EM forces are always weaker than gravity"
+    },
+    {
+     "id": "B",
+     "text": "The block is too far away"
+    },
+    {
+     "id": "C",
+     "text": "Both bodies are electrically neutral, so the attractions and repulsions cancel"
+    },
+    {
+     "id": "D",
+     "text": "The earth contains no charged particles"
+    }
+   ],
+   "answer": "C",
+   "explanation": "In neutral bodies the attractive and repulsive EM forces almost exactly cancel."
+  },
+  {
+   "id": "4.3-q8",
+   "n": 8,
+   "difficulty": "understanding",
+   "group": null,
+   "prompt": "A stretched spring:",
+   "options": [
+    {
+     "id": "A",
+     "text": "Pulls the bodies attached to its ends towards its centre"
+    },
+    {
+     "id": "B",
+     "text": "Pushes the bodies attached to its ends outward"
+    },
+    {
+     "id": "C",
+     "text": "Exerts no force"
+    },
+    {
+     "id": "D",
+     "text": "Exerts a force only on the heavier body"
+    }
+   ],
+   "answer": "A",
+   "explanation": "When stretched, a spring pulls inward. When compressed, it pushes outward."
+  },
+  {
+   "id": "4.3-q9",
+   "n": 9,
+   "difficulty": "recall",
+   "group": null,
+   "prompt": "The charge carried by an electron has a magnitude of:",
+   "options": [
+    {
+     "id": "A",
+     "text": "9.1 × 10⁻³¹ C"
+    },
+    {
+     "id": "B",
+     "text": "1.6 × 10¹⁹ C"
+    },
+    {
+     "id": "C",
+     "text": "6.67 × 10⁻¹¹ C"
+    },
+    {
+     "id": "D",
+     "text": "1.6 × 10⁻¹⁹ C"
+    }
+   ],
+   "answer": "D",
+   "explanation": "e = 1.6 × 10⁻¹⁹ C. (9.1 × 10⁻³¹ kg is the electron's mass.)"
+  }
+ ]
+}

@@ -1,0 +1,172 @@
+{
+ "id": "4.6",
+ "slug": "ch04-4-6",
+ "chapter": "ch04",
+ "title": "Scope of Classical Physics",
+ "diagram": "content/ch04/diagrams/ch04_sec4_6.png",
+ "theory": "**Big idea:** A small set of laws, called classical physics, describes everything from planets to raindrops. It breaks down for very tiny things and very fast things.\n\n**The laws of classical physics**\n- Newton's laws of motion\n- Newton's law of gravitation\n- Maxwell's electromagnetism\n- The laws of thermodynamics\n- The Lorentz force\n\nThese work beautifully for the sun, earth and moon, and equally well for grains of sand and raindrops.\n\n**Where classical physics fails**\n| Limit | What takes over |\n|---|---|\n| Size smaller than about 10⁻⁶ m (atoms, nuclei) | **Quantum physics**. At this scale even the idea of a \"particle\" breaks down. |\n| Speed comparable to 3 × 10⁸ m/s (light) | **Relativistic mechanics** (Einstein, 1905) |\n\n**The cosmic speed limit:** no material particle can ever reach the speed of light, 3 × 10⁸ m/s, however hard or long you push it.\n\n**The working zone for this book**\nClassical physics is a good description when:\n- the bodies are **larger than about 10⁻⁶ m**, and\n- they move **slower than about 10⁸ m/s**.\n\nIn this zone, nuclear and weak forces have no noticeable effect, so we only need **gravitational and electromagnetic forces**. We also assume Newton's third law holds for these forces.\n\n> 💡 Even when we apply classical ideas to atoms, the answers are often approximately right and still help us understand nature. Quantum physics comes in the final chapters.\n\n> ⚠️ **Common misconception:** \"Classical physics is wrong, so why learn it?\" It is extremely accurate inside its zone, which covers almost everything you see in daily life.",
+ "questions": [
+  {
+   "id": "4.6-q1",
+   "n": 1,
+   "difficulty": "recall",
+   "group": null,
+   "prompt": "Classical physics is a good description of nature for bodies:",
+   "options": [
+    {
+     "id": "A",
+     "text": "Smaller than 10⁻¹⁰ m moving faster than 10⁸ m/s"
+    },
+    {
+     "id": "B",
+     "text": "Of any size moving at any speed"
+    },
+    {
+     "id": "C",
+     "text": "Larger than about 10⁻⁶ m moving slower than about 10⁸ m/s"
+    },
+    {
+     "id": "D",
+     "text": "Only on the earth's surface"
+    }
+   ],
+   "answer": "C",
+   "explanation": "Classical physics works for sizes above about 10⁻⁶ m and speeds below about 10⁸ m/s."
+  },
+  {
+   "id": "4.6-q2",
+   "n": 2,
+   "difficulty": "understanding",
+   "group": null,
+   "prompt": "The behaviour of atoms and nuclei is governed by:",
+   "options": [
+    {
+     "id": "A",
+     "text": "Classical physics"
+    },
+    {
+     "id": "B",
+     "text": "Quantum physics"
+    },
+    {
+     "id": "C",
+     "text": "Thermodynamics only"
+    },
+    {
+     "id": "D",
+     "text": "Newton's laws only"
+    }
+   ],
+   "answer": "B",
+   "explanation": "At atomic scales the classical laws fail and quantum physics takes over."
+  },
+  {
+   "id": "4.6-q3",
+   "n": 3,
+   "difficulty": "understanding",
+   "group": null,
+   "prompt": "For particles moving at speeds comparable to 3 × 10⁸ m/s, we must use:",
+   "options": [
+    {
+     "id": "A",
+     "text": "Newton's laws as they are"
+    },
+    {
+     "id": "B",
+     "text": "Quantum physics only"
+    },
+    {
+     "id": "C",
+     "text": "Relativistic mechanics"
+    },
+    {
+     "id": "D",
+     "text": "Classical thermodynamics"
+    }
+   ],
+   "answer": "C",
+   "explanation": "Einstein's relativistic mechanics (1905) handles speeds near that of light."
+  },
+  {
+   "id": "4.6-q4",
+   "n": 4,
+   "difficulty": "recall",
+   "group": null,
+   "prompt": "The upper limit of speed that any material particle can approach, but never reach, is about:",
+   "options": [
+    {
+     "id": "A",
+     "text": "3 × 10⁸ m/s"
+    },
+    {
+     "id": "B",
+     "text": "3 × 10⁶ m/s"
+    },
+    {
+     "id": "C",
+     "text": "There is no limit"
+    },
+    {
+     "id": "D",
+     "text": "1 × 10⁸ m/s"
+    }
+   ],
+   "answer": "A",
+   "explanation": "No material particle can reach the speed of light, 3 × 10⁸ m/s."
+  },
+  {
+   "id": "4.6-q5",
+   "n": 5,
+   "difficulty": "understanding",
+   "group": null,
+   "prompt": "Within the limits of classical physics used in this book, which forces need to be considered?",
+   "options": [
+    {
+     "id": "A",
+     "text": "All four forces equally"
+    },
+    {
+     "id": "B",
+     "text": "Only gravitational and electromagnetic forces"
+    },
+    {
+     "id": "C",
+     "text": "Only nuclear and weak forces"
+    },
+    {
+     "id": "D",
+     "text": "Only electromagnetic forces"
+    }
+   ],
+   "answer": "B",
+   "explanation": "Nuclear and weak forces have no noticeable effect at these sizes."
+  },
+  {
+   "id": "4.6-q6",
+   "n": 6,
+   "difficulty": "understanding",
+   "group": null,
+   "prompt": "Which of the following is **not** one of the laws that classical physics is based on?",
+   "options": [
+    {
+     "id": "A",
+     "text": "Newton's laws of motion"
+    },
+    {
+     "id": "B",
+     "text": "Maxwell's electromagnetism"
+    },
+    {
+     "id": "C",
+     "text": "The laws of thermodynamics"
+    },
+    {
+     "id": "D",
+     "text": "Quantum mechanics"
+    }
+   ],
+   "answer": "D",
+   "explanation": "Quantum mechanics is the theory that replaces classical physics at small scales."
+  }
+ ]
+}

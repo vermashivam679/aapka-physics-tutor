@@ -1,0 +1,172 @@
+{
+ "id": "4.1",
+ "slug": "ch04-4-1",
+ "chapter": "ch04",
+ "title": "Introduction",
+ "diagram": "content/ch04/diagrams/ch04_sec4_1.png",
+ "theory": "**Big idea:** A force is a push or a pull, and it is always an **interaction between two objects**.\n\n**Forces are everywhere, not just from people**\n- You push or pull objects. Holding a heavy block takes a large force, and a light block a small one.\n- Wind pushes on you in a storm.\n- A rope holds up a hanging block.\n- A freshly used comb attracts small bits of paper.\n- Water pushes a cork upward, so you must push down to keep it under.\n\n**Unit:** the SI unit of force is the **newton (N)**. Roughly, 1 N is the force needed to hold a body of mass about **102 g** near the earth's surface. (The exact definition comes from Newton's laws in the next chapter.)\n\n**Two questions to ask about any force**\n1. **Who** exerted this force?\n2. **On which** object was it exerted?\n\n**Force is a vector.** When several forces act on a particle, the resultant is found by vector addition.\n\n**Newton's third law of motion**\nIf body A exerts a force **F** on body B, then B exerts a force **–F** on A. The two forces act along the line joining the bodies.\n- The pair **F** and **–F** is called an **action–reaction pair**. Either one can be called the action.\n- The table pushes the book up, and the book pushes the table down.\n- The rope pulls the block up, and the block pulls the rope tight.\n\n**The four kinds of force in nature**\n| Force | Where it matters |\n|---|---|\n| Gravitational | Planets, falling bodies, your weight |\n| Electromagnetic | Atoms, contact forces, tension, springs, friction |\n| Nuclear | Holding the nucleus together |\n| Weak | Radioactive β decay |\n\n> ⚠️ **Common misconception:** \"Action and reaction cancel, so nothing can move.\" They act on **different** bodies, so they never cancel each other.",
+ "questions": [
+  {
+   "id": "4.1-q1",
+   "n": 1,
+   "difficulty": "recall",
+   "group": null,
+   "prompt": "The SI unit of force is the:",
+   "options": [
+    {
+     "id": "A",
+     "text": "Joule"
+    },
+    {
+     "id": "B",
+     "text": "Newton"
+    },
+    {
+     "id": "C",
+     "text": "Watt"
+    },
+    {
+     "id": "D",
+     "text": "Pascal"
+    }
+   ],
+   "answer": "B",
+   "explanation": "Force is measured in newtons (N)."
+  },
+  {
+   "id": "4.1-q2",
+   "n": 2,
+   "difficulty": "recall",
+   "group": null,
+   "prompt": "One newton is roughly the force needed to hold a body near the earth's surface whose mass is:",
+   "options": [
+    {
+     "id": "A",
+     "text": "1 kg"
+    },
+    {
+     "id": "B",
+     "text": "9.8 kg"
+    },
+    {
+     "id": "C",
+     "text": "10 g"
+    },
+    {
+     "id": "D",
+     "text": "About 102 g"
+    }
+   ],
+   "answer": "D",
+   "explanation": "The weight of about 102 g is 0.102 × 9.8 ≈ 1 N."
+  },
+  {
+   "id": "4.1-q3",
+   "n": 3,
+   "difficulty": "understanding",
+   "group": null,
+   "prompt": "Body A exerts a force **F** on body B. According to Newton's third law, B exerts on A a force of:",
+   "options": [
+    {
+     "id": "A",
+     "text": "**F**"
+    },
+    {
+     "id": "B",
+     "text": "Zero"
+    },
+    {
+     "id": "C",
+     "text": "–**F**, along the line joining the bodies"
+    },
+    {
+     "id": "D",
+     "text": "**F**/2"
+    }
+   ],
+   "answer": "C",
+   "explanation": "Third law: equal in size, opposite in direction, along the line joining A and B."
+  },
+  {
+   "id": "4.1-q4",
+   "n": 4,
+   "difficulty": "understanding",
+   "group": null,
+   "prompt": "A book rests on a table, and the table exerts an upward force on the book. The reaction to this force is:",
+   "options": [
+    {
+     "id": "A",
+     "text": "The downward force exerted by the book on the table"
+    },
+    {
+     "id": "B",
+     "text": "The earth's pull on the book"
+    },
+    {
+     "id": "C",
+     "text": "The weight of the table"
+    },
+    {
+     "id": "D",
+     "text": "The force of the floor on the table"
+    }
+   ],
+   "answer": "A",
+   "explanation": "Action and reaction act between the same two bodies: table on book, and book on table."
+  },
+  {
+   "id": "4.1-q5",
+   "n": 5,
+   "difficulty": "recall",
+   "group": null,
+   "prompt": "All forces in nature can be grouped into which four categories?",
+   "options": [
+    {
+     "id": "A",
+     "text": "Gravitational, friction, tension and spring"
+    },
+    {
+     "id": "B",
+     "text": "Gravitational, electromagnetic, nuclear and weak"
+    },
+    {
+     "id": "C",
+     "text": "Push, pull, contact and magnetic"
+    },
+    {
+     "id": "D",
+     "text": "Mechanical, electrical, chemical and nuclear"
+    }
+   ],
+   "answer": "B",
+   "explanation": "These are the four fundamental categories. Friction, tension and spring forces are all electromagnetic."
+  },
+  {
+   "id": "4.1-q6",
+   "n": 6,
+   "difficulty": "understanding",
+   "group": null,
+   "prompt": "Force is:",
+   "options": [
+    {
+     "id": "A",
+     "text": "A scalar quantity"
+    },
+    {
+     "id": "B",
+     "text": "A dimensionless quantity"
+    },
+    {
+     "id": "C",
+     "text": "A vector quantity"
+    },
+    {
+     "id": "D",
+     "text": "Sometimes a vector, sometimes a scalar"
+    }
+   ],
+   "answer": "C",
+   "explanation": "Forces have direction and add by vector addition."
+  }
+ ]
+}

@@ -240,6 +240,56 @@
      "questionCount": 8
     }
    ]
+  },
+  {
+   "id": "ch04",
+   "number": 4,
+   "title": "The Forces",
+   "book": "H.C. Verma, Concepts of Physics Vol. 1",
+   "sections": [
+    {
+     "id": "4.1",
+     "slug": "ch04-4-1",
+     "title": "Introduction",
+     "file": "content/ch04/4.1.json",
+     "questionCount": 6
+    },
+    {
+     "id": "4.2",
+     "slug": "ch04-4-2",
+     "title": "Gravitational Force",
+     "file": "content/ch04/4.2.json",
+     "questionCount": 7
+    },
+    {
+     "id": "4.3",
+     "slug": "ch04-4-3",
+     "title": "Electromagnetic (EM) Force",
+     "file": "content/ch04/4.3.json",
+     "questionCount": 9
+    },
+    {
+     "id": "4.4",
+     "slug": "ch04-4-4",
+     "title": "Nuclear Forces",
+     "file": "content/ch04/4.4.json",
+     "questionCount": 6
+    },
+    {
+     "id": "4.5",
+     "slug": "ch04-4-5",
+     "title": "Weak Forces",
+     "file": "content/ch04/4.5.json",
+     "questionCount": 5
+    },
+    {
+     "id": "4.6",
+     "slug": "ch04-4-6",
+     "title": "Scope of Classical Physics",
+     "file": "content/ch04/4.6.json",
+     "questionCount": 6
+    }
+   ]
   }
  ]
 }
