@@ -1,0 +1,145 @@
+{
+ "id": "7.6",
+ "slug": "ch07-7-6",
+ "chapter": "ch07",
+ "title": "Centrifugal Force",
+ "diagram": "content/ch07/diagrams/ch07_sec7_6.png",
+ "theory": "**Big idea:** In a **rotating** frame, Newton's laws only work if you add an outward pseudo force, **mω²r**, called the centrifugal force.\n\n**One box, two observers**\nA box of mass m sits on the rough floor of a cabin rotating at ω, a distance r from the axis.\n\n| | Ground (inertial) frame | Cabin (rotating) frame |\n|---|---|---|\n| Motion of the box | moves in a circle | at rest |\n| Forces | mg, N, friction f inward | mg, N, f inward, **plus centrifugal force mω²r outward** |\n| Law used | 2nd law: f = mω²r | 1st law: f – mω²r = 0 |\n| Result | **f = mω²r** | **f = mω²r** (the same!) |\n\n**The rule:** in a frame rotating at constant ω, a particle at rest in that frame at distance r from the axis needs a pseudo force **mω²r, radially outward**. That is the **centrifugal force**.\n\n**Coriolis force:** if the particle **moves** in the rotating frame, another pseudo force is also needed, the **Coriolis force**. It is perpendicular both to the particle's velocity and to the axis of rotation.\n\n**No pseudo forces in an inertial frame:** from the ground, there is no centrifugal force at all. Only the real inward force exists.\n\n> ⚠️ **Common misconception:** \"Centrifugal force acts on anything moving in a circle.\" No! It is \"felt\" only because we describe the motion **from a rotating frame**. From the ground, a stone on a string has only the inward tension acting on it.\n\n> 💡 In a car taking a sharp turn, you feel pushed outward. In the car's (rotating) frame, that's the centrifugal force. From the road's frame, your body is simply trying to go straight while the car turns.",
+ "questions": [
+  {
+   "id": "7.6-q1",
+   "n": 1,
+   "difficulty": "recall",
+   "group": null,
+   "prompt": "Centrifugal force is:",
+   "options": [
+    {
+     "id": "A",
+     "text": "A real force exerted by the centre"
+    },
+    {
+     "id": "B",
+     "text": "A pseudo force needed in a rotating frame of reference"
+    },
+    {
+     "id": "C",
+     "text": "The reaction to the centripetal force"
+    },
+    {
+     "id": "D",
+     "text": "The same as gravity"
+    }
+   ],
+   "answer": "B",
+   "explanation": "It is a pseudo force, used only because the working frame rotates."
+  },
+  {
+   "id": "7.6-q2",
+   "n": 2,
+   "difficulty": "understanding",
+   "group": null,
+   "prompt": "In a frame rotating at angular velocity ω, the centrifugal force on a particle of mass m at distance r from the axis is:",
+   "options": [
+    {
+     "id": "A",
+     "text": "mω²r, radially inward"
+    },
+    {
+     "id": "B",
+     "text": "mωr, along the tangent"
+    },
+    {
+     "id": "C",
+     "text": "mω²r, radially outward"
+    },
+    {
+     "id": "D",
+     "text": "Zero"
+    }
+   ],
+   "answer": "C",
+   "explanation": "Centrifugal force = mω²r, pointing away from the axis."
+  },
+  {
+   "id": "7.6-q3",
+   "n": 3,
+   "difficulty": "understanding",
+   "group": null,
+   "prompt": "A box rests on the floor of a cabin rotating at ω, at distance r from the axis. Analysed from the ground frame, the friction on the box is:",
+   "options": [
+    {
+     "id": "A",
+     "text": "mω²r, towards the axis"
+    },
+    {
+     "id": "B",
+     "text": "mω²r, away from the axis"
+    },
+    {
+     "id": "C",
+     "text": "Zero"
+    },
+    {
+     "id": "D",
+     "text": "mg"
+    }
+   ],
+   "answer": "A",
+   "explanation": "In the ground frame the box moves in a circle, so friction supplies mω²r inward."
+  },
+  {
+   "id": "7.6-q4",
+   "n": 4,
+   "difficulty": "understanding",
+   "group": null,
+   "prompt": "If a particle moves relative to a rotating frame, then besides the centrifugal force we must also include:",
+   "options": [
+    {
+     "id": "A",
+     "text": "No other force"
+    },
+    {
+     "id": "B",
+     "text": "Only gravity"
+    },
+    {
+     "id": "C",
+     "text": "The centripetal force as an extra force"
+    },
+    {
+     "id": "D",
+     "text": "The Coriolis force"
+    }
+   ],
+   "answer": "D",
+   "explanation": "Particles moving in a rotating frame also need the Coriolis force."
+  },
+  {
+   "id": "7.6-q5",
+   "n": 5,
+   "difficulty": "understanding",
+   "group": null,
+   "prompt": "A stone is whirled on a string. Viewed from the ground (an inertial frame), the forces in the horizontal plane are:",
+   "options": [
+    {
+     "id": "A",
+     "text": "Tension towards the centre only"
+    },
+    {
+     "id": "B",
+     "text": "Tension inward and a centrifugal force outward"
+    },
+    {
+     "id": "C",
+     "text": "A centrifugal force only"
+    },
+    {
+     "id": "D",
+     "text": "No forces at all"
+    }
+   ],
+   "answer": "A",
+   "explanation": "No pseudo forces in an inertial frame, only the real inward tension."
+  }
+ ]
+}

@@ -1,0 +1,172 @@
+{
+ "id": "7.7",
+ "slug": "ch07-7-7",
+ "chapter": "ch07",
+ "title": "Effect of Earth's Rotation on Apparent Weight",
+ "diagram": "content/ch07/diagrams/ch07_sec7_7.png",
+ "theory": "**Big idea:** The earth spins, so in the earth's frame every body feels a small centrifugal force. This makes things weigh slightly **less**, most of all at the equator, and makes a plumb line tilt very slightly.\n\n**Spinning earth**\n- The earth turns once in 24 h, so ω = 2π / (24 × 3600 s) ≈ **7.27 × 10⁻⁵ rad/s**.\n- A place P at **colatitude θ** (the angle from the polar axis) moves in a circle of radius **r = R sin θ**.\n- In the earth's frame, a body of mass m at P feels a centrifugal force **mω²R sin θ**, directed away from the axis.\n\n**Apparent gravity g′:** the true weight mg (towards the centre) combines with the centrifugal force to give an effective \"gravity\" g′.\n- **g′ = √(g² – 2gω²R sin²θ + ω⁴R² sin²θ)**, which is slightly less than g.\n- A plumb line hangs along g′ (the **apparent vertical**), tilted by a tiny angle α from the true vertical. Walls are built along g′, and still water settles perpendicular to it.\n\n**At the poles and the equator**\n| Place | θ | Effect |\n|---|---|---|\n| Poles | 0° | No rotation effect: **g′ = g**, α = 0 |\n| Equator | 90° | **g′ = g – ω²R**. The largest reduction, and the plumb line points along the true vertical |\n\n**Apparent weight:** a spring balance or weighing machine reads **mg′**, not mg.\n\n**🧮 Worked example:** a body weighs 98 N at the north pole. What does it weigh at the equator?\n- m = 98 / 9.8 = 10 kg\n- ω²R = (7.27 × 10⁻⁵)² × 6.4 × 10⁶ ≈ 0.034 m/s²\n- mg′ = 98 – 10 × 0.034 ≈ **97.66 N**\n\n> 💡 The effect is small, about 0.3% at the equator, but real. Precise measurements of g do show it.",
+ "questions": [
+  {
+   "id": "7.7-q1",
+   "n": 1,
+   "difficulty": "recall",
+   "group": null,
+   "prompt": "The angular speed of the earth's rotation about its axis is about:",
+   "options": [
+    {
+     "id": "A",
+     "text": "7.27 × 10⁻⁵ rad/s"
+    },
+    {
+     "id": "B",
+     "text": "2π rad/s"
+    },
+    {
+     "id": "C",
+     "text": "1 rad/s"
+    },
+    {
+     "id": "D",
+     "text": "7.27 × 10⁻³ rad/s"
+    }
+   ],
+   "answer": "A",
+   "explanation": "ω = 2π / 86400 s ≈ 7.27 × 10⁻⁵ rad/s."
+  },
+  {
+   "id": "7.7-q2",
+   "n": 2,
+   "difficulty": "understanding",
+   "group": null,
+   "prompt": "Because of the earth's rotation, the apparent value of g is:",
+   "options": [
+    {
+     "id": "A",
+     "text": "Greater than g everywhere"
+    },
+    {
+     "id": "B",
+     "text": "Equal to g everywhere"
+    },
+    {
+     "id": "C",
+     "text": "Less than g, except at the poles"
+    },
+    {
+     "id": "D",
+     "text": "Zero at the equator"
+    }
+   ],
+   "answer": "C",
+   "explanation": "The outward centrifugal force reduces the effective gravity everywhere except at the poles."
+  },
+  {
+   "id": "7.7-q3",
+   "n": 3,
+   "difficulty": "understanding",
+   "group": null,
+   "prompt": "At the poles, the effect of the earth's rotation on apparent weight is:",
+   "options": [
+    {
+     "id": "A",
+     "text": "Maximum"
+    },
+    {
+     "id": "B",
+     "text": "Zero"
+    },
+    {
+     "id": "C",
+     "text": "Half of its value at the equator"
+    },
+    {
+     "id": "D",
+     "text": "Impossible to determine"
+    }
+   ],
+   "answer": "B",
+   "explanation": "The poles lie on the axis (r = 0), so there is no centrifugal force there."
+  },
+  {
+   "id": "7.7-q4",
+   "n": 4,
+   "difficulty": "recall",
+   "group": null,
+   "prompt": "At the equator, the apparent acceleration due to gravity is:",
+   "options": [
+    {
+     "id": "A",
+     "text": "g + ω²R"
+    },
+    {
+     "id": "B",
+     "text": "g – ω²R"
+    },
+    {
+     "id": "C",
+     "text": "g"
+    },
+    {
+     "id": "D",
+     "text": "ω²R"
+    }
+   ],
+   "answer": "B",
+   "explanation": "At the equator the centrifugal force mω²R is directly opposite to mg."
+  },
+  {
+   "id": "7.7-q5",
+   "n": 5,
+   "difficulty": "application",
+   "group": null,
+   "prompt": "A body weighs 98 N on a spring balance at the north pole. Taking ω = 7.27 × 10⁻⁵ rad/s and R = 6400 km, its weight at the equator on the same balance is about:",
+   "options": [
+    {
+     "id": "A",
+     "text": "98.34 N"
+    },
+    {
+     "id": "B",
+     "text": "98 N"
+    },
+    {
+     "id": "C",
+     "text": "97.66 N"
+    },
+    {
+     "id": "D",
+     "text": "94.6 N"
+    }
+   ],
+   "answer": "C",
+   "explanation": "m = 10 kg and ω²R ≈ 0.034 m/s², so 98 – 0.34 = 97.66 N."
+  },
+  {
+   "id": "7.7-q6",
+   "n": 6,
+   "difficulty": "understanding",
+   "group": null,
+   "prompt": "A plumb line at a place on the earth (other than the poles and the equator) hangs:",
+   "options": [
+    {
+     "id": "A",
+     "text": "Exactly towards the centre of the earth"
+    },
+    {
+     "id": "B",
+     "text": "Horizontally"
+    },
+    {
+     "id": "C",
+     "text": "Along the earth's axis"
+    },
+    {
+     "id": "D",
+     "text": "Along the apparent vertical, slightly tilted from the true vertical"
+    }
+   ],
+   "answer": "D",
+   "explanation": "It hangs along g′, which is tilted by a small angle α from the line to the earth's centre."
+  }
+ ]
+}

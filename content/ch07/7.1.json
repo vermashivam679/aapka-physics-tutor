@@ -1,0 +1,172 @@
+{
+ "id": "7.1",
+ "slug": "ch07-7-1",
+ "chapter": "ch07",
+ "title": "Angular Variables",
+ "diagram": "content/ch07/diagrams/ch07_sec7_1.png",
+ "theory": "**Big idea:** For motion on a circle, it's easiest to track the **angle**. Angular position, angular velocity and angular acceleration work just like position, velocity and acceleration on a straight line.\n\n**The three angular variables**\n| Quantity | Definition | Unit |\n|---|---|---|\n| Angular position θ | Angle of OP with the X-axis | rad |\n| Angular velocity ω | **ω = dθ/dt** | rad/s |\n| Angular acceleration α | **α = dω/dt = d²θ/dt²** | rad/s² |\n\n**Constant angular acceleration:** these match the straight-line equations exactly.\n- **ω = ω₀ + αt**\n- **θ = ω₀t + ½αt²**\n- **ω² = ω₀² + 2αθ**\n\n**Linking angular and linear quantities**\n- Arc length: Δs = r Δθ, so **v = rω**.\n- Rate of change of speed: **a_t = dv/dt = rα**. This is the **tangential acceleration**.\n\nNote that a_t is the rate of change of **speed**, not of velocity, so it is **not** the full acceleration.\n\n**🧮 Worked example:** a particle moves on a circle of radius 20 cm at 10 m/s.\nω = v/r = 10 / 0.20 = **50 rad/s**.\n\n**🧮 Worked example:** on the same 20 cm circle, the speed rises uniformly from 5.0 to 6.0 m/s in 2.0 s.\na_t = 1.0 / 2.0 = 0.5 m/s², so α = a_t / r = 0.5 / 0.20 = **2.5 rad/s²**.\n\n**🧮 Worked example:** a wheel starts from rest with α = 2 rad/s².\nAfter 3 s: ω = 2 × 3 = **6 rad/s**, and θ = ½ × 2 × 9 = **9 rad**.\n\n> ⚠️ **Common mistake:** Using degrees in v = rω. The angle must be in **radians**. One revolution is 2π rad.",
+ "questions": [
+  {
+   "id": "7.1-q1",
+   "n": 1,
+   "difficulty": "recall",
+   "group": null,
+   "prompt": "Angular velocity is defined as:",
+   "options": [
+    {
+     "id": "A",
+     "text": "dθ/dt"
+    },
+    {
+     "id": "B",
+     "text": "dv/dt"
+    },
+    {
+     "id": "C",
+     "text": "d²θ/dt²"
+    },
+    {
+     "id": "D",
+     "text": "r/v"
+    }
+   ],
+   "answer": "A",
+   "explanation": "ω is the rate of change of angular position."
+  },
+  {
+   "id": "7.1-q2",
+   "n": 2,
+   "difficulty": "application",
+   "group": null,
+   "prompt": "A particle moves on a circle of radius 20 cm with a linear speed of 10 m/s. Its angular velocity is:",
+   "options": [
+    {
+     "id": "A",
+     "text": "2 rad/s"
+    },
+    {
+     "id": "B",
+     "text": "0.5 rad/s"
+    },
+    {
+     "id": "C",
+     "text": "50 rad/s"
+    },
+    {
+     "id": "D",
+     "text": "200 rad/s"
+    }
+   ],
+   "answer": "C",
+   "explanation": "ω = v/r = 10/0.20 = 50 rad/s."
+  },
+  {
+   "id": "7.1-q3",
+   "n": 3,
+   "difficulty": "understanding",
+   "group": null,
+   "prompt": "The relation between linear speed v and angular velocity ω on a circle of radius r is:",
+   "options": [
+    {
+     "id": "A",
+     "text": "v = ω/r"
+    },
+    {
+     "id": "B",
+     "text": "v = r/ω"
+    },
+    {
+     "id": "C",
+     "text": "v = ω²r"
+    },
+    {
+     "id": "D",
+     "text": "v = rω"
+    }
+   ],
+   "answer": "D",
+   "explanation": "Arc Δs = rΔθ, so dividing by Δt gives v = rω."
+  },
+  {
+   "id": "7.1-q4",
+   "n": 4,
+   "difficulty": "application",
+   "group": null,
+   "prompt": "On a circle of radius 20 cm, a particle's speed increases uniformly from 5.0 m/s to 6.0 m/s in 2.0 s. Its angular acceleration is:",
+   "options": [
+    {
+     "id": "A",
+     "text": "2.5 rad/s²"
+    },
+    {
+     "id": "B",
+     "text": "0.5 rad/s²"
+    },
+    {
+     "id": "C",
+     "text": "5.0 rad/s²"
+    },
+    {
+     "id": "D",
+     "text": "0.1 rad/s²"
+    }
+   ],
+   "answer": "A",
+   "explanation": "a_t = 0.5 m/s², and α = a_t/r = 0.5/0.2 = 2.5 rad/s²."
+  },
+  {
+   "id": "7.1-q5",
+   "n": 5,
+   "difficulty": "application",
+   "group": null,
+   "prompt": "A wheel starts from rest with a constant angular acceleration of 2 rad/s². The angle it turns through in the first 3 s is:",
+   "options": [
+    {
+     "id": "A",
+     "text": "6 rad"
+    },
+    {
+     "id": "B",
+     "text": "9 rad"
+    },
+    {
+     "id": "C",
+     "text": "18 rad"
+    },
+    {
+     "id": "D",
+     "text": "3 rad"
+    }
+   ],
+   "answer": "B",
+   "explanation": "θ = ½αt² = ½ × 2 × 9 = 9 rad."
+  },
+  {
+   "id": "7.1-q6",
+   "n": 6,
+   "difficulty": "understanding",
+   "group": null,
+   "prompt": "The tangential acceleration a_t = dv/dt of a particle moving in a circle is the rate of change of its:",
+   "options": [
+    {
+     "id": "A",
+     "text": "Velocity"
+    },
+    {
+     "id": "B",
+     "text": "Angular position"
+    },
+    {
+     "id": "C",
+     "text": "Speed"
+    },
+    {
+     "id": "D",
+     "text": "Radius"
+    }
+   ],
+   "answer": "C",
+   "explanation": "a_t is the rate of change of speed. It is not the full acceleration."
+  }
+ ]
+}

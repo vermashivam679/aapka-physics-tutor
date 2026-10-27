@@ -1,0 +1,172 @@
+{
+ "id": "7.4",
+ "slug": "ch07-7-4",
+ "chapter": "ch07",
+ "title": "Dynamics of Circular Motion",
+ "diagram": "content/ch07/diagrams/ch07_sec7_4.png",
+ "theory": "**Big idea:** Circular motion needs a net force towards the centre, of size **mv²/r**. That force must come from something real: tension, friction, gravity, a normal force and so on.\n\n**Centripetal force**\nSeen from an inertial frame, a particle in uniform circular motion has acceleration v²/r towards the centre. So, by F = ma:\n**F = mv²/r (= mω²r), directed towards the centre**\n\n**\"Centripetal force\" is not a new kind of force.** It just means \"the net force towards the centre\", the way \"upward force\" means a force pointing up. It must be supplied by a real interaction:\n| Situation | What supplies the centripetal force |\n|---|---|\n| Stone whirled on a string | Tension in the string |\n| Car on a level turn | Friction from the road |\n| Moon round the earth | Gravitational pull of the earth |\n| Electron round a nucleus | Coulomb attraction |\n| Block in a circular groove | Normal force from the side wall |\n\n**🧮 Worked example: block in a groove**\nA 100 g block moves in a horizontal circular groove of radius 25 cm, taking 2.0 s per round.\n- v = 2π × 0.25 / 2.0 ≈ 0.785 m/s\n- a = v²/r ≈ 2.5 m/s²\n- The side wall supplies the force: N = 0.100 × 2.5 = **0.25 N**\n\n**🧮 Worked example:** a 0.5 kg stone is whirled at 2 m/s on a 1 m string (in a horizontal circle, ignoring gravity). T = mv²/r = 0.5 × 4 / 1 = **2 N**.\n\n> ⚠️ **Common mistake:** Drawing a separate \"centripetal force\" arrow in the free body diagram, as well as tension or friction. Draw only the real forces. Their resultant towards the centre *is* the centripetal force.",
+ "questions": [
+  {
+   "id": "7.4-q1",
+   "n": 1,
+   "difficulty": "recall",
+   "group": null,
+   "prompt": "The force needed to keep a body of mass m moving in a circle of radius r at speed v is:",
+   "options": [
+    {
+     "id": "A",
+     "text": "mv/r"
+    },
+    {
+     "id": "B",
+     "text": "mv²/r"
+    },
+    {
+     "id": "C",
+     "text": "mr/v²"
+    },
+    {
+     "id": "D",
+     "text": "mv²r"
+    }
+   ],
+   "answer": "B",
+   "explanation": "F = ma = mv²/r."
+  },
+  {
+   "id": "7.4-q2",
+   "n": 2,
+   "difficulty": "understanding",
+   "group": null,
+   "prompt": "Centripetal force is:",
+   "options": [
+    {
+     "id": "A",
+     "text": "A new fundamental force of nature"
+    },
+    {
+     "id": "B",
+     "text": "A pseudo force"
+    },
+    {
+     "id": "C",
+     "text": "The name for the net force towards the centre, supplied by real forces such as tension, friction or gravity"
+    },
+    {
+     "id": "D",
+     "text": "Always equal to the weight"
+    }
+   ],
+   "answer": "C",
+   "explanation": "\"Centripetal\" just describes the direction. The force itself comes from real interactions."
+  },
+  {
+   "id": "7.4-q3",
+   "n": 3,
+   "difficulty": "application",
+   "group": null,
+   "prompt": "A 100 g block moves in a horizontal circular groove of radius 25 cm, taking 2.0 s per round. The normal force from the side wall is about:",
+   "options": [
+    {
+     "id": "A",
+     "text": "0.25 N"
+    },
+    {
+     "id": "B",
+     "text": "2.5 N"
+    },
+    {
+     "id": "C",
+     "text": "0.785 N"
+    },
+    {
+     "id": "D",
+     "text": "0.025 N"
+    }
+   ],
+   "answer": "A",
+   "explanation": "a ≈ 0.785²/0.25 ≈ 2.5 m/s², so N = 0.1 × 2.5 = 0.25 N."
+  },
+  {
+   "id": "7.4-q4",
+   "n": 4,
+   "difficulty": "understanding",
+   "group": null,
+   "prompt": "The centripetal force on the moon as it goes round the earth is provided by:",
+   "options": [
+    {
+     "id": "A",
+     "text": "Friction"
+    },
+    {
+     "id": "B",
+     "text": "Tension"
+    },
+    {
+     "id": "C",
+     "text": "A centrifugal force"
+    },
+    {
+     "id": "D",
+     "text": "The earth's gravitational pull"
+    }
+   ],
+   "answer": "D",
+   "explanation": "Gravity pulls the moon towards the earth's centre."
+  },
+  {
+   "id": "7.4-q5",
+   "n": 5,
+   "difficulty": "application",
+   "group": null,
+   "prompt": "A 0.5 kg stone is whirled at 2 m/s in a horizontal circle of radius 1 m (ignore gravity). The tension in the string is:",
+   "options": [
+    {
+     "id": "A",
+     "text": "1 N"
+    },
+    {
+     "id": "B",
+     "text": "2 N"
+    },
+    {
+     "id": "C",
+     "text": "4 N"
+    },
+    {
+     "id": "D",
+     "text": "0.25 N"
+    }
+   ],
+   "answer": "B",
+   "explanation": "T = mv²/r = 0.5 × 4/1 = 2 N."
+  },
+  {
+   "id": "7.4-q6",
+   "n": 6,
+   "difficulty": "application",
+   "group": null,
+   "prompt": "If the speed of a body in uniform circular motion is doubled, keeping the radius the same, the centripetal force needed becomes:",
+   "options": [
+    {
+     "id": "A",
+     "text": "Double"
+    },
+    {
+     "id": "B",
+     "text": "Half"
+    },
+    {
+     "id": "C",
+     "text": "Four times"
+    },
+    {
+     "id": "D",
+     "text": "Unchanged"
+    }
+   ],
+   "answer": "C",
+   "explanation": "F ∝ v², so doubling v gives 4F."
+  }
+ ]
+}

@@ -1,0 +1,199 @@
+{
+ "id": "7.3",
+ "slug": "ch07-7-3",
+ "chapter": "ch07",
+ "title": "Acceleration in Circular Motion",
+ "diagram": "content/ch07/diagrams/ch07_sec7_3.png",
+ "theory": "**Big idea:** Even at constant speed, a particle moving in a circle accelerates, because its direction keeps changing. This acceleration points **towards the centre**.\n\n**The general result**\nDifferentiating **v** = rω **e_t** gives\n**a = –ω²r e_r + (dv/dt) e_t**\n- **Radial part:** ω²r = v²/r, directed towards the centre\n- **Tangential part:** dv/dt, along the direction of motion\n\n**Uniform circular motion** (constant speed, dv/dt = 0)\n- **a = v²/r = ω²r, towards the centre**\n- This is called **centripetal acceleration**.\n- The speed is constant, but the direction changes, so the velocity changes.\n\n**🧮 Worked example:** a particle goes round a 10 cm circle once every 4 s at uniform speed.\nv = 2π × 10 / 4 = 5π cm/s, so a = v²/r = 25π² / 10 = **2.5π² ≈ 24.7 cm/s²**, towards the centre.\n\n**Non-uniform circular motion** (the speed changes)\n- a_r = v²/r (towards the centre) and a_t = dv/dt (along the tangent)\n- **Total: a = √(a_r² + a_t²)**\n- Its angle α with the radius satisfies **tan α = a_t / a_r**.\n\n**🧮 Worked example:** r = 20 cm and v = 2t (m/s). At t = 3 s:\n- v = 6 m/s, so a_r = 36 / 0.2 = **180 m/s²**\n- a_t = d(2t)/dt = **2 m/s²**\n\n> ⚠️ **Common misconception:** \"Uniform circular motion has no acceleration.\" The speed is uniform, but the velocity is not.",
+ "questions": [
+  {
+   "id": "7.3-q1",
+   "n": 1,
+   "difficulty": "recall",
+   "group": null,
+   "prompt": "For uniform circular motion, the acceleration of the particle is:",
+   "options": [
+    {
+     "id": "A",
+     "text": "Zero"
+    },
+    {
+     "id": "B",
+     "text": "Along the tangent"
+    },
+    {
+     "id": "C",
+     "text": "v²/r, towards the centre"
+    },
+    {
+     "id": "D",
+     "text": "v²/r, away from the centre"
+    }
+   ],
+   "answer": "C",
+   "explanation": "At constant speed, a = v²/r towards the centre (centripetal)."
+  },
+  {
+   "id": "7.3-q2",
+   "n": 2,
+   "difficulty": "understanding",
+   "group": null,
+   "prompt": "Another way of writing the centripetal acceleration is:",
+   "options": [
+    {
+     "id": "A",
+     "text": "ωr²"
+    },
+    {
+     "id": "B",
+     "text": "ω/r"
+    },
+    {
+     "id": "C",
+     "text": "ω²/r"
+    },
+    {
+     "id": "D",
+     "text": "ω²r"
+    }
+   ],
+   "answer": "D",
+   "explanation": "v = ωr, so v²/r = ω²r."
+  },
+  {
+   "id": "7.3-q3",
+   "n": 3,
+   "difficulty": "application",
+   "group": null,
+   "prompt": "A particle moves uniformly round a circle of radius 10 cm, completing it in 4 s. The magnitude of its acceleration is:",
+   "options": [
+    {
+     "id": "A",
+     "text": "2.5π² cm/s²"
+    },
+    {
+     "id": "B",
+     "text": "5π cm/s²"
+    },
+    {
+     "id": "C",
+     "text": "2.5π cm/s²"
+    },
+    {
+     "id": "D",
+     "text": "0"
+    }
+   ],
+   "answer": "A",
+   "explanation": "v = 5π cm/s, so a = (5π)²/10 = 2.5π² ≈ 24.7 cm/s²."
+  },
+  {
+   "id": "7.3-q4",
+   "n": 4,
+   "difficulty": "application",
+   "group": null,
+   "prompt": "A particle moves on a circle of radius 20 cm with speed v = 2t (m/s). Its radial acceleration at t = 3 s is:",
+   "options": [
+    {
+     "id": "A",
+     "text": "2 m/s²"
+    },
+    {
+     "id": "B",
+     "text": "30 m/s²"
+    },
+    {
+     "id": "C",
+     "text": "180 m/s²"
+    },
+    {
+     "id": "D",
+     "text": "36 m/s²"
+    }
+   ],
+   "answer": "C",
+   "explanation": "v = 6 m/s, so a_r = 36/0.2 = 180 m/s²."
+  },
+  {
+   "id": "7.3-q5",
+   "n": 5,
+   "difficulty": "application",
+   "group": null,
+   "prompt": "For the same particle (r = 20 cm, v = 2t), the tangential acceleration at t = 3 s is:",
+   "options": [
+    {
+     "id": "A",
+     "text": "6 m/s²"
+    },
+    {
+     "id": "B",
+     "text": "2 m/s²"
+    },
+    {
+     "id": "C",
+     "text": "180 m/s²"
+    },
+    {
+     "id": "D",
+     "text": "0"
+    }
+   ],
+   "answer": "B",
+   "explanation": "a_t = dv/dt = 2 m/s²."
+  },
+  {
+   "id": "7.3-q6",
+   "n": 6,
+   "difficulty": "understanding",
+   "group": null,
+   "prompt": "In non-uniform circular motion, the radial acceleration is 4 m/s² and the tangential acceleration is 3 m/s². The magnitude of the total acceleration is:",
+   "options": [
+    {
+     "id": "A",
+     "text": "7 m/s²"
+    },
+    {
+     "id": "B",
+     "text": "1 m/s²"
+    },
+    {
+     "id": "C",
+     "text": "12 m/s²"
+    },
+    {
+     "id": "D",
+     "text": "5 m/s²"
+    }
+   ],
+   "answer": "D",
+   "explanation": "√(4² + 3²) = 5 m/s²."
+  },
+  {
+   "id": "7.3-q7",
+   "n": 7,
+   "difficulty": "understanding",
+   "group": null,
+   "prompt": "A body moves round a circle at constant speed. Which of these stays constant?",
+   "options": [
+    {
+     "id": "A",
+     "text": "Velocity"
+    },
+    {
+     "id": "B",
+     "text": "Speed"
+    },
+    {
+     "id": "C",
+     "text": "Acceleration (as a vector)"
+    },
+    {
+     "id": "D",
+     "text": "Direction of motion"
+    }
+   ],
+   "answer": "B",
+   "explanation": "Only the speed is constant. The velocity and the acceleration keep changing direction."
+  }
+ ]
+}

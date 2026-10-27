@@ -397,6 +397,63 @@
      "questionCount": 7
     }
    ]
+  },
+  {
+   "id": "ch07",
+   "number": 7,
+   "title": "Circular Motion",
+   "book": "H.C. Verma, Concepts of Physics Vol. 1",
+   "sections": [
+    {
+     "id": "7.1",
+     "slug": "ch07-7-1",
+     "title": "Angular Variables",
+     "file": "content/ch07/7.1.json",
+     "questionCount": 6
+    },
+    {
+     "id": "7.2",
+     "slug": "ch07-7-2",
+     "title": "Unit Vectors along the Radius and the Tangent",
+     "file": "content/ch07/7.2.json",
+     "questionCount": 5
+    },
+    {
+     "id": "7.3",
+     "slug": "ch07-7-3",
+     "title": "Acceleration in Circular Motion",
+     "file": "content/ch07/7.3.json",
+     "questionCount": 7
+    },
+    {
+     "id": "7.4",
+     "slug": "ch07-7-4",
+     "title": "Dynamics of Circular Motion",
+     "file": "content/ch07/7.4.json",
+     "questionCount": 6
+    },
+    {
+     "id": "7.5",
+     "slug": "ch07-7-5",
+     "title": "Circular Turnings and Banking of Roads",
+     "file": "content/ch07/7.5.json",
+     "questionCount": 7
+    },
+    {
+     "id": "7.6",
+     "slug": "ch07-7-6",
+     "title": "Centrifugal Force",
+     "file": "content/ch07/7.6.json",
+     "questionCount": 5
+    },
+    {
+     "id": "7.7",
+     "slug": "ch07-7-7",
+     "title": "Effect of Earth's Rotation on Apparent Weight",
+     "file": "content/ch07/7.7.json",
+     "questionCount": 6
+    }
+   ]
   }
  ]
 }

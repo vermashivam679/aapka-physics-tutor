@@ -1,0 +1,199 @@
+{
+ "id": "7.5",
+ "slug": "ch07-7-5",
+ "chapter": "ch07",
+ "title": "Circular Turnings and Banking of Roads",
+ "diagram": "content/ch07/diagrams/ch07_sec7_5.png",
+ "theory": "**Big idea:** To turn, a vehicle needs a force towards the centre. On a flat road only friction can supply it. Tilting (banking) the road lets the normal force do the job instead.\n\n**A level (flat) road**\n- Forces: weight Mg, normal force N (vertical) and static friction f_s.\n- The tyres tend to **skid outward**, so friction acts **towards the centre**.\n- Need: Mv²/r ≤ μ_s N = μ_s Mg, which gives **v² ≤ μ_s r g**.\n- **Maximum safe speed: v_max = √(μ_s r g)**\n\n**🧮 Worked example:** r = 40 m, μ_s = 0.4 and g = 10 m/s², so v_max = √160 ≈ **12.6 m/s** (about 45 km/h).\n\n**Banked road (outer edge raised by angle θ)**\nAt the **correct speed**, friction isn't needed at all. The normal force N tilts towards the centre:\n- Along the radius: N sin θ = Mv²/r\n- Vertically: N cos θ = Mg\n- **tan θ = v²/(rg)**\n\n**🧮 Worked example:** a turn of radius 10 m is banked at 10°.\nv = √(rg tan θ) = √(10 × 9.8 × 0.176) ≈ **4.2 m/s**.\n\n**🧮 Worked example:** for v = 30 m/s on a turn of radius 90 m (g = 10 m/s²), tan θ = 900/900 = 1, so **θ = 45°**.\n\n**Real traffic:** roads are banked for the **average expected speed**. A little faster or slower is fine, because self-adjusting static friction makes up the difference. Much faster or slower, and even maximum friction can't prevent a skid or slip.\n\n> 💡 The same idea explains why cyclists lean into a turn, and why race tracks have steeply banked curves.\n\n> ⚠️ **Common mistake:** Thinking friction on a turn points outward. The car tends to slide **outward**, so friction acts **inward**, towards the centre.",
+ "questions": [
+  {
+   "id": "7.5-q1",
+   "n": 1,
+   "difficulty": "understanding",
+   "group": null,
+   "prompt": "On a level (unbanked) road, the centripetal force needed for a car to take a turn is provided by:",
+   "options": [
+    {
+     "id": "A",
+     "text": "The weight of the car"
+    },
+    {
+     "id": "B",
+     "text": "The normal force"
+    },
+    {
+     "id": "C",
+     "text": "The engine"
+    },
+    {
+     "id": "D",
+     "text": "Static friction between the tyres and the road"
+    }
+   ],
+   "answer": "D",
+   "explanation": "On a flat road, N and the weight are vertical, so only friction can act horizontally towards the centre."
+  },
+  {
+   "id": "7.5-q2",
+   "n": 2,
+   "difficulty": "recall",
+   "group": null,
+   "prompt": "The maximum safe speed for a car on a level circular turn of radius r (coefficient μ_s) is:",
+   "options": [
+    {
+     "id": "A",
+     "text": "√(μ_s r g)"
+    },
+    {
+     "id": "B",
+     "text": "μ_s r g"
+    },
+    {
+     "id": "C",
+     "text": "√(r g / μ_s)"
+    },
+    {
+     "id": "D",
+     "text": "μ_s g / r"
+    }
+   ],
+   "answer": "A",
+   "explanation": "Mv²/r ≤ μ_s Mg, so v ≤ √(μ_s r g)."
+  },
+  {
+   "id": "7.5-q3",
+   "n": 3,
+   "difficulty": "application",
+   "group": null,
+   "prompt": "A level turn has radius 40 m and μ_s = 0.4 (g = 10 m/s²). The maximum safe speed is about:",
+   "options": [
+    {
+     "id": "A",
+     "text": "4 m/s"
+    },
+    {
+     "id": "B",
+     "text": "12.6 m/s"
+    },
+    {
+     "id": "C",
+     "text": "16 m/s"
+    },
+    {
+     "id": "D",
+     "text": "160 m/s"
+    }
+   ],
+   "answer": "B",
+   "explanation": "√(0.4 × 40 × 10) = √160 ≈ 12.6 m/s."
+  },
+  {
+   "id": "7.5-q4",
+   "n": 4,
+   "difficulty": "recall",
+   "group": null,
+   "prompt": "For a road banked at angle θ, the correct speed v (needing no friction) on a turn of radius r satisfies:",
+   "options": [
+    {
+     "id": "A",
+     "text": "sin θ = v²/(rg)"
+    },
+    {
+     "id": "B",
+     "text": "cos θ = v²/(rg)"
+    },
+    {
+     "id": "C",
+     "text": "tan θ = v²/(rg)"
+    },
+    {
+     "id": "D",
+     "text": "tan θ = rg/v²"
+    }
+   ],
+   "answer": "C",
+   "explanation": "N sin θ = Mv²/r and N cos θ = Mg give tan θ = v²/(rg)."
+  },
+  {
+   "id": "7.5-q5",
+   "n": 5,
+   "difficulty": "application",
+   "group": null,
+   "prompt": "A curve of radius 90 m is to be banked for vehicles going at 30 m/s (g = 10 m/s²). The banking angle should be:",
+   "options": [
+    {
+     "id": "A",
+     "text": "30°"
+    },
+    {
+     "id": "B",
+     "text": "60°"
+    },
+    {
+     "id": "C",
+     "text": "18°"
+    },
+    {
+     "id": "D",
+     "text": "45°"
+    }
+   ],
+   "answer": "D",
+   "explanation": "tan θ = 900/(90 × 10) = 1, so θ = 45°."
+  },
+  {
+   "id": "7.5-q6",
+   "n": 6,
+   "difficulty": "application",
+   "group": null,
+   "prompt": "A turn of radius 10 m is banked at 10° (tan 10° ≈ 0.176, g = 9.8 m/s²). The speed at which the normal force alone provides the centripetal force is about:",
+   "options": [
+    {
+     "id": "A",
+     "text": "4.2 m/s"
+    },
+    {
+     "id": "B",
+     "text": "17.6 m/s"
+    },
+    {
+     "id": "C",
+     "text": "1.8 m/s"
+    },
+    {
+     "id": "D",
+     "text": "9.8 m/s"
+    }
+   ],
+   "answer": "A",
+   "explanation": "v = √(10 × 9.8 × 0.176) ≈ √17.3 ≈ 4.2 m/s."
+  },
+  {
+   "id": "7.5-q7",
+   "n": 7,
+   "difficulty": "understanding",
+   "group": null,
+   "prompt": "When a car takes a turn on a level road, the friction on its tyres acts:",
+   "options": [
+    {
+     "id": "A",
+     "text": "Outward, away from the centre"
+    },
+    {
+     "id": "B",
+     "text": "Towards the centre"
+    },
+    {
+     "id": "C",
+     "text": "Along the direction of motion"
+    },
+    {
+     "id": "D",
+     "text": "Vertically upward"
+    }
+   ],
+   "answer": "B",
+   "explanation": "The tyres tend to skid outward, so friction opposes that and points inward."
+  }
+ ]
+}

@@ -1,0 +1,145 @@
+{
+ "id": "7.2",
+ "slug": "ch07-7-2",
+ "chapter": "ch07",
+ "title": "Unit Vectors along the Radius and the Tangent",
+ "diagram": "content/ch07/diagrams/ch07_sec7_2.png",
+ "theory": "**Big idea:** Instead of fixed X and Y directions, use two directions that move with the particle: **outward along the radius** and **along the tangent**.\n\n**The two unit vectors at point P (angular position θ)**\n- **Radial unit vector** (outward): **e_r = i cos θ + j sin θ**\n- **Tangential unit vector** (direction of increasing θ): **e_t = –i sin θ + j cos θ**\n\nThey are perpendicular to each other, and both turn as the particle moves round.\n\n**Position and velocity**\n- Position: **r** = r **e_r** = r(i cos θ + j sin θ)\n- Differentiating: **v** = rω(–i sin θ + j cos θ) = **rω e_t**\n\nSo the velocity is **always along the tangent**, and its magnitude is v = rω.\n\n**Quick checks**\n| θ | e_r | e_t |\n|---|---|---|\n| 0° | **i** | **j** |\n| 90° | **j** | –**i** |\n| 180° | –**i** | –**j** |\n\n> 💡 Since the velocity is always tangent to the circle, a stone whirled on a string flies off **along the tangent** when the string breaks, not straight outward.",
+ "questions": [
+  {
+   "id": "7.2-q1",
+   "n": 1,
+   "difficulty": "recall",
+   "group": null,
+   "prompt": "The velocity of a particle moving in a circle is always directed:",
+   "options": [
+    {
+     "id": "A",
+     "text": "Towards the centre"
+    },
+    {
+     "id": "B",
+     "text": "Away from the centre"
+    },
+    {
+     "id": "C",
+     "text": "Along the tangent to the circle"
+    },
+    {
+     "id": "D",
+     "text": "Along the X-axis"
+    }
+   ],
+   "answer": "C",
+   "explanation": "**v** = rω **e_t**, which is always along the tangent."
+  },
+  {
+   "id": "7.2-q2",
+   "n": 2,
+   "difficulty": "understanding",
+   "group": null,
+   "prompt": "The radial unit vector at angular position θ is:",
+   "options": [
+    {
+     "id": "A",
+     "text": "i cos θ + j sin θ"
+    },
+    {
+     "id": "B",
+     "text": "–i sin θ + j cos θ"
+    },
+    {
+     "id": "C",
+     "text": "i sin θ + j cos θ"
+    },
+    {
+     "id": "D",
+     "text": "i + j"
+    }
+   ],
+   "answer": "A",
+   "explanation": "e_r points from the centre towards the particle: (cos θ, sin θ)."
+  },
+  {
+   "id": "7.2-q3",
+   "n": 3,
+   "difficulty": "understanding",
+   "group": null,
+   "prompt": "At θ = 0°, the tangential unit vector e_t (direction of increasing θ) equals:",
+   "options": [
+    {
+     "id": "A",
+     "text": "**i**"
+    },
+    {
+     "id": "B",
+     "text": "**j**"
+    },
+    {
+     "id": "C",
+     "text": "–**i**"
+    },
+    {
+     "id": "D",
+     "text": "–**j**"
+    }
+   ],
+   "answer": "B",
+   "explanation": "e_t = –i sin 0° + j cos 0° = **j**."
+  },
+  {
+   "id": "7.2-q4",
+   "n": 4,
+   "difficulty": "understanding",
+   "group": null,
+   "prompt": "The angle between e_r and e_t at any point on the circle is:",
+   "options": [
+    {
+     "id": "A",
+     "text": "0°"
+    },
+    {
+     "id": "B",
+     "text": "45°"
+    },
+    {
+     "id": "C",
+     "text": "180°"
+    },
+    {
+     "id": "D",
+     "text": "90°"
+    }
+   ],
+   "answer": "D",
+   "explanation": "(cos θ)(–sin θ) + (sin θ)(cos θ) = 0, so they are perpendicular."
+  },
+  {
+   "id": "7.2-q5",
+   "n": 5,
+   "difficulty": "understanding",
+   "group": null,
+   "prompt": "A stone is whirled in a horizontal circle on a string, and the string suddenly breaks. The stone flies off:",
+   "options": [
+    {
+     "id": "A",
+     "text": "Along the tangent at the point where it was released"
+    },
+    {
+     "id": "B",
+     "text": "Radially outward"
+    },
+    {
+     "id": "C",
+     "text": "Towards the centre"
+    },
+    {
+     "id": "D",
+     "text": "Along a spiral"
+    }
+   ],
+   "answer": "A",
+   "explanation": "With no force left, it keeps moving with its last velocity, which was along the tangent."
+  }
+ ]
+}
