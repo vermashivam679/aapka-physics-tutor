@@ -1,0 +1,118 @@
+{
+ "id": "9.5",
+ "slug": "ch09-9-5",
+ "chapter": "ch09",
+ "title": "Rocket Propulsion",
+ "diagram": "content/ch09/diagrams/ch09_sec9_5.png",
+ "theory": "**Big idea:** A rocket pushes gas backwards, and the gas pushes the rocket forwards. Momentum conservation tells us how fast it goes.\n\n**Set-up**\n- Initial mass (rocket + fuel): M₀\n- Gas ejected at a constant rate **r = –dM/dt**\n- Gas speed relative to the rocket: **u** (backwards)\n- Mass at time t: **M = M₀ – rt**\n\n**Results (no gravity or other external force)**\n- Acceleration: **dv/dt = ru / (M₀ – rt)**\n- Velocity: **v = u ln [M₀ / (M₀ – rt)]**\n\n**What this means**\n- The thrust **ru** stays the same, but the mass keeps falling, so the **acceleration keeps increasing**.\n- The final speed depends on the **ratio** of the starting mass to the remaining mass.\n\n**🧮 Examples**\n- r = 10 kg/s, u = 1000 m/s, M = 1000 kg: acceleration = 10 × 1000 / 1000 = **10 m/s²**.\n- When half the mass has been burnt: v = u ln 2 ≈ **0.69u**. With u = 1000 m/s, v ≈ **693 m/s**.\n\n> 💡 A rocket needs no air to push against. It works even better in space.",
+ "questions": [
+  {
+   "id": "9.5-q1",
+   "n": 1,
+   "difficulty": "recall",
+   "group": null,
+   "prompt": "A rocket moves forward because:",
+   "options": [
+    {
+     "id": "A",
+     "text": "The ejected gas pushes against the air"
+    },
+    {
+     "id": "B",
+     "text": "The ejected gases exert a forward force on it"
+    },
+    {
+     "id": "C",
+     "text": "Gravity pulls it up"
+    },
+    {
+     "id": "D",
+     "text": "Its mass increases"
+    }
+   ],
+   "answer": "B",
+   "explanation": "Momentum conservation: gas goes back, rocket goes forward."
+  },
+  {
+   "id": "9.5-q2",
+   "n": 2,
+   "difficulty": "understanding",
+   "group": null,
+   "prompt": "For a rocket ejecting gas at a constant rate and constant relative speed, its acceleration:",
+   "options": [
+    {
+     "id": "A",
+     "text": "Keeps increasing with time"
+    },
+    {
+     "id": "B",
+     "text": "Stays constant"
+    },
+    {
+     "id": "C",
+     "text": "Keeps decreasing"
+    },
+    {
+     "id": "D",
+     "text": "Is zero"
+    }
+   ],
+   "answer": "A",
+   "explanation": "dv/dt = ru/(M₀ – rt). The denominator shrinks, so the acceleration grows."
+  },
+  {
+   "id": "9.5-q3",
+   "n": 3,
+   "difficulty": "application",
+   "group": null,
+   "prompt": "A rocket of mass 1000 kg ejects gas at 10 kg/s with a speed of 1000 m/s relative to it. Ignoring gravity, its acceleration at that moment is:",
+   "options": [
+    {
+     "id": "A",
+     "text": "1 m/s²"
+    },
+    {
+     "id": "B",
+     "text": "100 m/s²"
+    },
+    {
+     "id": "C",
+     "text": "1000 m/s²"
+    },
+    {
+     "id": "D",
+     "text": "10 m/s²"
+    }
+   ],
+   "answer": "D",
+   "explanation": "ru/M = 10 × 1000 / 1000 = 10 m/s²."
+  },
+  {
+   "id": "9.5-q4",
+   "n": 4,
+   "difficulty": "application",
+   "group": null,
+   "prompt": "Ignoring gravity, a rocket starting from rest has speed v = u ln (M₀/M). When its mass has halved, its speed is about:",
+   "options": [
+    {
+     "id": "A",
+     "text": "0.5u"
+    },
+    {
+     "id": "B",
+     "text": "2u"
+    },
+    {
+     "id": "C",
+     "text": "0.69u"
+    },
+    {
+     "id": "D",
+     "text": "u"
+    }
+   ],
+   "answer": "C",
+   "explanation": "ln 2 ≈ 0.693."
+  }
+ ]
+}

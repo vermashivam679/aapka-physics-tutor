@@ -1,0 +1,145 @@
+{
+ "id": "9.3",
+ "slug": "ch09-9-3",
+ "chapter": "ch09",
+ "title": "Motion of the Centre of Mass",
+ "diagram": "content/ch09/diagrams/ch09_sec9_3.png",
+ "theory": "**Big idea:** Internal forces cannot move the centre of mass. Only **external** forces can accelerate it.\n\n**Velocity and acceleration of the CM**\n- **V_CM = Σ mᵢvᵢ / M**\n- **a_CM = Σ mᵢaᵢ / M**\n\n**The key law**\n**M a_CM = F_ext**\n- Internal forces cancel in pairs (Newton's third law), so only the external forces are left.\n- The CM moves like a **single particle of mass M** acted on by the total external force.\n\n**Consequences**\n- If **F_ext = 0**, then a_CM = 0: the CM keeps a **constant velocity**.\n- If the CM starts **at rest**, it stays at rest, however the parts move.\n- A ball thrown in the air that **breaks into pieces**: the pieces fly along different paths, but their CM continues on the **original parabola**.\n\n**🧮 Worked example: two attracting particles**\nMasses m and 2m are d apart on a smooth table and pull each other together. With no external horizontal force, the CM stays fixed, so they collide **at the CM**: **2d/3 from m**.\n\n> ⚠️ **Common mistake:** Thinking an explosion or internal push can change where the CM goes. Only external forces can.",
+ "questions": [
+  {
+   "id": "9.3-q1",
+   "n": 1,
+   "difficulty": "recall",
+   "group": null,
+   "prompt": "The acceleration of the centre of mass of a system is given by:",
+   "options": [
+    {
+     "id": "A",
+     "text": "M a_CM = F_internal"
+    },
+    {
+     "id": "B",
+     "text": "M a_CM = F_ext"
+    },
+    {
+     "id": "C",
+     "text": "a_CM = F_ext × M"
+    },
+    {
+     "id": "D",
+     "text": "a_CM = 0 always"
+    }
+   ],
+   "answer": "B",
+   "explanation": "Summing mᵢaᵢ over all particles leaves only the external forces."
+  },
+  {
+   "id": "9.3-q2",
+   "n": 2,
+   "difficulty": "understanding",
+   "group": null,
+   "prompt": "If the external forces on a system add to zero, the centre of mass:",
+   "options": [
+    {
+     "id": "A",
+     "text": "Must be at rest"
+    },
+    {
+     "id": "B",
+     "text": "Accelerates uniformly"
+    },
+    {
+     "id": "C",
+     "text": "Moves with constant velocity"
+    },
+    {
+     "id": "D",
+     "text": "Moves in a circle"
+    }
+   ],
+   "answer": "C",
+   "explanation": "a_CM = 0, so V_CM is constant (it may or may not be zero)."
+  },
+  {
+   "id": "9.3-q3",
+   "n": 3,
+   "difficulty": "application",
+   "group": null,
+   "prompt": "Two particles of masses m and 2m, a distance d apart on a smooth table, attract each other and collide. The collision takes place at a distance from m of:",
+   "options": [
+    {
+     "id": "A",
+     "text": "d/3"
+    },
+    {
+     "id": "B",
+     "text": "d/2"
+    },
+    {
+     "id": "C",
+     "text": "d"
+    },
+    {
+     "id": "D",
+     "text": "2d/3"
+    }
+   ],
+   "answer": "D",
+   "explanation": "The CM is fixed at 2m·d/3m = 2d/3 from m, and they meet there."
+  },
+  {
+   "id": "9.3-q4",
+   "n": 4,
+   "difficulty": "understanding",
+   "group": null,
+   "prompt": "A shell moving along a parabola explodes in mid-air. Ignoring air resistance, the centre of mass of the fragments:",
+   "options": [
+    {
+     "id": "A",
+     "text": "Continues along the original parabola"
+    },
+    {
+     "id": "B",
+     "text": "Falls vertically"
+    },
+    {
+     "id": "C",
+     "text": "Stops at the point of explosion"
+    },
+    {
+     "id": "D",
+     "text": "Moves in a straight line upward"
+    }
+   ],
+   "answer": "A",
+   "explanation": "Only gravity acts externally, so the CM follows the same parabola."
+  },
+  {
+   "id": "9.3-q5",
+   "n": 5,
+   "difficulty": "understanding",
+   "group": null,
+   "prompt": "The internal forces of a system do not affect the motion of its centre of mass because:",
+   "options": [
+    {
+     "id": "A",
+     "text": "They are always small"
+    },
+    {
+     "id": "B",
+     "text": "They act only for a short time"
+    },
+    {
+     "id": "C",
+     "text": "They cancel in pairs by Newton's third law"
+    },
+    {
+     "id": "D",
+     "text": "They are perpendicular to the motion"
+    }
+   ],
+   "answer": "C",
+   "explanation": "F_ij + F_ji = 0 for every pair."
+  }
+ ]
+}

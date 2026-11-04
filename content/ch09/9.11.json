@@ -1,0 +1,145 @@
+{
+ "id": "9.11",
+ "slug": "ch09-9-11",
+ "chapter": "ch09",
+ "title": "Impulse and Impulsive Force",
+ "diagram": "content/ch09/diagrams/ch09_sec9_11.png",
+ "theory": "**Big idea:** A very large force for a very short time (a bat hitting a ball) is best described by its **impulse**: the change in momentum it produces.\n\n**Impulse**\n**J = ∫ F dt = P_f – P_i**\n- **Unit:** N s (= kg m/s)\n- In one dimension, it is the **area under the force–time graph**.\n- **Impulsive forces:** very large forces acting for a very short time. The force usually isn't constant during the contact.\n\n**Average force**\n**F_avg = Δp / Δt**\n\n**🧮 Worked example: a cricket shot**\nA 0.15 kg ball comes in at 20 m/s and is hit straight back at 20 m/s.\n- Δp = 0.15 × 20 – (0.15 × –20) = **6 N s**\n- With a contact time of 0.01 s: F_avg = 6 / 0.01 = **600 N**\n\n**Why we \"give\" when catching**\nFor the same Δp, a **longer** contact time means a **smaller** force. That's why fielders pull their hands back, and why cars have crumple zones.\n\n> ⚠️ **Common mistake:** When a ball bounces back, Δp = m(v + u), not m(v – u). The direction reverses!",
+ "questions": [
+  {
+   "id": "9.11-q1",
+   "n": 1,
+   "difficulty": "recall",
+   "group": null,
+   "prompt": "The impulse of a force equals:",
+   "options": [
+    {
+     "id": "A",
+     "text": "Force × distance"
+    },
+    {
+     "id": "B",
+     "text": "Change in kinetic energy"
+    },
+    {
+     "id": "C",
+     "text": "Change in momentum"
+    },
+    {
+     "id": "D",
+     "text": "Mass × acceleration"
+    }
+   ],
+   "answer": "C",
+   "explanation": "∫ F dt = ∫ (dP/dt) dt = P_f – P_i."
+  },
+  {
+   "id": "9.11-q2",
+   "n": 2,
+   "difficulty": "recall",
+   "group": null,
+   "prompt": "For one-dimensional motion, impulse is the area under the:",
+   "options": [
+    {
+     "id": "A",
+     "text": "Velocity–time graph"
+    },
+    {
+     "id": "B",
+     "text": "Force–time graph"
+    },
+    {
+     "id": "C",
+     "text": "Force–distance graph"
+    },
+    {
+     "id": "D",
+     "text": "Position–time graph"
+    }
+   ],
+   "answer": "B",
+   "explanation": "∫ F dt is the area under the F–t graph."
+  },
+  {
+   "id": "9.11-q3",
+   "n": 3,
+   "difficulty": "application",
+   "group": null,
+   "prompt": "A 0.15 kg ball moving at 20 m/s is hit straight back at 20 m/s. The magnitude of the impulse is:",
+   "options": [
+    {
+     "id": "A",
+     "text": "0"
+    },
+    {
+     "id": "B",
+     "text": "3 N s"
+    },
+    {
+     "id": "C",
+     "text": "12 N s"
+    },
+    {
+     "id": "D",
+     "text": "6 N s"
+    }
+   ],
+   "answer": "D",
+   "explanation": "Δp = 0.15 × (20 + 20) = 6 N s."
+  },
+  {
+   "id": "9.11-q4",
+   "n": 4,
+   "difficulty": "application",
+   "group": null,
+   "prompt": "In Q3, if the bat is in contact for 0.01 s, the average force is:",
+   "options": [
+    {
+     "id": "A",
+     "text": "600 N"
+    },
+    {
+     "id": "B",
+     "text": "60 N"
+    },
+    {
+     "id": "C",
+     "text": "300 N"
+    },
+    {
+     "id": "D",
+     "text": "6000 N"
+    }
+   ],
+   "answer": "A",
+   "explanation": "F = 6 / 0.01 = 600 N."
+  },
+  {
+   "id": "9.11-q5",
+   "n": 5,
+   "difficulty": "understanding",
+   "group": null,
+   "prompt": "A fielder pulls his hands back while catching a fast ball so that:",
+   "options": [
+    {
+     "id": "A",
+     "text": "The change in momentum is smaller"
+    },
+    {
+     "id": "B",
+     "text": "The time of contact increases, so the force is smaller"
+    },
+    {
+     "id": "C",
+     "text": "The ball's mass decreases"
+    },
+    {
+     "id": "D",
+     "text": "The impulse increases"
+    }
+   ],
+   "answer": "B",
+   "explanation": "Δp is fixed, so a larger Δt means a smaller force."
+  }
+ ]
+}

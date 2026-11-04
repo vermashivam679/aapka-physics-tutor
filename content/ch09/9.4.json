@@ -1,0 +1,145 @@
+{
+ "id": "9.4",
+ "slug": "ch09-9-4",
+ "chapter": "ch09",
+ "title": "Linear Momentum and its Conservation Principle",
+ "diagram": "content/ch09/diagrams/ch09_sec9_4.png",
+ "theory": "**Big idea:** If no net external force acts on a system, its total momentum never changes.\n\n**Momentum**\n- One particle: **p = mv** (a vector, unit kg m/s)\n- A system: **P = Σ mᵢvᵢ = M V_CM**\n\n**Conservation of linear momentum**\nIf **F_ext = 0**, then **P = constant**, in magnitude and direction.\n(This follows from M a_CM = F_ext: zero external force means V_CM, and so P, is constant.)\n\n**🧮 Example: radioactive decay**\nA nucleus at rest emits an alpha particle (mass m) at speed v. The rest of the nucleus (mass M) must recoil:\nM**V** + m**v** = 0, so **V = –(m/M) v**, in the opposite direction.\n\n**🧮 Example: gun recoil**\nA 4 kg gun fires a 10 g bullet at 400 m/s.\n0 = 4 × V + 0.01 × 400, so **V = –1 m/s**. The gun kicks back at 1 m/s.\n\n> ⚠️ **Common mistake:** Forgetting that momentum is a **vector**. Bodies moving in opposite directions have momenta with opposite signs.",
+ "questions": [
+  {
+   "id": "9.4-q1",
+   "n": 1,
+   "difficulty": "recall",
+   "group": null,
+   "prompt": "The total linear momentum of a system equals:",
+   "options": [
+    {
+     "id": "A",
+     "text": "M V_CM"
+    },
+    {
+     "id": "B",
+     "text": "½ M V_CM²"
+    },
+    {
+     "id": "C",
+     "text": "M a_CM"
+    },
+    {
+     "id": "D",
+     "text": "Σ mᵢ"
+    }
+   ],
+   "answer": "A",
+   "explanation": "Σ mᵢvᵢ = d/dt(Σ mᵢrᵢ) = M V_CM."
+  },
+  {
+   "id": "9.4-q2",
+   "n": 2,
+   "difficulty": "recall",
+   "group": null,
+   "prompt": "The linear momentum of a system is conserved when:",
+   "options": [
+    {
+     "id": "A",
+     "text": "No internal forces act"
+    },
+    {
+     "id": "B",
+     "text": "Kinetic energy is conserved"
+    },
+    {
+     "id": "C",
+     "text": "The system is at rest"
+    },
+    {
+     "id": "D",
+     "text": "The external forces add up to zero"
+    }
+   ],
+   "answer": "D",
+   "explanation": "Then V_CM, and so P, is constant."
+  },
+  {
+   "id": "9.4-q3",
+   "n": 3,
+   "difficulty": "application",
+   "group": null,
+   "prompt": "A 4 kg gun fires a 10 g bullet at 400 m/s. The recoil speed of the gun is:",
+   "options": [
+    {
+     "id": "A",
+     "text": "0.1 m/s"
+    },
+    {
+     "id": "B",
+     "text": "1 m/s"
+    },
+    {
+     "id": "C",
+     "text": "10 m/s"
+    },
+    {
+     "id": "D",
+     "text": "4 m/s"
+    }
+   ],
+   "answer": "B",
+   "explanation": "V = 0.01 × 400 / 4 = 1 m/s."
+  },
+  {
+   "id": "9.4-q4",
+   "n": 4,
+   "difficulty": "understanding",
+   "group": null,
+   "prompt": "A nucleus at rest emits an alpha particle. The residual nucleus:",
+   "options": [
+    {
+     "id": "A",
+     "text": "Stays at rest"
+    },
+    {
+     "id": "B",
+     "text": "Moves in the same direction as the alpha particle"
+    },
+    {
+     "id": "C",
+     "text": "Recoils in the opposite direction"
+    },
+    {
+     "id": "D",
+     "text": "Moves at right angles to the alpha particle"
+    }
+   ],
+   "answer": "C",
+   "explanation": "The total momentum must stay zero: MV = –mv."
+  },
+  {
+   "id": "9.4-q5",
+   "n": 5,
+   "difficulty": "understanding",
+   "group": null,
+   "prompt": "Linear momentum is a:",
+   "options": [
+    {
+     "id": "A",
+     "text": "Scalar that is never negative"
+    },
+    {
+     "id": "B",
+     "text": "Vector, in the direction of the velocity"
+    },
+    {
+     "id": "C",
+     "text": "Scalar that can be negative"
+    },
+    {
+     "id": "D",
+     "text": "Vector, in the direction of the acceleration"
+    }
+   ],
+   "answer": "B",
+   "explanation": "p = mv points along v."
+  }
+ ]
+}

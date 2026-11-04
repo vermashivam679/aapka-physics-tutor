@@ -1,0 +1,145 @@
+{
+ "id": "9.2",
+ "slug": "ch09-9-2",
+ "chapter": "ch09",
+ "title": "Centre of Mass of Continuous Bodies",
+ "diagram": "content/ch09/diagrams/ch09_sec9_2.png",
+ "theory": "**Big idea:** For a continuous body, split it into tiny elements of mass dm and replace the sum by an **integral**.\n\n**Formula**\n**X = (1/M) ∫ x dm, Y = (1/M) ∫ y dm, Z = (1/M) ∫ z dm**\nChoose the element so that, as the variable runs between its limits, the elements cover the whole body.\n\n**Three standard results**\n| Body (uniform) | Element used | Centre of mass |\n|---|---|---|\n| Rod of length L | dm = (M/L) dx | At the middle, **L/2** from an end |\n| Semicircular **wire**, radius R | dm = (M/π) dθ | **2R/π** from the centre, on the symmetry axis |\n| Semicircular **plate**, radius R | thin semicircular strips of radius r, width dr | **4R/3π** from the centre, on the symmetry axis |\n\n**How the plate result uses the wire result**\nEach thin strip is a semicircular wire whose CM is at 2r/π. Replace each strip by a point at 2r/π, then integrate from r = 0 to R. The answer is 4R/3π.\n\n**🧮 Numbers:** For R = 30 cm, the wire's CM is 2 × 30/π ≈ **19.1 cm** from the centre, and the plate's is 4 × 30/3π ≈ **12.7 cm**.\n\n> 💡 **Symmetry shortcut:** if a body is symmetric about an axis, its CM lies on that axis. So the x-coordinate of a semicircle's CM is zero.\n\n> ⚠️ **Common mistake:** Mixing up the wire (2R/π) and the plate (4R/3π). The plate has more mass near the centre, so its CM is closer to the centre.",
+ "questions": [
+  {
+   "id": "9.2-q1",
+   "n": 1,
+   "difficulty": "recall",
+   "group": null,
+   "prompt": "For a continuous body, the x-coordinate of the centre of mass is:",
+   "options": [
+    {
+     "id": "A",
+     "text": "(1/M) ∫ x dm"
+    },
+    {
+     "id": "B",
+     "text": "∫ x dx"
+    },
+    {
+     "id": "C",
+     "text": "M ∫ x dm"
+    },
+    {
+     "id": "D",
+     "text": "(1/M) ∫ dm"
+    }
+   ],
+   "answer": "A",
+   "explanation": "The sum Σ mᵢxᵢ becomes the integral ∫ x dm."
+  },
+  {
+   "id": "9.2-q2",
+   "n": 2,
+   "difficulty": "recall",
+   "group": null,
+   "prompt": "The centre of mass of a uniform rod of length L is at a distance from one end of:",
+   "options": [
+    {
+     "id": "A",
+     "text": "L/3"
+    },
+    {
+     "id": "B",
+     "text": "L/4"
+    },
+    {
+     "id": "C",
+     "text": "L/2"
+    },
+    {
+     "id": "D",
+     "text": "L"
+    }
+   ],
+   "answer": "C",
+   "explanation": "(1/M) ∫ x (M/L) dx from 0 to L = L/2."
+  },
+  {
+   "id": "9.2-q3",
+   "n": 3,
+   "difficulty": "understanding",
+   "group": null,
+   "prompt": "The centre of mass of a uniform semicircular wire of radius R is at a distance from the centre of:",
+   "options": [
+    {
+     "id": "A",
+     "text": "4R/3π"
+    },
+    {
+     "id": "B",
+     "text": "R/2"
+    },
+    {
+     "id": "C",
+     "text": "πR/2"
+    },
+    {
+     "id": "D",
+     "text": "2R/π"
+    }
+   ],
+   "answer": "D",
+   "explanation": "(1/M) ∫ R sin θ (M/π) dθ from 0 to π = 2R/π."
+  },
+  {
+   "id": "9.2-q4",
+   "n": 4,
+   "difficulty": "understanding",
+   "group": null,
+   "prompt": "The centre of mass of a uniform semicircular plate of radius R is at a distance from the centre of:",
+   "options": [
+    {
+     "id": "A",
+     "text": "4R/3π"
+    },
+    {
+     "id": "B",
+     "text": "2R/π"
+    },
+    {
+     "id": "C",
+     "text": "R/π"
+    },
+    {
+     "id": "D",
+     "text": "3R/4"
+    }
+   ],
+   "answer": "A",
+   "explanation": "Integrating strips of radius r, each with its CM at 2r/π, gives 4R/3π."
+  },
+  {
+   "id": "9.2-q5",
+   "n": 5,
+   "difficulty": "understanding",
+   "group": null,
+   "prompt": "Compared with a semicircular wire of the same radius, the centre of mass of a semicircular plate is:",
+   "options": [
+    {
+     "id": "A",
+     "text": "Farther from the centre"
+    },
+    {
+     "id": "B",
+     "text": "Closer to the centre"
+    },
+    {
+     "id": "C",
+     "text": "At the same place"
+    },
+    {
+     "id": "D",
+     "text": "Outside the body"
+    }
+   ],
+   "answer": "B",
+   "explanation": "4R/3π ≈ 0.42R is less than 2R/π ≈ 0.64R."
+  }
+ ]
+}

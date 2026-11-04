@@ -1,0 +1,145 @@
+{
+ "id": "9.8",
+ "slug": "ch09-9-8",
+ "chapter": "ch09",
+ "title": "Perfectly Inelastic Collision in One Dimension",
+ "diagram": "content/ch09/diagrams/ch09_sec9_8.png",
+ "theory": "**Big idea:** The bodies stick together. Momentum gives the common velocity, and some kinetic energy is always lost.\n\n**Final velocity**\nm₁v₁ + m₂v₂ = (m₁ + m₂) V\n**V = (m₁v₁ + m₂v₂) / (m₁ + m₂)**\n\n**Loss in kinetic energy**\n**ΔK = m₁m₂ (v₁ – v₂)² / [2 (m₁ + m₂)]**\nThis is always **positive**: kinetic energy is lost, turning into heat, sound and deformation.\n\n**🧮 Worked example: carts moving towards each other**\nA 50 kg cart at 20 km/h meets a 20 kg cart coming the other way at 10 km/h. They cling together.\n(50)(20) – (20)(10) = 70 V, so **V = 80/7 ≈ 11.4 km/h**, in the 50 kg cart's direction.\n\n**🧮 Worked example: energy lost**\nA 1 kg block at 2 m/s sticks to a 1 kg block at rest.\nV = 1 m/s. ΔK = (1 × 1 × 4) / (2 × 2) = **1 J**, half the original 2 J.\n\n> ⚠️ **Common mistake:** Forgetting the minus sign for a body moving the **other way**.",
+ "questions": [
+  {
+   "id": "9.8-q1",
+   "n": 1,
+   "difficulty": "recall",
+   "group": null,
+   "prompt": "After a perfectly inelastic collision, the common velocity is:",
+   "options": [
+    {
+     "id": "A",
+     "text": "(m₁v₁ – m₂v₂) / (m₁ – m₂)"
+    },
+    {
+     "id": "B",
+     "text": "(v₁ + v₂) / 2 always"
+    },
+    {
+     "id": "C",
+     "text": "(m₁v₁ + m₂v₂) / (m₁ + m₂)"
+    },
+    {
+     "id": "D",
+     "text": "Zero always"
+    }
+   ],
+   "answer": "C",
+   "explanation": "Momentum conservation with v₁′ = v₂′ = V."
+  },
+  {
+   "id": "9.8-q2",
+   "n": 2,
+   "difficulty": "application",
+   "group": null,
+   "prompt": "A 50 kg cart moving at 20 km/h collides with a 20 kg cart coming towards it at 10 km/h, and they stick together. Their common speed is about:",
+   "options": [
+    {
+     "id": "A",
+     "text": "11.4 km/h"
+    },
+    {
+     "id": "B",
+     "text": "17.1 km/h"
+    },
+    {
+     "id": "C",
+     "text": "15 km/h"
+    },
+    {
+     "id": "D",
+     "text": "10 km/h"
+    }
+   ],
+   "answer": "A",
+   "explanation": "V = (1000 – 200)/70 = 80/7 ≈ 11.4 km/h."
+  },
+  {
+   "id": "9.8-q3",
+   "n": 3,
+   "difficulty": "understanding",
+   "group": null,
+   "prompt": "The loss of kinetic energy in a perfectly inelastic collision is:",
+   "options": [
+    {
+     "id": "A",
+     "text": "Always zero"
+    },
+    {
+     "id": "B",
+     "text": "Always positive"
+    },
+    {
+     "id": "C",
+     "text": "Always negative"
+    },
+    {
+     "id": "D",
+     "text": "Equal to the initial kinetic energy"
+    }
+   ],
+   "answer": "B",
+   "explanation": "ΔK = m₁m₂(v₁ – v₂)²/[2(m₁ + m₂)] > 0."
+  },
+  {
+   "id": "9.8-q4",
+   "n": 4,
+   "difficulty": "application",
+   "group": null,
+   "prompt": "A 1 kg block moving at 2 m/s sticks to an identical block at rest. The kinetic energy lost is:",
+   "options": [
+    {
+     "id": "A",
+     "text": "2 J"
+    },
+    {
+     "id": "B",
+     "text": "0.5 J"
+    },
+    {
+     "id": "C",
+     "text": "0"
+    },
+    {
+     "id": "D",
+     "text": "1 J"
+    }
+   ],
+   "answer": "D",
+   "explanation": "(1 × 1 × 2²)/(2 × 2) = 1 J."
+  },
+  {
+   "id": "9.8-q5",
+   "n": 5,
+   "difficulty": "understanding",
+   "group": null,
+   "prompt": "The kinetic energy lost in a perfectly inelastic collision mostly turns into:",
+   "options": [
+    {
+     "id": "A",
+     "text": "Momentum"
+    },
+    {
+     "id": "B",
+     "text": "Mass"
+    },
+    {
+     "id": "C",
+     "text": "Heat, sound and permanent deformation"
+    },
+    {
+     "id": "D",
+     "text": "Gravitational potential energy"
+    }
+   ],
+   "answer": "C",
+   "explanation": "The energy is not destroyed. It changes into internal energy and sound."
+  }
+ ]
+}

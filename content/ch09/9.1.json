@@ -1,0 +1,172 @@
+{
+ "id": "9.1",
+ "slug": "ch09-9-1",
+ "chapter": "ch09",
+ "title": "Centre of Mass",
+ "diagram": "content/ch09/diagrams/ch09_sec9_1.png",
+ "theory": "**Big idea:** A spinning ball thrown in the air has points that move along complicated paths, but its **centre** always follows a neat parabola, just like a single particle. That special point is the **centre of mass**.\n\n**Definition**\nFor particles of masses mᵢ at positions **r**ᵢ:\n**R_CM = (1/M) Σ mᵢ rᵢ**, where M = Σ mᵢ\n- X = (1/M) Σ mᵢxᵢ, Y = (1/M) Σ mᵢyᵢ, Z = (1/M) Σ mᵢzᵢ\n- It is a mass-weighted average of the positions.\n\n**Two particles a distance d apart**\n- The CM lies on the line joining them, at **OC = m₂d / (m₁ + m₂)** from m₁.\n- **m₁ · OC = m₂ · CP**: the CM divides the line in the **inverse ratio** of the masses, so it sits closer to the heavier one.\n\n**Several groups of particles**\nReplace each part by a **point particle** of its total mass placed at its own CM:\n**X = (M₁X₁ + M₂X₂) / (M₁ + M₂)**\n\n**🧮 Worked example: a square**\nMasses m, 2m, 3m and 4m sit at the corners A(0, 0), B(a, 0), C(a, a) and D(0, a).\n- X = (0 + 2ma + 3ma + 0) / 10m = **a/2**\n- Y = (0 + 0 + 3ma + 4ma) / 10m = **7a/10**\n\n**🧮 Worked example: a T-frame**\nTwo identical uniform rods, each of length L, form a T. Replace each rod by its mass m at its middle point. The CM is midway between the two middles, on the vertical rod **L/4 from the joint**.\n\n> ⚠️ **Common mistake:** Taking the plain average of positions. The CM is weighted by mass, so it sits nearer the heavier particle.",
+ "questions": [
+  {
+   "id": "9.1-q1",
+   "n": 1,
+   "difficulty": "recall",
+   "group": null,
+   "prompt": "The x-coordinate of the centre of mass of a system of particles is:",
+   "options": [
+    {
+     "id": "A",
+     "text": "Σ xᵢ / N"
+    },
+    {
+     "id": "B",
+     "text": "Σ mᵢxᵢ / Σ mᵢ"
+    },
+    {
+     "id": "C",
+     "text": "Σ mᵢxᵢ"
+    },
+    {
+     "id": "D",
+     "text": "Σ mᵢ / Σ xᵢ"
+    }
+   ],
+   "answer": "B",
+   "explanation": "X = Σ mᵢxᵢ / M, a mass-weighted average."
+  },
+  {
+   "id": "9.1-q2",
+   "n": 2,
+   "difficulty": "understanding",
+   "group": null,
+   "prompt": "For two particles, the centre of mass lies on the line joining them and is:",
+   "options": [
+    {
+     "id": "A",
+     "text": "Always exactly at the midpoint"
+    },
+    {
+     "id": "B",
+     "text": "Closer to the lighter particle"
+    },
+    {
+     "id": "C",
+     "text": "Closer to the heavier particle"
+    },
+    {
+     "id": "D",
+     "text": "Outside the line joining them"
+    }
+   ],
+   "answer": "C",
+   "explanation": "m₁ · OC = m₂ · CP, so the heavier particle is nearer."
+  },
+  {
+   "id": "9.1-q3",
+   "n": 3,
+   "difficulty": "application",
+   "group": null,
+   "prompt": "Particles of 1 kg and 3 kg are 4 m apart. The distance of their centre of mass from the 1 kg particle is:",
+   "options": [
+    {
+     "id": "A",
+     "text": "3 m"
+    },
+    {
+     "id": "B",
+     "text": "1 m"
+    },
+    {
+     "id": "C",
+     "text": "2 m"
+    },
+    {
+     "id": "D",
+     "text": "4/3 m"
+    }
+   ],
+   "answer": "A",
+   "explanation": "OC = m₂d/(m₁ + m₂) = 3 × 4 / 4 = 3 m."
+  },
+  {
+   "id": "9.1-q4",
+   "n": 4,
+   "difficulty": "application",
+   "group": null,
+   "prompt": "Masses m, 2m, 3m and 4m are at the corners (0, 0), (a, 0), (a, a) and (0, a) of a square. The centre of mass is at:",
+   "options": [
+    {
+     "id": "A",
+     "text": "(a/2, a/2)"
+    },
+    {
+     "id": "B",
+     "text": "(7a/10, a/2)"
+    },
+    {
+     "id": "C",
+     "text": "(a/2, 3a/10)"
+    },
+    {
+     "id": "D",
+     "text": "(a/2, 7a/10)"
+    }
+   ],
+   "answer": "D",
+   "explanation": "X = 5ma/10m = a/2, Y = 7ma/10m = 7a/10."
+  },
+  {
+   "id": "9.1-q5",
+   "n": 5,
+   "difficulty": "understanding",
+   "group": null,
+   "prompt": "To find the centre of mass of a body made of parts, each part can be replaced by:",
+   "options": [
+    {
+     "id": "A",
+     "text": "A point particle of the part's mass at the part's centre of mass"
+    },
+    {
+     "id": "B",
+     "text": "Its heaviest point"
+    },
+    {
+     "id": "C",
+     "text": "Its geometric corner"
+    },
+    {
+     "id": "D",
+     "text": "A particle of unit mass"
+    }
+   ],
+   "answer": "A",
+   "explanation": "This is the \"several groups of particles\" rule."
+  },
+  {
+   "id": "9.1-q6",
+   "n": 6,
+   "difficulty": "application",
+   "group": null,
+   "prompt": "Two identical uniform rods, each of length L, are joined to form a T. The centre of mass of the frame lies on the vertical rod at a distance from the joint of:",
+   "options": [
+    {
+     "id": "A",
+     "text": "L/2"
+    },
+    {
+     "id": "B",
+     "text": "L/4"
+    },
+    {
+     "id": "C",
+     "text": "L/3"
+    },
+    {
+     "id": "D",
+     "text": "3L/4"
+    }
+   ],
+   "answer": "B",
+   "explanation": "Equal masses at the joint and at L/2 down the vertical rod: midpoint = L/4."
+  }
+ ]
+}

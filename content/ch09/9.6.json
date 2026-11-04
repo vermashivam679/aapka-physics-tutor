@@ -1,0 +1,145 @@
+{
+ "id": "9.6",
+ "slug": "ch09-9-6",
+ "chapter": "ch09",
+ "title": "Collision",
+ "diagram": "content/ch09/diagrams/ch09_sec9_6.png",
+ "theory": "**Big idea:** In every collision, momentum is conserved. What happens to kinetic energy decides the **type** of collision.\n\n**Blocks and a spring (the model collision)**\nA faster block m₁ catches up with a slower block m₂ that has a light spring on its back.\n1. The spring compresses. The rear block slows down, and the front block speeds up.\n2. **Maximum compression happens when both blocks have the same velocity.**\n3. The spring then pushes them apart until it is back at its natural length.\n4. The total momentum stays the **same at every instant**: before, during and after.\n\n**🧮 Worked example**\nTwo 1 kg blocks. The rear one moves at 2 m/s, the front one is at rest, and k = 50 N/m.\n- Common velocity: 1 × 2 = 2V, so **V = 1 m/s**\n- K before = 2 J. K at maximum compression = ½ × 2 × 1² = 1 J\n- ½ × 50 × x² = 1 J, so **x = 0.2 m**\n\n**Three kinds of collision**\n| Type | Momentum | Kinetic energy | After the collision |\n|---|---|---|---|\n| **Elastic** | Conserved | **K_f = K_i** | Shapes fully restored, the bodies separate |\n| **Partially elastic** | Conserved | K_f < K_i | The bodies separate, but some energy stays inside |\n| **Perfectly inelastic** | Conserved | K_f < K_i (largest loss) | The bodies **stick together** |\n\n> ⚠️ **Common mistake:** In an elastic collision, K is equal **before and after**, but it is **not** constant during the collision. Some is stored as elastic energy while the bodies are squashed.",
+ "questions": [
+  {
+   "id": "9.6-q1",
+   "n": 1,
+   "difficulty": "recall",
+   "group": null,
+   "prompt": "In every collision with no external force, the quantity that is always conserved is:",
+   "options": [
+    {
+     "id": "A",
+     "text": "Kinetic energy"
+    },
+    {
+     "id": "B",
+     "text": "Speed of each body"
+    },
+    {
+     "id": "C",
+     "text": "Total linear momentum"
+    },
+    {
+     "id": "D",
+     "text": "Momentum of each body"
+    }
+   ],
+   "answer": "C",
+   "explanation": "No external force, so P is constant. K may or may not be."
+  },
+  {
+   "id": "9.6-q2",
+   "n": 2,
+   "difficulty": "understanding",
+   "group": null,
+   "prompt": "Two blocks collide through a light spring. The spring's compression is maximum when:",
+   "options": [
+    {
+     "id": "A",
+     "text": "The rear block stops"
+    },
+    {
+     "id": "B",
+     "text": "The two blocks have equal velocities"
+    },
+    {
+     "id": "C",
+     "text": "The front block stops"
+    },
+    {
+     "id": "D",
+     "text": "The kinetic energy is maximum"
+    }
+   ],
+   "answer": "B",
+   "explanation": "While the rear block is faster, the spring keeps getting shorter."
+  },
+  {
+   "id": "9.6-q3",
+   "n": 3,
+   "difficulty": "application",
+   "group": null,
+   "prompt": "A 1 kg block moving at 2 m/s hits an identical block at rest through a light spring (k = 50 N/m). The maximum compression of the spring is:",
+   "options": [
+    {
+     "id": "A",
+     "text": "0.2 m"
+    },
+    {
+     "id": "B",
+     "text": "0.1 m"
+    },
+    {
+     "id": "C",
+     "text": "0.4 m"
+    },
+    {
+     "id": "D",
+     "text": "0.04 m"
+    }
+   ],
+   "answer": "A",
+   "explanation": "V = 1 m/s, so 1 J is stored: ½ × 50 × x² = 1, giving x = 0.2 m."
+  },
+  {
+   "id": "9.6-q4",
+   "n": 4,
+   "difficulty": "recall",
+   "group": null,
+   "prompt": "In an elastic collision:",
+   "options": [
+    {
+     "id": "A",
+     "text": "Kinetic energy stays constant at every instant"
+    },
+    {
+     "id": "B",
+     "text": "Momentum is lost"
+    },
+    {
+     "id": "C",
+     "text": "The bodies stick together"
+    },
+    {
+     "id": "D",
+     "text": "The final kinetic energy equals the initial kinetic energy"
+    }
+   ],
+   "answer": "D",
+   "explanation": "K_f = K_i, but K dips during the collision."
+  },
+  {
+   "id": "9.6-q5",
+   "n": 5,
+   "difficulty": "understanding",
+   "group": null,
+   "prompt": "In a perfectly inelastic collision, the bodies:",
+   "options": [
+    {
+     "id": "A",
+     "text": "Separate with their original speeds"
+    },
+    {
+     "id": "B",
+     "text": "Stick together and move with a common velocity"
+    },
+    {
+     "id": "C",
+     "text": "Always stop"
+    },
+    {
+     "id": "D",
+     "text": "Gain kinetic energy"
+    }
+   ],
+   "answer": "B",
+   "explanation": "They have no tendency to regain their shapes, so they move together."
+  }
+ ]
+}

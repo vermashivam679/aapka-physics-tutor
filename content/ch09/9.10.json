@@ -1,0 +1,118 @@
+{
+ "id": "9.10",
+ "slug": "ch09-9-10",
+ "chapter": "ch09",
+ "title": "Elastic Collision in Two Dimensions",
+ "diagram": "content/ch09/diagrams/ch09_sec9_10.png",
+ "theory": "**Big idea:** When a collision is not head-on, the bodies fly off at angles. Momentum is conserved along **each** axis separately.\n\n**Set-up:** A (mass m₁, speed u₁) hits B (mass m₂) at rest. Afterwards, A moves at v₁ at angle θ above the X-axis, and B moves at v₂ at angle Φ below it.\n\n**Equations**\n1. x-momentum: **m₁u₁ = m₁v₁ cos θ + m₂v₂ cos Φ**\n2. y-momentum: **0 = m₁v₁ sin θ – m₂v₂ sin Φ**\n3. Kinetic energy (elastic): **½m₁u₁² = ½m₁v₁² + ½m₂v₂²**\n\n**Three equations, four unknowns** (v₁, v₂, θ, Φ)\nThe final motion **can't be found from these laws alone**. It depends on the line along which the bodies push each other during the collision (the line of force).\n- Perpendicular to that line, each body's momentum is unchanged.\n- Along that line, treat it as a 1-D collision.\n\n> 💡 **A well-known special case:** for **equal masses**, with one at rest and an elastic glancing collision, the two bodies move off **at 90° to each other**. You can see this in carrom and billiards.",
+ "questions": [
+  {
+   "id": "9.10-q1",
+   "n": 1,
+   "difficulty": "recall",
+   "group": null,
+   "prompt": "In a two-dimensional collision, momentum conservation is applied:",
+   "options": [
+    {
+     "id": "A",
+     "text": "Only along the initial direction"
+    },
+    {
+     "id": "B",
+     "text": "Separately along the x- and y-axes"
+    },
+    {
+     "id": "C",
+     "text": "Only perpendicular to the initial direction"
+    },
+    {
+     "id": "D",
+     "text": "It does not apply"
+    }
+   ],
+   "answer": "B",
+   "explanation": "Momentum is a vector, so each component is conserved."
+  },
+  {
+   "id": "9.10-q2",
+   "n": 2,
+   "difficulty": "understanding",
+   "group": null,
+   "prompt": "For an elastic collision in two dimensions with one body initially at rest, the number of unknowns and equations is:",
+   "options": [
+    {
+     "id": "A",
+     "text": "4 unknowns, 4 equations"
+    },
+    {
+     "id": "B",
+     "text": "3 unknowns, 3 equations"
+    },
+    {
+     "id": "C",
+     "text": "2 unknowns, 3 equations"
+    },
+    {
+     "id": "D",
+     "text": "4 unknowns, 3 equations"
+    }
+   ],
+   "answer": "D",
+   "explanation": "v₁, v₂, θ, Φ, with two momentum equations and one energy equation."
+  },
+  {
+   "id": "9.10-q3",
+   "n": 3,
+   "difficulty": "understanding",
+   "group": null,
+   "prompt": "Before the collision, B is at rest and A moves along the X-axis. The total y-momentum after the collision is:",
+   "options": [
+    {
+     "id": "A",
+     "text": "Zero"
+    },
+    {
+     "id": "B",
+     "text": "m₁u₁"
+    },
+    {
+     "id": "C",
+     "text": "m₂v₂"
+    },
+    {
+     "id": "D",
+     "text": "Impossible to know"
+    }
+   ],
+   "answer": "A",
+   "explanation": "It was zero before, so it is zero after."
+  },
+  {
+   "id": "9.10-q4",
+   "n": 4,
+   "difficulty": "understanding",
+   "group": null,
+   "prompt": "Two equal masses collide elastically, one initially at rest, and the collision is not head-on. Afterwards they move:",
+   "options": [
+    {
+     "id": "A",
+     "text": "In the same direction"
+    },
+    {
+     "id": "B",
+     "text": "In opposite directions"
+    },
+    {
+     "id": "C",
+     "text": "At 90° to each other"
+    },
+    {
+     "id": "D",
+     "text": "At 45° to each other"
+    }
+   ],
+   "answer": "C",
+   "explanation": "The standard equal-mass elastic result."
+  }
+ ]
+}

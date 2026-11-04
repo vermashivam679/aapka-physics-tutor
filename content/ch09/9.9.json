@@ -1,0 +1,118 @@
+{
+ "id": "9.9",
+ "slug": "ch09-9-9",
+ "chapter": "ch09",
+ "title": "Coefficient of Restitution",
+ "diagram": "content/ch09/diagrams/ch09_sec9_9.png",
+ "theory": "**Big idea:** One number, e, tells you how bouncy a collision is.\n\n**Definition**\n**Velocity of separation = e × velocity of approach**\n- **e = 1:** perfectly elastic\n- **e = 0:** perfectly inelastic (no separation, the bodies stick)\n- **0 < e < 1:** partially elastic. e depends on the **materials** of the bodies.\n\n**🧮 Worked example**\nA block of mass m at speed v hits a block of mass 2m at rest, and the lighter block stops.\n- Momentum: mv = 2mv′, so v′ = v/2\n- Separation = v/2, approach = v, so **e = 1/2**\n\n**🧮 A bouncing ball**\nA ball dropped from height h hits the floor at √(2gh) and rebounds at e√(2gh). So it rises to **e²h**.\nExample: e = 0.5, dropped from 4 m → it rises to 0.25 × 4 = **1 m**.\n\n> ⚠️ **Common mistake:** Using e for heights. The **speed** is multiplied by e, so the **height** is multiplied by e².",
+ "questions": [
+  {
+   "id": "9.9-q1",
+   "n": 1,
+   "difficulty": "recall",
+   "group": null,
+   "prompt": "The coefficient of restitution e is defined by:",
+   "options": [
+    {
+     "id": "A",
+     "text": "Velocity of separation = e × velocity of approach"
+    },
+    {
+     "id": "B",
+     "text": "Final KE = e × initial KE"
+    },
+    {
+     "id": "C",
+     "text": "Final momentum = e × initial momentum"
+    },
+    {
+     "id": "D",
+     "text": "Force = e × time"
+    }
+   ],
+   "answer": "A",
+   "explanation": "This is the definition."
+  },
+  {
+   "id": "9.9-q2",
+   "n": 2,
+   "difficulty": "understanding",
+   "group": null,
+   "prompt": "For a perfectly inelastic collision, the value of e is:",
+   "options": [
+    {
+     "id": "A",
+     "text": "1"
+    },
+    {
+     "id": "B",
+     "text": "0.5"
+    },
+    {
+     "id": "C",
+     "text": "Infinity"
+    },
+    {
+     "id": "D",
+     "text": "0"
+    }
+   ],
+   "answer": "D",
+   "explanation": "The bodies don't separate, so the velocity of separation is 0."
+  },
+  {
+   "id": "9.9-q3",
+   "n": 3,
+   "difficulty": "application",
+   "group": null,
+   "prompt": "A block of mass m moving at v hits a block of mass 2m at rest. The lighter block stops. The coefficient of restitution is:",
+   "options": [
+    {
+     "id": "A",
+     "text": "1"
+    },
+    {
+     "id": "B",
+     "text": "1/2"
+    },
+    {
+     "id": "C",
+     "text": "1/4"
+    },
+    {
+     "id": "D",
+     "text": "2"
+    }
+   ],
+   "answer": "B",
+   "explanation": "v′ = v/2, so e = (v/2)/v = 1/2."
+  },
+  {
+   "id": "9.9-q4",
+   "n": 4,
+   "difficulty": "application",
+   "group": null,
+   "prompt": "A ball dropped from 4 m on a floor with e = 0.5 rises to a height of:",
+   "options": [
+    {
+     "id": "A",
+     "text": "2 m"
+    },
+    {
+     "id": "B",
+     "text": "0.5 m"
+    },
+    {
+     "id": "C",
+     "text": "1 m"
+    },
+    {
+     "id": "D",
+     "text": "4 m"
+    }
+   ],
+   "answer": "C",
+   "explanation": "Height ∝ speed², so h′ = e²h = 0.25 × 4 = 1 m."
+  }
+ ]
+}

@@ -539,6 +539,91 @@
      "questionCount": 5
     }
    ]
+  },
+  {
+   "id": "ch09",
+   "number": 9,
+   "title": "Centre of Mass, Linear Momentum, Collision",
+   "book": "H.C. Verma, Concepts of Physics Vol. 1",
+   "sections": [
+    {
+     "id": "9.1",
+     "slug": "ch09-9-1",
+     "title": "Centre of Mass",
+     "file": "content/ch09/9.1.json",
+     "questionCount": 6
+    },
+    {
+     "id": "9.2",
+     "slug": "ch09-9-2",
+     "title": "Centre of Mass of Continuous Bodies",
+     "file": "content/ch09/9.2.json",
+     "questionCount": 5
+    },
+    {
+     "id": "9.3",
+     "slug": "ch09-9-3",
+     "title": "Motion of the Centre of Mass",
+     "file": "content/ch09/9.3.json",
+     "questionCount": 5
+    },
+    {
+     "id": "9.4",
+     "slug": "ch09-9-4",
+     "title": "Linear Momentum and its Conservation Principle",
+     "file": "content/ch09/9.4.json",
+     "questionCount": 5
+    },
+    {
+     "id": "9.5",
+     "slug": "ch09-9-5",
+     "title": "Rocket Propulsion",
+     "file": "content/ch09/9.5.json",
+     "questionCount": 4
+    },
+    {
+     "id": "9.6",
+     "slug": "ch09-9-6",
+     "title": "Collision",
+     "file": "content/ch09/9.6.json",
+     "questionCount": 5
+    },
+    {
+     "id": "9.7",
+     "slug": "ch09-9-7",
+     "title": "Elastic Collision in One Dimension",
+     "file": "content/ch09/9.7.json",
+     "questionCount": 6
+    },
+    {
+     "id": "9.8",
+     "slug": "ch09-9-8",
+     "title": "Perfectly Inelastic Collision in One Dimension",
+     "file": "content/ch09/9.8.json",
+     "questionCount": 5
+    },
+    {
+     "id": "9.9",
+     "slug": "ch09-9-9",
+     "title": "Coefficient of Restitution",
+     "file": "content/ch09/9.9.json",
+     "questionCount": 4
+    },
+    {
+     "id": "9.10",
+     "slug": "ch09-9-10",
+     "title": "Elastic Collision in Two Dimensions",
+     "file": "content/ch09/9.10.json",
+     "questionCount": 4
+    },
+    {
+     "id": "9.11",
+     "slug": "ch09-9-11",
+     "title": "Impulse and Impulsive Force",
+     "file": "content/ch09/9.11.json",
+     "questionCount": 5
+    }
+   ]
   }
  ]
 }
