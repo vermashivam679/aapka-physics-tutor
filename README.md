@@ -14,7 +14,7 @@ tools/build_chapter.py      turns a chapter's MCQ markdown into the JSON above
    (it adds Chapter 2 to content/index.json without touching other chapters, and stops if any answer is missing)
 
 ## Fetch a section directly
-- Page links:  index.html#ch01-1-3   (#ch01-1-3-visual, #ch01-1-3-practice open those tabs)
+- Page links:  index.html#ch01-1-3   opens the Learn tab (diagram + theory); #ch01-1-3-practice opens the MCQs
 - Raw data:    content/ch01/1.3.json   (same JSON can power your mobile app)
 
 ## Run locally
