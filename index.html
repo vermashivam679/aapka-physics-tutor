@@ -4,6 +4,7 @@
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=JetBrains+Mono:wght@500;700&display=swap">
+<link rel="stylesheet" href="content/curiosity/curiosity.css">
 <style>
 /* Layout: lab-notebook — a fixed chapter index on the left, one section open at a time on the right,
    split into Learn (visual + theory together) / Practice. Navy ink from the diagrams, amber for the active marker. */
@@ -176,6 +177,18 @@ h1{font-family:var(--f-display);font-weight:800;font-size:clamp(28px,4.4vw,40px)
 .ch-block h2{font-family:var(--f-display);font-weight:800;font-size:24px;margin:8px 0 12px}
 .ch-block h2 span{font-family:var(--f-mono);font-size:14px;color:var(--ink-3);font-weight:500;margin-right:8px}
 .err{background:var(--bad-soft);border-radius:12px;padding:16px}
+
+/* everyday physics (curiosity series) */
+.ev-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:12px}
+.ev-card{display:flex;flex-direction:column;text-decoration:none;color:var(--ink);background:var(--paper);border:1px solid var(--rule);border-radius:12px;overflow:hidden}
+.ev-card:hover{border-color:var(--navy)}
+.ev-card img{display:block;width:100%;height:auto;aspect-ratio:16/9;object-fit:cover;background:var(--rule-2)}
+.ev-body{padding:12px 14px 14px;display:flex;flex-direction:column;gap:4px}
+.ev-body .num{font-family:var(--f-mono);font-weight:700;color:var(--amber);font-size:13px}
+.ev-body b{font-family:var(--f-display);font-size:16.5px;line-height:1.25}
+.ev-body .meta{font-size:13px;color:var(--ink-3)}
+.ch-block h2 a{font-family:var(--f-body);font-size:14px;font-weight:700;margin-left:10px}
+.wrap .cq{max-width:none;margin:0}
 </style>
 
 <div class="app">
@@ -202,6 +215,7 @@ h1{font-family:var(--f-display);font-weight:800;font-size:clamp(28px,4.4vw,40px)
   const view = document.getElementById('view');
   const nav = document.getElementById('nav');
   let INDEX = null;
+  let EVERY = null;               // Everyday Physics cards (content/curiosity/index.json)
   const cache = {};               // section json by slug
   const DIFF_LABEL = {recall:'Recall', understanding:'Understanding', application:'Application'};
 
@@ -242,8 +256,20 @@ h1{font-family:var(--f-display);font-weight:800;font-size:clamp(28px,4.4vw,40px)
     return {slug: m ? m[1] : '', tab: (m && m[2] === 'practice') ? 'practice' : 'theory'};
   }
 
+  function everydayNav(activeSlug) {
+    if (!EVERY || !EVERY.items.length) return '';
+    return `<div class="ch">
+        <div class="ch-head">Curiosity series</div>
+        <div class="ch-title">${esc(EVERY.title)}</div>
+        <a class="sec-link" href="#everyday" ${activeSlug === 'everyday' ? 'aria-current="page"' : ''}>
+          <span class="num">All</span><span>All questions</span><span class="pip">${EVERY.items.length}</span></a>
+        ${EVERY.items.map(it => `<a class="sec-link" href="#everyday-${it.id}" ${activeSlug === 'everyday-' + it.id ? 'aria-current="page"' : ''}>
+          <span class="num">Q${it.num}</span><span>${esc(it.short)}</span><span></span></a>`).join('')}
+      </div>`;
+  }
+
   function renderNav(activeSlug) {
-    nav.innerHTML = INDEX.chapters.map(ch => `
+    nav.innerHTML = everydayNav(activeSlug) + INDEX.chapters.map(ch => `
       <div class="ch">
         <div class="ch-head">Chapter ${ch.number ?? ''}</div>
         <div class="ch-title">${esc(ch.title)}</div>
@@ -265,6 +291,11 @@ h1{font-family:var(--f-display);font-weight:800;font-size:clamp(28px,4.4vw,40px)
         <h1>Learn it, see it, test it.</h1>
         <p>Every section of the HC Verma chapters has two parts: a lesson that shows the one-page visual summary together with the theory, and practice MCQs that tell you right away whether your answer is right. ${INDEX.chapters.length} chapter${INDEX.chapters.length>1?'s':''} · ${total} questions so far.</p>
       </section>
+      ${EVERY && EVERY.items.length ? `
+        <section class="ch-block">
+          <h2><span>CURIOSITY</span>${esc(EVERY.title)}<a href="#everyday">See all →</a></h2>
+          ${everydayGrid()}
+        </section>` : ''}
       ${INDEX.chapters.map(ch => `
         <section class="ch-block">
           <h2><span>CH ${String(ch.number ?? '').padStart(2,'0')}</span>${esc(ch.title)}</h2>
@@ -397,11 +428,59 @@ h1{font-family:var(--f-display);font-weight:800;font-size:clamp(28px,4.4vw,40px)
     updateScore();
   }
 
+  // ---------- everyday physics: #everyday (all) and #everyday-q01 (one question) ----------
+  function everydayGrid() {
+    return `<div class="ev-grid">${EVERY.items.map(it => `
+      <a class="ev-card" href="#everyday-${it.id}">
+        <img src="${esc(it.poster)}" alt="" loading="lazy" width="640" height="360">
+        <span class="ev-body"><span class="num">Q${it.num}</span><b>${esc(it.question)}</b><span class="meta">${esc(it.tag)}</span></span>
+      </a>`).join('')}</div>`;
+  }
+
+  function everydayCard(it) {
+    return `<article class="cq">
+      <div class="cq-head"><span class="cq-num">Q${it.num}</span>
+        <div><h2>${esc(it.question)}</h2><p class="cq-tag">${esc(it.tag)}</p></div></div>
+      <figure><img src="${esc(it.gif)}" width="640" height="360" alt="${esc(it.alt)}"></figure>
+      <h3>What you see</h3><p>${esc(it.see)}</p>
+      <h3>Why it happens</h3>${it.why.map(p => `<p>${esc(p)}</p>`).join('')}
+      <p class="cq-key">Big idea: ${esc(it.key)}</p>
+      <h3>Try it yourself</h3><ol>${it.tries.map(t => `<li>${esc(t)}</li>`).join('')}</ol>
+      ${it.learn ? `<div class="cq-foot"><a href="${esc(it.learn.href)}">Learn more: ${esc(it.learn.label)} &rarr;</a></div>` : ''}
+    </article>`;
+  }
+
+  function renderEveryday(id) {
+    if (!EVERY) { location.hash = ''; return; }
+    const items = EVERY.items;
+    const i = items.findIndex(it => it.id === id);
+    if (i < 0) {
+      document.title = `${EVERY.title} · Aapka Physics Tutor`;
+      view.innerHTML = `
+        <div class="crumb"><a href="#">All chapters</a><span>/</span><span>${esc(EVERY.title)}</span></div>
+        <section class="hero"><h1>${esc(EVERY.title)}</h1><p>${esc(EVERY.intro)}</p></section>
+        ${everydayGrid()}`;
+    } else {
+      const it = items[i], prev = items[i-1], next = items[i+1];
+      document.title = `Q${it.num} ${it.short} · Aapka Physics Tutor`;
+      view.innerHTML = `
+        <div class="crumb"><a href="#">All chapters</a><span>/</span><a href="#everyday">${esc(EVERY.title)}</a><span>/</span><span>Q${it.num}</span></div>
+        ${everydayCard(it)}
+        <nav class="pager">
+          ${prev ? `<a href="#everyday-${prev.id}"><small>← Previous</small>Q${prev.num} ${esc(prev.short)}</a>` : '<span></span>'}
+          ${next ? `<a class="next" href="#everyday-${next.id}"><small>Next →</small>Q${next.num} ${esc(next.short)}</a>` : ''}
+        </nav>`;
+    }
+    window.scrollTo({top: 0});
+  }
+
   function route() {
     closeMenu();
     const {slug, tab} = parseHash();
     renderNav(slug);
-    if (!slug) renderHome(); else renderSection(slug, tab);
+    if (!slug) renderHome();
+    else if (slug === 'everyday' || slug.startsWith('everyday-')) renderEveryday(slug.slice(9));
+    else renderSection(slug, tab);
   }
 
   // ---------- mobile menu ----------
@@ -411,8 +490,8 @@ h1{font-family:var(--f-display);font-weight:800;font-size:clamp(28px,4.4vw,40px)
   scrim.onclick = closeMenu;
 
   window.addEventListener('hashchange', route);
-  getJSON('content/index.json')
-    .then(d => { INDEX = d; route(); })
+  Promise.all([getJSON('content/index.json'), getJSON('content/curiosity/index.json').catch(() => null)])
+    .then(([d, ev]) => { INDEX = d; EVERY = ev; route(); })
     .catch(e => { view.innerHTML = `<div class="err"><b>Couldn't load the chapter index.</b><br>${esc(e.message)}<br>If you opened this file directly from your computer, run a local server in the site folder instead (for example <code>python -m http.server</code>) and open http://localhost:8000.</div>`; });
 })();
 </script>

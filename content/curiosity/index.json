@@ -1,0 +1,82 @@
+{
+ "title": "Everyday Physics",
+ "intro": "Short animations of things you see every day, and the physics behind them.",
+ "items": [
+  {
+   "id": "q01",
+   "num": 1,
+   "short": "Raw Egg vs Boiled Egg",
+   "question": "Why does a raw egg stop spinning, but a boiled egg keeps going?",
+   "tag": "Inertia · Rotation · HC Verma Ch 5 & 10",
+   "gif": "content/curiosity/gifs/q01_egg_spin.gif",
+   "poster": "content/curiosity/gifs/q01_egg_spin_poster.jpg",
+   "alt": "A hard-boiled egg and a raw egg spun together. The boiled egg keeps spinning; the raw egg wobbles and stops after two turns.",
+   "see": "Two eggs are spun at the same speed. The hard-boiled egg keeps spinning smoothly in place. The raw egg wobbles, slows down quickly and stops within about two turns.",
+   "why": [
+    "A boiled egg is solid, so the shell and everything inside turn together as one rigid body. The spin you give it is kept, and only a little friction with the table slows it down.",
+    "A raw egg is a shell full of liquid. When you twist the shell, the liquid inside does not want to start turning: that is inertia. It lags behind and sloshes around, and the friction between the liquid and the shell drags the spin away. The energy you gave the egg is wasted inside it."
+   ],
+   "key": "The liquid inside a raw egg doesn't want to turn, so it drags the spin away.",
+   "tries": [
+    "Spin a boiled egg and a raw egg side by side on a smooth table.",
+    "Now stop the spinning raw egg with one finger for just a moment, then let go.",
+    "Watch it start turning again by itself. The liquid inside was still swirling!"
+   ],
+   "learn": {
+    "href": "#ch05-5-7",
+    "label": "5.7 Inertia"
+   }
+  },
+  {
+   "id": "q02",
+   "num": 2,
+   "short": "Why You Jerk Forward in a Bus",
+   "question": "Why do you jerk forward when a bus brakes suddenly?",
+   "tag": "Inertia · Newton's First Law · HC Verma Ch 5",
+   "gif": "content/curiosity/gifs/q02_bus_brakes.gif",
+   "poster": "content/curiosity/gifs/q02_bus_brakes_poster.jpg",
+   "alt": "A cutaway bus braking. The standing passenger tips forward when the bus stops, and backward when it starts again.",
+   "see": "The bus and the standing passenger move together at 40 km/h. When the brakes come on, the bus slows down, but the passenger tips forward. When the bus starts again, the passenger tips backward.",
+   "why": [
+    "Newton's first law says a body keeps moving at the same speed in a straight line unless a force changes its motion. This tendency to keep doing what it was doing is called inertia.",
+    "When the bus brakes, the brakes slow the bus, and friction from the floor slows your feet along with it. But nothing slows your upper body at that moment, so it carries on forward and you tip toward the front. When the bus starts suddenly, the opposite happens: your body tends to stay at rest, so you fall backward."
+   ],
+   "key": "Your body keeps doing what it was doing. It needs a force to change its motion.",
+   "tries": [
+    "Next time you ride a bus or metro, hold the handle and notice which way your body leans when it starts and when it stops.",
+    "Put a toy car with a small toy on top on a book, then stop the book suddenly. The toy flies forward.",
+    "Explain why seat belts are important using the same idea."
+   ],
+   "learn": {
+    "href": "#ch05-5-7",
+    "label": "5.7 Inertia"
+   }
+  },
+  {
+   "id": "q03",
+   "num": 3,
+   "short": "The Coin, the Card and the Glass",
+   "question": "Flick a card from under a coin. Why does the coin drop into the glass?",
+   "tag": "Inertia of Rest · Newton's First Law · HC Verma Ch 5",
+   "gif": "content/curiosity/gifs/q03_coin_card_glass.gif",
+   "poster": "content/curiosity/gifs/q03_coin_card_glass_poster.jpg",
+   "alt": "Slow motion: a finger flicks a card off a glass, the coin on top stays in place and then falls straight down into the glass.",
+   "see": "A coin rests on a card placed over a glass. A finger flicks the card away fast. In slow motion you can see the card shoot away while the coin barely moves sideways, then the coin drops straight down into the glass.",
+   "why": [
+    "An object at rest stays at rest unless a force acts on it. This is inertia of rest.",
+    "The only sideways force on the coin is friction from the card. With a fast flick, the card slides out in a tiny fraction of a second, so friction acts for far too short a time to get the coin moving. Once the card is gone, nothing holds the coin up, and gravity pulls it straight down into the glass.",
+    "Pull the card slowly instead, and friction has enough time to drag the coin along with the card."
+   ],
+   "key": "A fast flick gives friction no time to move the coin, so it stays behind.",
+   "tries": [
+    "Place a smooth playing card on a glass and a coin on top of the card.",
+    "Flick the edge of the card sharply with your finger, straight and fast.",
+    "Now try pulling the card slowly and compare what happens to the coin."
+   ],
+   "learn": {
+    "href": "#ch05-5-7",
+    "label": "5.7 Inertia"
+   }
+  }
+ ]
+}
