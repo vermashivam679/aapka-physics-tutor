@@ -263,8 +263,8 @@ h1{font-family:var(--f-display);font-weight:800;font-size:clamp(28px,4.4vw,40px)
         <div class="ch-title">${esc(EVERY.title)}</div>
         <a class="sec-link" href="#everyday" ${activeSlug === 'everyday' ? 'aria-current="page"' : ''}>
           <span class="num">All</span><span>All questions</span><span class="pip">${EVERY.items.length}</span></a>
-        ${EVERY.items.map(it => `<a class="sec-link" href="#everyday-${it.id}" ${activeSlug === 'everyday-' + it.id ? 'aria-current="page"' : ''}>
-          <span class="num">Q${it.num}</span><span>${esc(it.short)}</span><span></span></a>`).join('')}
+        ${String(activeSlug || '').startsWith('everyday') ? EVERY.items.map(it => `<a class="sec-link" href="#everyday-${it.id}" ${activeSlug === 'everyday-' + it.id ? 'aria-current="page"' : ''}>
+          <span class="num">Q${it.num}</span><span>${esc(it.short)}</span><span></span></a>`).join('') : ''}
       </div>`;
   }
 
@@ -293,8 +293,8 @@ h1{font-family:var(--f-display);font-weight:800;font-size:clamp(28px,4.4vw,40px)
       </section>
       ${EVERY && EVERY.items.length ? `
         <section class="ch-block">
-          <h2><span>CURIOSITY</span>${esc(EVERY.title)}<a href="#everyday">See all →</a></h2>
-          ${everydayGrid()}
+          <h2><span>CURIOSITY</span>${esc(EVERY.title)}<a href="#everyday">See all ${EVERY.items.length} →</a></h2>
+          ${everydayGrid(6)}
         </section>` : ''}
       ${INDEX.chapters.map(ch => `
         <section class="ch-block">
@@ -429,8 +429,9 @@ h1{font-family:var(--f-display);font-weight:800;font-size:clamp(28px,4.4vw,40px)
   }
 
   // ---------- everyday physics: #everyday (all) and #everyday-q01 (one question) ----------
-  function everydayGrid() {
-    return `<div class="ev-grid">${EVERY.items.map(it => `
+  function everydayGrid(limit) {
+    const items = limit ? EVERY.items.slice(0, limit) : EVERY.items;
+    return `<div class="ev-grid">${items.map(it => `
       <a class="ev-card" href="#everyday-${it.id}">
         <img src="${esc(it.poster)}" alt="" loading="lazy" width="640" height="360">
         <span class="ev-body"><span class="num">Q${it.num}</span><b>${esc(it.question)}</b><span class="meta">${esc(it.tag)}</span></span>

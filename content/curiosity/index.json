@@ -374,6 +374,121 @@
     "Look at a pencil in a glass of water from different angles. When does it look most bent?"
    ],
    "learn": null
+  },
+  {
+   "id": "q16",
+   "num": 16,
+   "short": "Why Is the Sky Blue but the Sunset Red?",
+   "question": "Why is the sky blue, but the sunset red?",
+   "tag": "Scattering of Light · Rayleigh Scattering",
+   "gif": "content/curiosity/gifs/q16_sky_scattering.gif",
+   "poster": "content/curiosity/gifs/q16_sky_scattering_poster.jpg",
+   "alt": "Two panels, noon and sunset. Red, green and blue packets of sunlight travel through the air; blue ones are scattered in all directions. At noon the path through air is short and the light reaching the observer is nearly white; at sunset the path is long and the light is orange.",
+   "see": "Sunlight is shown as a stream of red, green and blue light. As it passes through the layer of air, blue packets keep getting scattered off in all directions, while red ones mostly go straight. At noon (left) the light crosses only a little air, so the sunlight reaching you is nearly white, and scattered blue fills the sky. At sunset (right) it skims through a much longer path, most of the blue is scattered away, and the light reaching you is orange.",
+   "why": [
+    "Sunlight contains all colours. When light meets particles much smaller than its wavelength, like air molecules, it is scattered, and short wavelengths are scattered far more strongly than long ones (roughly as 1/λ⁴). Blue light (~450 nm) is scattered about 6 times more than red (~700 nm).",
+    "At noon, sunlight crosses a fairly thin layer of air. Some blue is scattered out of the beam and reaches your eyes from every direction in the sky, so the whole sky looks blue.",
+    "At sunrise and sunset, sunlight travels a much longer path through the air to reach you. Most of the blue (and much of the green) is scattered away on the way, so the light that arrives is orange and red."
+   ],
+   "key": "Air scatters blue light the most: blue sky at noon, red sun at sunset.",
+   "tries": [
+    "Fill a clear glass with water and stir in a few drops of milk.",
+    "In a dark room, shine a torch through the side of the glass: the milky water looks slightly bluish from the side.",
+    "Now look straight through the glass at the torch: the light looks orange, like a sunset."
+   ],
+   "learn": null
+  },
+  {
+   "id": "q17",
+   "num": 17,
+   "short": "Why Do We See Lightning Before Thunder?",
+   "question": "Why do we see lightning before we hear thunder?",
+   "tag": "Speed of Light vs Speed of Sound · HC Verma Ch 16",
+   "gif": "content/curiosity/gifs/q17_lightning_thunder.gif",
+   "poster": "content/curiosity/gifs/q17_lightning_thunder_poster.jpg",
+   "alt": "Lightning strikes 1.7 km from a person. The flash reaches them almost instantly, while a sound wave spreads slowly across the landscape and arrives about 5 seconds later with a boom. A timer shows 0.000006 s for light and 5.0 s for sound.",
+   "see": "Lightning strikes 1.7 km away from a person standing by a house. The flash reaches them almost instantly (about 0.000006 s). Meanwhile the sound spreads out as a wave, much more slowly. The timer counts up as it travels, and about 5 seconds later the thunder arrives: BOOM!",
+   "why": [
+    "The flash and the thunder are made at the same moment, by the same lightning bolt.",
+    "Light travels at about 3 × 10⁸ m/s (300,000 km per second). Over 1.7 km, that takes only about 6 millionths of a second.",
+    "Sound is a wave of compressions and rarefactions in the air, passed on from molecule to molecule. In air it travels at only about 343 m/s, almost a million times slower than light. Over 1.7 km it takes about 1700 ÷ 343 ≈ 5 seconds."
+   ],
+   "key": "Light is almost a million times faster than sound. Count the seconds after the flash and divide by 3 to get the storm's distance in km.",
+   "tries": [
+    "Next thunderstorm, count the seconds from each flash to its thunder (safely indoors!).",
+    "Divide by 3 to estimate how many km away the lightning was. Is the storm coming closer or moving away?",
+    "Watch someone hammering or kicking a ball far away: you see it before you hear it."
+   ],
+   "learn": null
+  },
+  {
+   "id": "q18",
+   "num": 18,
+   "short": "Why Does a Siren Change Pitch as It Passes?",
+   "question": "Why does an ambulance siren change pitch as it passes?",
+   "tag": "Doppler Effect · Sound Waves · HC Verma Ch 16",
+   "gif": "content/curiosity/gifs/q18_siren_doppler.gif",
+   "poster": "content/curiosity/gifs/q18_siren_doppler_poster.jpg",
+   "alt": "An ambulance drives past a listener. Its sound wavefronts are bunched up in front and spread out behind. A pitch meter shows about 755 Hz as it approaches and about 652 Hz as it moves away, from a 700 Hz siren.",
+   "see": "An ambulance drives along the road past a person. Each blue circle is a sound wave sent out by the siren. Because the ambulance moves forward between waves, the circles are bunched up in front of it and spread out behind it. The meter shows the pitch the person hears: about 755 Hz while it approaches, dropping to about 652 Hz as it goes away, even though the siren itself is always 700 Hz.",
+   "why": [
+    "The pitch you hear depends on the frequency: how many waves reach your ear each second.",
+    "A moving source keeps catching up with the waves it sends forward, so they arrive closer together (shorter wavelength, higher frequency). Behind it, the waves are stretched apart (longer wavelength, lower frequency). This is the Doppler effect.",
+    "For a source moving straight towards you, f = f₀ × v/(v − u), and away from you f = f₀ × v/(v + u), where v ≈ 343 m/s is the speed of sound and u is the source's speed. A 700 Hz siren at 25 m/s (90 km/h) gives about 755 Hz and 652 Hz. (The animation exaggerates the speed so you can see the bunching.)"
+   ],
+   "key": "A moving source squeezes its waves ahead and stretches them behind.",
+   "tries": [
+    "Stand safely back from a busy road and listen to cars or bikes going past: hear the 'neeeee-owww'.",
+    "Ask a friend to ride past on a bicycle while ringing the bell or playing a steady tone on a phone.",
+    "Is the drop in pitch bigger for faster vehicles?"
+   ],
+   "learn": null
+  },
+  {
+   "id": "q19",
+   "num": 19,
+   "short": "Why Does Steel Feel Colder Than Wood?",
+   "question": "Why does a steel spoon feel colder than a wooden one in the same room?",
+   "tag": "Thermal Conduction · Heat Transfer · HC Verma Ch 28",
+   "gif": "content/curiosity/gifs/q19_spoon_conduction.gif",
+   "poster": "content/curiosity/gifs/q19_spoon_conduction_poster.jpg",
+   "alt": "A finger touches a steel spoon and a wooden spoon, both at 25 degrees C. Heat flows quickly into the steel and spreads along it, cooling the skin to about 27 degrees; on the wood heat barely flows and the skin stays at about 31 degrees.",
+   "see": "Both spoons have been in the same room, so both are at 25 °C. A finger touches each one. On the steel spoon, heat flows out of the finger fast and spreads along the spoon; the skin at the contact cools to about 27 °C, and it feels cold. On the wooden spoon, heat barely flows; the skin stays at about 31 °C, and it feels warm.",
+   "why": [
+    "Your finger (about 33 °C) is warmer than both spoons (25 °C), so heat flows from your finger into whichever spoon you touch.",
+    "Steel is a good conductor of heat: it carries heat away from the contact point quickly, over 100 times better than wood. Wood is a poor conductor (an insulator), so heat builds up at the contact and the flow from your finger slows down.",
+    "Your skin doesn't measure temperature directly. It senses how fast it is losing heat. Fast heat loss feels cold, so the steel feels colder even though both spoons are at exactly the same temperature."
+   ],
+   "key": "Your skin feels how fast heat leaves it, not the actual temperature.",
+   "tries": [
+    "Put a steel spoon, a wooden spoon and a plastic spoon on a table for an hour.",
+    "Touch each one with the same finger. Rank them from coldest-feeling to warmest-feeling.",
+    "Walk barefoot from a tiled floor onto a rug. Both are at room temperature, so why does one feel colder?"
+   ],
+   "learn": null
+  },
+  {
+   "id": "q20",
+   "num": 20,
+   "short": "Why Do Door Handles Shock You in Winter?",
+   "question": "Why do you get a small shock touching a door handle in winter?",
+   "tag": "Static Electricity · Charging by Friction · HC Verma Ch 29",
+   "gif": "content/curiosity/gifs/q20_static_shock.gif",
+   "poster": "content/curiosity/gifs/q20_static_shock_poster.jpg",
+   "alt": "A person shuffles across a woollen carpet in dry winter air. Extra electrons build up on their body while positive charges are left on the carpet, and a meter shows their voltage rising to about 10,000 V. As their hand nears the metal door handle, a spark jumps across and the voltage drops to zero.",
+   "see": "A person shuffles across a woollen carpet towards a door. With each step, extra electrons (−) collect on their body and positive charges (+) are left behind on the carpet. The meter shows their body's voltage climbing to about 10,000 V. As their hand comes close to the metal handle, the charge jumps across the gap in a tiny spark (ZAP!), and the voltage drops back to zero.",
+   "why": [
+    "When two different materials rub together, electrons can move from one to the other. This is charging by friction. Here the shoes rubbing on the carpet leave the person with extra electrons (negative charge) and the carpet with a positive charge.",
+    "The charge spreads over the body and can reach a voltage of several thousand volts. Metal is a good conductor, so when a finger comes within a few millimetres of the handle, the electric field is strong enough to make the air conduct, and the charge rushes across as a spark.",
+    "In humid weather, a thin film of moisture on surfaces lets charge leak away slowly, so it never builds up much. Dry winter air is a good insulator, so the charge stays on you until it finds a conductor. The voltage is high, but the amount of charge is tiny, so it's harmless."
+   ],
+   "key": "Rubbing moves electrons, and the built-up charge escapes as a spark.",
+   "tries": [
+    "Rub a balloon on dry hair or a woollen sweater, then hold it near small bits of paper. They jump up to it!",
+    "In a dark room, pull a woollen sweater off over your head and listen (and look) for tiny crackles.",
+    "Touch a door handle with a key or coin first: the spark jumps to the metal key instead of your finger, so you don't feel it."
+   ],
+   "learn": null
   }
  ]
 }
