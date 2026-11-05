@@ -189,6 +189,9 @@ h1{font-family:var(--f-display);font-weight:800;font-size:clamp(28px,4.4vw,40px)
 .ev-body .meta{font-size:13px;color:var(--ink-3)}
 .ch-block h2 a{font-family:var(--f-body);font-size:14px;font-weight:700;margin-left:10px}
 .wrap .cq{max-width:none;margin:0}
+.ev-related{margin-top:26px;padding-top:18px;border-top:1px solid var(--rule)}
+.ev-related h2{font-family:var(--f-display);font-size:20px;margin:0 0 4px}
+.ev-related p{margin:0 0 12px;color:var(--ink-3);font-size:14.5px}
 </style>
 
 <div class="app">
@@ -363,7 +366,12 @@ h1{font-family:var(--f-display);font-weight:800;font-size:clamp(28px,4.4vw,40px)
       const fig = sec.diagram
         ? `<figure class="figure"><a href="${esc(sec.diagram)}" target="_blank" rel="noopener" title="Open full size"><img src="${esc(sec.diagram)}" alt="Summary diagram for ${esc(sec.id)} ${esc(sec.title)}"></a><figcaption>Summary diagram · ${esc(sec.id)} ${esc(sec.title)} · tap to open full size</figcaption></figure>`
         : '';
-      panel.innerHTML = `<div class="learn">${fig}<article class="prose">${theoryHTML(sec.theory)}</article></div>
+      const related = EVERY ? EVERY.items.filter(it => (it.sections || []).includes(sec.slug)) : [];
+      const rel = related.length ? `<section class="ev-related">
+          <h2>See it in everyday life</h2>
+          <p>Short animations from the Everyday Physics series that use the idea in this section.</p>
+          ${everydayGrid(0, related)}</section>` : '';
+      panel.innerHTML = `<div class="learn">${fig}<article class="prose">${theoryHTML(sec.theory)}</article></div>${rel}
         <p style="margin-top:16px"><button class="btn primary" id="goPractice">Practise ${sec.questions.length} MCQs →</button></p>`;
       document.getElementById('goPractice').onclick = () => document.getElementById('tab-practice').click();
     }
@@ -429,8 +437,9 @@ h1{font-family:var(--f-display);font-weight:800;font-size:clamp(28px,4.4vw,40px)
   }
 
   // ---------- everyday physics: #everyday (all) and #everyday-q01 (one question) ----------
-  function everydayGrid(limit) {
-    const items = limit ? EVERY.items.slice(0, limit) : EVERY.items;
+  function everydayGrid(limit, list) {
+    const all = list || EVERY.items;
+    const items = limit ? all.slice(0, limit) : all;
     return `<div class="ev-grid">${items.map(it => `
       <a class="ev-card" href="#everyday-${it.id}">
         <img src="${esc(it.poster)}" alt="" loading="lazy" width="640" height="360">

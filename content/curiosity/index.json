@@ -25,7 +25,11 @@
    "learn": {
     "href": "#ch05-5-7",
     "label": "5.7 Inertia"
-   }
+   },
+   "sections": [
+    "ch05-5-1",
+    "ch05-5-7"
+   ]
   },
   {
    "id": "q02",
@@ -50,7 +54,12 @@
    "learn": {
     "href": "#ch05-5-7",
     "label": "5.7 Inertia"
-   }
+   },
+   "sections": [
+    "ch05-5-1",
+    "ch05-5-5",
+    "ch05-5-7"
+   ]
   },
   {
    "id": "q03",
@@ -76,7 +85,11 @@
    "learn": {
     "href": "#ch05-5-7",
     "label": "5.7 Inertia"
-   }
+   },
+   "sections": [
+    "ch05-5-1",
+    "ch05-5-7"
+   ]
   },
   {
    "id": "q04",
@@ -102,7 +115,12 @@
    "learn": {
     "href": "#ch06-6-3",
     "label": "6.3 Static Friction"
-   }
+   },
+   "sections": [
+    "ch06-6-2",
+    "ch06-6-3",
+    "ch06-6-5"
+   ]
   },
   {
    "id": "q05",
@@ -128,7 +146,11 @@
    "learn": {
     "href": "#ch07-7-5",
     "label": "7.5 Circular Turnings and Banking of Roads"
-   }
+   },
+   "sections": [
+    "ch07-7-4",
+    "ch07-7-5"
+   ]
   },
   {
    "id": "q06",
@@ -154,7 +176,10 @@
    "learn": {
     "href": "#ch09-9-11",
     "label": "9.11 Impulse and Impulsive Force"
-   }
+   },
+   "sections": [
+    "ch09-9-11"
+   ]
   },
   {
    "id": "q07",
@@ -180,7 +205,12 @@
    "learn": {
     "href": "#ch09-9-5",
     "label": "9.5 Rocket Propulsion"
-   }
+   },
+   "sections": [
+    "ch05-5-4",
+    "ch09-9-4",
+    "ch09-9-5"
+   ]
   },
   {
    "id": "q08",
@@ -206,7 +236,8 @@
    "learn": {
     "href": "#ch09-9-4",
     "label": "9.4 Linear Momentum and its Conservation (Chapter 10 coming soon)"
-   }
+   },
+   "sections": []
   },
   {
    "id": "q09",
@@ -232,7 +263,11 @@
    "learn": {
     "href": "#ch03-3-6",
     "label": "3.6 Motion in a Straight Line"
-   }
+   },
+   "sections": [
+    "ch03-3-6",
+    "ch04-4-2"
+   ]
   },
   {
    "id": "q10",
@@ -258,7 +293,11 @@
    "learn": {
     "href": "#ch05-5-5",
     "label": "5.5 Pseudo Forces"
-   }
+   },
+   "sections": [
+    "ch05-5-3",
+    "ch05-5-5"
+   ]
   },
   {
    "id": "q11",
@@ -281,7 +320,8 @@
     "Now tap at random. Compare how big the swings get.",
     "Shorten the string to 10 cm. Is the natural rhythm faster or slower?"
    ],
-   "learn": null
+   "learn": null,
+   "sections": []
   },
   {
    "id": "q12",
@@ -304,7 +344,8 @@
     "Now fold the same foil into a little boat. It floats!",
     "Add coins to the boat one by one and watch it sink deeper as it pushes aside more water."
    ],
-   "learn": null
+   "learn": null,
+   "sections": []
   },
   {
    "id": "q13",
@@ -327,7 +368,8 @@
     "Wait for the tissue to soak and sink. The needle stays on the surface!",
     "Touch the water at the edge with a soapy finger and watch what happens."
    ],
-   "learn": null
+   "learn": null,
+   "sections": []
   },
   {
    "id": "q14",
@@ -350,7 +392,8 @@
     "Hold one end just under your lower lip so it droops, and blow hard and steadily over the top.",
     "Now hang two sheets of paper a few cm apart and blow between them. Do they move apart or together?"
    ],
-   "learn": null
+   "learn": null,
+   "sections": []
   },
   {
    "id": "q15",
@@ -373,7 +416,8 @@
     "Keep your head still while a friend slowly pours water in. The coin comes back into view!",
     "Look at a pencil in a glass of water from different angles. When does it look most bent?"
    ],
-   "learn": null
+   "learn": null,
+   "sections": []
   },
   {
    "id": "q16",
@@ -396,7 +440,8 @@
     "In a dark room, shine a torch through the side of the glass: the milky water looks slightly bluish from the side.",
     "Now look straight through the glass at the torch: the light looks orange, like a sunset."
    ],
-   "learn": null
+   "learn": null,
+   "sections": []
   },
   {
    "id": "q17",
@@ -419,7 +464,10 @@
     "Divide by 3 to estimate how many km away the lightning was. Is the storm coming closer or moving away?",
     "Watch someone hammering or kicking a ball far away: you see it before you hear it."
    ],
-   "learn": null
+   "learn": null,
+   "sections": [
+    "ch03-3-3"
+   ]
   },
   {
    "id": "q18",
@@ -442,7 +490,8 @@
     "Ask a friend to ride past on a bicycle while ringing the bell or playing a steady tone on a phone.",
     "Is the drop in pitch bigger for faster vehicles?"
    ],
-   "learn": null
+   "learn": null,
+   "sections": []
   },
   {
    "id": "q19",
@@ -465,7 +514,8 @@
     "Touch each one with the same finger. Rank them from coldest-feeling to warmest-feeling.",
     "Walk barefoot from a tiled floor onto a rug. Both are at room temperature, so why does one feel colder?"
    ],
-   "learn": null
+   "learn": null,
+   "sections": []
   },
   {
    "id": "q20",
@@ -488,7 +538,10 @@
     "In a dark room, pull a woollen sweater off over your head and listen (and look) for tiny crackles.",
     "Touch a door handle with a key or coin first: the spark jumps to the metal key instead of your finger, so you don't feel it."
    ],
-   "learn": null
+   "learn": null,
+   "sections": [
+    "ch04-4-3"
+   ]
   }
  ]
 }
