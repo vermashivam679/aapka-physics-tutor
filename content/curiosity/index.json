@@ -259,6 +259,121 @@
     "href": "#ch05-5-5",
     "label": "5.5 Pseudo Forces"
    }
+  },
+  {
+   "id": "q11",
+   "num": 11,
+   "short": "Why Push a Swing at the Right Moment?",
+   "question": "Why does pushing a swing at the right moment send it higher?",
+   "tag": "Resonance · Simple Harmonic Motion · HC Verma Ch 12",
+   "gif": "content/curiosity/gifs/q11_swing_resonance.gif",
+   "poster": "content/curiosity/gifs/q11_swing_resonance_poster.jpg",
+   "alt": "Two identical swings get the same push each time. The one pushed in step with its swinging builds up to about 30 degrees; the one pushed at random moments stays around 10 degrees. Graphs of the angle show one growing and one staying small.",
+   "see": "Two identical swings get the same-sized push. The left one is pushed each time it swings back and turns forward: after five pushes it swings about 30°. The right one is pushed at random moments, even more often, but it never gets much past 10°. The graphs underneath show the angle over time, with a line marking each push.",
+   "why": [
+    "A swing is a pendulum. Left alone, it swings back and forth with its own natural frequency, which depends on the length of the ropes (T = 2π√(l/g) for a simple pendulum).",
+    "A push adds energy only if it acts in the direction the swing is already moving. Pushing in step with the natural rhythm, every push adds energy, so the swings build up. Random pushes sometimes act against the motion and take energy away.",
+    "This build-up when a force is applied at the natural frequency is called resonance."
+   ],
+   "key": "Push in step with the natural rhythm, and every push adds up.",
+   "tries": [
+    "Hang a small weight on a string about 25 cm long and give it tiny taps, one per swing, always as it moves away from you.",
+    "Now tap at random. Compare how big the swings get.",
+    "Shorten the string to 10 cm. Is the natural rhythm faster or slower?"
+   ],
+   "learn": null
+  },
+  {
+   "id": "q12",
+   "num": 12,
+   "short": "Why Does an Iron Ship Float?",
+   "question": "How does a huge iron ship float when an iron nail sinks?",
+   "tag": "Buoyancy · Archimedes' Principle · HC Verma Ch 13",
+   "gif": "content/curiosity/gifs/q12_ship_buoyancy.gif",
+   "poster": "content/curiosity/gifs/q12_ship_buoyancy_poster.jpg",
+   "alt": "An iron nail dropped into water sinks, with a big weight arrow and a tiny upthrust arrow. An iron ship lowered into water bobs and floats, with the water its hull pushes aside shaded blue, and upthrust equal to its weight.",
+   "see": "An iron nail and an iron ship go into tanks of water. The nail sinks straight to the bottom: its weight is much bigger than the small upthrust on it. The ship settles a little way into the water, bobs, and floats. The shaded part of the hull shows the water it has pushed aside, and the upthrust arrow grows until it matches the ship's weight.",
+   "why": [
+    "Anything in a fluid feels an upward force, called upthrust or buoyant force. Archimedes' principle: the upthrust equals the weight of the fluid pushed aside (displaced).",
+    "A solid nail displaces only its own small volume of water. Iron is about 7.9 times denser than water, so that water weighs far less than the nail, and it sinks.",
+    "A ship's hull is hollow and wide, full of air. It sinks only until it has pushed aside water that weighs as much as the whole ship. Then upthrust equals weight, and it floats. Its average density (iron plus all that air) is less than that of water."
+   ],
+   "key": "It's the shape, not the material: a hollow hull pushes aside enough water to hold up its weight.",
+   "tries": [
+    "Drop a ball of aluminium foil into a bowl of water. It sinks.",
+    "Now fold the same foil into a little boat. It floats!",
+    "Add coins to the boat one by one and watch it sink deeper as it pushes aside more water."
+   ],
+   "learn": null
+  },
+  {
+   "id": "q13",
+   "num": 13,
+   "short": "How Can a Needle Rest on Water?",
+   "question": "How can a needle (or an insect) rest on water?",
+   "tag": "Surface Tension · HC Verma Ch 14",
+   "gif": "content/curiosity/gifs/q13_needle_surface_tension.gif",
+   "poster": "content/curiosity/gifs/q13_needle_surface_tension_poster.jpg",
+   "alt": "A steel needle, seen end-on, is lowered onto water and rests in a small dip in the surface. Surface tension arrows pull up and outward on both sides, balancing its weight. A drop of soap weakens the surface and the needle sinks.",
+   "see": "A steel needle (seen end-on) is lowered gently onto water. It doesn't sink: it rests in a small dip in the surface, like a weight on a stretched rubber sheet. Green arrows show the surface pulling up and outward on both sides, balancing the needle's weight. When a drop of soap is added, the pulls get weaker, the dip deepens, and the needle breaks through and sinks.",
+   "why": [
+    "Molecules of water attract each other. A molecule inside the water is pulled equally in all directions, but one at the surface is pulled sideways and inward only. As a result, the surface behaves like a stretched elastic skin. This is surface tension.",
+    "Where the surface bends around the needle, it pulls along itself, up and outward on both sides. The upward parts of these pulls add up to balance the needle's small weight, even though steel is about 8 times denser than water.",
+    "Soap lowers the surface tension of water. The weaker skin can no longer hold the needle, so it sinks."
+   ],
+   "key": "The surface of water acts like a stretched skin.",
+   "tries": [
+    "Lay a small piece of tissue paper on water and gently place a dry needle (or a paper clip) on it.",
+    "Wait for the tissue to soak and sink. The needle stays on the surface!",
+    "Touch the water at the edge with a soapy finger and watch what happens."
+   ],
+   "learn": null
+  },
+  {
+   "id": "q14",
+   "num": 14,
+   "short": "Why Does Paper Rise When You Blow Over It?",
+   "question": "Why does a paper strip rise when you blow over it?",
+   "tag": "Bernoulli's Principle · Fluid Flow · HC Verma Ch 13",
+   "gif": "content/curiosity/gifs/q14_paper_bernoulli.gif",
+   "poster": "content/curiosity/gifs/q14_paper_bernoulli_poster.jpg",
+   "alt": "A person holds a drooping paper strip under their lips and blows over the top. Air streams follow the curved paper, and the strip lifts almost level. Arrows and a panel show lower pressure above and normal air pressure below.",
+   "see": "A paper strip is held just below the lips, drooping down. When air is blown over the top, the strip lifts up almost level and flutters. The air stream follows the curved top of the paper. The arrows and the panel show the pressure on the strip: normal air pressure below, lower pressure above. When the blowing stops, the strip drops back down.",
+   "why": [
+    "Below the strip the air is still, so it pushes up with normal atmospheric pressure.",
+    "Above the strip, the blown air moves fast and curves along the paper. Bernoulli's principle says that along a flow, where the speed is higher, the pressure is lower. (Strictly, the pressure drops because the stream is bending along the curved paper; Bernoulli's equation links that lower pressure with the faster flow.)",
+    "With lower pressure above and normal pressure below, there is a net upward push, so the paper rises."
+   ],
+   "key": "Fast-moving air over the top has lower pressure, so the still air below pushes the paper up.",
+   "tries": [
+    "Cut a strip of paper about 3 cm wide and 20 cm long.",
+    "Hold one end just under your lower lip so it droops, and blow hard and steadily over the top.",
+    "Now hang two sheets of paper a few cm apart and blow between them. Do they move apart or together?"
+   ],
+   "learn": null
+  },
+  {
+   "id": "q15",
+   "num": 15,
+   "short": "Why Does a Straw Look Bent in Water?",
+   "question": "Why does a straw look bent in a glass of water?",
+   "tag": "Refraction of Light · HC Verma Ch 18",
+   "gif": "content/curiosity/gifs/q15_straw_refraction.gif",
+   "poster": "content/curiosity/gifs/q15_straw_refraction_poster.jpg",
+   "alt": "A straw in a glass of water seen from above and to the side. Light rays from three points on the straw under water bend at the surface on the way to the eye. Dashed lines traced back from the eye show the straw appearing higher than it really is, so it looks bent at the surface.",
+   "see": "A straight straw stands in a glass of water. Rays of light leave three points on the straw under water, bend as they come out of the surface, and reach the eye. Dashed lines trace each ray straight back from the eye: they meet higher up than the real points. So the eye sees the underwater part of the straw raised and tilted, and the straw looks bent at the surface.",
+   "why": [
+    "Light travels more slowly in water than in air. When it crosses the surface at an angle, it changes direction: this is refraction. Going from water (refractive index about 1.33) into air, light bends away from the normal (the line perpendicular to the surface).",
+    "Our eyes and brain assume light travels in straight lines, so we see each point of the straw where the bent ray seems to come from: higher than it really is. Seen from straight above, things under water look about 3/4 as deep (real depth ÷ 1.33). Seen at a slant, they are lifted even more.",
+    "Deeper points are lifted more, so the whole underwater part of the straw appears tilted up and the straw looks bent at the surface."
+   ],
+   "key": "Light bends at the surface, so things under water look higher than they really are.",
+   "tries": [
+    "Put a coin at the bottom of an empty cup and move your head back until the coin just disappears behind the rim.",
+    "Keep your head still while a friend slowly pours water in. The coin comes back into view!",
+    "Look at a pencil in a glass of water from different angles. When does it look most bent?"
+   ],
+   "learn": null
   }
  ]
 }
