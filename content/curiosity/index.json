@@ -542,6 +542,635 @@
    "sections": [
     "ch04-4-3"
    ]
+  },
+  {
+   "id": "q21",
+   "num": 21,
+   "short": "Why Do Mountain Roads Zigzag?",
+   "question": "Why do mountain roads zigzag instead of going straight up?",
+   "tag": "Work · Inclined Plane · HC Verma Ch 8",
+   "gif": "content/curiosity/gifs/q21_mountain_zigzag.gif",
+   "poster": "content/curiosity/gifs/q21_mountain_zigzag_poster.jpg",
+   "alt": "Two cars climb the same hill: a red car on a steep straight road and a blue car on a gentle zigzag road. Readouts show the straight road needs about 0.70 × the car's weight in force over 1.4 h of road, while the zigzag needs only 0.25 × weight over 4 h of road.",
+   "see": "Two cars climb to the same height h. The red car takes a steep, straight road; the blue car takes a gentle zigzag road. The steep road needs a force of about 0.70 times the car's weight, but it is short (1.4 h). The zigzag needs only about 0.25 times the weight, but its road is about three times longer (4 h). Both cars end up at the top.",
+   "why": [
+    "To move a car up a slope (ignoring friction), the engine must push it along the road with a force of mg sin θ, where θ is the angle of the slope. The steeper the road, the bigger this force. On a gentle slope, sin θ is small, so the force needed is small.",
+    "The work done in lifting the car is force × distance along the road. A steep road means a big force over a short distance; a zigzag means a small force over a long distance. Either way, the work comes out to the same mgh, because both cars gain the same height.",
+    "Car engines (and tyres) can only provide a limited force, and too steep a road would make wheels slip. Zigzags trade a longer drive for a much gentler push."
+   ],
+   "key": "A gentle slope needs a smaller force, over a longer distance: the work stays the same.",
+   "tries": [
+    "Make a ramp from a board and some books. Pull a toy car up it with a rubber band and see how much the band stretches.",
+    "Now make the ramp longer and less steep (same height). The band stretches less, but you pull it further.",
+    "Notice how stairs, wheelchair ramps and hill-walking paths use the same trick."
+   ],
+   "learn": {
+    "href": "#ch08-8-3",
+    "label": "8.3 Calculation of Work Done"
+   },
+   "sections": [
+    "ch08-8-3",
+    "ch08-8-9"
+   ]
+  },
+  {
+   "id": "q22",
+   "num": 22,
+   "short": "Why Does a Ball Bounce Lower Each Time?",
+   "question": "Why does a bouncing ball go a little lower each time?",
+   "tag": "Coefficient of Restitution · Energy · HC Verma Ch 8 & 9",
+   "gif": "content/curiosity/gifs/q22_bouncing_ball.gif",
+   "poster": "content/curiosity/gifs/q22_bouncing_ball_poster.jpg",
+   "alt": "A red ball dropped from a height bounces lower and lower: 64%, 41%, 26%, 17%, 11% of the starting height. An energy bar shows the share kept as motion and height shrinking, and the share turned into heat and sound growing to 100%.",
+   "see": "A ball is dropped and bounces again and again. Each bounce reaches a lower height: 64% of the starting height, then 41%, 26%, 17%, 11%... The energy bar shows the ball's energy being used up: some is lost at every bounce, until the ball comes to rest.",
+   "why": [
+    "When the ball hits the floor, it squashes for a moment and then springs back. It doesn't spring back perfectly: some of its energy turns into heat inside the ball and floor, and into the sound of the bounce.",
+    "The coefficient of restitution e compares speeds: e = speed just after the bounce ÷ speed just before. For this ball e = 0.8. Since height goes as speed squared, each bounce reaches e² = 0.64 of the previous height, so 36% of the energy is lost each time.",
+    "A perfectly elastic ball (e = 1) would bounce back to the same height forever. A lump of clay (e = 0) doesn't bounce at all."
+   ],
+   "key": "Every bounce turns some of the ball's energy into heat and sound.",
+   "tries": [
+    "Drop a tennis ball from 1 m next to a wall with a tape measure. Mark how high the first bounce goes.",
+    "Work out e = √(bounce height ÷ drop height). For a 64 cm bounce, e = 0.8.",
+    "Try a football, a ping-pong ball and a lump of dough. Which has the highest e?"
+   ],
+   "learn": {
+    "href": "#ch09-9-9",
+    "label": "9.9 Coefficient of Restitution"
+   },
+   "sections": [
+    "ch08-8-6",
+    "ch09-9-9"
+   ]
+  },
+  {
+   "id": "q23",
+   "num": 23,
+   "short": "Why Push a Door Far from the Hinge?",
+   "question": "Why is a door easier to open when you push far from the hinge?",
+   "tag": "Torque · HC Verma Ch 10",
+   "gif": "content/curiosity/gifs/q23_door_torque.gif",
+   "poster": "content/curiosity/gifs/q23_door_torque_poster.jpg",
+   "alt": "Two identical doors seen from above, each pushed with 10 N. The door pushed 0.8 m from the hinge (torque 8 N·m) swings open to 75°, while the door pushed 0.1 m from the hinge (torque 1 N·m) opens far more slowly.",
+   "see": "Two identical doors (seen from above) are each pushed with the same 10 N force. One is pushed 0.1 m from the hinge, the other 0.8 m from the hinge, near the handle. The door pushed near the handle swings open quickly; the one pushed near the hinge barely turns.",
+   "why": [
+    "What turns a door is not just the force, but the torque: torque = r × F, where r is the distance from the hinge (the turning axis) to where you push. Here, 0.8 m × 10 N = 8 N·m, but 0.1 m × 10 N = only 1 N·m.",
+    "The door's angular acceleration is proportional to the torque. With 8 times the torque, the door near the handle turns 8 times faster, so the same push opens it much more easily.",
+    "That's why handles are put on the side far from the hinges, and why a long spanner loosens a tight nut more easily than a short one."
+   ],
+   "key": "Turning effect = force × distance from the hinge.",
+   "tries": [
+    "Push a door open with one finger right next to the handle. Now try with one finger close to the hinges.",
+    "Ask a friend to push the door shut near the hinge while you hold it open near the handle. Who wins?",
+    "Look for other levers at home: a spanner, a bottle opener, a see-saw."
+   ],
+   "learn": {
+    "href": "#ch02-2-8",
+    "label": "2.8 Cross Product or Vector Product"
+   },
+   "sections": [
+    "ch02-2-8"
+   ]
+  },
+  {
+   "id": "q24",
+   "num": 24,
+   "short": "Why Do Astronauts Float?",
+   "question": "Why do astronauts float in the space station when gravity is still there?",
+   "tag": "Gravitation · Orbits · HC Verma Ch 11",
+   "gif": "content/curiosity/gifs/q24_astronaut_orbit.gif",
+   "poster": "content/curiosity/gifs/q24_astronaut_orbit_poster.jpg",
+   "alt": "Newton's cannon: balls fired sideways from a very tall mountain land farther and farther around the Earth as they go faster, until one at orbital speed falls all the way around. An inset shows an astronaut floating inside the space station, with gravity still about 90% of Earth's.",
+   "see": "Balls are launched sideways from a very tall mountain. A slow one falls back to the ground nearby. Faster ones land farther away, because the Earth curves away beneath them. At orbital speed (about 8 km/s), the ball keeps falling but never reaches the ground: it goes all the way round. Inside a space station doing the same thing, the astronaut floats.",
+   "why": [
+    "At the height of the space station (about 400 km), gravity is still about 90% as strong as on the ground. So astronauts are not floating because there is no gravity.",
+    "The station is in free fall: it is falling towards the Earth all the time, but it moves sideways so fast that the Earth's surface curves away below it just as fast as it falls. That's an orbit.",
+    "The astronaut is falling in exactly the same way as the station around them. Nothing pushes up on their feet, so they feel weightless, like the feeling at the top of a swing or a lift going down fast."
+   ],
+   "key": "An orbit is free fall that keeps missing the ground, so everything inside floats.",
+   "tries": [
+    "Throw a ball sideways: slow, then faster. Notice that it always falls, but lands farther away the faster it goes.",
+    "Hold a cup of water with a small hole in the bottom. Water streams out. Now drop the cup (outside!). While falling, the water stops coming out.",
+    "Work it out: g at 400 km = 9.8 × (6400 ÷ 6800)² ≈ 8.7 m/s²."
+   ],
+   "learn": {
+    "href": "#ch07-7-4",
+    "label": "7.4 Dynamics of Circular Motion"
+   },
+   "sections": [
+    "ch03-3-8",
+    "ch04-4-2",
+    "ch07-7-4"
+   ]
+  },
+  {
+   "id": "q25",
+   "num": 25,
+   "short": "Why Does a Sharp Knife Cut Better?",
+   "question": "Why does a sharp knife cut better than a blunt one?",
+   "tag": "Pressure · HC Verma Ch 13",
+   "gif": "content/curiosity/gifs/q25_sharp_knife.gif",
+   "poster": "content/curiosity/gifs/q25_sharp_knife_poster.jpg",
+   "alt": "Two knives seen end-on press down on two apples with the same 20 N force. The sharp edge (0.2 mm wide) gives a pressure of 2,000,000 Pa and slices the apple in two; the blunt edge (2 mm wide) gives 200,000 Pa and only dents it.",
+   "see": "Two knives push down on two apples with the same 20 N force. The sharp knife's edge is 0.2 mm wide; the blunt knife's edge is 2 mm wide. The sharp knife slices straight through and the apple falls in two halves. The blunt one only squashes a dent into the skin.",
+   "why": [
+    "Pressure is force divided by the area it acts on: P = F ÷ A. The same force spread over a small area gives a big pressure.",
+    "Along a 5 cm blade, the sharp edge touches an area of only 0.00001 m², so the pressure is 20 ÷ 0.00001 = 2,000,000 Pa. The blunt edge touches ten times more area, so the pressure is ten times smaller: 200,000 Pa.",
+    "The apple's skin breaks only when the pressure on it is high enough. The sharp knife reaches that pressure easily; the blunt one doesn't."
+   ],
+   "key": "Same force, smaller area: much bigger pressure.",
+   "tries": [
+    "Press the blunt end of a pencil into a lump of dough, then the sharp end, with the same push. Compare the dents.",
+    "Hold a pencil between your palms by its two ends and press gently. Which end hurts more, and why?",
+    "Think about why camels have wide feet and why nails have pointed tips."
+   ],
+   "learn": null,
+   "sections": []
+  },
+  {
+   "id": "q26",
+   "num": 26,
+   "short": "How Does a Straw Work?",
+   "question": "How does a straw actually \"pull\" a drink up?",
+   "tag": "Atmospheric Pressure · HC Verma Ch 13",
+   "gif": "content/curiosity/gifs/q26_straw_pressure.gif",
+   "poster": "content/curiosity/gifs/q26_straw_pressure_poster.jpg",
+   "alt": "A glass of juice with a straw. Air pressure of 101 kPa pushes down on the juice. When the person sucks, the air pressure inside the straw drops to 100 kPa and the juice rises about 10 cm up the straw.",
+   "see": "Air molecules press on everything around us, including the juice in the glass, with about 101 kPa of pressure. When you suck, some air is removed from the straw, and the pressure inside it drops by about 1 kPa. The juice rises up the straw.",
+   "why": [
+    "The straw doesn't pull anything. Sucking just lowers the air pressure inside the straw, by expanding your mouth and lungs.",
+    "The air outside still presses down on the juice in the glass with full atmospheric pressure. Now the push on the open surface is bigger than the push inside the straw, so the juice is pushed up the straw.",
+    "It rises until the weight of the column balances the difference: h = ΔP ÷ (ρg) = 1000 ÷ (1000 × 9.8) ≈ 10 cm for a 1 kPa difference."
+   ],
+   "key": "Outside air pushes the drink up; sucking only removes the air above it.",
+   "tries": [
+    "Drink with a straw, then poke a small hole in the straw near the top. Why does it stop working?",
+    "Fill a straw with water, close the top with your finger and lift it out. Why doesn't the water fall out?",
+    "Put a straw in a sealed bottle (with clay around the straw). Can you still drink?"
+   ],
+   "learn": null,
+   "sections": []
+  },
+  {
+   "id": "q27",
+   "num": 27,
+   "short": "Why Don't Raindrops Hurt?",
+   "question": "Why don't raindrops falling from 2 km hurt us?",
+   "tag": "Viscosity · Terminal Velocity · HC Verma Ch 14",
+   "gif": "content/curiosity/gifs/q27_raindrop_terminal.gif",
+   "poster": "content/curiosity/gifs/q27_raindrop_terminal_poster.jpg",
+   "alt": "A falling raindrop with a weight arrow and a growing air-drag arrow. A graph shows its speed levelling off at about 6.5 m/s, while the dashed line for falling with no air keeps rising (about 200 m/s after 2 km).",
+   "see": "A raindrop falls from a cloud. At first it speeds up, but the air drag on it grows as it gets faster. Soon drag equals its weight and the speed stops increasing, at about 6.5 m/s (around 23 km/h). Without air, it would keep speeding up and hit the ground at about 200 m/s.",
+   "why": [
+    "Gravity pulls the drop down with a constant force, its weight. The air pushes back with a drag force that grows as the drop moves faster.",
+    "When drag becomes equal to the weight, the net force is zero. By Newton's first law, the drop then falls at a steady speed: its terminal velocity.",
+    "For a 2 mm drop, that's only about 6.5 m/s. Without air, falling 2 km would give v = √(2gh) = √(2 × 9.8 × 2000) ≈ 200 m/s, as fast as a racing aeroplane!"
+   ],
+   "key": "Air drag grows until it balances the weight, so the drop stops speeding up.",
+   "tries": [
+    "Drop a sheet of paper and a crumpled sheet together. Which reaches its terminal velocity sooner?",
+    "Drop a coffee filter (or a paper cupcake case) from a height and watch it fall at a steady speed.",
+    "Think about why skydivers spread their arms and legs, and why parachutes are so big."
+   ],
+   "learn": {
+    "href": "#ch05-5-3",
+    "label": "5.3 Working with Newton's First and Second Law"
+   },
+   "sections": [
+    "ch05-5-3"
+   ]
+  },
+  {
+   "id": "q28",
+   "num": 28,
+   "short": "Why Does Tightening Raise the Note?",
+   "question": "Why does a guitar string's note go higher when you tighten it?",
+   "tag": "Waves on a String · HC Verma Ch 15",
+   "gif": "content/curiosity/gifs/q28_guitar_tension.gif",
+   "poster": "content/curiosity/gifs/q28_guitar_tension_poster.jpg",
+   "alt": "A vibrating guitar string whose tuning peg is tightened in steps: tension 60 N gives 110 Hz, 135 N gives 165 Hz, and 240 N gives 220 Hz. A waveform shows more waves per second as the pitch rises.",
+   "see": "A guitar string vibrates at 110 Hz with a tension of 60 N. As the tuning peg is turned, the tension rises to 135 N (165 Hz) and then 240 N (220 Hz). The string vibrates faster, the waveform shows more waves per second, and the note gets higher.",
+   "why": [
+    "A plucked string sends waves running along it. Their speed is v = √(T/μ), where T is the tension and μ is the mass per metre. Tighter string, faster waves.",
+    "The string's lowest note has a wavelength of twice the string's length, so its frequency is f = v ÷ 2L = (1/2L) √(T/μ). Faster waves mean more vibrations per second.",
+    "Frequency goes as the square root of tension: 4 times the tension (60 N → 240 N) doubles the frequency (110 Hz → 220 Hz), which is one octave up."
+   ],
+   "key": "Tighter string → faster waves → higher frequency → higher note.",
+   "tries": [
+    "Stretch a rubber band between two fingers and pluck it. Stretch it more and pluck again. What happens to the note?",
+    "Pluck a guitar string, then press it halfway along (shorter L) and pluck again.",
+    "Compare thick and thin strings: which has the bigger μ, and which plays lower?"
+   ],
+   "learn": null,
+   "sections": []
+  },
+  {
+   "id": "q29",
+   "num": 29,
+   "short": "Why Do Soap Bubbles Show Colours?",
+   "question": "Why do soap bubbles show rainbow colours?",
+   "tag": "Thin-Film Interference · HC Verma Ch 17",
+   "gif": "content/curiosity/gifs/q29_soap_bubble.gif",
+   "poster": "content/curiosity/gifs/q29_soap_bubble_poster.jpg",
+   "alt": "A soap bubble with swirling bands of colour. A zoomed panel shows green light reflecting from the front and back surfaces of a film whose thickness changes between 100 nm and 200 nm: the two reflected waves add up to bright green at 100 nm and cancel at 200 nm.",
+   "see": "A soap bubble shimmers with swirling bands of colour that keep moving. The zoom shows green light hitting the soap film: part reflects off the front surface and part off the back. When the film is 100 nm thick the two reflected waves add up (bright green); at 200 nm they cancel (no green).",
+   "why": [
+    "A soap film is a very thin layer of water, a few hundred nanometres thick. Light reflects from both its front and back surfaces, so two waves come back towards your eye.",
+    "The wave from the back surface travels a little extra distance through the film. Depending on the thickness, the two waves arrive in step (they add up: bright) or out of step (they cancel: dark). This is interference.",
+    "Each colour has a different wavelength, so each thickness makes some colours bright and others vanish. The film is thinner at the top as the water drains down, and it swirls about, so you see moving bands of colour."
+   ],
+   "key": "Light reflected from the film's two surfaces adds up for some colours and cancels for others.",
+   "tries": [
+    "Blow a big soap bubble (or dip a wire loop) and hold it still. Watch the colour bands drift downwards as it drains.",
+    "Just before it pops, the top often turns black. The film there is too thin to reflect any colour strongly.",
+    "Look for the same colours in a thin film of oil on a wet road."
+   ],
+   "learn": null,
+   "sections": []
+  },
+  {
+   "id": "q30",
+   "num": 30,
+   "short": "Why Does a Spoon Flip You Upside Down?",
+   "question": "Why does a spoon show you upside down on one side and upright on the other?",
+   "tag": "Concave & Convex Mirrors · HC Verma Ch 18",
+   "gif": "content/curiosity/gifs/q30_spoon_mirrors.gif",
+   "poster": "content/curiosity/gifs/q30_spoon_mirrors_poster.jpg",
+   "alt": "Ray diagrams for the two sides of a spoon. On the inside (concave), rays from the top of an object cross after reflecting and form a smaller, upside-down image. On the back (convex), rays spread out and appear to come from a small upright image behind the mirror.",
+   "see": "The inside of a spoon (concave) shows you small and upside down. The back of the spoon (convex) shows you small but upright. Ray diagrams follow two rays from the top of your head to each side.",
+   "why": [
+    "The inside of a spoon is a concave mirror. Rays from the top of your head reflect and pass through its focus, crossing over each other. When you are farther away than the focus, they meet below the axis, so the image is real, smaller and upside down.",
+    "The back of the spoon is a convex mirror. Reflected rays spread out, as if they came from a point behind the mirror. Your eye traces them back to a small, upright (virtual) image behind the spoon.",
+    "Bring the inside of the spoon very close to your eye (closer than its focus) and the image flips upright and grows: that's how a make-up mirror works."
+   ],
+   "key": "Concave mirrors make rays cross and flip you; convex mirrors spread them and keep you upright.",
+   "tries": [
+    "Look into the inside of a shiny spoon at arm's length, then slowly bring it close to your eye. When does your image flip?",
+    "Look at the back of the spoon. Does the image ever flip?",
+    "Find convex mirrors in real life: shop security mirrors and car side mirrors. Why do they use convex?"
+   ],
+   "learn": null,
+   "sections": []
+  },
+  {
+   "id": "q31",
+   "num": 31,
+   "short": "How Does a Rainbow Form?",
+   "question": "How does a rainbow form after rain?",
+   "tag": "Dispersion · Refraction · HC Verma Ch 18 & 20",
+   "gif": "content/curiosity/gifs/q31_rainbow.gif",
+   "poster": "content/curiosity/gifs/q31_rainbow_poster.jpg",
+   "alt": "White sunlight enters a raindrop, bends and splits into colours, reflects off the back of the drop and comes out fanned into red, orange, yellow, green, blue and violet. A small scene shows the sun behind the viewer and a rainbow arc in the sky, with red coming from higher drops (42°) and violet from lower drops (40°).",
+   "see": "A beam of white sunlight enters a raindrop. As it enters, it bends and splits into colours. It reflects off the back of the drop and comes out again, with the colours fanned out. With the sun behind you, millions of drops together make a rainbow: red from higher drops (42°) and violet from lower ones (40°).",
+   "why": [
+    "Light slows down and bends (refracts) when it enters water. Water bends violet light slightly more than red, so white light splits into its colours: this is dispersion.",
+    "Inside the drop, the light reflects off the back surface and then bends again as it leaves. For red light, the brightest light comes out about 42° from the direction opposite the sun; for violet, about 40°.",
+    "So each drop sends you just one colour, depending on its angle from your eye. All the drops at 42° look red and form the outer edge of a circle; those at 40° look violet and form the inner edge. The ground cuts the circle into an arc."
+   ],
+   "key": "Each raindrop bends, splits and reflects sunlight, sending each colour out at its own angle.",
+   "tries": [
+    "On a sunny morning or evening, stand with the sun behind you and spray a fine mist from a hose. Look for the rainbow.",
+    "Put a glass of water on a sunny windowsill and look for a small spectrum on the floor.",
+    "Notice: you can never walk to the end of a rainbow. Why not?"
+   ],
+   "learn": null,
+   "sections": []
+  },
+  {
+   "id": "q32",
+   "num": 32,
+   "short": "Why Do Stars Twinkle?",
+   "question": "Why do stars twinkle but planets don't?",
+   "tag": "Atmospheric Refraction · HC Verma Ch 18",
+   "gif": "content/curiosity/gifs/q32_star_twinkle.gif",
+   "poster": "content/curiosity/gifs/q32_star_twinkle_poster.jpg",
+   "alt": "Light from a star (a single point) passes through moving pockets of warm and cool air, so its beam wobbles and its brightness flickers. Light from a planet (a tiny disc) comes as several beams that wobble separately, so its brightness stays steady.",
+   "see": "Light from a star travels down through moving pockets of warm and cool air. The single thin beam wobbles, so the star you see flickers in brightness and jiggles. Light from a planet comes as many beams from across its disc. They wobble separately, and its brightness stays steady.",
+   "why": [
+    "Warm air and cool air bend light by slightly different amounts. The air above us is always moving, so starlight is bent first one way and then another as it passes through.",
+    "Stars are so far away that they look like single points. All of their light comes along one thin path, so each little bend sends more or less of it into your eye: the star twinkles.",
+    "Planets are much closer and look like tiny discs. Light from different parts of the disc is bent in different ways at the same moment; some beams get brighter as others get dimmer, so the total stays almost steady."
+   ],
+   "key": "A star is a single point, so moving air makes it flicker; a planet's many points average out.",
+   "tries": [
+    "On a clear night, compare a bright star low in the sky with one high up. Which twinkles more? (Low stars shine through more air.)",
+    "Find a planet (Venus or Jupiter are bright and steady) and compare it with a nearby star.",
+    "Look at a distant road on a hot day: the 'shimmer' is the same effect."
+   ],
+   "learn": null,
+   "sections": []
+  },
+  {
+   "id": "q33",
+   "num": 33,
+   "short": "Why Do Rails Have Gaps?",
+   "question": "Why are small gaps left between railway rails?",
+   "tag": "Thermal Expansion · HC Verma Ch 23",
+   "gif": "content/curiosity/gifs/q33_railway_gaps.gif",
+   "poster": "content/curiosity/gifs/q33_railway_gaps_poster.jpg",
+   "alt": "Two railway tracks seen from above as the rail temperature rises from 10 °C to 45 °C. On the track with gaps, the rails grow and the gaps shrink from 6 mm to 0.7 mm. On the track without gaps, the rails have nowhere to go and buckle sideways.",
+   "see": "Two railway tracks warm up in the sun from 10 °C to 45 °C. On the top track, each rail grows a little into the gap next to it, and the gaps shrink. The bottom track has no gaps, so the rails push against each other and buckle sideways.",
+   "why": [
+    "Most solids expand when heated: their particles vibrate more and push each other slightly farther apart. The change in length is ΔL = α L ΔT.",
+    "For steel, α = 0.000012 per °C. A 13 m rail warming by 35 °C grows by 0.000012 × 13 × 35 ≈ 5.5 mm. That's small, but rails are pushed with huge forces if they can't expand.",
+    "Gaps give each rail room to grow. Without them, the track can bend out of shape (a 'sun kink'), which is dangerous for trains. Many modern tracks use long welded rails that are stretched and clamped when laid, to control the same problem."
+   ],
+   "key": "Steel grows when it heats up, so rails need room to expand.",
+   "tries": [
+    "Look for gaps in bridges, footpaths and concrete roads (expansion joints).",
+    "Run a tight metal jar lid under hot water. Why does it open more easily?",
+    "Look at overhead power cables in summer and winter. When do they sag more?"
+   ],
+   "learn": null,
+   "sections": []
+  },
+  {
+   "id": "q34",
+   "num": 34,
+   "short": "How Does a Matka Keep Water Cool?",
+   "question": "How does a clay pot (matka) keep water cool without a fridge?",
+   "tag": "Evaporation · Latent Heat · HC Verma Ch 24 & 25",
+   "gif": "content/curiosity/gifs/q34_matka_cooling.gif",
+   "poster": "content/curiosity/gifs/q34_matka_cooling_poster.jpg",
+   "alt": "A clay pot cut open, full of water, on a 38 °C day. Water seeps to the outside surface, where fast (red) molecules escape into the air. Heat flows from the water to the surface, and the water inside cools to about 28 °C.",
+   "see": "A clay pot full of water stands in hot, dry air at 38 °C. Water seeps through tiny pores in the clay and wets the outside. There, the fastest molecules escape into the air. Heat flows out of the water to replace their energy, and the water inside cools to about 28 °C.",
+   "why": [
+    "Unglazed clay is full of tiny pores, so a little water slowly seeps through to the outside surface and evaporates there.",
+    "The molecules in water move at many different speeds. Only the fastest ones have enough energy to escape from the surface. When they leave, the average energy of those left behind drops, so the water gets cooler. This energy is called latent heat of vaporisation.",
+    "The surface takes heat from the pot and the water inside, cooling them. It works best when the air is hot and dry, so evaporation is fast. In humid weather a matka cools much less."
+   ],
+   "key": "Evaporation carries away the most energetic molecules, so the water left behind cools.",
+   "tries": [
+    "Put a drop of water on the back of your hand and blow on it. Now try a drop of hand sanitiser. Which feels colder, and why?",
+    "Wrap a wet cloth around a bottle of water and leave it in a breeze. Compare it with a dry bottle after an hour.",
+    "Think about why sweating keeps you cool, and why humid days feel so sticky."
+   ],
+   "learn": null,
+   "sections": []
+  },
+  {
+   "id": "q35",
+   "num": 35,
+   "short": "Why Does a Pressure Cooker Cook Faster?",
+   "question": "Why does a pressure cooker cook food faster?",
+   "tag": "Boiling Point & Pressure · HC Verma Ch 24",
+   "gif": "content/curiosity/gifs/q35_pressure_cooker.gif",
+   "poster": "content/curiosity/gifs/q35_pressure_cooker_poster.jpg",
+   "alt": "An open pot and a sealed pressure cooker are heated side by side. The open pot boils and stays at 100 °C at 1 atm. In the cooker, trapped steam raises the pressure to about 2 atm and the water heats up to about 120 °C before it boils, and the whistle blows.",
+   "see": "Water heats up in an open pot and in a sealed pressure cooker. The open pot starts boiling at 100 °C and stays there. In the cooker, steam can't escape, so the pressure rises to about 2 atm. The water keeps getting hotter, up to about 120 °C, before it boils, and the whistle blows.",
+   "why": [
+    "Water boils when its vapour pressure equals the pressure on its surface. At normal air pressure (1 atm), that happens at 100 °C. Once boiling, extra heat just makes more steam, so the temperature can't rise.",
+    "A pressure cooker is sealed. The steam it makes is trapped, so the pressure inside rises. At about 2 atm, water has to reach about 120 °C before it can boil.",
+    "Food cooks faster in hotter water, because the reactions that soften it go faster at higher temperature. The whistle is a weight that lifts to let out steam and keep the pressure from rising further."
+   ],
+   "key": "Higher pressure raises the boiling point, so the water gets hotter and food cooks faster.",
+   "tries": [
+    "Count the whistles your family uses for dal or rice. What would happen in an open pan in the same time?",
+    "In the mountains, air pressure is lower. At around 3000 m, water boils at about 90 °C. Why do people there use pressure cookers even more?",
+    "Never open a pressure cooker until the pressure has dropped. Why is that important?"
+   ],
+   "learn": null,
+   "sections": []
+  },
+  {
+   "id": "q36",
+   "num": 36,
+   "short": "Why Does a Black Shirt Feel Hotter?",
+   "question": "Why does a black shirt feel hotter in the sun than a white one?",
+   "tag": "Absorption & Reflection of Radiation · HC Verma Ch 28",
+   "gif": "content/curiosity/gifs/q36_black_white_shirt.gif",
+   "poster": "content/curiosity/gifs/q36_black_white_shirt_poster.jpg",
+   "alt": "A white shirt and a black shirt hang in the sun. Rays of sunlight hitting the white shirt mostly bounce back (it absorbs about 30%), while the black shirt soaks up most of them (about 90%) and heat shimmers rise from it as its temperature bar climbs.",
+   "see": "A white shirt and a black shirt hang side by side in the sunshine. Most of the sunlight hitting the white shirt bounces back off it. Almost all the light hitting the black shirt is soaked up, and it gets much hotter.",
+   "why": [
+    "Sunlight carries energy as radiation. When it hits a surface, it can be reflected (bounced back) or absorbed (taken in and turned into heat).",
+    "White looks white because it reflects all colours of light well, so it absorbs only a small share, roughly a third. Black looks black because it reflects very little: it absorbs around 90% of the light, and all that energy becomes heat.",
+    "So in the same sunshine, a black shirt warms up much more. Good absorbers are also good emitters, which is why black things also cool down faster in the shade."
+   ],
+   "key": "Black absorbs most of the sunlight as heat; white reflects most of it away.",
+   "tries": [
+    "Put two identical glasses of water in the sun, one wrapped in black paper and one in white. Check them with a thermometer after 30 minutes.",
+    "Touch a black car and a white car parked in the sun. Which is hotter?",
+    "Why are many houses in hot places painted white?"
+   ],
+   "learn": null,
+   "sections": []
+  },
+  {
+   "id": "q37",
+   "num": 37,
+   "short": "Sea Breeze by Day, Land Breeze by Night",
+   "question": "Why does the breeze at the beach blow from the sea in the day and from land at night?",
+   "tag": "Specific Heat · Convection · HC Verma Ch 25 & 28",
+   "gif": "content/curiosity/gifs/q37_sea_land_breeze.gif",
+   "poster": "content/curiosity/gifs/q37_sea_land_breeze_poster.jpg",
+   "alt": "A beach with land on the left and sea on the right. By day the land is 35 °C and the sea 28 °C: warm air rises over the land and cool air flows in from the sea (sea breeze). At night the land cools to 20 °C while the sea is 25 °C, and the loop reverses (land breeze).",
+   "see": "By day, the land heats up to 35 °C while the sea stays at 28 °C. Warm air rises over the land, and cool air flows in from the sea to replace it: a sea breeze. At night, the land cools to 20 °C while the sea stays at 25 °C. Now warm air rises over the sea, and the breeze blows from land to sea.",
+   "why": [
+    "Water has a very high specific heat: it needs about 4–5 times more energy than dry soil or sand to warm up by 1 °C. The sun also heats only the top layer of land, while water mixes and spreads the heat deeper. So by day the land warms much faster than the sea.",
+    "Air above the hot land warms, expands and rises (convection). Cooler, denser air from over the sea moves in to take its place. That flow along the ground is the sea breeze.",
+    "At night the land loses its heat quickly, but the sea stays warm. Now the air over the sea is warmer and rises, and the surface breeze blows out from the land: a land breeze."
+   ],
+   "key": "Land heats and cools faster than water, so the convection loop flips between day and night.",
+   "tries": [
+    "Put a bowl of sand and a bowl of water in the sun for an hour. Which gets hotter? Then bring both into the shade. Which cools faster?",
+    "Hold a strip of tissue paper above a hot cup of tea and watch it move in the rising air.",
+    "Why do places near the sea have milder weather than places far inland?"
+   ],
+   "learn": null,
+   "sections": []
+  },
+  {
+   "id": "q38",
+   "num": 38,
+   "short": "Why Don't Birds on Wires Get Shocked?",
+   "question": "Why can birds sit on high-voltage wires without getting a shock?",
+   "tag": "Potential Difference · Current · HC Verma Ch 32",
+   "gif": "content/curiosity/gifs/q38_birds_on_wire.gif",
+   "poster": "content/curiosity/gifs/q38_birds_on_wire_poster.jpg",
+   "alt": "A blue bird sits on a wire at 11,000 V; a meter shows only about 0.001 V between its feet, and the current keeps flowing in the wire. A second bird stretches its wing towards a lower wire at 0 V, and a warning shows an 11,000 V difference: danger.",
+   "see": "A bird sits on a live wire carrying 11,000 V. The meter shows only about 0.001 V between its two feet, and the current keeps flowing along the wire past it. A second bird stretches a wing towards another wire at a different voltage: that would mean an 11,000 V difference across its body. Danger!",
+   "why": [
+    "Electric current flows through something only if there is a potential difference (a voltage difference) across it. It is the difference that pushes charge through.",
+    "Both of the bird's feet are on the same wire, a few centimetres apart. The thick metal wire has a tiny resistance, so the voltage difference between the feet is about a thousandth of a volt. Almost no current goes through the bird; it stays in the wire.",
+    "If the bird touched two wires at once, or a wire and an earthed pole, there would be thousands of volts across its body, and a large current would flow. That's why you must never touch a fallen wire or fly kites near power lines."
+   ],
+   "key": "Current needs a voltage difference: both feet on one wire means almost none.",
+   "tries": [
+    "Draw a circuit with a cell, a bulb and a long thick wire. Mark where the voltage is the same and where it is different.",
+    "Use a voltmeter on a battery circuit: measure across a short piece of wire, then across the bulb. Compare.",
+    "Look at how linesmen work on live lines from insulated platforms: what are they careful never to touch?"
+   ],
+   "learn": null,
+   "sections": []
+  },
+  {
+   "id": "q39",
+   "num": 39,
+   "short": "Why Does a Compass Point North?",
+   "question": "Why does a compass needle always point north?",
+   "tag": "Earth's Magnetism · HC Verma Ch 36",
+   "gif": "content/curiosity/gifs/q39_compass_north.gif",
+   "poster": "content/curiosity/gifs/q39_compass_north_poster.jpg",
+   "alt": "The Earth drawn with a tilted bar magnet inside, its S pole near the geographic North Pole, and curved magnetic field lines around it. Eight compass needles start pointing in random directions, swing, and settle along the field lines with their red north-seeking ends towards the north.",
+   "see": "Compass needles placed all around the Earth start pointing in random directions. The Earth's magnetic field swings each one round, and they settle along the field lines, with their red, north-seeking ends pointing north.",
+   "why": [
+    "The Earth behaves like a giant bar magnet, tilted about 11° from its spin axis. Its magnetic field lines loop out from near the South Pole and back in near the North Pole.",
+    "A compass needle is a small magnet that is free to turn. Opposite poles attract, so the needle's north-seeking pole is pulled towards the Earth's magnetic south pole, which is near the geographic North Pole. (That's why it's confusing: Earth's magnetic 'south' sits in the north!)",
+    "The needle settles along the field line where it is. Near the equator the lines run almost horizontally north, so the needle points north."
+   ],
+   "key": "The Earth is a giant magnet, and a compass needle lines up with its field.",
+   "tries": [
+    "Make a compass: stroke a sewing needle 30 times in one direction with a magnet, push it through a small piece of cork and float it in a bowl of water.",
+    "Bring a fridge magnet near a compass. Which end of the needle swings towards it?",
+    "Keep the compass away from iron and steel. Why do they upset the reading?"
+   ],
+   "learn": null,
+   "sections": []
+  },
+  {
+   "id": "q40",
+   "num": 40,
+   "short": "How Does a Bicycle Dynamo Work?",
+   "question": "How does a bicycle dynamo light the lamp?",
+   "tag": "Electromagnetic Induction · HC Verma Ch 38",
+   "gif": "content/curiosity/gifs/q40_bicycle_dynamo.gif",
+   "poster": "content/curiosity/gifs/q40_bicycle_dynamo_poster.jpg",
+   "alt": "A bicycle wheel turns a small dynamo. Inside, a bar magnet spins between two coils of wire, a current meter's needle swings back and forth, and the lamp glows brighter as the pedalling speed goes from stopped to slow, medium and fast.",
+   "see": "The bicycle's tyre turns the dynamo. Inside it, a magnet spins between coils of wire. The meter needle swings back and forth and the lamp lights up. As you pedal faster, the needle swings harder and faster, and the lamp glows brighter.",
+   "why": [
+    "A magnet has a magnetic field around it. As it spins, the field passing through the coil keeps changing: first one way, then the other.",
+    "Faraday discovered that a changing magnetic field through a coil makes (induces) a voltage across it. If the coil is part of a circuit, a current flows. This is electromagnetic induction.",
+    "The faster the field changes, the bigger the voltage. So pedalling faster spins the magnet faster, giving more current and a brighter lamp. The current keeps reversing direction: it is alternating current (AC)."
+   ],
+   "key": "A spinning magnet makes a changing field in the coil, and that induces a current.",
+   "tries": [
+    "Connect a coil of wire to a sensitive meter (galvanometer) and push a magnet in and out. When does the needle move?",
+    "Move the magnet faster. What happens to the needle?",
+    "Hold the magnet still inside the coil. Why does the needle stop?"
+   ],
+   "learn": null,
+   "sections": []
+  },
+  {
+   "id": "q41",
+   "num": 41,
+   "short": "Why Are Dams Thicker at the Bottom?",
+   "question": "Why is a dam's wall thicker at the bottom than at the top?",
+   "tag": "Pressure in Liquids · HC Verma Ch 13",
+   "gif": "content/curiosity/gifs/q41_dam_pressure.gif",
+   "poster": "content/curiosity/gifs/q41_dam_pressure_poster.jpg",
+   "alt": "A cross-section of a dam with a reservoir 50 m deep. Arrows on the dam's face grow longer with depth: 98 kPa at 10 m, up to 490 kPa at 50 m. The dam has a thin top and a thick base. Next to it, a bottle with three holes squirts water, with the jet from the deepest hole the fastest.",
+   "see": "Water presses on a dam's wall. Arrows show the push growing with depth: about 98 kPa at 10 m deep, rising to 490 kPa at 50 m. The dam is thin at the top and thick at the base. In a bottle with three holes, water squirts out of the lowest hole fastest.",
+   "why": [
+    "The pressure in a liquid increases with depth: P = ρgh. Each layer of water has to hold up the weight of all the water above it. In water, that adds about 98 kPa (almost 1 atmosphere) for every 10 m.",
+    "So the bottom of a dam is pushed far harder than the top: at 50 m deep, five times harder than at 10 m. The wall has to be thickest where the push is biggest.",
+    "The same rule shows in the bottle. Water comes out of a hole at a speed of v = √(2gh), where h is the depth below the surface. The deepest hole has the most pressure behind it, so its jet is fastest."
+   ],
+   "key": "Water pressure grows with depth, so the bottom of a dam needs to be strongest.",
+   "tries": [
+    "Make three holes, one above the other, in a plastic bottle. Fill it with water and watch the jets (do it outside!).",
+    "Dive to the bottom of a swimming pool and notice the pressure on your ears.",
+    "Why do submarines and deep-sea divers need such strong walls and suits?"
+   ],
+   "learn": null,
+   "sections": []
+  },
+  {
+   "id": "q42",
+   "num": 42,
+   "short": "Why Can You Hear Around Corners?",
+   "question": "Why can you hear someone around a corner but not see them?",
+   "tag": "Diffraction · Waves · HC Verma Ch 16 & 17",
+   "gif": "content/curiosity/gifs/q42_sound_around_corner.gif",
+   "poster": "content/curiosity/gifs/q42_sound_around_corner_poster.jpg",
+   "alt": "A view from above of two rooms joined by a doorway. Sound waves from a person talking spread out after passing through the doorway and reach a listener around the corner, while a beam of light goes straight through the doorway and misses them.",
+   "see": "Seen from above: someone talks in one room. Their sound waves pass through the doorway and spread out in all directions into the next room, reaching a listener around the corner. Light from them goes straight through the doorway in a narrow beam and misses the listener, so they can hear but not see.",
+   "why": [
+    "Both sound and light are waves. When a wave passes through a gap, it spreads out (diffracts). The spreading is strong when the wavelength is similar to the size of the gap, and tiny when the wavelength is much smaller.",
+    "Sounds of speech have wavelengths from about 0.3 m to 3 m, about the width of a door. So sound spreads out widely after passing through a doorway and bends around corners.",
+    "Light has a wavelength of about 0.0000005 m, millions of times smaller than a door. It hardly spreads at all, so it travels in straight lines and makes sharp shadows."
+   ],
+   "key": "Waves bend around gaps similar in size to their wavelength: sound does, light hardly does.",
+   "tries": [
+    "Stand beside an open door (out of sight) and ask a friend to talk in the next room. Can you hear them?",
+    "Listen to music from another room: are the deep (bass) or high notes clearer? Bass has longer wavelengths.",
+    "Look at the edge of a shadow in sunlight. Is it sharp or blurry?"
+   ],
+   "learn": null,
+   "sections": []
+  },
+  {
+   "id": "q43",
+   "num": 43,
+   "short": "Why Do You Hear the Sea in a Shell?",
+   "question": "Why do you hear \"the sea\" when you hold a seashell to your ear?",
+   "tag": "Resonance · Sound · HC Verma Ch 16",
+   "gif": "content/curiosity/gifs/q43_seashell_resonance.gif",
+   "poster": "content/curiosity/gifs/q43_seashell_resonance_poster.jpg",
+   "alt": "A person holds a seashell to their ear. Room noise of all pitches enters the shell. A bar chart shows the noise is boosted around one resonant pitch by the shell, and when a bigger shell is used the boosted peak moves to lower pitches.",
+   "see": "Someone holds a shell to their ear and hears a whooshing sound. The bar chart shows the room's quiet background noise (grey) at all pitches, and how the shell boosts a band of pitches (blue). With a bigger shell, the boosted band moves to lower pitches, giving a deeper 'sea'.",
+   "why": [
+    "A room is never perfectly quiet. There is always faint background noise, a mix of sounds at all pitches, from fans, traffic, wind and even the blood flowing in your ear.",
+    "The air inside the shell can vibrate naturally at certain frequencies, like the air in a bottle when you blow across it. Sound at those frequencies builds up: this is resonance.",
+    "So the shell boosts a band of pitches from the background noise into a soft whoosh that sounds like waves. A bigger cavity resonates at lower frequencies, which is why a cup or cupped hand sounds different."
+   ],
+   "key": "The shell's air resonates and boosts some pitches of the room's background noise.",
+   "tries": [
+    "Hold a cup, a glass and your cupped hand over your ear in turn. How does the 'sea' change?",
+    "Try the shell in a very quiet room and then in a noisy one. When is the sea louder?",
+    "Blow across the top of an empty bottle, then add some water and blow again. What happens to the note?"
+   ],
+   "learn": null,
+   "sections": []
+  },
+  {
+   "id": "q44",
+   "num": 44,
+   "short": "Why Does a Cold Glass Sweat?",
+   "question": "Why does a glass of iced water \"sweat\" on the outside?",
+   "tag": "Condensation · Dew Point · HC Verma Ch 24",
+   "gif": "content/curiosity/gifs/q44_glass_condensation.gif",
+   "poster": "content/curiosity/gifs/q44_glass_condensation_poster.jpg",
+   "alt": "A glass of ice water in a 30 °C room, surrounded by invisible water vapour molecules. The glass surface is 5 °C, below the air's dew point of about 20 °C, so a thin layer of cold air forms around it and water droplets grow all over the outside of the glass.",
+   "see": "A glass of ice water stands in a warm room at 30 °C. The air is full of invisible water vapour. The glass's surface is about 5 °C, and the air touching it cools down. Soon water droplets appear all over the outside of the glass and some trickle down.",
+   "why": [
+    "Air always contains some water vapour, an invisible gas. Warm air can hold more vapour than cold air.",
+    "When air cools, there comes a temperature at which it can't hold all its vapour any more. This is the dew point, about 20 °C for fairly humid air at 30 °C. The glass is at 5 °C, so the air touching it cools far below its dew point.",
+    "The extra vapour condenses into liquid water droplets on the cold surface. The water comes from the air, not through the glass. Dew on grass on cool mornings forms the same way."
+   ],
+   "key": "Air touching the cold glass cools below its dew point, and its vapour condenses.",
+   "tries": [
+    "Fill one glass with ice water and one with warm water. Which one sweats?",
+    "Add a drop of food colouring to the ice water. Are the droplets outside coloured? (No: they came from the air.)",
+    "Breathe on a cold mirror or window. What appears, and why?"
+   ],
+   "learn": null,
+   "sections": []
+  },
+  {
+   "id": "q45",
+   "num": 45,
+   "short": "How Does a Vacuum Flask Work?",
+   "question": "How does a vacuum flask keep tea hot for hours?",
+   "tag": "Conduction · Convection · Radiation · HC Verma Ch 28",
+   "gif": "content/curiosity/gifs/q45_vacuum_flask.gif",
+   "poster": "content/curiosity/gifs/q45_vacuum_flask_poster.jpg",
+   "alt": "A vacuum flask cut open to show hot tea inside two silvered walls with a vacuum between them and a stopper on top. Labels show conduction, convection and radiation each blocked. A graph over one hour shows tea in an open cup cooling from 90 °C to about 44 °C, while tea in the flask only drops to about 85 °C.",
+   "see": "A vacuum flask is cut open: hot tea sits inside two silvered glass walls with a vacuum between them and a stopper on top. Labels show how each way heat can escape is blocked. Over an hour, tea in an open cup cools from 90 °C to about 44 °C, while tea in the flask only drops to about 85 °C.",
+   "why": [
+    "Heat escapes in three ways: conduction (passed from particle to particle), convection (carried by moving air or liquid) and radiation (sent out as invisible infrared waves).",
+    "Conduction and convection both need particles. The gap between the two walls is a vacuum, with almost no air, so very little heat can cross it that way. The stopper stops warm air rising out of the top.",
+    "Radiation can cross a vacuum, but the walls are silvered like mirrors. They reflect most of the infrared back towards the tea. With all three ways blocked, the tea stays hot for hours."
+   ],
+   "key": "A flask blocks conduction, convection and radiation, so heat can hardly escape.",
+   "tries": [
+    "Fill a flask and a mug with hot water at the same time. Check both every 15 minutes with a thermometer.",
+    "Put ice in a flask. Does it keep cold things cold too? Why?",
+    "Look at the inside of a flask's stopper and walls. What parts are shiny, and why?"
+   ],
+   "learn": null,
+   "sections": []
   }
  ]
 }
